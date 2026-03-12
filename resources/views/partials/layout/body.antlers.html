@@ -1,0 +1,8 @@
+<body 
+  x-data="{ menu: false }" 
+  class="font-sans antialiased flex flex-col min-h-screen">
+  {{ slot:header }}
+  {{ slot }}
+  {{ slot:footer }}
+  {{ vite src="resources/js/app.js" }}
+</body>

@@ -1,0 +1,8 @@
+<a 
+  href="javascript:;" 
+  x-on:click="menu = ! menu" 
+  title="{{ "Menü anzeigen" | trans }}"
+  :class="{ 'is-active': menu === true }"
+  class="group flex justify-center w-28 {{ class }}">
+  {{ partial:components/icons/cross class="w-full h-auto" }}
+</a>

@@ -1,0 +1,16 @@
+<button
+  @click="active = active === id ? null : id"
+  class="flex items-center justify-between w-full text-left cursor-pointer {{ class }}"
+  :aria-expanded="active === id">
+
+  <span>
+    {{ slot }}
+  </span>
+
+  <div
+    class="shrink-0 transition-transform duration-300"
+    :class="{ 'rotate-180': active === id }">
+    {{ partial:components/icons/chevron class="w-16 h-16" }}
+  </div>
+  
+</button>

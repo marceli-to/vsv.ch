@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "./theme/colors.css";
+@import "./theme/fonts.css";
+@import "./theme/spacing.css";
+
+@source "../views";
+@source "../../content";
+
+@layer base {
+  :root { }
+}
+
+@theme {
+  --max-width-container: 100rem; /* 1600px */
+}
+
+[x-cloak] {
+  @apply !hidden;
+}
+
+
+.debug-grid {
+  @apply bg-yellow-50/50;
+}
+
+.debug-grid > * {
+  @apply outline outline-1 outline-yellow-500/50;
+}
+
+article a {
+}
+
+article p:not(:last-of-type) {
+}
+
+article ul {
+}
+
+article li {
+}
+
+article li p {
+  @apply inline;
+}

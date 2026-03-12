@@ -1,0 +1,19 @@
+title: Settings
+fields:
+  -
+    handle: show_job_teaser
+    field:
+      type: toggle
+      display: 'Jobteaser anzeigen'
+  -
+    handle: template
+    field:
+      type: template
+      display: Template
+      folder: templates
+  -
+    handle: layout
+    field:
+      type: template
+      display: Layout
+      folder: templates

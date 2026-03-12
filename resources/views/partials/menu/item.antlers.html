@@ -1,0 +1,9 @@
+<li>
+  <a 
+    href="{{ url }}" 
+    class="block w-full md:hover:underline decoration-3 decoration-dark-grey underline-offset-4 {{ is_current || is_parent ? 'underline !decoration-blue-primary' : '' }}"
+    target="{{ is_external ? '_blank' : '_self' }}"
+    title="{{ title }}">
+    {{ title }}
+  </a>
+</li>
