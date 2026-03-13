@@ -12,12 +12,14 @@ tabs:
               required: true
               validate:
                 - required
+              localizable: true
           -
             handle: elements
             field:
               type: replicator
               display: Inhaltselemente
               collapse: true
+              localizable: true
               sets:
                 elemente:
                   display: Elemente

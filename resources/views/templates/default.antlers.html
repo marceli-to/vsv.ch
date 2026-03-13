@@ -1,6 +1,14 @@
+{{ elements }}
+  {{ partial:elements }}
+{{ /elements }}
 
-  {{ elements }}
-
-    {{ partial:elements }}
-
-  {{ /elements }}
+<header class="bg-white sticky top-0 w-full p-20 min-h-90">
+  {{ partial:layout/container }}
+    <div class="flex items-center gap-x-15">
+      {{ partial:components/logos/logo class="w-86 h-auto" }}
+      {{ partial:components/headings/h1 class="text-[1.625rem]" }}
+        Yearbook 2025
+      {{ /partial:components/headings/h1 }}
+    </div>
+  {{ /partial:layout/container }}
+</header>

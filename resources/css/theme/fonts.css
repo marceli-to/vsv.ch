@@ -1,5 +1,5 @@
 @theme {
-  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-sans: 'proxima-nova', system-ui, sans-serif;
 
   --text-xxs: 0.75rem;    /* 12px */
   --text-xs: 0.875rem;    /* 14px */

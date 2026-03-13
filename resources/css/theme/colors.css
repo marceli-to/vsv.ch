@@ -1,4 +1,18 @@
 @theme {
-  --color-white: #ffffff;
-  --color-black: #000000;
+  --color-white: #fcfbf9;
+  --color-black: #1e1e1e;
+
+  --color-blue: #1d71b8;
+
+  --color-linen: #faf7f3;
+  --color-cream: #f5eee6;
+  --color-sand: #ebdece;
+
+  --color-sky: #90c5e9;
+  --color-mist: #d2e8f6;
+  --color-ice: #e9f3fc;
+  --color-frost: #f4f9fd;
+
+  --color-blush: #f5d0d7;
+  --color-rose: #fbe8ea;
 }
