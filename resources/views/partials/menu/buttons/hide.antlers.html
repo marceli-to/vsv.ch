@@ -2,7 +2,7 @@
   href="javascript:;" 
   x-on:click="menu = ! menu" 
   title="{{ "Menü anzeigen" | trans }}"
-  :class="{ 'is-active': menu === true }"
-  class="group flex justify-center w-28 {{ class }}">
+  :class="{ 'block': menu === true, 'hidden': menu === false }"
+  class="group flex justify-center w-20 h-auto {{ class }}">
   {{ partial:components/icons/cross class="w-full h-auto" }}
 </a>

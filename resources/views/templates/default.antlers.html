@@ -4,11 +4,25 @@
 
 <header class="bg-white sticky top-0 w-full p-20 min-h-90">
   {{ partial:layout/container }}
-    <div class="flex items-center gap-x-15">
-      {{ partial:components/logos/logo class="w-86 h-auto" }}
-      {{ partial:components/headings/h1 class="text-[1.625rem]" }}
+
+    <div class="flex items-center lg:justify-between w-full gap-x-15 relative">
+
+      {{ partial:components/logos/logo class="w-86 h-auto lg:hidden" }}
+
+      {{ partial:components/headings/h1 class="text-[1.625rem] lg:text-[4.375rem]" }}
         Yearbook 2025
       {{ /partial:components/headings/h1 }}
+
+      {{ partial:components/logos/logo-byline class="w-380 h-auto hidden lg:block" }}
+
+      <div class="w-26 h-20 flex items-center justify-center lg:hidden absolute right-0 top-1/2 -translate-y-1/2">
+        {{ partial:menu/buttons/show }}
+        {{ partial:menu/buttons/hide }}
+      </div>
+
     </div>
+
+    {{ partial:menu/mobile/wrapper }}
+
   {{ /partial:layout/container }}
 </header>
