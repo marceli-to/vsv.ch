@@ -19,7 +19,7 @@
     href="{{ url }}" 
     class="block w-full py-20 lg:font-medium xl:text-[1.25rem] tracking-wide transition-colors hover:text-blue {{ is_current || is_parent ? 'text-blue' : '' }}"
     target="{{ is_external ? '_blank' : '_self' }}"
-    title="{{ title }}">
+    aria-label="{{ title }}">
     {{ title }}
   </a>
 

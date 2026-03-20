@@ -1,0 +1,8 @@
+<li class="{{ site:short_locale == locale:short ? 'font-bold' : '' }}">
+  <a
+    href="{{ permalink }}"
+    aria-label="{{ locale:short_locale }}"
+    class="block leading-none">
+    {{ locale:short | substr(0,1) }}
+  </a>
+</li>

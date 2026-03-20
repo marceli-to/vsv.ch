@@ -3,7 +3,7 @@
     href="{{ url }}" 
     class="block w-full py-12 text-[1.125rem] leading-none {{ is_current || is_parent ? 'text-blue' : '' }}"
     target="{{ is_external ? '_blank' : '_self' }}"
-    title="{{ title }}">
+    aria-label="{{ title }}">
     {{ title }}
   </a>
 </li>
