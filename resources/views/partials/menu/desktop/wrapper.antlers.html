@@ -1,18 +1,9 @@
-<div 
-  x-cloak 
-  x-show="menu"
-  x-transition:enter="transition ease-in duration-200"
-  x-transition:enter-start="opacity-0"
-  x-transition:enter-end="opacity-100"
-  x-transition:leave="transition ease-in duration-0"
-  x-transition:leave-start="opacity-100"
-  x-transition:leave-end="opacity-0"
-  class="{{ class }}">
+<div class="{{ class }}">
  
   <nav>
-    <ul class="">
+    <ul class="flex gap-x-24">
       {{ nav:menu }}
-        {{ partial:menu/desktop/item }}
+        {{ partial:menu/desktop/parent-item }}
       {{ /nav:menu }}
     </ul>
   </nav>

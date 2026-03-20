@@ -11,7 +11,8 @@
 }
 
 @theme {
-  --max-width-container: 87.5rem; /* 1400px */
+  --container-7xl: 87.5rem;
+  --breakpoint-xl: 87.5rem;
 }
 
 [x-cloak] {

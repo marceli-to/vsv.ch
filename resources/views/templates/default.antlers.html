@@ -2,27 +2,37 @@
   {{ partial:elements }}
 {{ /elements }}
 
-<header class="bg-white sticky top-0 w-full p-20 min-h-90">
-  {{ partial:layout/container }}
+<header class="bg-white sticky lg:relative top-0 w-full p-20 lg:pb-0 lg:px-30 lg:pt-16 xl:pt-32 min-h-90">
+  {{ partial:layout/container class="relative" }}
+    
+    {{ partial:menu/desktop/language class="hidden lg:flex" }}
 
-    <div class="flex items-center lg:justify-between w-full gap-x-15 relative">
+    <div class="flex items-center lg:justify-between w-full gap-x-15 relative lg:pt-32 lg:pb-12 xl:pt-48 xl:pb-28">
 
-      {{ partial:components/logos/logo class="w-86 h-auto lg:hidden" }}
+      <a href="{{ site:short_locale == 'fr' ? '/fr' : '/' }}" class="block lg:hidden" aria-label="{{ 'Startseite' | trans }}">
+        {{ partial:components/logos/logo class="w-86 h-auto " }}
+      </a>
 
-      {{ partial:components/headings/h1 class="text-[1.625rem] lg:text-[4.375rem]" }}
+      {{ partial:components/headings/h1 class="text-[1.625rem] lg:text-[3.125rem] xl:text-[4.375rem]" }}
         Yearbook 2025
       {{ /partial:components/headings/h1 }}
 
-      {{ partial:components/logos/logo-byline class="w-380 h-auto hidden lg:block" }}
+      <a href="{{ site:short_locale == 'fr' ? '/fr' : '/' }}" class="hidden lg:block" aria-label="{{ 'Startseite' | trans }}">
+        {{ partial:components/logos/logo-byline class="lg:w-280 xl:w-380 h-auto " }}
+      </a>
 
       <div class="w-26 h-20 flex items-center justify-center lg:hidden absolute right-0 top-1/2 -translate-y-1/2">
         {{ partial:menu/buttons/show }}
         {{ partial:menu/buttons/hide }}
       </div>
 
+
+
     </div>
 
-    {{ partial:menu/mobile/wrapper }}
+    {{ partial:menu/mobile/wrapper class="lg:!hidden" }}
+
+    {{ partial:menu/desktop/wrapper class="hidden lg:block" }}
 
   {{ /partial:layout/container }}
 </header>

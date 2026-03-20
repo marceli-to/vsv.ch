@@ -1,0 +1,33 @@
+<!-- <li>
+  <a 
+    href="{{ url }}" 
+    class="block w-full lg:font-medium xl:text-[1.25rem] tracking-wide hover:text-blue transition-colors {{ is_current || is_parent ? 'text-blue' : '' }}"
+    target="{{ is_external ? '_blank' : '_self' }}"
+    title="{{ title }}">
+    {{ title }}
+  </a>
+  {{ if children }}
+    <ul class="flex flex-col gap-y-8 w-full">
+      {{ children }}
+        {{ partial:menu/desktop/child-item }}
+      {{ /children }}
+    </ul>
+  {{ /if }}
+</li> -->
+<li class="relative group">
+  <a 
+    href="{{ url }}" 
+    class="block w-full py-20 lg:font-medium xl:text-[1.25rem] tracking-wide transition-colors hover:text-blue {{ is_current || is_parent ? 'text-blue' : '' }}"
+    target="{{ is_external ? '_blank' : '_self' }}"
+    title="{{ title }}">
+    {{ title }}
+  </a>
+
+  {{ if children }}
+    <ul class="absolute -left-24 top-full z-50 -mt-10 bg-white rounded-xl p-24 flex flex-col gap-y-20 opacity-0 invisible translate-y-5 transition-all duration-150 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-focus-within:opacity-100 group-focus-within:visible group-focus-within:translate-y-0">
+      {{ children }}
+        {{ partial:menu/desktop/child-item }}
+      {{ /children }}
+    </ul>
+  {{ /if }}
+</li>

@@ -1,0 +1,12 @@
+<ul class="flex gap-x-48 mx-auto text-[1.25rem]">
+  {{ locales current_first="false" }}
+    <li class="{{ site:short_locale == locale:short ? 'font-bold' : '' }}">
+      <a 
+        href="{{ permalink }}" 
+        title="{{ locale:locale }}"
+        class="block leading-none">
+        {{ locale:short | substr(0,1) }}
+      </a>
+    </li>
+  {{ /locales }}
+</ul>

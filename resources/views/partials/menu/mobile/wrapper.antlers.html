@@ -7,14 +7,28 @@
   x-transition:leave="transition ease-in duration-0"
   x-transition:leave-start="opacity-100"
   x-transition:leave-end="opacity-0"
-  class="{{ class }}">
- 
-  <nav>
-    <ul class="">
-      {{ nav:menu }}
-        {{ partial:menu/desktop/item }}
-      {{ /nav:menu }}
-    </ul>
-  </nav>
+  class="fixed min-h-[calc(100dvh_-_90px)] flex flex-col justify-between top-90 left-0 w-full pt-12 {{ class }}">
+  
+  <div class="flex flex-col gap-y-24">
 
+    <nav class="flex flex-col items-center px-16">
+      
+      <ul class="flex flex-col gap-y-12 w-full">
+
+        {{ nav:menu }}
+
+          {{ partial:menu/mobile/parent-item }}
+
+        {{ /nav:menu }}
+
+      </ul>
+
+    </nav>
+    
+    {{ partial:menu/mobile/language }}
+
+  </div>
+
+  {{ partial:menu/mobile/footer }}
+  
 </div>

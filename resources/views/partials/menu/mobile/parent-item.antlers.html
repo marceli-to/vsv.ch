@@ -1,0 +1,39 @@
+<li {{ if children }}x-data="{ open: {{ is_current || is_parent ? 'true' : 'false' }} }"{{ /if }}>
+
+  {{ if children }}
+    <div class="flex items-center w-full min-h-48 bg-ice border border-black rounded-2xl text-[1.125rem] px-16 py-12 leading-none relative z-10">
+      <a
+        href="{{ url }}"
+        class="flex-1 leading-none"
+        title="{{ title }}">
+        {{ title }}
+      </a>
+      <button
+        @click="open = !open"
+        class="cursor-pointer flex items-center justify-center"
+        aria-label="{{ 'Untermenü anzeigen / verbergen' | trans }}">
+        <template x-if="!open">{{ partial:components/icons/plus class="w-22 h-22" }}</template>
+        <template x-if="open">{{ partial:components/icons/minus class="w-22 h-22" }}</template>
+      </button>
+    </div>
+
+    <ul
+      x-show="open"
+      x-cloak
+      class="bg-white rounded-2xl px-20 pb-12 pt-40 relative -mt-32 z-5">
+      {{ children }}
+        {{ partial:menu/mobile/child-item }}
+      {{ /children }}
+    </ul>
+
+  {{ else }}
+    <a
+      href="{{ url }}"
+      class="flex justify-between items-center w-full min-h-48 bg-ice border border-black rounded-2xl text-[1.125rem] px-16 py-12 leading-none {{ is_current || is_parent ? '' : '' }}"
+      target="{{ is_external ? '_blank' : '_self' }}"
+      title="{{ title }}">
+      <span>{{ title }}</span>
+    </a>
+  {{ /if }}
+
+</li>
