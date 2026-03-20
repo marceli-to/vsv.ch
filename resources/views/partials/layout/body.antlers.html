@@ -1,5 +1,6 @@
 <body 
   x-data="{ menu: false }" 
+  :class="{ 'overflow-hidden': menu }"
   class="bg-linen font-light antialiased flex flex-col min-h-screen">
   {{ slot:header }}
   {{ slot }}
