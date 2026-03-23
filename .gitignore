@@ -14,7 +14,6 @@
 /.vscode
 /.zed
 /auth.json
-/content
 /node_modules
 /public/assets
 /public/hot
@@ -23,10 +22,13 @@
 /public/vendor/statamic
 /storage/*.key
 /storage/pail
-/users
-/resources/users
+
 /vendor
 Homestead.json
 Homestead.yaml
 Thumbs.db
 INSTALL.txt
+
+# /content
+# /users
+# /resources/users

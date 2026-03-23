@@ -1,0 +1,10 @@
+---
+id: edb5b91d-9703-4acf-8b3c-39eaa1126655
+blueprint: page
+title: '40-jähriges Jubiläum!'
+show_job_teaser: false
+open_graph_type: website
+robots: index_follow
+updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
+updated_at: 1773989632
+---
