@@ -24,9 +24,42 @@ tabs:
                 elemente:
                   display: Elemente
                   sets:
-                    new_set:
-                      display: 'New Set'
-                      fields: {  }
+                    teasers:
+                      display: Teasers
+                      instructions: 'Add a grid of teaser cards with image, title, subtitle and link.'
+                      icon: text-formatting-image-top
+                      fields:
+                        -
+                          handle: teasers
+                          field:
+                            type: replicator
+                            display: Teasers
+                            collapse: true
+                            localizable: true
+                            sets:
+                              teaser_items:
+                                display: Teaser
+                                sets:
+                                  teaser:
+                                    display: Teaser
+                                    icon: text-formatting-image-top
+                                    fields:
+                                      -
+                                        import: teaser
+                    editorial:
+                      display: Editorial
+                      instructions: 'Image with subtitle, title and rich text content.'
+                      icon: text-formatting-image-left
+                      fields:
+                        -
+                          import: editorial
+                    title_text_sidebar:
+                      display: 'Title, Text, Sidebar'
+                      instructions: 'Title with rich text content, optional table elements and an optional sidebar.'
+                      icon: layout-sidebar-right
+                      fields:
+                        -
+                          import: title_text_sidebar
   settings:
     display: Settings
     sections:

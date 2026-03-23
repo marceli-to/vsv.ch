@@ -1,0 +1,25 @@
+title: Table
+fields:
+  -
+    handle: title
+    field:
+      type: text
+      display: Titel
+      localizable: true
+  -
+    handle: table
+    field:
+      type: table
+      display: Tabelle
+      max_columns: 2
+      localizable: true
+  -
+    handle: style
+    field:
+      type: select
+      display: Style
+      options:
+        bordered: Bordered
+        plain: Plain
+      default: bordered
+      localizable: false

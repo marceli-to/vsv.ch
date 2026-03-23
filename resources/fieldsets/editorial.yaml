@@ -1,0 +1,24 @@
+title: Editorial
+fields:
+  -
+    handle: image
+    field:
+      type: assets
+      display: Bild
+      container: assets
+      max_files: 1
+      localizable: false
+  -
+    handle: subtitle
+    field:
+      type: textarea
+      display: Untertitel
+      localizable: true
+  -
+    handle: title
+    field:
+      type: textarea
+      display: Titel
+      localizable: true
+  -
+    import: editor

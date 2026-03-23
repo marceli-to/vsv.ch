@@ -1,0 +1,28 @@
+title: Teaser
+fields:
+  -
+    handle: image
+    field:
+      type: assets
+      display: Bild
+      container: assets
+      max_files: 1
+      localizable: false
+  -
+    handle: title
+    field:
+      type: text
+      display: Titel
+      localizable: true
+  -
+    handle: subtitle
+    field:
+      type: text
+      display: Untertitel
+      localizable: true
+  -
+    handle: link
+    field:
+      type: link
+      display: Link
+      localizable: true
