@@ -1,0 +1,71 @@
+title: Event
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              display: Titel
+              required: true
+              validate:
+                - required
+              localizable: true
+          -
+            handle: date
+            field:
+              type: date
+              display: Datum
+              format: d.m.Y
+              required: true
+              localizable: false
+          -
+            handle: link
+            field:
+              type: link
+              display: Link
+              localizable: true
+          -
+            handle: name
+            field:
+              type: text
+              display: Name
+              localizable: true
+          -
+            handle: type
+            field:
+              type: select
+              display: Typ
+              multiple: true
+              options:
+                webinar: Webinar
+                regulatory_training: 'Regulatorische Schulung'
+                in_person: 'Präsenzveranstaltung'
+              localizable: false
+          -
+            handle: language
+            field:
+              type: select
+              display: Sprache
+              multiple: true
+              options:
+                de: Deutsch
+                fr: 'Französisch'
+                it: Italienisch
+                en: Englisch
+              localizable: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+              show_regenerate: true

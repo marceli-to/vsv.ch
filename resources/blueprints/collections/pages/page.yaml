@@ -56,10 +56,31 @@ tabs:
                     title_text_sidebar:
                       display: 'Title, Text, Sidebar'
                       instructions: 'Title with rich text content, optional table elements and an optional sidebar.'
-                      icon: layout-sidebar-right
+                      icon: layout-sidebar-left
                       fields:
                         -
                           import: title_text_sidebar
+                    accordion:
+                      display: Accordion
+                      instructions: 'Collapsible content sections with theme, title and editor/table content.'
+                      icon: form-drop-down-menu
+                      fields:
+                        -
+                          import: accordion
+                    statistics:
+                      display: Statistics
+                      instructions: 'Key figures with number and description.'
+                      icon: money-graph-bar-increase
+                      fields:
+                        -
+                          import: statistics
+                    partners:
+                      display: Partners
+                      instructions: 'Main partners and partners with logos and links.'
+                      icon: user-multiple
+                      fields:
+                        -
+                          import: partners
   settings:
     display: Settings
     sections:

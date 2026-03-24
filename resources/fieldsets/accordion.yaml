@@ -1,0 +1,35 @@
+title: Accordion
+fields:
+  -
+    import: theme_selector
+  -
+    handle: title
+    field:
+      type: text
+      display: Titel
+      localizable: true
+  -
+    handle: content
+    field:
+      type: replicator
+      display: Inhalt
+      collapse: true
+      localizable: true
+      sets:
+        accordion_content:
+          display: Inhalt
+          sets:
+            editor:
+              display: Editor
+              instructions: 'Add text content.'
+              icon: text-formatting-markdown
+              fields:
+                -
+                  import: editor
+            table:
+              display: Table
+              instructions: 'Add a data table with title and style options.'
+              icon: layout-split-horizontal
+              fields:
+                -
+                  import: table

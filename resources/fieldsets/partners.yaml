@@ -1,0 +1,66 @@
+title: Partners
+fields:
+  -
+    handle: text
+    field:
+      type: textarea
+      display: Text
+      localizable: true
+  -
+    handle: mainpartners
+    field:
+      type: replicator
+      display: Hauptpartner
+      collapse: true
+      localizable: false
+      sets:
+        mainpartner_items:
+          display: Hauptpartner
+          sets:
+            partner:
+              display: Partner
+              icon: media-image-picture-orientation
+              fields:
+                -
+                  handle: logo
+                  field:
+                    type: assets
+                    display: Logo
+                    container: assets
+                    max_files: 1
+                    localizable: false
+                -
+                  handle: link
+                  field:
+                    type: link
+                    display: Link
+                    localizable: true
+  -
+    handle: partners
+    field:
+      type: replicator
+      display: Partner
+      collapse: true
+      localizable: false
+      sets:
+        partner_items:
+          display: Partner
+          sets:
+            partner:
+              display: Partner
+              icon: media-image-picture-orientation
+              fields:
+                -
+                  handle: logo
+                  field:
+                    type: assets
+                    display: Logo
+                    container: assets
+                    max_files: 1
+                    localizable: false
+                -
+                  handle: link
+                  field:
+                    type: link
+                    display: Link
+                    localizable: true

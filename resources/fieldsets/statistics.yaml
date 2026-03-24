@@ -1,0 +1,29 @@
+title: Statistics
+fields:
+  -
+    handle: statistics
+    field:
+      type: replicator
+      display: Statistiken
+      collapse: true
+      localizable: true
+      sets:
+        statistic_items:
+          display: Statistik
+          sets:
+            statistic:
+              display: Statistik
+              icon: money-graph-bar-increase
+              fields:
+                -
+                  handle: number
+                  field:
+                    type: text
+                    display: Zahl
+                    localizable: true
+                -
+                  handle: description
+                  field:
+                    type: text
+                    display: Beschreibung
+                    localizable: true

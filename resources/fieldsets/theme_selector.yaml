@@ -1,0 +1,14 @@
+title: 'Theme selector'
+fields:
+  -
+    handle: theme
+    field:
+      type: select
+      display: Theme
+      options:
+        sky: Sky
+        mist: Mist
+        sand: Sand
+        blush: Blush
+      default: sky
+      localizable: false
