@@ -29,10 +29,16 @@ tabs:
               display: Link
               localizable: true
           -
-            handle: name
+            handle: speakers
+            field:
+              type: textarea
+              display: Speakers
+              localizable: true
+          -
+            handle: location
             field:
               type: text
-              display: Name
+              display: Ort
               localizable: true
           -
             handle: type

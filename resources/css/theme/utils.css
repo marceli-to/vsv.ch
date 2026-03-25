@@ -1,0 +1,12 @@
+
+[x-cloak] {
+  @apply !hidden;
+}
+
+.debug-grid {
+  @apply bg-yellow-50/50;
+}
+
+.debug-grid > * {
+  @apply outline outline-1 outline-yellow-500/50;
+}

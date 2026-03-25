@@ -1,3 +1,7 @@
-{{ if type == 'partners' }}
-  {{ partial:sections/partners }}
+{{ if type == 'teasers' }}
+  {{ partial:fieldsets/teasers/container }}
+{{ /if }}
+
+{{ if type == 'editorial' }}
+  {{ partial:fieldsets/editorial }}
 {{ /if }}

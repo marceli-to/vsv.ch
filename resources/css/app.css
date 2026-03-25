@@ -2,7 +2,7 @@
 @import "./theme/colors.css";
 @import "./theme/fonts.css";
 @import "./theme/spacing.css";
-
+@import "./theme/utils.css";
 @source "../views";
 @source "../../content";
 
@@ -15,31 +15,11 @@
   --breakpoint-xl: 87.5rem;
 }
 
-[x-cloak] {
-  @apply !hidden;
+
+main p:not(:last-of-type) {
+  @apply mb-16 lg:mb-24;
 }
 
-
-.debug-grid {
-  @apply bg-yellow-50/50;
-}
-
-.debug-grid > * {
-  @apply outline outline-1 outline-yellow-500/50;
-}
-
-article a {
-}
-
-article p:not(:last-of-type) {
-}
-
-article ul {
-}
-
-article li {
-}
-
-article li p {
+main li p {
   @apply inline;
 }

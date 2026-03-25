@@ -1,0 +1,29 @@
+<a 
+  href="{{ url }}" 
+  class="col-span-full md:col-span-4 lg:col-span-4 bg-white rounded-lg relative hover:bg-mist group transition-colors"
+  aria-label="{{ title }}">
+
+  {{ if image }}
+    {{ partial:components/media/image
+      :image="image"
+      :sizes="['md', 'lg', 'xl', '2xl']"
+      preset="md"
+      class="w-full h-full aspect-[16/9] object-cover rounded-lg group-hover:brightness-90 transition-all"
+    }}
+  {{ /if }}
+
+  <div class="px-16 lg:px-20 pt-12 lg:pt-20 pb-32 lg:pb-64">
+
+    <h3 class="text-[1rem] lg:text-[1.125rem] mb-3 lg:mb-6">
+      {{ subtitle }}
+    </h3>
+
+    <h2 class="text-[1.5rem] lg:text-[1.75rem] leading-[1.2] hyphens-auto text-pretty">
+      {{ title }}
+    </h2>
+
+    {{ partial:components/icons/plus class="absolute bottom-16 lg:bottom-20 right-16 lg:right-20 w-16 h-16 lg:w-20 lg:h-20" }}
+
+  </div>
+
+</a>

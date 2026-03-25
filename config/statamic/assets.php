@@ -99,7 +99,7 @@ return [
 
         'presets' => [
 
-         'md-webp' => ['w' => 768, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
+          'md-webp' => ['w' => 768, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
           'lg-webp' => ['w' => 1280, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
           'xl-webp' => ['w' => 1440, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
           '2xl-webp' => ['w' => 1680, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
@@ -107,16 +107,6 @@ return [
           'lg' => ['w' => 1280, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
           'xl' => ['w' => 1440, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
           '2xl' => ['w' => 1680, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
-
-          // Hero
-          'md-hero-webp' => ['w' => 768, 'h' => 512, 'q' => 90, 'fit' => 'crop', 'fm' => 'webp'],
-          'lg-hero-webp' => ['w' => 1280, 'h' => 720, 'q' => 90, 'fit' => 'crop', 'fm' => 'webp'],
-          'xl-hero-webp' => ['w' => 1440, 'h' => 810, 'q' => 90, 'fit' => 'crop', 'fm' => 'webp'],
-          '2xl-hero-webp' => ['w' => 1920, 'h' => 1080, 'q' => 90, 'fit' => 'crop', 'fm' => 'webp'],
-          'md-hero' => ['w' => 768, 'h' => 512, 'q' => 90, 'fit' => 'crop'],
-          'lg-hero' => ['w' => 1280, 'h' => 720, 'q' => 90, 'fit' => 'crop'],
-          'xl-hero' => ['w' => 1440, 'h' => 810, 'q' => 90, 'fit' => 'crop'],
-          '2xl-hero' => ['w' => 1920, 'h' => 1080, 'q' => 90, 'fit' => 'crop'],
 
           'max_upload_size' => ['w' => 4000, 'h' => 4000, 'fit' => 'max'],
         ],
