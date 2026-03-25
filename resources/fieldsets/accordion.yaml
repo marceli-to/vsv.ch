@@ -33,3 +33,10 @@ fields:
               fields:
                 -
                   import: table
+            interview:
+              display: Interview
+              instructions: 'Interview with image, title and Q&A content blocks.'
+              icon: text-formatting-chat
+              fields:
+                -
+                  import: interview

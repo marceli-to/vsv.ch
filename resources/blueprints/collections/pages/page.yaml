@@ -81,6 +81,13 @@ tabs:
                       fields:
                         -
                           import: partners
+                    interview:
+                      display: Interview
+                      instructions: 'Interview with image, title and Q&A content blocks.'
+                      icon: text-formatting-image-top
+                      fields:
+                        -
+                          import: interview
   settings:
     display: Settings
     sections:

@@ -1,0 +1,10 @@
+title: Statistic
+fields:
+  -
+    handle: number
+    field:
+      type: text
+      display: Number
+      localizable: true
+  -
+    import: editor

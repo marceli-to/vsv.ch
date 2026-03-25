@@ -4,26 +4,17 @@ fields:
     handle: statistics
     field:
       type: replicator
-      display: Statistiken
+      display: Statistics
       collapse: true
       localizable: true
       sets:
         statistic_items:
-          display: Statistik
+          display: Statistic
           sets:
             statistic:
-              display: Statistik
+              display: Statistic
               icon: money-graph-bar-increase
+              instructions: 'Add a statistic.'
               fields:
                 -
-                  handle: number
-                  field:
-                    type: text
-                    display: Zahl
-                    localizable: true
-                -
-                  handle: description
-                  field:
-                    type: text
-                    display: Beschreibung
-                    localizable: true
+                  import: statistic

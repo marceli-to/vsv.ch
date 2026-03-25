@@ -3,7 +3,7 @@
   <div class="grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32">
 
     {{ if image }}
-      <div class="col-span-12 lg:col-span-4">
+      <div class="col-span-full lg:col-span-4">
         {{ partial:components/media/image
           :image="image"
           :sizes="['md', 'lg', 'xl', '2xl']"

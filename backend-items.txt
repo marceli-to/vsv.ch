@@ -61,7 +61,24 @@ Sidebar column:
 - Partners (Group of partners, Replikator)
 -- Partner
 --- Logo
---- Loink
+--- Link
+
+10. Interview
+- Image
+- Title
+- Content (Replicator)
+-- Question
+-- Anwser
+-- Quote
+-- Statistic
+
+- Type (Select, single / group)
+-> if group we have the following fields:
+-- Introduction (Bard)
+-- Logo (Image)
+
+-> if single
+-- Lead
 
 B. Collections:
 

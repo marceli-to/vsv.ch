@@ -1,0 +1,107 @@
+title: Interview
+fields:
+  -
+    handle: interview_type
+    field:
+      type: select
+      display: Type
+      options:
+        single: Single
+        group: Group
+      default: single
+      localizable: false
+      instructions: 'Select the interview type.'
+  -
+    handle: image
+    field:
+      type: assets
+      display: Image
+      container: assets
+      max_files: 1
+      localizable: false
+  -
+    handle: title
+    field:
+      type: text
+      display: Title
+      localizable: true
+  -
+    handle: introduction
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - removeformat
+        - anchor
+      toolbar_mode: floating
+      remove_empty_nodes: true
+      type: bard
+      display: Introduction
+      container: assets
+      localizable: true
+      if:
+        interview_type: 'equals group'
+  -
+    handle: lead
+    field:
+      type: textarea
+      display: Lead
+      localizable: true
+      if:
+        interview_type: 'equals single'
+  -
+    handle: logo
+    field:
+      type: assets
+      display: Logo
+      container: assets
+      max_files: 1
+      localizable: false
+      if:
+        interview_type: 'equals group'
+  -
+    handle: content
+    field:
+      type: replicator
+      display: Content
+      collapse: true
+      localizable: true
+      instructions: 'Add interview content blocks.'
+      sets:
+        interview_content:
+          display: Content
+          sets:
+            question_answer:
+              display: 'Question & Answer'
+              instructions: 'Add a question and answer block.'
+              icon: mail-chat-bubble-text
+              fields:
+                -
+                  handle: question
+                  field:
+                    type: textarea
+                    display: Question
+                    localizable: true
+                -
+                  import: editor
+            quote:
+              display: Quote
+              instructions: 'Add a quote.'
+              icon: text-formatting-quotation
+              fields:
+                -
+                  handle: quote
+                  field:
+                    type: textarea
+                    display: Quote
+                    localizable: true
+            statistic:
+              display: Statistic
+              instructions: 'Add a statistic.'
+              icon: money-graph-bar-increase
+              fields:
+                -
+                  import: statistic
