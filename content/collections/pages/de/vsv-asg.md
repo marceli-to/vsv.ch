@@ -5,7 +5,7 @@ title: 'VSV | ASG'
 template: templates/default
 layout: templates/layout
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774429758
+updated_at: 1774430953
 open_graph_type: website
 robots: index_follow
 show_job_teaser: true
@@ -52,30 +52,40 @@ elements:
     editor_content:
       -
         type: paragraph
+        attrs:
+          class: text-lead
         content:
           -
             type: text
             text: 'Liebe Leserinnen und Leser'
       -
         type: paragraph
+        attrs:
+          class: null
         content:
           -
             type: text
             text: 'Udis magnamenis dolesed mod quas nia sunt la non num aut autent, ut quatemp oriorecto bla sitatiis dolum hil iur?'
       -
         type: paragraph
+        attrs:
+          class: null
         content:
           -
             type: text
             text: 'Natiatur, core, uta ipsam, si recti que laborep erovid ellacid quam ad mi, cone perrum volupienis inveliquodis voluptas doluptat eum, toris eiunt eatur atquia di remporp oriorias reperib eressitatur, aut et arciis et oloratiunt lia con con nobitin iasperi nihicipictem inctio erciasped ut adis con et voluptiisci dolorro quunt reius a porersp erovit, simaion ea non providio. Offictisquis am fuga. Eliquidipici dolo blatiuntur, to blat.'
       -
         type: paragraph
+        attrs:
+          class: null
         content:
           -
             type: text
             text: 'Idestiur reiciet omnis endemque cuptatis sectem eatem et maxim sum velenis adi dit asit excesequas sitios alicius, consenem quunti consed quas ilitetu remolup tatasse odis millor sunt alicili tionserum quam, quuntet lam doluptas aut ea volest as atiosam usapelibus, sit re nullautatur audi comnia velis il etur, si ium, sequi bla coreper ovidem asped et abo. Am si dolum is ad eris num quidunt, quam, aborum quias ea alia saeperrore nis es explignimus eiumquo ea cor sam quibus doluptaquo esenis sit ut quameni enienis quaspero moloruntus.'
       -
         type: paragraph
+        attrs:
+          class: null
         content:
           -
             type: text

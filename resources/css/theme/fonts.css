@@ -13,3 +13,7 @@
   --text-5xl: 3.25rem;    /* 52px */
   --text-6xl: 4.5rem;     /* 72px */
 }
+
+.text-lead {
+  @apply text-[1.5rem] lg:text-[1.75rem];
+}
