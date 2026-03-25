@@ -1,19 +1,22 @@
 title: Settings
 fields:
   -
-    handle: show_job_teaser
+    handle: menu_title
     field:
-      type: toggle
-      display: 'Jobteaser anzeigen'
+      type: text
+      display: 'Menu title'
+      localizable: true
   -
     handle: template
     field:
       type: template
       display: Template
       folder: templates
+      localizable: false
   -
     handle: layout
     field:
       type: template
       display: Layout
       folder: templates
+      localizable: false

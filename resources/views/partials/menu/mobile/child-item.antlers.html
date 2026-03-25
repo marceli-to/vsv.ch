@@ -4,6 +4,6 @@
     class="block w-full py-12 text-[1.125rem] leading-none {{ is_current || is_parent ? 'text-blue' : '' }}"
     target="{{ is_external ? '_blank' : '_self' }}"
     aria-label="{{ title }}">
-    {{ title }}
+    {{ menu_title ?? title }}
   </a>
 </li>
