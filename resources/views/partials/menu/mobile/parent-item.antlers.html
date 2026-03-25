@@ -5,8 +5,8 @@
       <a
         href="{{ url }}"
         class="flex-1 leading-none"
-        aria-label="{{ title | strip_tags }}">
-        {{ title }}
+        aria-label="{{ menu_title ? menu_title : title | strip_tags }}">
+        {{ menu_title ?? title }}
       </a>
       <button
         @click="open = !open"
@@ -32,7 +32,7 @@
       class="flex justify-between items-center w-full min-h-48 bg-ice border border-black rounded-2xl text-[1.125rem] px-16 py-12 leading-none {{ is_current || is_parent ? '' : '' }}"
       target="{{ is_external ? '_blank' : '_self' }}"
       title="{{ title }}">
-      <span>{{ title }}</span>
+      <span>{{ menu_title ?? title }}</span>
     </a>
   {{ /if }}
 
