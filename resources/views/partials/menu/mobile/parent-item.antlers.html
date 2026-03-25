@@ -5,7 +5,7 @@
       <a
         href="{{ url }}"
         class="flex-1 leading-none"
-        aria-label="{{ title }}">
+        aria-label="{{ title | strip_tags }}">
         {{ title }}
       </a>
       <button
