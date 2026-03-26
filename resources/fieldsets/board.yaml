@@ -1,0 +1,59 @@
+title: Board
+fields:
+  -
+    handle: title
+    field:
+      type: text
+      display: Title
+      localizable: true
+  -
+    handle: groups
+    field:
+      type: replicator
+      display: Groups
+      collapse: true
+      localizable: true
+      instructions: 'Add role groups with members.'
+      sets:
+        role_groups:
+          display: Groups
+          sets:
+            role_group:
+              display: 'Role Group'
+              instructions: 'A role with one or more members.'
+              icon: user-multiple
+              fields:
+                -
+                  handle: role
+                  field:
+                    type: text
+                    display: Role
+                    localizable: true
+                -
+                  handle: members
+                  field:
+                    type: grid
+                    display: Members
+                    localizable: true
+                    instructions: 'Add members for this role.'
+                    fields:
+                      -
+                        handle: name
+                        field:
+                          type: text
+                          display: Name
+                          width: 50
+                          localizable: true
+                      -
+                        handle: company
+                        field:
+                          type: text
+                          display: Company
+                          width: 50
+                          localizable: true
+  -
+    handle: footnote
+    field:
+      type: text
+      display: Footnote
+      localizable: true

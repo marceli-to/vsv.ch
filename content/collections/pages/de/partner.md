@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774518732
+updated_at: 1774526563
 elements:
   -
     id: mn78s6cy
@@ -123,12 +123,7 @@ elements:
                     type: hardBreak
                   -
                     type: text
-                    text: 'Co-Head Western Markets & Switzerland und '
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    text: 'Head Intermediaries & Family Offices, Julius Bär'
+                    text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
             logo: dummy/dummy-logo.png
             content:
               -
@@ -270,12 +265,7 @@ elements:
                     type: hardBreak
                   -
                     type: text
-                    text: 'Co-Head Western Markets & Switzerland und '
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    text: 'Head Intermediaries & Family Offices, Julius Bär'
+                    text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
             logo: dummy/dummy-logo.png
             content:
               -
@@ -417,12 +407,7 @@ elements:
                     type: hardBreak
                   -
                     type: text
-                    text: 'Co-Head Western Markets & Switzerland und '
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    text: 'Head Intermediaries & Family Offices, Julius Bär'
+                    text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
             logo: dummy/dummy-logo.png
             content:
               -

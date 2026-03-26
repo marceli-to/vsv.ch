@@ -4,7 +4,7 @@
 
     {{ partial:components/accordion/button class="accordion-button px-12 lg:px-24 xl:px-36 py-16 md:py-20 lg:py-24" }}
 
-      <span class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.1]">
+      <span class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2]">
         {{ title }}
       </span>
 
@@ -16,6 +16,10 @@
 
         {{ if type == 'interview' }}
           {{ partial:fieldsets/interview/container }}
+        {{ /if }}
+
+        {{ if type == 'board' }}
+          {{ partial:components/board }}
         {{ /if }}
 
       {{ /content }}

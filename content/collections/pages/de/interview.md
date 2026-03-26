@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774432736
+updated_at: 1774525377
 elements:
   -
     id: mn5utx5t
@@ -74,7 +74,7 @@ elements:
         enabled: true
       -
         id: mn5vf7os
-        number: '871 000'
+        number: '871000'
         editor_content:
           -
             type: paragraph
@@ -94,6 +94,7 @@ elements:
                 text: 'per 31.12.2025'
         type: statistic
         enabled: true
+        percent: false
       -
         id: mn5vdlk2
         question: 'Welche Momente haben Sie während Ihrer Karriere beim VSV besonders geprägt?'

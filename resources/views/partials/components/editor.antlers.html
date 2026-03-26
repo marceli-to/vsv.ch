@@ -1,1 +1,11 @@
 {{ editor_content }}
+
+  {{ if type == 'text' }}
+    {{ text }} 
+  {{ /if }}
+
+  {{ if type == 'board' }}
+    {{ partial:components/board }}
+  {{ /if }}
+
+{{ /editor_content }}

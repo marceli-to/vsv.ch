@@ -13,11 +13,13 @@
       </div>
     {{ /if }}
 
-    {{# Mobile: render all blocks in order #}}
+    {{# Mobile #}}
     <div class="col-span-full lg:hidden">
 
       {{ if introduction }}
-        {{ partial:fieldsets/interview/introduction }}
+        <div class="my-24">
+          {{ partial:fieldsets/interview/introduction }}
+        </div>
       {{ /if }}
 
       {{ if logo }}
@@ -26,7 +28,7 @@
         </div>
       {{ /if }}
 
-      <div class="my-8 md:my-12">
+      <div class="my-24">
         {{ partial:fieldsets/interview/heading }}
       </div>
 
@@ -35,52 +37,63 @@
       {{ /if }}
 
       {{ content }}
+
         {{ if type == 'question_answer' }}
           {{ partial:fieldsets/interview/question class="mt-16" }}
         {{ /if }}
+        
         {{ if type == 'quote' }}
           <div class="my-24">
             {{ partial:fieldsets/interview/quote }}
           </div>
         {{ /if }}
+
         {{ if type == 'statistic' }}
           <div class="my-24">
             {{ partial:fieldsets/statistics/item class="inline-block w-auto" }}
           </div>
         {{ /if }}
+
       {{ /content }}
 
     </div>
 
-    {{# ==================== #}}
-    {{# Desktop: group layout #}}
-    {{# ==================== #}}
+    {{# Desktop: group #}}
     {{ if interview_type == 'group' }}
 
       {{# Introduction + Logo row #}}
       {{ if introduction || logo }}
-        <div class="hidden lg:flex lg:items-center lg:col-span-5 mt-16 lg:mt-24 lg:mb-24 xl:mb-32">
+        <div class="hidden lg:flex lg:items-center lg:col-span-5 mt-16 lg:mt-24 lg:mb-32 xl:mb-48">
           {{ if introduction }}
             {{ partial:fieldsets/interview/introduction }}
           {{ /if }}
         </div>
-        <div class="hidden lg:flex lg:items-center lg:col-span-7 mt-16 lg:mt-24 lg:mb-24 xl:mb-32">
+
+        <div class="hidden lg:flex lg:items-center lg:col-span-7 mt-16 lg:mt-24 lg:mb-32 xl:mb-48">
           {{ if logo }}
-            {{ partial:fieldsets/interview/logo class="max-w-sm mx-auto" }}
+            {{ partial:fieldsets/interview/logo class="max-w-xs mx-auto" }}
           {{ /if }}
         </div>
       {{ /if }}
 
       {{# Left column: title, quotes #}}
-      <div class="hidden lg:flex lg:flex-col lg:col-span-5 lg:gap-y-36">
+      <div class="hidden lg:flex lg:flex-col lg:col-span-5 lg:gap-y-36 relative xl:pr-24">
         {{ partial:fieldsets/interview/heading }}
+
         {{ content }}
-          {{ if type == 'quote' }}
-            {{ partial:fieldsets/interview/quote }}
-          {{ /if }}
-          {{ if type == 'statistic' }}
-            {{ partial:fieldsets/statistics/item }}
-          {{ /if }}
+            
+            {{ if type == 'quote' }}
+              <div class="mt-120">
+                {{ partial:fieldsets/interview/quote }}
+              </div>
+            {{ /if }}
+
+            {{ if type == 'statistic' }}
+              <div class="mt-160">
+                {{ partial:fieldsets/statistics/item }}
+              </div>
+            {{ /if }}
+
         {{ /content }}
       </div>
 
@@ -111,13 +124,15 @@
       {{ /if }}
 
       {{# Sidebar: quotes/statistics #}}
-      <div class="hidden lg:flex lg:flex-col lg:col-span-4">
+      <div class="hidden lg:flex lg:flex-col lg:col-span-4 xl:pr-24">
         {{ content }}
           {{ if type == 'quote' }}
-            {{ partial:fieldsets/interview/quote }}
+            <div class="mt-120">
+              {{ partial:fieldsets/interview/quote }}
+            </div>
           {{ /if }}
           {{ if type == 'statistic' }}
-            <div class="mt-[80%]">
+            <div class="mt-240">
               {{ partial:fieldsets/statistics/item }}
             </div>
           {{ /if }}

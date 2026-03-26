@@ -15,24 +15,6 @@ fields:
   -
     import: editor
   -
-    handle: sub_elements
-    field:
-      type: replicator
-      display: Elemente
-      collapse: true
-      localizable: true
-      sets:
-        sub_elemente:
-          display: Elemente
-          sets:
-            table:
-              display: Table
-              instructions: 'Add a data table with title and style options.'
-              icon: layout-table
-              fields:
-                -
-                  import: table
-  -
     handle: sidebar
     field:
       type: section

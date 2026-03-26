@@ -6,5 +6,265 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1773989510
+updated_at: 1774528235
+elements:
+  -
+    id: mn7fauvo
+    title: 'Der VSV ist der Berufs- und Branchenverband der Ver­mögensverwalter.'
+    sidebar_editor_content:
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Der Verband ist einer der einflussreichsten des Schweizer Finanz­platzes. Er vertritt die Branche gegenüber den Behörden, den anderen Akteuren des Finanzplatzes und den Medien.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Vermögensverwalter und Verwalter von Kollektiv­vermögen, unabhängig von ihrer Aufsichtsorganisation, treten dem Verband bei, um von seiner Unterstützung und seinen zahlreichen Dienstleistungen zu profitieren.'
+    type: title_text_sidebar
+    enabled: true
+    editor_content:
+      -
+        type: set
+        attrs:
+          id: mn7fm594
+          values:
+            type: board
+            title: Vorstand
+            groups:
+              -
+                id: brd001
+                type: role_group
+                enabled: true
+                role: 'Präsident*'
+                members:
+                  -
+                    id: brd002
+                    name: 'Serge Pavoncello'
+                    company: 'Wedge Associates SA'
+              -
+                id: brd003
+                type: role_group
+                enabled: true
+                role: 'Vizepräsidenten*'
+                members:
+                  -
+                    id: brd004
+                    name: 'Laurent Genoud'
+                    company: 'Eagle Invest AG'
+                  -
+                    id: brd005
+                    name: 'Fabio Poma'
+                    company: 'Wullschleger Martinenghi Manzini Gestioni Patrimoniali SA'
+              -
+                id: brd006
+                type: role_group
+                enabled: true
+                role: Mitglieder
+                members:
+                  -
+                    id: brd007
+                    name: 'Anthony Cagiati'
+                    company: 'Sound Capital AG'
+                  -
+                    id: brd008
+                    name: 'Stefano Fiala'
+                    company: 'Veco Invest SA'
+                  -
+                    id: brd009
+                    name: 'Claudio Mellini'
+                    company: 'Capitalsuite SA'
+                  -
+                    id: brd010
+                    name: 'Marc Nadas'
+                    company: 'HBK Investments Advisory SA'
+                  -
+                    id: brd011
+                    name: 'Anne Thiébaud'
+                    company: 'Opal Investment Services SA'
+                  -
+                    id: brd012
+                    name: 'Jamie Vrijhof-Droese'
+                    company: 'Weber Hartmann Vrijhof & Partners AG'
+            footnote: '*Mitglieder des Ausschusses'
+      -
+        type: set
+        attrs:
+          id: mn7fm600
+          values:
+            type: board
+            title: Geschäftsleitung
+            groups:
+              -
+                id: brd020
+                type: role_group
+                enabled: true
+                role: Geschäftsführer
+                members:
+                  -
+                    id: brd021
+                    name: 'Patrick Dorner'
+                    company: null
+              -
+                id: brd022
+                type: role_group
+                enabled: true
+                role: Verbandssekretär
+                members:
+                  -
+                    id: brd023
+                    name: 'Roman Brenn'
+                    company: null
+              -
+                id: brd024
+                type: role_group
+                enabled: true
+                role: 'Global Activities Deutschschweiz'
+                members:
+                  -
+                    id: brd025
+                    name: 'Oliver Maas'
+                    company: null
+              -
+                id: brd026
+                type: role_group
+                enabled: true
+                role: 'Legal Support'
+                members:
+                  -
+                    id: brd027
+                    name: 'Anne Pratolini Delgado'
+                    company: null
+              -
+                id: brd028
+                type: role_group
+                enabled: true
+                role: Solutions
+                members:
+                  -
+                    id: brd029
+                    name: 'Filippo Recalcati'
+                    company: null
+              -
+                id: brd030
+                type: role_group
+                enabled: true
+                role: Training
+                members:
+                  -
+                    id: brd031
+                    name: 'Annick Weizman'
+                    company: null
+            footnote: null
+      -
+        type: set
+        attrs:
+          id: mn7fm601
+          values:
+            type: board
+            title: Mitarbeitende
+            groups:
+              -
+                id: brd040
+                type: role_group
+                enabled: true
+                role: 'Global Activities Romandie'
+                members:
+                  -
+                    id: brd041
+                    name: 'Suzy Auberson'
+                    company: null
+              -
+                id: brd042
+                type: role_group
+                enabled: true
+                role: 'Global Activities Ticino / Training'
+                members:
+                  -
+                    id: brd043
+                    name: 'Laura Calabresi-Manghera'
+                    company: null
+              -
+                id: brd044
+                type: role_group
+                enabled: true
+                role: 'Marketing & Kommunikation'
+                members:
+                  -
+                    id: brd045
+                    name: 'Manon Guiraud'
+                    company: null
+              -
+                id: brd046
+                type: role_group
+                enabled: true
+                role: 'Global Activities Deutschschweiz'
+                members:
+                  -
+                    id: brd047
+                    name: 'Andrea Pfortmüller'
+                    company: null
+              -
+                id: brd048
+                type: role_group
+                enabled: true
+                role: IT
+                members:
+                  -
+                    id: brd049
+                    name: 'Roman Stofer'
+                    company: null
+            footnote: null
+      -
+        type: set
+        attrs:
+          id: mn7fm602
+          values:
+            type: board
+            title: Geschäftsstellen
+            groups:
+              -
+                id: brd060
+                type: role_group
+                enabled: true
+                role: null
+                members:
+                  -
+                    id: brd061
+                    name: Zürich
+                    company: null
+              -
+                id: brd062
+                type: role_group
+                enabled: true
+                role: null
+                members:
+                  -
+                    id: brd063
+                    name: Genf
+                    company: null
+              -
+                id: brd064
+                type: role_group
+                enabled: true
+                role: null
+                members:
+                  -
+                    id: brd065
+                    name: Lugano
+                    company: null
+            footnote: null
 ---

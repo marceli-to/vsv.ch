@@ -19,3 +19,14 @@ fields:
       display: Inhalt
       container: assets
       localizable: true
+      sets:
+        content:
+          display: Content
+          sets:
+            board:
+              display: Board
+              instructions: 'Add a role-based member list with grouped roles and members.'
+              icon: user-multiple
+              fields:
+                -
+                  import: board

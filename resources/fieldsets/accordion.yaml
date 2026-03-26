@@ -44,13 +44,13 @@ fields:
                             fields:
                               -
                                 import: editor
-                          table:
-                            display: Table
-                            instructions: 'Add a data table with title and style options.'
-                            icon: layout-split-horizontal
+                          board:
+                            display: Board
+                            instructions: 'Add a role-based member list with grouped roles and members.'
+                            icon: user-multiple
                             fields:
                               -
-                                import: table
+                                import: board
                           interview:
                             display: Interview
                             instructions: 'Interview with image, title and Q&A content blocks.'
