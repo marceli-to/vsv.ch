@@ -177,7 +177,7 @@ elements:
                 enabled: true
               -
                 id: mn7aatkb
-                quote: '«Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.»'
+                quote: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
                 type: quote
                 enabled: true
               -
@@ -324,7 +324,7 @@ elements:
                 enabled: true
               -
                 id: mn7baatkb
-                quote: '«Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.»'
+                quote: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
                 type: quote
                 enabled: true
               -
@@ -471,7 +471,7 @@ elements:
                 enabled: true
               -
                 id: mn7caatkb
-                quote: '«Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.»'
+                quote: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
                 type: quote
                 enabled: true
               -

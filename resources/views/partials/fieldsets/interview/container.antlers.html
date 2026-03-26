@@ -13,106 +13,130 @@
       </div>
     {{ /if }}
 
-    <div class="col-span-full my-8 md:my-12 lg:my-36">
-      <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.1]">
-        {{ title }}
-      </h1>
-    </div>
-
     {{# Mobile: render all blocks in order #}}
     <div class="col-span-full lg:hidden">
 
-      {{ if lead }}
-        <p class="text-lead">
-          {{ lead }}
-        </p>
+      {{ if introduction }}
+        {{ partial:fieldsets/interview/introduction }}
       {{ /if }}
 
-      {{ if introduction }}
-        <div class="text-lead">
-          {{ introduction }}
+      {{ if logo }}
+        <div class="hidden">
+          {{ partial:fieldsets/interview/logo }}
         </div>
       {{ /if }}
 
+      <div class="my-8 md:my-12">
+        {{ partial:fieldsets/interview/heading }}
+      </div>
+
+      {{ if lead }}
+        {{ partial:fieldsets/interview/lead }}
+      {{ /if }}
+
       {{ content }}
-
         {{ if type == 'question_answer' }}
-          <div class="mt-16">
-            
-            <h3 class="font-bold">
-              {{ question }}
-            </h3>
-
-            {{ partial:layout/article class="text-pretty" }}
-              {{ partial:components/editor }}
-            {{ /partial:layout/article }}
-
-          </div>
+          {{ partial:fieldsets/interview/question class="mt-16" }}
         {{ /if }}
-
         {{ if type == 'quote' }}
           <div class="my-24">
             {{ partial:fieldsets/interview/quote }}
           </div>
         {{ /if }}
-
         {{ if type == 'statistic' }}
           <div class="my-24">
             {{ partial:fieldsets/statistics/item class="inline-block w-auto" }}
           </div>
         {{ /if }}
-
       {{ /content }}
+
     </div>
 
-    {{# Desktop: Lead #}}
-    {{ if lead }}
-      <div class="hidden lg:block col-span-full lg:col-span-8 lg:col-start-5 mb-36">
-        <p class="text-lead">
-          {{ lead }}
-        </p>
-      </div>
-    {{ /if }}
+    {{# ==================== #}}
+    {{# Desktop: group layout #}}
+    {{# ==================== #}}
+    {{ if interview_type == 'group' }}
 
-    {{# Desktop: sidebar with extracted quotes/statistics #}}
-    <div class="hidden lg:flex lg:flex-col lg:col-span-4">
-      {{ content }}
-
-        {{ if type == 'quote' }}
-          {{ partial:fieldsets/interview/quote }}
-        {{ /if }}
-
-        {{ if type == 'statistic' }}
-          <div class="mt-[80%]">
-            {{ partial:fieldsets/statistics/item }}
-          </div>
-        {{ /if }}
-
-      {{ /content }}
-    </div>
-
-    {{# Desktop: Q&A content #}}
-    <div class="hidden lg:flex lg:flex-col lg:gap-y-36 lg:col-span-8">
-
-      {{ if introduction }}
-        <div class="text-lead">
-          {{ introduction }}
+      {{# Introduction + Logo row #}}
+      {{ if introduction || logo }}
+        <div class="hidden lg:flex lg:items-center lg:col-span-5 mt-16 lg:mt-24 lg:mb-24 xl:mb-32">
+          {{ if introduction }}
+            {{ partial:fieldsets/interview/introduction }}
+          {{ /if }}
+        </div>
+        <div class="hidden lg:flex lg:items-center lg:col-span-7 mt-16 lg:mt-24 lg:mb-24 xl:mb-32">
+          {{ if logo }}
+            {{ partial:fieldsets/interview/logo class="max-w-sm mx-auto" }}
+          {{ /if }}
         </div>
       {{ /if }}
 
-      {{ content }}
-        {{ if type == 'question_answer' }}
-          <div>
-            <h3 class="font-bold mb-8">
-              {{ question }}
-            </h3>
-            {{ partial:layout/article class="text-pretty" }}
-              {{ partial:components/editor }}
-            {{ /partial:layout/article }}
-          </div>
+      {{# Left column: title, quotes #}}
+      <div class="hidden lg:flex lg:flex-col lg:col-span-5 lg:gap-y-36">
+        {{ partial:fieldsets/interview/heading }}
+        {{ content }}
+          {{ if type == 'quote' }}
+            {{ partial:fieldsets/interview/quote }}
+          {{ /if }}
+          {{ if type == 'statistic' }}
+            {{ partial:fieldsets/statistics/item }}
+          {{ /if }}
+        {{ /content }}
+      </div>
+
+      {{# Right column: Q&A content #}}
+      <div class="hidden lg:flex lg:flex-col lg:gap-y-36 lg:col-span-7">
+        {{ content }}
+          {{ if type == 'question_answer' }}
+            {{ partial:fieldsets/interview/question }}
+          {{ /if }}
+        {{ /content }}
+      </div>
+
+    {{ /if }}
+
+    {{# ====================== #}}
+    {{# Desktop: single layout #}}
+    {{# ====================== #}}
+    {{ if interview_type != 'group' }}
+
+      <div class="hidden lg:block col-span-full my-8 md:my-12 lg:my-36">
+        {{ partial:fieldsets/interview/heading }}
+      </div>
+
+      {{ if lead }}
+        <div class="hidden lg:block col-span-full lg:col-span-8 lg:col-start-5 mb-36">
+          {{ partial:fieldsets/interview/lead }}
+        </div>
+      {{ /if }}
+
+      {{# Sidebar: quotes/statistics #}}
+      <div class="hidden lg:flex lg:flex-col lg:col-span-4">
+        {{ content }}
+          {{ if type == 'quote' }}
+            {{ partial:fieldsets/interview/quote }}
+          {{ /if }}
+          {{ if type == 'statistic' }}
+            <div class="mt-[80%]">
+              {{ partial:fieldsets/statistics/item }}
+            </div>
+          {{ /if }}
+        {{ /content }}
+      </div>
+
+      {{# Q&A content #}}
+      <div class="hidden lg:flex lg:flex-col lg:gap-y-36 lg:col-span-8">
+        {{ if introduction }}
+          {{ partial:fieldsets/interview/introduction }}
         {{ /if }}
-      {{ /content }}
-    </div>
+        {{ content }}
+          {{ if type == 'question_answer' }}
+            {{ partial:fieldsets/interview/question }}
+          {{ /if }}
+        {{ /content }}
+      </div>
+
+    {{ /if }}
 
   </div>
 

@@ -5,7 +5,7 @@ title: 'VSV | ASG'
 template: templates/default
 layout: templates/layout
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774516998
+updated_at: 1774522682
 open_graph_type: website
 robots: index_follow
 show_job_teaser: true
@@ -238,9 +238,10 @@ elements:
                 text: Events
         type: statistic
         enabled: true
+        percent: false
       -
         id: mn77ju8t
-        number: '40 %'
+        number: '40'
         editor_content:
           -
             type: paragraph
@@ -257,9 +258,10 @@ elements:
                 text: "Öffnungsrate der Mailings\_"
         type: statistic
         enabled: true
+        percent: true
       -
         id: mn77k33g
-        number: '12 %'
+        number: '12'
         editor_content:
           -
             type: paragraph
@@ -271,9 +273,10 @@ elements:
                 text: 'Engagement-Rate auf LinkedIn'
         type: statistic
         enabled: true
+        percent: true
       -
         id: mn77k9sg
-        number: "8'000"
+        number: '8000'
         editor_content:
           -
             type: paragraph
@@ -285,9 +288,10 @@ elements:
                 text: 'Abonnenten für Mailings'
         type: statistic
         enabled: true
+        percent: false
       -
         id: mn77kjix
-        number: "15'000"
+        number: '15000'
         editor_content:
           -
             type: paragraph
@@ -299,9 +303,10 @@ elements:
                 text: 'Teilnahmen an Events'
         type: statistic
         enabled: true
+        percent: false
       -
         id: mn77kp7l
-        number: "17'000"
+        number: '17000'
         editor_content:
           -
             type: paragraph
@@ -318,6 +323,7 @@ elements:
                 text: 'der Berufsgruppe'
         type: statistic
         enabled: true
+        percent: false
     type: statistics
     enabled: true
 ---
