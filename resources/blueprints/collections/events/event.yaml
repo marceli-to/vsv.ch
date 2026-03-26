@@ -29,6 +29,13 @@ tabs:
               display: Link
               localizable: true
           -
+            handle: youtube
+            field:
+              type: text
+              display: YouTube
+              input_type: url
+              localizable: true
+          -
             handle: speakers
             field:
               type: textarea

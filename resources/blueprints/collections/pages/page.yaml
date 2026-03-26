@@ -88,6 +88,13 @@ tabs:
                       fields:
                         -
                           import: interview
+                    events:
+                      display: Events
+                      instructions: 'Event listing with search and filter functionality.'
+                      icon: calendar
+                      fields:
+                        -
+                          import: events
   settings:
     display: Settings
     sections:

@@ -17,3 +17,9 @@ preferences:
         - city
         - email
         - job_id
+    events:
+      columns:
+        - date
+        - title
+        - language
+        - type

@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774528235
+updated_at: 1774541513
 elements:
   -
     id: mn7fauvo
@@ -117,7 +117,6 @@ elements:
                   -
                     id: brd021
                     name: 'Patrick Dorner'
-                    company: null
               -
                 id: brd022
                 type: role_group
@@ -127,7 +126,6 @@ elements:
                   -
                     id: brd023
                     name: 'Roman Brenn'
-                    company: null
               -
                 id: brd024
                 type: role_group
@@ -137,7 +135,6 @@ elements:
                   -
                     id: brd025
                     name: 'Oliver Maas'
-                    company: null
               -
                 id: brd026
                 type: role_group
@@ -147,7 +144,6 @@ elements:
                   -
                     id: brd027
                     name: 'Anne Pratolini Delgado'
-                    company: null
               -
                 id: brd028
                 type: role_group
@@ -157,7 +153,6 @@ elements:
                   -
                     id: brd029
                     name: 'Filippo Recalcati'
-                    company: null
               -
                 id: brd030
                 type: role_group
@@ -167,8 +162,6 @@ elements:
                   -
                     id: brd031
                     name: 'Annick Weizman'
-                    company: null
-            footnote: null
       -
         type: set
         attrs:
@@ -186,7 +179,6 @@ elements:
                   -
                     id: brd041
                     name: 'Suzy Auberson'
-                    company: null
               -
                 id: brd042
                 type: role_group
@@ -196,7 +188,6 @@ elements:
                   -
                     id: brd043
                     name: 'Laura Calabresi-Manghera'
-                    company: null
               -
                 id: brd044
                 type: role_group
@@ -206,7 +197,6 @@ elements:
                   -
                     id: brd045
                     name: 'Manon Guiraud'
-                    company: null
               -
                 id: brd046
                 type: role_group
@@ -216,7 +206,6 @@ elements:
                   -
                     id: brd047
                     name: 'Andrea Pfortmüller'
-                    company: null
               -
                 id: brd048
                 type: role_group
@@ -226,8 +215,6 @@ elements:
                   -
                     id: brd049
                     name: 'Roman Stofer'
-                    company: null
-            footnote: null
       -
         type: set
         attrs:
@@ -240,31 +227,24 @@ elements:
                 id: brd060
                 type: role_group
                 enabled: true
-                role: null
                 members:
                   -
                     id: brd061
                     name: Zürich
-                    company: null
               -
                 id: brd062
                 type: role_group
                 enabled: true
-                role: null
                 members:
                   -
                     id: brd063
                     name: Genf
-                    company: null
               -
                 id: brd064
                 type: role_group
                 enabled: true
-                role: null
                 members:
                   -
                     id: brd065
                     name: Lugano
-                    company: null
-            footnote: null
 ---

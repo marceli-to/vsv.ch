@@ -83,7 +83,7 @@
         {{ content }}
             
             {{ if type == 'quote' }}
-              <div class="mt-120">
+              <div class="mt-80">
                 {{ partial:fieldsets/interview/quote }}
               </div>
             {{ /if }}
@@ -124,15 +124,15 @@
       {{ /if }}
 
       {{# Sidebar: quotes/statistics #}}
-      <div class="hidden lg:flex lg:flex-col lg:col-span-4 xl:pr-24">
+      <div class="hidden lg:block lg:col-span-4 xl:pr-24">
         {{ content }}
           {{ if type == 'quote' }}
-            <div class="mt-120">
+            <div class="mt-80">
               {{ partial:fieldsets/interview/quote }}
             </div>
           {{ /if }}
           {{ if type == 'statistic' }}
-            <div class="mt-240">
+            <div class="mt-160">
               {{ partial:fieldsets/statistics/item }}
             </div>
           {{ /if }}

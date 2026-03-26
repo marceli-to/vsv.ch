@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774517497
+updated_at: 1774542018
 elements:
   -
     id: mn79uxn8
@@ -129,5 +129,9 @@ elements:
                 type: bold
             text: 'Im Laufe des Jahres hat der VSV mehrere Freizeitveranstaltungen organisiert, um die Beziehungen zwischen den Mitgliedern zu stärken.'
     type: title_text_sidebar
+    enabled: true
+  -
+    id: mn7ohzl0
+    type: events
     enabled: true
 ---

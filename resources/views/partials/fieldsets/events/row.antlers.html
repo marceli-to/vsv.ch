@@ -1,0 +1,26 @@
+<div
+  data-event-row
+  data-title="{{ title }}"
+  data-speakers="{{ speakers }}"
+  data-type="{{ type }}{{ value }}{{ if !last }},{{ /if }}{{ /type }}"
+  data-lang="{{ language }}{{ value }}{{ if !last }},{{ /if }}{{ /language }}"
+  class="grid grid-cols-12 gap-x-8 lg:gap-x-16 border-b border-blue py-8 lg:py-12 text-[0.875rem]"
+>
+  <div class="col-span-3 lg:col-span-2">
+    {{ date format="d.m.Y" }}
+  </div>
+  <div class="{{ if show_location }}col-span-4 lg:col-span-5{{ else }}col-span-6 lg:col-span-7{{ /if }}">
+    <span class="font-bold">{{ title }}</span>
+    {{ if youtube }}
+      <a href="{{ youtube }}" class="text-blue hover:underline">(YouTube)</a>
+    {{ /if }}
+  </div>
+  {{ if show_location }}
+    <div class="col-span-2 lg:col-span-2 font-bold">
+      {{ location }}
+    </div>
+  {{ /if }}
+  <div class="col-span-3 lg:col-span-3">
+    {{ speakers }}
+  </div>
+</div>

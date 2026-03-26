@@ -1,0 +1,73 @@
+{{ partial:layout/section class="bg-mist" }}
+  <div
+    x-data="{
+      search: '',
+      types: [],
+      languages: [],
+      showFilters: false,
+
+      toggleType(val) {
+        const idx = this.types.indexOf(val);
+        idx > -1 ? this.types.splice(idx, 1) : this.types.push(val);
+      },
+
+      toggleLanguage(val) {
+        const idx = this.languages.indexOf(val);
+        idx > -1 ? this.languages.splice(idx, 1) : this.languages.push(val);
+      },
+
+      matches(el) {
+        const title = (el.dataset.title || '').toLowerCase();
+        const speakers = (el.dataset.speakers || '').toLowerCase();
+        const type = el.dataset.type || '';
+        const lang = el.dataset.lang || '';
+        const q = this.search.toLowerCase();
+
+        if (q && !title.includes(q) && !speakers.includes(q)) return false;
+        if (this.types.length && !this.types.some(t => type.includes(t))) return false;
+        if (this.languages.length && !this.languages.some(l => lang.includes(l))) return false;
+
+        return true;
+      },
+
+      filterRows() {
+        this.$root.querySelectorAll('[data-event-row]').forEach(row => {
+          row.style.display = this.matches(row) ? '' : 'none';
+        });
+        this.$root.querySelectorAll('[data-event-group]').forEach(group => {
+          const rows = group.querySelectorAll('[data-event-row]');
+          const visible = [...rows].some(r => r.style.display !== 'none');
+          group.style.display = visible ? '' : 'none';
+        });
+      }
+    }"
+    x-effect="filterRows()"
+    class="grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32"
+  >
+
+    {{ partial:fieldsets/events/filters }}
+
+    <div class="col-span-full md:col-span-9 lg:col-span-10">
+
+      {{ partial:fieldsets/events/group group_type="webinar" group_title="Webinare" }}
+        {{ collection:events sort="date:asc" type:contains="webinar" }}
+          {{ partial:fieldsets/events/row show_location="false" }}
+        {{ /collection:events }}
+      {{ /partial:fieldsets/events/group }}
+
+      {{ partial:fieldsets/events/group group_type="in_person" group_title="Präsenzveranstaltungen" }}
+        {{ collection:events sort="date:asc" type:contains="in_person" }}
+          {{ partial:fieldsets/events/row show_location="true" }}
+        {{ /collection:events }}
+      {{ /partial:fieldsets/events/group }}
+
+      {{ partial:fieldsets/events/group group_type="regulatory_training" group_title="Regulatorische Schulungen" }}
+        {{ collection:events sort="date:asc" type:contains="regulatory_training" }}
+          {{ partial:fieldsets/events/row show_location="false" }}
+        {{ /collection:events }}
+      {{ /partial:fieldsets/events/group }}
+
+    </div>
+    
+  </div>
+{{ /partial:layout/section }}
