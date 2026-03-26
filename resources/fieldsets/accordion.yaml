@@ -1,42 +1,60 @@
 title: Accordion
 fields:
   -
-    import: theme_selector
-  -
-    handle: title
-    field:
-      type: text
-      display: Titel
-      localizable: true
-  -
-    handle: content
+    handle: items
     field:
       type: replicator
-      display: Inhalt
+      display: Items
       collapse: true
       localizable: true
+      instructions: 'Add accordion items.'
       sets:
-        accordion_content:
-          display: Inhalt
+        accordion_items:
+          display: Items
           sets:
-            editor:
-              display: Editor
-              instructions: 'Add text content.'
-              icon: text-formatting-markdown
+            accordion_item:
+              display: 'Accordion Item'
+              instructions: 'Add an accordion item with title and content.'
+              icon: form-drop-down-menu
               fields:
                 -
-                  import: editor
-            table:
-              display: Table
-              instructions: 'Add a data table with title and style options.'
-              icon: layout-split-horizontal
-              fields:
+                  import: theme_selector
                 -
-                  import: table
-            interview:
-              display: Interview
-              instructions: 'Interview with image, title and Q&A content blocks.'
-              icon: text-formatting-chat
-              fields:
+                  handle: title
+                  field:
+                    type: text
+                    display: Title
+                    localizable: true
                 -
-                  import: interview
+                  handle: content
+                  field:
+                    type: replicator
+                    display: Content
+                    collapse: true
+                    localizable: true
+                    instructions: 'Add content blocks for this accordion item.'
+                    sets:
+                      accordion_content:
+                        display: Content
+                        sets:
+                          editor:
+                            display: Editor
+                            instructions: 'Add text content.'
+                            icon: text-formatting-markdown
+                            fields:
+                              -
+                                import: editor
+                          table:
+                            display: Table
+                            instructions: 'Add a data table with title and style options.'
+                            icon: layout-split-horizontal
+                            fields:
+                              -
+                                import: table
+                          interview:
+                            display: Interview
+                            instructions: 'Interview with image, title and Q&A content blocks.'
+                            icon: text-formatting-chat
+                            fields:
+                              -
+                                import: interview

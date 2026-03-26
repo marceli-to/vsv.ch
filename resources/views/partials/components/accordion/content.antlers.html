@@ -1,9 +1,7 @@
 <div
-  x-show="active === id"
+  x-show="open"
   x-collapse
   x-cloak
   class="overflow-hidden {{ class }}">
-  <div class="px-10 md:px-20 xl:px-30 pt-5 xl:pt-10 pb-20 md:pb-30 xl:pb-40">
-    {{ slot }}
-  </div>
+  {{ slot }}
 </div>

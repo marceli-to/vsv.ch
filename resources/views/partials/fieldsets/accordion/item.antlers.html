@@ -1,0 +1,26 @@
+<section data-theme="{{ theme }}">
+  
+  {{ partial:components/accordion/item }}
+
+    {{ partial:components/accordion/button class="accordion-button px-12 lg:px-24 xl:px-36 py-8 md:py-16 lg:py-24" }}
+
+      <span class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.1]">
+        {{ title }}
+      </span>
+
+    {{ /partial:components/accordion/button }}
+
+    {{ partial:components/accordion/content class="accordion-content py-16 md:py-24 lg:py-32" }}
+
+      {{ content }}
+
+        {{ if type == 'interview' }}
+          {{ partial:fieldsets/interview/container }}
+        {{ /if }}
+
+      {{ /content }}
+
+    {{ /partial:components/accordion/content }}
+
+  {{ /partial:components/accordion/item }}
+</section>

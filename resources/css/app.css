@@ -6,6 +6,9 @@
 @source "../views";
 @source "../../content";
 
+/* Safelist for dynamic grid components (Grid.vue, Span.vue) */
+@source inline("bg-ivory bg-charcoal bg-blue bg-linen bg-cream bg-sand bg-sky bg-mist bg-ice bg-frost bg-blush bg-rose");
+
 @layer base {
   :root { }
 }
@@ -33,4 +36,37 @@ article li p {
 
 article h2 {
   @apply font-bold mb-8;
+}
+
+/* Accordion themes: button / content backgrounds */
+[data-theme="sky"] .accordion-button { 
+  @apply bg-sky;
+}
+
+[data-theme="sky"] .accordion-content { 
+  @apply bg-ice;
+}
+
+[data-theme="mist"] .accordion-button { 
+  @apply bg-mist;
+}
+
+[data-theme="mist"] .accordion-content { 
+  @apply bg-frost;
+}
+
+[data-theme="sand"] .accordion-button { 
+  @apply bg-sand;
+}
+
+[data-theme="sand"] .accordion-content { 
+  @apply bg-cream;
+}
+
+[data-theme="blush"] .accordion-button { 
+  @apply bg-blush;
+}
+
+[data-theme="blush"] .accordion-content { 
+  @apply bg-rose;
 }

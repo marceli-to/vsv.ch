@@ -1,16 +1,19 @@
 <button
-  @click="active = active === id ? null : id"
+  @click="open = !open"
   class="flex items-center justify-between w-full text-left cursor-pointer {{ class }}"
-  :aria-expanded="active === id">
+  :aria-expanded="open">
 
   <span>
     {{ slot }}
   </span>
 
-  <div
-    class="shrink-0 transition-transform duration-300"
-    :class="{ 'rotate-180': active === id }">
-    {{ partial:components/icons/chevron class="w-16 h-16" }}
+  <div class="shrink-0">
+    <div x-show="!open" class="w-24 h-24 md:w-36 md:h-36 lg:w-48 lg:h-48 flex items-center justify-center">
+      {{ partial:components/icons/plus class="text-black" }}
+    </div>
+    <div x-show="open" x-cloak class="w-24 h-24 md:w-36 md:h-36 lg:w-48 lg:h-48 flex items-center justify-center">
+      {{ partial:components/icons/minus class="text-black" }}
+    </div>
   </div>
-  
+
 </button>
