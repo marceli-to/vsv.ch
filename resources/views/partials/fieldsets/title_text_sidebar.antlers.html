@@ -1,0 +1,23 @@
+{{ partial:layout/section }}
+
+  <div class="grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32">
+
+    <div class="col-span-full">
+      <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.1]">
+        {{ title }}
+      </h1>
+    </div>
+
+    <div class="col-span-full lg:col-span-4 lg:flex lg:flex-col lg:justify-center">
+      {{ sidebar_editor_content }}
+    </div>
+
+    <div class="col-span-full lg:col-span-8">
+      {{ partial:layout/article }}
+        {{ partial:components/editor }}
+      {{ /partial:layout/article }}
+    </div>
+
+  </div>
+  
+{{ /partial:layout/section }}

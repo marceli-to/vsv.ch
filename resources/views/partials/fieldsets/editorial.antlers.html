@@ -18,13 +18,13 @@
 
     <div class="col-span-full lg:col-span-8">
 
-      <h2 class="text-[2.25rem] lg:text-[3rem] leading-[1.2] hyphens-auto text-pretty mb-24 lg:mb-36">
+      <h2 class="text-[2.25rem] lg:text-[3rem] leading-[1.1] hyphens-auto text-pretty mb-24 lg:mb-36">
         {{ title | nl2br}}
       </h2>
 
-      <div class="text-pretty max-w-prose">
-        {{ editor_content }}
-      </div>
+      {{ partial:layout/article class="text-pretty max-w-prose" }}
+        {{ partial:components/editor }}
+      {{ /partial:layout/article }}
 
     </div>
 

@@ -15,5 +15,5 @@
 }
 
 .text-lead {
-  @apply text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-pretty;
+  @apply text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-pretty leading-[1.35];
 }

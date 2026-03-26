@@ -14,7 +14,7 @@
     {{ /if }}
 
     <div class="col-span-full my-8 md:my-12 lg:my-36">
-      <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem]">
+      <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.1]">
         {{ title }}
       </h1>
     </div>
@@ -38,12 +38,15 @@
 
         {{ if type == 'question_answer' }}
           <div class="mt-16">
+            
             <h3 class="font-bold">
               {{ question }}
             </h3>
-            <div class="text-pretty">
-              {{ editor_content }}
-            </div>
+
+            {{ partial:layout/article class="text-pretty" }}
+              {{ partial:components/editor }}
+            {{ /partial:layout/article }}
+
           </div>
         {{ /if }}
 
@@ -55,7 +58,7 @@
 
         {{ if type == 'statistic' }}
           <div class="my-24">
-            {{ partial:fieldsets/statistics/item }}
+            {{ partial:fieldsets/statistics/item class="inline-block w-auto" }}
           </div>
         {{ /if }}
 
@@ -103,9 +106,9 @@
             <h3 class="font-bold mb-8">
               {{ question }}
             </h3>
-            <div class="text-pretty">
-              {{ editor_content }}
-            </div>
+            {{ partial:layout/article class="text-pretty" }}
+              {{ partial:components/editor }}
+            {{ /partial:layout/article }}
           </div>
         {{ /if }}
       {{ /content }}

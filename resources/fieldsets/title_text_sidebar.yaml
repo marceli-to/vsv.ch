@@ -40,4 +40,4 @@ fields:
       localizable: false
   -
     import: editor
-    prefix: sidebar_editor
+    prefix: sidebar_

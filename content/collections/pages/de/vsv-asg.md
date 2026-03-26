@@ -5,7 +5,7 @@ title: 'VSV | ASG'
 template: templates/default
 layout: templates/layout
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774430953
+updated_at: 1774513604
 open_graph_type: website
 robots: index_follow
 show_job_teaser: true
@@ -120,5 +120,204 @@ elements:
         type: teaser
         enabled: true
     type: teasers
+    enabled: true
+  -
+    id: mn76sjd5
+    title: Kommunikation
+    editor_content:
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Sechs Newsletter wurden '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://google.com'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: veröffentlicht
+          -
+            type: text
+            text: ', darunter eine Sonderausgabe über technologische Entwicklungen und Cybersicherheit in der '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://google.com'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: Vermögensverwaltung
+          -
+            type: text
+            text: .
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Die Solutions Booklets wurden eingeführt, um die Solutions-Partnerschaften zu fördern und den Mitgliedern praktische Werkzeuge zur Verfügung zu stellen.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Zwei Studien wurden veröffentlicht: der VSV-ASG Investment Pulse und der VSV-ASG Technology Radar.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Auf '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://linkedin.com'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: LinkedIn
+          -
+            type: text
+            text: ' wurde die Online-Präsenz verstärkt. Die Engagement-Rate von 12% zeigt das wachsende Interesse der Community an den neuen Kommunikations- und Informationskanälen.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Im Jahr 2024 hat der VSV intensiv kommuniziert. Die überdurchschnittliche Öffnungsrate von 40% bei den Mitteilungen spiegelt die Zustimmung und das Interesse der Branche an den geteilten Informationen wider.'
+    sidebar_editor_content:
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Die überdurchschnittliche Öffnungsrate von 40% bei den Mitteilungen spiegelt die Zustimmung und das Interesse der Branche.'
+    type: title_text_sidebar
+    enabled: true
+  -
+    id: mn77jlwz
+    statistics:
+      -
+        id: mn77jmpt
+        number: '88'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: Events
+        type: statistic
+        enabled: true
+      -
+        id: mn77ju8t
+        number: '40 %'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Durchschnittliche '
+              -
+                type: hardBreak
+              -
+                type: text
+                text: "Öffnungsrate der Mailings\_"
+        type: statistic
+        enabled: true
+      -
+        id: mn77k33g
+        number: '12 %'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Engagement-Rate auf LinkedIn'
+        type: statistic
+        enabled: true
+      -
+        id: mn77k9sg
+        number: "8'000"
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Abonnenten für Mailings'
+        type: statistic
+        enabled: true
+      -
+        id: mn77kjix
+        number: "15'000"
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Teilnahmen an Events'
+        type: statistic
+        enabled: true
+      -
+        id: mn77kp7l
+        number: "17'000"
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Views für die Treffen '
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'der Berufsgruppe'
+        type: statistic
+        enabled: true
+    type: statistics
     enabled: true
 ---

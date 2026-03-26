@@ -15,11 +15,18 @@
   --breakpoint-xl: 87.5rem;
 }
 
+strong, b {
+  @apply font-bold;
+}
 
-main p:not(:last-of-type) {
+article a {
+  @apply no-underline decoration-1 underline-offset-2 lg:underline-offset-4 hover:underline text-blue;
+}
+
+article p:not(:last-of-type) {
   @apply mb-16 lg:mb-24;
 }
 
-main li p {
+article li p {
   @apply inline;
 }

@@ -1,10 +1,8 @@
 {{ partial:layout/section }}
-  <div class="grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32">
+  <div class="grid grid-cols-12 gap-16 lg:gap-24 xl:gap-32">
     {{ statistics }}
       {{ if type == 'statistic' }}
-        <div class="col-span-full md:col-span-4">
-          {{ partial:fieldsets/statistics/item }}
-        </div>
+        {{ partial:fieldsets/statistics/item class="col-span-full sm:col-span-6 md:col-span-4 flex flex-col items-center justify-center" content_class="text-center" }}
       {{ /if }}
     {{ /statistics }}
   </div>
