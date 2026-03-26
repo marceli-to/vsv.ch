@@ -1,8 +1,8 @@
-<footer class="bg-black p-20 lg:p-30 xl:py-48 text-white">
+<footer class="bg-charcoal p-20 lg:p-30 xl:py-48 text-ivory">
 
   {{ partial:layout/container class="relative" }} 
 
-    {{ partial:components/headings/h2 class="text-[1.25rem] xl:text-[1.75rem] mb-20" }}
+    {{ partial:components/headings/h2 class="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] mb-16 md:mb-24" }}
       {{ "Kontakt" | trans }}
     {{ /partial:components/headings/h2  }}
 
@@ -11,7 +11,7 @@
         {{ partial:components/headings/h3 }}
           {{ contact:name | nl2br }}
         {{ /partial:components/headings/h3 }}
-        <address class="not-italic">
+        <address class="not-italic leading-[1.35]">
           {{ contact:address | nl2br }}
           <a 
             href="tel:{{ contact:phone }}"

@@ -1,0 +1,31 @@
+{{ partial:layout/section }}
+  {{ if text }}
+    <div class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2] mb-24 md:mb-36 lg:mb-48">
+      {{ text }}
+    </div>
+  {{ /if }}
+
+  {{ if mainpartners }}
+    <div class="grid grid-cols-12 gap-16 lg:gap-24 xl:gap-32">
+      {{ mainpartners }}
+        {{ partial:fieldsets/partners/item class="col-span-6 md:col-span-4" }}
+      {{ /mainpartners }}
+    </div>
+  {{ /if }}
+  
+  {{ if partners }}
+    <div class="mt-24 md:mt-36 lg:mt-48 bg-white rounded-xl p-16 md:p-24 lg:p-32">
+      {{ if headline }}
+        <h2 class="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem]">
+          {{ headline }}
+        </h2>
+      {{ /if }}
+      <div class="grid grid-cols-12 gap-16 lg:gap-24 xl:gap-32 p-16 md:p-24 lg:p-32">
+        {{ partners }}
+          {{ partial:fieldsets/partners/item class="col-span-6 md:col-span-3" }}
+        {{ /partners }}
+      </div>
+    </div>
+  {{ /if }}
+
+{{ /partial:layout/section }}

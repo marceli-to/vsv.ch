@@ -24,9 +24,13 @@ article a {
 }
 
 article p:not(:last-of-type) {
-  @apply mb-16 lg:mb-24;
+  @apply mb-12 lg:mb-16;
 }
 
 article li p {
   @apply inline;
+}
+
+article h2 {
+  @apply font-bold mb-8;
 }

@@ -1,6 +1,9 @@
 @theme {
-  --color-white: #fcfbf9;
-  --color-black: #1e1e1e;
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-ivory: #fcfbf9;
+  --color-charcoal: #1e1e1e;
 
   --color-blue: #1d71b8;
 

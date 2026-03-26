@@ -36,6 +36,12 @@ fields:
                     display: Link
                     localizable: true
   -
+    handle: headline
+    field:
+      type: text
+      display: Headline
+      localizable: false
+  -
     handle: partners
     field:
       type: replicator
