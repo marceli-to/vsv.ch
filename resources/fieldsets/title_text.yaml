@@ -1,0 +1,10 @@
+title: 'Title, Text'
+fields:
+  -
+    handle: title
+    field:
+      type: text
+      display: Titel
+      localizable: true
+  -
+    import: editor

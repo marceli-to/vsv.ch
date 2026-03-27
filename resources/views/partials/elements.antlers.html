@@ -10,6 +10,10 @@
   {{ partial:fieldsets/interview/container }}
 {{ /if }}
 
+{{ if type == 'title_text' }}
+  {{ partial:fieldsets/title_text }}
+{{ /if }}
+
 {{ if type == 'title_text_sidebar' }}
   {{ partial:fieldsets/title_text_sidebar }}
 {{ /if }}
@@ -28,6 +32,10 @@
 
 {{ if type == 'events' }}
   {{ partial:fieldsets/events/container }}
+{{ /if }}
+
+{{ if type == 'membership' }}
+  {{ partial:fieldsets/membership/container }}
 {{ /if }}
 
 

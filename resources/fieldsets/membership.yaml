@@ -1,0 +1,105 @@
+title: Membership
+fields:
+  -
+    handle: title
+    field:
+      type: text
+      display: Title
+      localizable: true
+  -
+    handle: categories
+    field:
+      type: replicator
+      display: Categories
+      instructions: 'Membership categories shown as legend next to the chart.'
+      collapse: true
+      localizable: true
+      sets:
+        category_items:
+          display: Category
+          sets:
+            category:
+              display: Category
+              instructions: 'Add a membership category with color, title and description.'
+              icon: user-multiple
+              fields:
+                -
+                  handle: color
+                  field:
+                    type: button_group
+                    display: Color
+                    instructions: 'Color for the chart segment and legend.'
+                    options:
+                      red: Red
+                      gold: Gold
+                      blue: Blue
+                    localizable: false
+                -
+                  handle: category_title
+                  field:
+                    type: text
+                    display: Title
+                    localizable: true
+                -
+                  handle: editor_content
+                  field:
+                    buttons:
+                      - removeformat
+                      - anchor
+                    toolbar_mode: floating
+                    remove_empty_nodes: true
+                    link_collections:
+                      - pages
+                    type: bard
+                    display: Content
+                    localizable: false
+  -
+    handle: chart_data
+    field:
+      type: replicator
+      display: 'Chart data'
+      instructions: 'Yearly membership numbers for the stacked bar chart.'
+      collapse: true
+      localizable: false
+      sets:
+        year_items:
+          display: Year
+          sets:
+            year_entry:
+              display: Year
+              instructions: 'Add a year with membership numbers (bottom to top: active, partner, individual).'
+              icon: money-graph-bar-increase
+              fields:
+                -
+                  handle: year
+                  field:
+                    type: text
+                    display: Year
+                    localizable: false
+                -
+                  handle: active_members
+                  field:
+                    type: text
+                    display: 'Active members'
+                    instructions: 'Aktivmitglieder - shown as the bottom segment.'
+                    instructions_position: below
+                    localizable: false
+                    width: 33
+                -
+                  handle: partner_members
+                  field:
+                    type: text
+                    display: 'Partner members'
+                    instructions: 'Partnermitglieder - shown as the middle segment.'
+                    instructions_position: below
+                    localizable: false
+                    width: 33
+                -
+                  handle: individual_members
+                  field:
+                    type: text
+                    display: 'Individual members'
+                    instructions: 'Einzelmitglieder - shown as the top segment.'
+                    instructions_position: below
+                    localizable: false
+                    width: 33

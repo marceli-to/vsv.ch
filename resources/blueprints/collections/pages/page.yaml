@@ -53,6 +53,13 @@ tabs:
                       fields:
                         -
                           import: editorial
+                    title_text:
+                      display: 'Title, Text'
+                      instructions: 'Title with rich text content and optional table elements.'
+                      icon: text-formatting-image-left
+                      fields:
+                        -
+                          import: title_text
                     title_text_sidebar:
                       display: 'Title, Text, Sidebar'
                       instructions: 'Title with rich text content, optional table elements and an optional sidebar.'
@@ -91,10 +98,17 @@ tabs:
                     events:
                       display: Events
                       instructions: 'Event listing with search and filter functionality.'
-                      icon: calendar
+                      icon: calendar-date
                       fields:
                         -
                           import: events
+                    membership:
+                      display: Membership
+                      instructions: 'Membership data'
+                      icon: money-graph-pie-chart
+                      fields:
+                        -
+                          import: membership
   settings:
     display: Settings
     sections:

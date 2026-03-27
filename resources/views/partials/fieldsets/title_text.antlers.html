@@ -1,0 +1,19 @@
+{{ partial:layout/section }}
+
+  <div class="grid grid-cols-12 gap-16 lg:gap-24 xl:gap-32">
+
+    <div class="col-span-full mb-16 lg:mb-0">
+      <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2] text-pretty">
+        {{ title }}
+      </h1>
+    </div>
+
+    <div class="col-span-full">
+      {{ partial:layout/article class="text-pretty max-w-3xl" }}
+        {{ partial:components/editor }}
+      {{ /partial:layout/article }}
+    </div>
+
+  </div>
+
+{{ /partial:layout/section }}
