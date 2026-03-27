@@ -82,12 +82,11 @@ article h2 {
 
 /* Membership chart bar segments */
 [data-segment] {
-  transition: height 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  @apply transition-[height] duration-[400ms] ease-[cubic-bezier(0.22,1,0.36,1)] will-change-[height];
 }
 
 [data-label] {
-  opacity: 0;
-  transition: opacity 0.4s ease;
+  @apply opacity-0 transition-opacity duration-400;
 }
 
 [data-segment="individual"] {
