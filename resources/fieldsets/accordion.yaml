@@ -34,6 +34,14 @@ fields:
                     display: Title
                     localizable: true
                 -
+                  handle: slug
+                  field:
+                    type: slug
+                    display: Slug
+                    localizable: true
+                    from: title
+                    show_regenerate: true
+                -
                   handle: content
                   field:
                     type: replicator

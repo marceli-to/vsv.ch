@@ -6,40 +6,38 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774526563
+updated_at: 1774626370
 elements:
   -
     id: mn78s6cy
     text: 'Der VSV bedankt sich besonders bei seinen wichtigsten Partnermitgliedern, die sich für den Verband und die Vermögens­verwaltung einsetzen.'
     mainpartners:
       -
-        id: mn78scmr
-        logo: dummy/dummy-logo.png
-        link: 'https://example.com'
-        type: partner
-        enabled: true
-      -
         id: mn78sd01
-        logo: dummy/dummy-logo.png
-        link: 'https://example.com'
+        logo: logo/julius-baer.svg
+        link: '#julius-baer'
         type: partner
         enabled: true
       -
         id: mn78sd02
-        logo: dummy/dummy-logo.png
-        link: 'https://example.com'
+        logo: logo/lgt.svg
+        link: '#lgt-bank-schweiz-ag'
         type: partner
         enabled: true
       -
         id: mn78sd03
-        logo: dummy/dummy-logo.png
-        link: 'https://example.com'
+        logo: logo/lombard-odier.svg
+        link: '#bank-lombard-odier-co-ltd'
         type: partner
         enabled: true
       -
         id: mn78sd04
-        logo: dummy/dummy-logo.png
-        link: 'https://example.com'
+        logo: logo/ubs.svg
+        type: partner
+        enabled: true
+      -
+        id: mn78scmr
+        logo: logo/vanguard.svg
         type: partner
         enabled: true
     partners:
@@ -99,6 +97,7 @@ elements:
     items:
       -
         id: mn7a8cv1
+        slug: julius-baer
         theme: sky
         title: 'Julius Bär'
         content:
@@ -124,7 +123,7 @@ elements:
                   -
                     type: text
                     text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
-            logo: dummy/dummy-logo.png
+            logo: logo/julius-baer.svg
             content:
               -
                 id: mn7a9ljh
@@ -239,8 +238,10 @@ elements:
             enabled: true
         type: accordion_item
         enabled: true
+        open: false
       -
         id: mn7am7hy
+        slug: lgt-bank-schweiz-ag
         theme: mist
         title: 'LGT Bank (Schweiz) AG'
         content:
@@ -266,7 +267,7 @@ elements:
                   -
                     type: text
                     text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
-            logo: dummy/dummy-logo.png
+            logo: logo/lgt.svg
             content:
               -
                 id: mn7b9ljh
@@ -381,10 +382,12 @@ elements:
             enabled: true
         type: accordion_item
         enabled: true
+        open: false
       -
         id: mn7amjh7
+        slug: bank-lombard-odier-co-ltd
         theme: sand
-        title: 'Bank Lombard Odie & Co Ltd.'
+        title: 'Bank Lombard Odier & Co Ltd.'
         content:
           -
             id: mn7c8ku5
@@ -408,7 +411,7 @@ elements:
                   -
                     type: text
                     text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
-            logo: dummy/dummy-logo.png
+            logo: logo/lombard-odier.svg
             content:
               -
                 id: mn7c9ljh
@@ -523,6 +526,9 @@ elements:
             enabled: true
         type: accordion_item
         enabled: true
+        open: false
     type: accordion
     enabled: true
+container_padding_top: true
+container_padding_bottom: false
 ---

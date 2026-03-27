@@ -62,6 +62,7 @@ fields:
       localizable: false
       if:
         interview_type: 'equals group'
+      folder: logo
   -
     handle: content
     field:

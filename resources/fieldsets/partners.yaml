@@ -29,6 +29,7 @@ fields:
                     container: assets
                     max_files: 1
                     localizable: false
+                    folder: logo
                 -
                   handle: link
                   field:
@@ -64,6 +65,7 @@ fields:
                     container: assets
                     max_files: 1
                     localizable: false
+                    folder: logo
                 -
                   handle: link
                   field:

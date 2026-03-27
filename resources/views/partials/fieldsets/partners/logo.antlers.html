@@ -1,7 +1,24 @@
 {{ if link }}
-  <a href="{{ link }}" target="_blank" rel="noopener noreferrer" aria-label="{{ logo:alt }}" class="group">
-    <img src="{{ logo }}" width="{{ logo:width }}" height="{{ logo:height }}" alt="{{ logo:alt }}" class="group-hover:scale-105 transition-transform duration-300 {{ class }}">
+  <a 
+    href="{{ link }}" 
+    {{ unless link | starts_with('#') }}
+      target="_blank" 
+      rel="noopener noreferrer"
+    {{ /unless }} 
+    aria-label="{{ logo:alt }}" 
+    class="group">
+    <img 
+      src="{{ logo }}" 
+      width="{{ logo:width }}" 
+      height="{{ logo:height }}" 
+      alt="{{ logo:alt }}" 
+      class="group-hover:scale-105 transition-transform duration-300 {{ class }}">
   </a>
 {{ else }}
-  <img src="{{ logo }}" width="{{ logo:width }}" height="{{ logo:height }}" alt="{{ logo:alt }}" class="{{ class }}">
+  <img 
+    src="{{ logo }}" 
+    width="{{ logo:width }}" 
+    height="{{ logo:height }}" 
+    alt="{{ logo:alt }}" 
+    class="{{ class }}">
 {{ /if }}
