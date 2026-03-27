@@ -1,34 +1,37 @@
 {{ if title }}
-  <h2 class="font-bold text-[1rem] lg:text-[1.125rem] uppercase">
+  <h2 class="font-bold uppercase mb-16 lg:mb-20">
     {{ title }}
   </h2>
 {{ /if }}
 
-<div class="w-full md:border-t md:border-blue mb-24 md:mb-32 lg:mb-48 last:mb-0">
+<div class="flex flex-col gap-y-8 lg:gap-y-16">
 
   {{ groups }}
 
     {{ if type == 'role_group' }}
-      <div class="grid grid-cols-1 md:grid-cols-2 {{ unless last }} border-b border-blue mb-16 md:mb-0 {{ /unless }}">
+      <div class="grid grid-cols-12 gap-y-2 md:gap-16 lg:gap-24 xl:gap-32 mb-12 lg:mb-16 last:mb-0">
 
-        <div class="md:py-6 font-bold">
-          {{ role }}
-        </div>
+        {{ if role }}
+          <div class="col-span-full md:col-span-3">
+            {{ role }}
+          </div>
+        {{ /if }}
 
-        <div>
+        <div class="col-span-full md:col-span-9 flex flex-col gap-y-4 md:gap-y-8">
           {{ members }}
-            <div class="pt-2 pb-6 md:py-6 {{ unless last }} border-b border-blue {{ /unless }}">
-              {{ name }}{{ if company }}, {{ company }}{{ /if }}
+            <div>
+              <strong>{{ name }}</strong>{{ if company }}, {{ company }}{{ /if }}
             </div>
           {{ /members }}
         </div>
 
       </div>
     {{ /if }}
+
   {{ /groups }}
 
   {{ if footnote }}
-    <p class="mt-8 lg:mt-12">{{ footnote }}</p>
+    <p class="mt-12 lg:mt-16">{{ footnote }}</p>
   {{ /if }}
 
 </div>

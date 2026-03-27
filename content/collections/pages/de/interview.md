@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774525377
+updated_at: 1774604520
 elements:
   -
     id: mn5utx5t
@@ -123,4 +123,6 @@ elements:
                 text: "Innerhalb dieser einen Stunde haben wir die Branche gerettet. Aus einem Gesetzesprojekt, das die Hälfte der Vermögensverwalter gefährdet hätte, wurde ein Gesetz, das ihre Besonderheiten berücksichtigt. Die jüngsten Zahlen der FINMA bestätigen unseren Erfolg: Vor allem kleine Strukturen haben die Bewilligung erhalten, was beweist, dass das neue System für Mikro-Unternehmen geeignet ist. Sie machen die überwältigende Mehrheit der Vermögensverwalter aus.\_"
         type: question_answer
         enabled: true
+container_padding_top: true
+container_padding_bottom: true
 ---

@@ -10,7 +10,7 @@
 
     {{ /partial:components/accordion/button }}
 
-    {{ partial:components/accordion/content class="accordion-content py-16 md:py-24 lg:py-32" }}
+    {{ partial:components/accordion/content class="accordion-content px-12 lg:px-24 xl:px-36 py-16 md:py-24 lg:py-32" }}
 
       {{ content }}
 
@@ -23,11 +23,11 @@
         {{ /if }}
 
         {{ if type == 'title_text' }}
-          {{ partial:fieldsets/title_text }}
+          {{ partial:fieldsets/title_text sectionClass="px-0!" }}
         {{ /if }}
 
         {{ if type == 'title_text_sidebar' }}
-          {{ partial:fieldsets/title_text_sidebar }}
+          {{ partial:fieldsets/title_text_sidebar sectionClass="px-0!" }}
         {{ /if }}
 
         {{ if type == 'events' }}

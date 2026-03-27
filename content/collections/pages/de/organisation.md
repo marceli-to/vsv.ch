@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774603655
+updated_at: 1774604751
 elements:
   -
     id: mn8p17kp
@@ -32,58 +32,11 @@ elements:
         title: Vorstand
         type: accordion_item
         enabled: true
-      -
-        id: mn8p6f2f
-        open: false
-        theme: mist
-        title: Geschäftsleitung
-        type: accordion_item
-        enabled: true
-      -
-        id: mn8p6opx
-        open: false
-        theme: blush
-        title: Geschäftsstellen
-        type: accordion_item
-        enabled: true
-    type: accordion
-    enabled: true
-  -
-    id: mn7fauvo
-    title: 'Der VSV ist der Berufs- und Branchenverband der Ver­mögensverwalter.'
-    sidebar_editor_content:
-      -
-        type: paragraph
-        attrs:
-          class: null
         content:
           -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Der Verband ist einer der einflussreichsten des Schweizer Finanz­platzes. Er vertritt die Branche gegenüber den Behörden, den anderen Akteuren des Finanzplatzes und den Medien.'
-      -
-        type: paragraph
-        attrs:
-          class: null
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Vermögensverwalter und Verwalter von Kollektiv­vermögen, unabhängig von ihrer Aufsichtsorganisation, treten dem Verband bei, um von seiner Unterstützung und seinen zahlreichen Dienstleistungen zu profitieren.'
-    type: title_text_sidebar
-    enabled: false
-    editor_content:
-      -
-        type: set
-        attrs:
-          id: mn7fm594
-          values:
+            id: acc_vorstand_board
             type: board
-            title: Vorstand
+            enabled: true
             groups:
               -
                 id: brd001
@@ -140,13 +93,19 @@ elements:
                     name: 'Jamie Vrijhof-Droese'
                     company: 'Weber Hartmann Vrijhof & Partners AG'
             footnote: '*Mitglieder des Ausschusses'
+            title: Vorstand
       -
-        type: set
-        attrs:
-          id: mn7fm600
-          values:
+        id: mn8p6f2f
+        open: false
+        theme: mist
+        title: Geschäftsleitung
+        type: accordion_item
+        enabled: true
+        content:
+          -
+            id: acc_gl_board
             type: board
-            title: Geschäftsleitung
+            enabled: true
             groups:
               -
                 id: brd020
@@ -202,13 +161,19 @@ elements:
                   -
                     id: brd031
                     name: 'Annick Weizman'
+            title: Geschäftsleitung
       -
-        type: set
-        attrs:
-          id: mn7fm601
-          values:
+        id: mn8p6g3m
+        open: false
+        theme: sand
+        title: Mitarbeitende
+        type: accordion_item
+        enabled: true
+        content:
+          -
+            id: acc_ma_board
             type: board
-            title: Mitarbeitende
+            enabled: true
             groups:
               -
                 id: brd040
@@ -255,13 +220,19 @@ elements:
                   -
                     id: brd049
                     name: 'Roman Stofer'
+            title: Mitarbeitende
       -
-        type: set
-        attrs:
-          id: mn7fm602
-          values:
+        id: mn8p6opx
+        open: false
+        theme: blush
+        title: Geschäftsstellen
+        type: accordion_item
+        enabled: true
+        content:
+          -
+            id: acc_gs_board
             type: board
-            title: Geschäftsstellen
+            enabled: true
             groups:
               -
                 id: brd060
@@ -287,6 +258,9 @@ elements:
                   -
                     id: brd065
                     name: Lugano
+            title: Geschäftsstellen
+    type: accordion
+    enabled: true
 container_padding_top: true
 container_padding_bottom: false
 ---

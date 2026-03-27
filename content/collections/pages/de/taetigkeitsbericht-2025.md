@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774597913
+updated_at: 1774605901
 elements:
   -
     id: mn8korhr
@@ -138,6 +138,106 @@ elements:
         title: Kommunikation
         type: accordion_item
         enabled: true
+        content:
+          -
+            id: mn8qejnw
+            editor_content:
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'Sechs Newsletter wurden '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://google.com/'
+                          rel: null
+                          target: _blank
+                          title: null
+                    text: veröffentlicht
+                  -
+                    type: text
+                    text: ', darunter eine Sonderausgabe über technologische Entwicklungen und Cybersicherheit in der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://google.com/'
+                          rel: null
+                          target: _blank
+                          title: null
+                    text: Vermögensverwaltung
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'Die Solutions Booklets wurden eingeführt, um die Solutions-Partnerschaften zu fördern und den Mitgliedern praktische Werkzeuge zur Verfügung zu stellen.'
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'Zwei Studien wurden veröffentlicht: der VSV-ASG Investment Pulse und der VSV-ASG Technology Radar.'
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'Auf '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://linkedin.com/'
+                          rel: null
+                          target: _blank
+                          title: null
+                    text: LinkedIn
+                  -
+                    type: text
+                    text: ' wurde die Online-Präsenz verstärkt. Die Engagement-Rate von 12% zeigt das wachsende Interesse der Community an den neuen Kommunikations- und Informationskanälen.'
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'Im Jahr 2024 hat der VSV intensiv kommuniziert. Die überdurchschnittliche Öffnungsrate von 40% bei den Mitteilungen spiegelt die Zustimmung und das Interesse der Branche an den geteilten Informationen wider.'
+            sidebar_editor_content:
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Die überdurchschnittliche Öffnungsrate von 40% bei den Mitteilungen spiegelt die Zustimmung und das Interesse der Branche.'
+            type: title_text_sidebar
+            enabled: true
       -
         id: mn8lahy1
         open: false
