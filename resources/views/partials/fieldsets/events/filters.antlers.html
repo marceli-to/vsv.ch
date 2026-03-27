@@ -1,42 +1,58 @@
-<div class="col-span-full md:col-span-3 lg:col-span-2">
+
+<div class="flex flex-col gap-y-16 md:gap-y-24 md:max-w-240">
 
   {{# Search #}}
-  <div class="mb-16">
+  <div>
     <input
       type="text"
       x-model="search"
       placeholder="{{ 'Suche' | trans }}"
-      class="w-full border border-charcoal/20 rounded-sm px-12 py-8 text-[0.875rem] focus:outline-none focus:border-blue"
+      class="w-full border border-charcoal rounded-full px-16 py-8 text-[0.875rem] lg:text-[1rem] focus:outline-none"
     />
   </div>
 
-  {{# Filter toggle #}}
-  <button
-    @click="showFilters = !showFilters"
-    class="flex items-center justify-between w-full bg-sky rounded-sm px-12 py-8 text-[0.875rem] font-bold mb-12"
-  >
-    <span>Filter</span>
-    <span x-show="!showFilters">{{ partial:components/icons/plus class="w-12 h-12" }}</span>
-    <span x-show="showFilters" x-cloak>{{ partial:components/icons/minus class="w-12 h-12" }}</span>
-  </button>
+  <div>
 
-  <div x-show="showFilters" x-collapse x-cloak>
+    {{# Filter toggle #}}
+    <button 
+      @click="showFilters = !showFilters" 
+      class="bg-mist flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-[0.875rem] lg:text-[1rem]">
+      
+      <span>Filter</span>
 
-    {{# Type filter #}}
-    <div class="mb-16">
-      {{ partial:fieldsets/events/filter-heading label="Art" }}
-      {{ partial:fieldsets/events/checkbox action="toggleType('webinar')" label="Webinar" }}
-      {{ partial:fieldsets/events/checkbox action="toggleType('regulatory_training')" label="Regulatorische Schulung" }}
-      {{ partial:fieldsets/events/checkbox action="toggleType('in_person')" label="Präsenzveranstaltung" }}
-    </div>
+      <span x-show="!showFilters">
+        {{ partial:components/icons/plus class="w-16 h-16" }}
+      </span>
 
-    {{# Language filter #}}
-    <div class="mb-16">
-      {{ partial:fieldsets/events/filter-heading label="Sprache" }}
-      {{ partial:fieldsets/events/checkbox action="toggleLanguage('de')" label="Deutsch" }}
-      {{ partial:fieldsets/events/checkbox action="toggleLanguage('fr')" label="Französisch" }}
-      {{ partial:fieldsets/events/checkbox action="toggleLanguage('it')" label="Italienisch" }}
-      {{ partial:fieldsets/events/checkbox action="toggleLanguage('en')" label="Englisch" }}
+      <span x-show="showFilters" x-cloak>
+        {{ partial:components/icons/minus class="w-16 h-16" }}
+      </span>
+
+    </button>
+
+    <div 
+      x-show="showFilters" 
+      x-collapse 
+      x-cloak
+      class="flex flex-col gap-y-16">
+
+      {{# Type filter #}}
+      <div class="mb-16">
+        {{ partial:fieldsets/events/filter-heading label="Art" }}
+        {{ partial:fieldsets/events/checkbox action="toggleType('webinar')" label="Webinar" }}
+        {{ partial:fieldsets/events/checkbox action="toggleType('regulatory_training')" label="Regulatorische Schulung" }}
+        {{ partial:fieldsets/events/checkbox action="toggleType('in_person')" label="Präsenzveranstaltung" }}
+      </div>
+
+      {{# Language filter #}}
+      <div class="mb-16">
+        {{ partial:fieldsets/events/filter-heading label="Sprache" }}
+        {{ partial:fieldsets/events/checkbox action="toggleLanguage('de')" label="Deutsch" }}
+        {{ partial:fieldsets/events/checkbox action="toggleLanguage('fr')" label="Französisch" }}
+        {{ partial:fieldsets/events/checkbox action="toggleLanguage('it')" label="Italienisch" }}
+        {{ partial:fieldsets/events/checkbox action="toggleLanguage('en')" label="Englisch" }}
+      </div>
+
     </div>
 
   </div>

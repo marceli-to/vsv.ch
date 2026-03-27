@@ -2,11 +2,13 @@
 
   <div class="grid grid-cols-12 gap-16 lg:gap-24 xl:gap-32">
 
-    <div class="col-span-full mb-16 lg:mb-0">
-      <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2]">
-        {{ title }}
-      </h1>
-    </div>
+    {{ if title }}
+      <div class="col-span-full mb-16 lg:mb-0">
+        <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2]">
+          {{ title }}
+        </h1>
+      </div>
+    {{ /if }}
 
     <aside class="col-span-full lg:col-span-4 lg:mt-80 md:text-[1.25rem] xl:text-[1.5rem] xl:pr-24 mb-24 lg:mb-0">
       {{ partial:components/editor editor_content="{sidebar_editor_content}" }}

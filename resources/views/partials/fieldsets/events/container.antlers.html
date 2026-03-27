@@ -1,4 +1,4 @@
-{{ partial:layout/section class="bg-ice" }}
+{{ partial:layout/section class="{{ sectionClass }}" }}
   <div
     x-data="{
       search: '',
@@ -42,12 +42,13 @@
       }
     }"
     x-effect="filterRows()"
-    class="grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32"
-  >
+    class="grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32">
+    
+    <div class="col-span-full md:col-span-3 lg:col-span-4">
+      {{ partial:fieldsets/events/filters }}
+    </div>
 
-    {{ partial:fieldsets/events/filters }}
-
-    <div class="col-span-full md:col-span-9 lg:col-span-10">
+    <div class="col-span-full md:col-span-9 lg:col-span-8">
 
       {{ partial:fieldsets/events/group group_type="webinar" group_title="Webinare" }}
         {{ collection:events sort="date:asc" type:contains="webinar" }}

@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774605901
+updated_at: 1774612670
 elements:
   -
     id: mn8korhr
@@ -100,7 +100,7 @@ elements:
             type: title_text_sidebar
             enabled: true
         collapsed: true
-        open: true
+        open: false
       -
         id: mn8kxmkn
         theme: mist
@@ -240,7 +240,7 @@ elements:
             enabled: true
       -
         id: mn8lahy1
-        open: false
+        open: true
         theme: sky
         title: Events
         type: accordion_item
