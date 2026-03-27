@@ -68,6 +68,27 @@ article h2 {
   @apply bg-blush;
 }
 
-[data-theme="blush"] .accordion-content { 
+[data-theme="blush"] .accordion-content {
   @apply bg-rose;
+}
+
+[data-theme="white"] .accordion-button {
+  @apply bg-ivory;
+}
+
+[data-theme="white"] .accordion-content {
+  @apply bg-white;
+}
+
+/* Membership chart bar segments */
+[data-segment="individual"] {
+  @apply bg-crimson;
+}
+
+[data-segment="partner"] {
+  @apply bg-gold;
+}
+
+[data-segment="active"] {
+  @apply bg-sky;
 }

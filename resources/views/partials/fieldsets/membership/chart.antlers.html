@@ -1,0 +1,8 @@
+<div class="flex items-stretch gap-24 md:gap-64 lg:gap-72 min-h-400 lg:min-h-[37.5rem]">
+  {{ chart_data }}
+    {{ if type == "year_entry" }}
+      {{ partial:fieldsets/membership/bar }}
+    {{ /if }}
+  {{ /chart_data }}
+</div>
+

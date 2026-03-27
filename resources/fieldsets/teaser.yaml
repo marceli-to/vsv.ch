@@ -26,3 +26,6 @@ fields:
       type: link
       display: Link
       localizable: true
+      collections:
+        - pages
+      container: assets

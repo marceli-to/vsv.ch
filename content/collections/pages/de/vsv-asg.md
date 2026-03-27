@@ -5,7 +5,7 @@ title: 'VSV | ASG'
 template: templates/default
 layout: templates/layout
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774522682
+updated_at: 1774598517
 open_graph_type: website
 robots: index_follow
 show_job_teaser: true
@@ -19,7 +19,7 @@ elements:
         image: dummy/dummy-teaser-1.jpg
         title: '«Die Vermögensverwaltung steht gut da.»'
         subtitle: 'Patrick Dorner:'
-        link: 'entry::41345e0d-adcd-48b2-be86-1ba0b3f69a20'
+        link: 'entry::14f32bdb-abdd-4a45-9167-a3a7ae5757ac'
         type: teaser
         enabled: true
       -
@@ -27,15 +27,15 @@ elements:
         image: dummy/dummy-teaser-2.jpg
         title: Rückblick
         subtitle: 'Die Tätigkeiten des VSV:'
-        link: 'entry::cf88daca-23f7-458b-953f-f9cad2f54cf3'
+        link: 'entry::41345e0d-adcd-48b2-be86-1ba0b3f69a20'
         type: teaser
         enabled: true
       -
         id: mn5rkwp4
-        image: dummy/dummy-teaser-3.jpg
+        image: dummy/ausblick.jpg
         title: Ausblick
         subtitle: 'Die Tätigkeiten des VSV:'
-        link: 'entry::41345e0d-adcd-48b2-be86-1ba0b3f69a20'
+        link: 'entry::c738ed8b-8ebb-4528-987b-cfe27d97e723'
         type: teaser
         enabled: true
     type: teasers
@@ -97,233 +97,28 @@ elements:
     teasers:
       -
         id: mn5rjtdl
-        image: dummy/dummy-teaser-1.jpg
-        title: '«Die Vermögensverwaltung steht gut da.»'
-        subtitle: 'Patrick Dorner:'
-        link: 'entry::41345e0d-adcd-48b2-be86-1ba0b3f69a20'
+        image: dummy/dummy-teaser-3.jpg
+        title: 'Ihre Visionen und Analysen'
+        subtitle: 'Die Partner des VSV:'
+        link: 'entry::e6bf678a-608b-46ef-9205-f72807fa3b40'
         type: teaser
         enabled: true
       -
         id: mn5rkgiv
-        image: dummy/dummy-teaser-2.jpg
-        title: Rückblick
-        subtitle: 'Die Tätigkeiten des VSV:'
-        link: 'entry::cf88daca-23f7-458b-953f-f9cad2f54cf3'
+        image: dummy/dummy-placeholder-1.jpg
+        title: 'Headline 1 Headline 2'
+        subtitle: Platzhalter
         type: teaser
         enabled: true
       -
-        id: mn5rkwp4
-        image: dummy/dummy-teaser-3.jpg
-        title: Ausblick
-        subtitle: 'Die Tätigkeiten des VSV:'
-        link: 'entry::41345e0d-adcd-48b2-be86-1ba0b3f69a20'
+        id: mn8kkchg
+        image: dummy/dummy-placeholder-2.jpg
+        title: 'Headline 1 Headline 2'
+        subtitle: Platzhalter
         type: teaser
         enabled: true
     type: teasers
     enabled: true
-  -
-    id: mn76sjd5
-    title: Kommunikation
-    editor_content:
-      -
-        type: paragraph
-        attrs:
-          class: null
-        content:
-          -
-            type: text
-            text: 'Sechs Newsletter wurden '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://google.com'
-                  rel: null
-                  target: _blank
-                  title: null
-            text: veröffentlicht
-          -
-            type: text
-            text: ', darunter eine Sonderausgabe über technologische Entwicklungen und Cybersicherheit in der '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://google.com'
-                  rel: null
-                  target: _blank
-                  title: null
-            text: Vermögensverwaltung
-          -
-            type: text
-            text: .
-      -
-        type: paragraph
-        attrs:
-          class: null
-        content:
-          -
-            type: text
-            text: 'Die Solutions Booklets wurden eingeführt, um die Solutions-Partnerschaften zu fördern und den Mitgliedern praktische Werkzeuge zur Verfügung zu stellen.'
-      -
-        type: paragraph
-        attrs:
-          class: null
-        content:
-          -
-            type: text
-            text: 'Zwei Studien wurden veröffentlicht: der VSV-ASG Investment Pulse und der VSV-ASG Technology Radar.'
-      -
-        type: paragraph
-        attrs:
-          class: null
-        content:
-          -
-            type: text
-            text: 'Auf '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://linkedin.com'
-                  rel: null
-                  target: _blank
-                  title: null
-            text: LinkedIn
-          -
-            type: text
-            text: ' wurde die Online-Präsenz verstärkt. Die Engagement-Rate von 12% zeigt das wachsende Interesse der Community an den neuen Kommunikations- und Informationskanälen.'
-      -
-        type: paragraph
-        attrs:
-          class: null
-        content:
-          -
-            type: text
-            text: 'Im Jahr 2024 hat der VSV intensiv kommuniziert. Die überdurchschnittliche Öffnungsrate von 40% bei den Mitteilungen spiegelt die Zustimmung und das Interesse der Branche an den geteilten Informationen wider.'
-    sidebar_editor_content:
-      -
-        type: paragraph
-        attrs:
-          class: null
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Die überdurchschnittliche Öffnungsrate von 40% bei den Mitteilungen spiegelt die Zustimmung und das Interesse der Branche.'
-    type: title_text_sidebar
-    enabled: true
-  -
-    id: mn77jlwz
-    statistics:
-      -
-        id: mn77jmpt
-        number: '88'
-        editor_content:
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: Events
-        type: statistic
-        enabled: true
-        percent: false
-      -
-        id: mn77ju8t
-        number: '40'
-        editor_content:
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: 'Durchschnittliche '
-              -
-                type: hardBreak
-              -
-                type: text
-                text: "Öffnungsrate der Mailings\_"
-        type: statistic
-        enabled: true
-        percent: true
-      -
-        id: mn77k33g
-        number: '12'
-        editor_content:
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: 'Engagement-Rate auf LinkedIn'
-        type: statistic
-        enabled: true
-        percent: true
-      -
-        id: mn77k9sg
-        number: '8000'
-        editor_content:
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: 'Abonnenten für Mailings'
-        type: statistic
-        enabled: true
-        percent: false
-      -
-        id: mn77kjix
-        number: '15000'
-        editor_content:
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: 'Teilnahmen an Events'
-        type: statistic
-        enabled: true
-        percent: false
-      -
-        id: mn77kp7l
-        number: '17000'
-        editor_content:
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: 'Views für die Treffen '
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'der Berufsgruppe'
-        type: statistic
-        enabled: true
-        percent: false
-    type: statistics
-    enabled: true
+container_padding_top: true
+container_padding_bottom: true
 ---

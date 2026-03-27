@@ -1,0 +1,14 @@
+<div>
+  <div class="w-20 h-20 lg:w-30 lg:h-30 mb-4 lg:mb-12
+    {{ if color == 'red' }} bg-crimson{{ /if }}
+    {{ if color == 'gold' }} bg-gold{{ /if }}
+    {{ if color == 'blue' }} bg-sky{{ /if }}
+  ">
+  </div>
+  <h3 class="font-bold mb-4 lg:mb-8">
+    {{ category_title }}
+  </h3>
+  <article class="">
+    {{ editor_content }}
+  </article>
+</div>

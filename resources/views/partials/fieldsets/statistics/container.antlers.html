@@ -1,9 +1,19 @@
 {{ partial:layout/section }}
-  <div class="grid grid-cols-12 gap-16 lg:gap-24 xl:gap-32">
-    {{ statistics }}
-      {{ if type == 'statistic' }}
-        {{ partial:fieldsets/statistics/item class="col-span-full sm:col-span-6 md:col-span-4 flex flex-col items-center justify-center" content_class="text-center" }}
-      {{ /if }}
-    {{ /statistics }}
-  </div>
+  {{ if title }}
+    <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2] mb-16 md:mb-24 lg:mb-32">
+      {{ title }}
+    </h1>
+  {{ /if }}
+  {{ if statistics }}
+    <div class="grid grid-cols-12 gap-16 lg:gap-24 xl:gap-32">
+      {{ statistics }}
+        {{ if type == 'statistic' }}
+          {{ partial:fieldsets/statistics/item class="col-span-full sm:col-span-6 md:col-span-4 flex flex-col items-center justify-center" content_class="text-center" }}
+        {{ /if }}
+      {{ /statistics }}
+    </div>
+    <div class="mt-8 md:mt-12 lg:mt-16">
+      * {{ "seit ihrer Einführung" | trans }}
+    </div>
+  {{ /if }}
 {{ /partial:layout/section }}

@@ -1,5 +1,5 @@
 <main role="main" class="w-full flex-1 px-20 py-24 lg:py-48">
-  {{ partial:layout/container class="relative bg-cream flex flex-col gap-y-24 md:gap-y-48 lg:gap-y-64 py-16 lg:py-32 rounded-xl" }}
+  {{ partial:layout/container class="relative bg-cream flex flex-col gap-y-24 md:gap-y-48 lg:gap-y-64 {{ container_padding_top ? 'pt-16 lg:pt-32' : '' }} {{ container_padding_bottom ? 'pb-16 lg:pb-32' : '' }} rounded-lg md:rounded-xl overflow-hidden" }}
     {{ template_content }}
   {{ /partial:layout/container }}
 </main>

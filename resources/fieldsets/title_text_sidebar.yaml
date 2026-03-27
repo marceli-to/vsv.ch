@@ -1,12 +1,6 @@
 title: 'Title, Text, Sidebar'
 fields:
   -
-    handle: main
-    field:
-      type: section
-      display: Main
-      localizable: false
-  -
     handle: title
     field:
       type: text

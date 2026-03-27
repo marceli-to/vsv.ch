@@ -6,8 +6,48 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774541513
+updated_at: 1774603655
 elements:
+  -
+    id: mn8p17kp
+    title: 'Der VSV ist der Berufs- und Branchenverband der Vermögensverwalter'
+    type: title_text
+    enabled: true
+    editor_content:
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Der Verband ist einer der einflussreichsten des Schweizer Finanz­platzes. Er vertritt die Branche gegenüber den Behörden, den anderen Akteuren des Finanzplatzes und den Medien. Vermögensverwalter und Verwalter von Kollektiv­vermögen, unabhängig von ihrer Aufsichtsorganisation, treten dem Verband bei, um von seiner Unterstützung und seinen zahlreichen Dienstleistungen zu profitieren.'
+  -
+    id: mn8p68b7
+    items:
+      -
+        id: mn8p693s
+        open: false
+        theme: sky
+        title: Vorstand
+        type: accordion_item
+        enabled: true
+      -
+        id: mn8p6f2f
+        open: false
+        theme: mist
+        title: Geschäftsleitung
+        type: accordion_item
+        enabled: true
+      -
+        id: mn8p6opx
+        open: false
+        theme: blush
+        title: Geschäftsstellen
+        type: accordion_item
+        enabled: true
+    type: accordion
+    enabled: true
   -
     id: mn7fauvo
     title: 'Der VSV ist der Berufs- und Branchenverband der Ver­mögensverwalter.'
@@ -35,7 +75,7 @@ elements:
                 type: bold
             text: 'Vermögensverwalter und Verwalter von Kollektiv­vermögen, unabhängig von ihrer Aufsichtsorganisation, treten dem Verband bei, um von seiner Unterstützung und seinen zahlreichen Dienstleistungen zu profitieren.'
     type: title_text_sidebar
-    enabled: true
+    enabled: false
     editor_content:
       -
         type: set
@@ -247,4 +287,6 @@ elements:
                   -
                     id: brd065
                     name: Lugano
+container_padding_top: true
+container_padding_bottom: false
 ---

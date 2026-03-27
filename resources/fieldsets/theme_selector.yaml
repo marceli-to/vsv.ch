@@ -6,9 +6,20 @@ fields:
       type: select
       display: Theme
       options:
-        sky: Sky
-        mist: Mist
-        sand: Sand
-        blush: Blush
+        -
+          key: sky
+          value: Blue
+        -
+          key: mist
+          value: 'Light blue'
+        -
+          key: sand
+          value: Beige
+        -
+          key: blush
+          value: Pink
+        -
+          key: white
+          value: White
       default: sky
       localizable: false

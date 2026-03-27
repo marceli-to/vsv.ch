@@ -18,6 +18,14 @@ fields:
               icon: form-drop-down-menu
               fields:
                 -
+                  handle: open
+                  field:
+                    type: toggle
+                    display: Open
+                    instructions: 'If enabled, this item is open by default.'
+                    localizable: false
+                    default: false
+                -
                   import: theme_selector
                 -
                   handle: title
@@ -54,7 +62,21 @@ fields:
                           interview:
                             display: Interview
                             instructions: 'Interview with image, title and Q&A content blocks.'
-                            icon: text-formatting-chat
+                            icon: text-formatting-image-top
                             fields:
                               -
                                 import: interview
+                          title_text_sidebar:
+                            display: 'Title, Text, Sidebar'
+                            instructions: 'Title with rich text content, optional table elements and an optional sidebar.'
+                            icon: layout-sidebar-left
+                            fields:
+                              -
+                                import: title_text_sidebar
+                          events:
+                            display: Events
+                            instructions: 'Event listing with search and filter functionality.'
+                            icon: calendar-date
+                            fields:
+                              -
+                                import: events

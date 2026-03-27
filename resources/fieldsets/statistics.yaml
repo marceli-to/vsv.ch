@@ -1,6 +1,12 @@
 title: Statistics
 fields:
   -
+    handle: title
+    field:
+      type: text
+      display: Title
+      localizable: false
+  -
     handle: statistics
     field:
       type: replicator
