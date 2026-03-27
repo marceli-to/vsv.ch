@@ -1,5 +1,5 @@
 
-<div class="flex flex-col gap-y-16 md:gap-y-24 md:max-w-240">
+<div class="flex flex-col gap-y-16 md:gap-y-24 max-w-240 md:max-w-240">
 
   {{# Search #}}
   <div>
@@ -30,27 +30,50 @@
 
     </button>
 
-    <div 
-      x-show="showFilters" 
-      x-collapse 
+    <div
+      x-show="showFilters"
       x-cloak
-      class="flex flex-col gap-y-16">
+      class="flex flex-col gap-y-16 mt-16">
 
       {{# Type filter #}}
-      <div class="mb-16">
-        {{ partial:fieldsets/events/filter-heading label="Art" }}
-        {{ partial:fieldsets/events/checkbox action="toggleType('webinar')" label="Webinar" }}
-        {{ partial:fieldsets/events/checkbox action="toggleType('regulatory_training')" label="Regulatorische Schulung" }}
-        {{ partial:fieldsets/events/checkbox action="toggleType('in_person')" label="Präsenzveranstaltung" }}
+      <div>
+        <button
+          @click="showTypeFilter = !showTypeFilter"
+          class="flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-[0.875rem] lg:text-[1rem]">
+          <span>Art</span>
+          <span :class="showTypeFilter ? 'rotate-180' : ''" class="transition-transform duration-200">
+            {{ partial:components/icons/chevron class="w-16 h-16" }}
+          </span>
+        </button>
+        <div
+          x-show="showTypeFilter"
+          x-cloak
+          class="bg-white rounded-xl px-8 py-16 mt-6 md:mt-8 lg:mt-12 flex flex-col gap-y-8">
+          {{ partial:fieldsets/events/checkbox action="toggleType('webinar')" label="Webinar" }}
+          {{ partial:fieldsets/events/checkbox action="toggleType('regulatory_training')" label="Regulatorische Schulung" }}
+          {{ partial:fieldsets/events/checkbox action="toggleType('in_person')" label="Präsenzveranstaltung" }}
+        </div>
       </div>
 
       {{# Language filter #}}
-      <div class="mb-16">
-        {{ partial:fieldsets/events/filter-heading label="Sprache" }}
-        {{ partial:fieldsets/events/checkbox action="toggleLanguage('de')" label="Deutsch" }}
-        {{ partial:fieldsets/events/checkbox action="toggleLanguage('fr')" label="Französisch" }}
-        {{ partial:fieldsets/events/checkbox action="toggleLanguage('it')" label="Italienisch" }}
-        {{ partial:fieldsets/events/checkbox action="toggleLanguage('en')" label="Englisch" }}
+      <div>
+        <button
+          @click="showLanguageFilter = !showLanguageFilter"
+          class="flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-[0.875rem] lg:text-[1rem]">
+          <span>Sprache</span>
+          <span :class="showLanguageFilter ? 'rotate-180' : ''" class="transition-transform duration-200">
+            {{ partial:components/icons/chevron class="w-16 h-16" }}
+          </span>
+        </button>
+        <div
+          x-show="showLanguageFilter"
+          x-cloak
+          class="bg-white rounded-xl px-8 py-16 mt-6 md:mt-8 lg:mt-12 flex flex-col gap-y-8">
+          {{ partial:fieldsets/events/checkbox action="toggleLanguage('de')" label="Deutsch" }}
+          {{ partial:fieldsets/events/checkbox action="toggleLanguage('fr')" label="Französisch" }}
+          {{ partial:fieldsets/events/checkbox action="toggleLanguage('it')" label="Italienisch" }}
+          {{ partial:fieldsets/events/checkbox action="toggleLanguage('en')" label="Englisch" }}
+        </div>
       </div>
 
     </div>
