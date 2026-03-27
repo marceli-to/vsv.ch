@@ -1,8 +1,13 @@
-<div data-event-group="{{ group_type }}" class="mb-32 lg:mb-48">
+<div 
+  data-event-group="{{ group_type }}" 
+  class="mb-32 lg:mb-48">
+
   <h2 class="font-bold text-[1rem] lg:text-[1.125rem] uppercase mb-12 lg:mb-16">
     {{ group_title | trans }}
   </h2>
+
   <div class="border-t border-blue">
     {{ slot }}
   </div>
+  
 </div>
