@@ -1,5 +1,5 @@
 <div class="swiper-slide">
-  <div class="bg-white rounded-xl overflow-hidden p-12 md:p-20 pb-24 md:pb-32">
+  <div class="bg-white rounded-xl overflow-hidden p-12 md:p-16 lg:p-24 pb-24 md:pb-28 lg:pb-32">
     <div data-gallery-inner class="swiper rounded-lg overflow-hidden">
       <div class="swiper-wrapper">
         {{ gallery_images }}
@@ -11,8 +11,8 @@
       <div class="swiper-pagination hidden"></div>
     </div>
     {{ if gallery_caption }}
-      <div class="pt-12 md:pt-16">
-        <p class="text-sm md:text-base">{{ gallery_caption }}</p>
+      <div data-gallery-caption class="pt-12 md:pt-16">
+        {{ gallery_caption }}
       </div>
     {{ /if }}
   </div>
