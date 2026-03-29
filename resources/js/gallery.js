@@ -6,34 +6,42 @@ import 'swiper/css/pagination';
 
 const initGallery = () => {
   document.querySelectorAll('.gallery-outer').forEach((outerEl) => {
-    // Init inner swipers first
+    // Collect original slides (before loop cloning)
+    const originalSlides = Array.from(outerEl.querySelectorAll('.swiper-wrapper > .swiper-slide'));
+
+    // Init inner swipers on original slides only
     const innerSwipers = [];
-    outerEl.querySelectorAll('.gallery-inner').forEach((innerEl) => {
-      const inner = new Swiper(innerEl, {
-        modules: [Pagination],
-        nested: true,
-        slidesPerView: 1,
-        pagination: {
-          el: innerEl.querySelector('.swiper-pagination'),
-          clickable: true,
-        },
-      });
-      innerSwipers.push(inner);
+    originalSlides.forEach((slide) => {
+      const innerEl = slide.querySelector('.gallery-inner');
+      if (innerEl) {
+        const inner = new Swiper(innerEl, {
+          modules: [Pagination],
+          nested: true,
+          slidesPerView: 1,
+          pagination: {
+            el: innerEl.querySelector('.swiper-pagination'),
+            clickable: true,
+          },
+        });
+        innerSwipers.push(inner);
+      }
     });
 
     const wrapper = outerEl.closest('.gallery-wrapper');
     const paginationOuter = wrapper.querySelector('.gallery-pagination-outer');
 
-    const updatePagination = (activeIndex) => {
-      // Hide all inner paginations, show only the active one
-      outerEl.querySelectorAll('.gallery-inner .swiper-pagination').forEach((el, i) => {
-        el.style.display = i === activeIndex ? '' : 'none';
-      });
-      // Move active pagination into the outer container
-      const activePagination = outerEl.querySelectorAll('.gallery-inner .swiper-pagination')[activeIndex];
-      if (activePagination) {
-        paginationOuter.innerHTML = '';
-        paginationOuter.appendChild(activePagination);
+    const syncPagination = (realIndex) => {
+      const swiper = innerSwipers[realIndex];
+      paginationOuter.innerHTML = '';
+      if (swiper && swiper.pagination && swiper.pagination.el) {
+        Array.from(swiper.pagination.el.children).forEach((bullet, i) => {
+          const clone = bullet.cloneNode(true);
+          clone.addEventListener('click', () => {
+            swiper.slideTo(i);
+            syncPagination(realIndex);
+          });
+          paginationOuter.appendChild(clone);
+        });
       }
     };
 
@@ -41,7 +49,6 @@ const initGallery = () => {
     new Swiper(outerEl, {
       modules: [Navigation],
       slidesPerView: 1,
-      initialSlide: 1,
       centeredSlides: true,
       spaceBetween: 16,
       navigation: {
@@ -57,12 +64,22 @@ const initGallery = () => {
       on: {
         slideChange: function () {
           innerSwipers.forEach((s) => s.update());
-          updatePagination(this.activeIndex);
+          syncPagination(this.realIndex);
         },
         afterInit: function () {
-          updatePagination(this.activeIndex);
+          requestAnimationFrame(() => syncPagination(this.realIndex));
         },
       },
+    });
+
+    // Keep cloned pagination in sync when inner slides change
+    innerSwipers.forEach((swiper, i) => {
+      swiper.on('slideChange', () => {
+        const outerSwiper = outerEl.swiper;
+        if (outerSwiper && outerSwiper.realIndex === i) {
+          syncPagination(i);
+        }
+      });
     });
   });
 };
