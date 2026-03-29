@@ -102,14 +102,14 @@ article h2 {
 }
 
 /* Gallery: Swiper overrides */
-.gallery-outer .swiper-slide {
+[data-gallery-outer] .swiper-slide {
   @apply h-auto;
 }
 
-.gallery-pagination-outer .swiper-pagination-bullet {
+[data-gallery-pagination] .swiper-pagination-bullet {
   @apply w-10 h-10 bg-mist opacity-100 rounded-full transition-colors cursor-pointer;
 }
 
-.gallery-pagination-outer .swiper-pagination-bullet-active {
+[data-gallery-pagination] .swiper-pagination-bullet-active {
   @apply bg-blue;
 }

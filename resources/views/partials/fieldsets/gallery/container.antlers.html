@@ -7,8 +7,8 @@
     </div>
   {{ /if }}
   {{ if galleries }}
-    <div class="gallery-wrapper">
-      <div class="gallery-outer swiper">
+    <div data-gallery>
+      <div data-gallery-outer class="swiper">
         <div class="swiper-wrapper">
           {{ galleries }}
             {{ partial:fieldsets/gallery/item }}

@@ -1,9 +1,9 @@
 <div class="swiper-slide">
-  <div class="bg-white _p-40 rounded-xl overflow-hidden">
-    <div class="gallery-inner swiper">
+  <div class="bg-white rounded-xl overflow-hidden">
+    <div data-gallery-inner class="swiper">
       <div class="swiper-wrapper">
         {{ gallery_images }}
-          <div class="swiper-slide p-20">
+          <div class="swiper-slide">
             {{ partial:components/media/image :image="image" sizes="md|lg|xl|2xl" class="w-full" }}
           </div>
         {{ /gallery_images }}
@@ -11,7 +11,7 @@
       <div class="swiper-pagination hidden"></div>
     </div>
     {{ if gallery_caption }}
-      <div class="px-20 pb-20">
+      <div class="p-20">
         <p class="text-sm md:text-base">{{ gallery_caption }}</p>
       </div>
     {{ /if }}
