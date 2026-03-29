@@ -11,6 +11,7 @@ const initGallery = () => {
       const inner = new Swiper(innerEl, {
         modules: [Pagination],
         slidesPerView: 1,
+        spaceBetween: 0,
         pagination: {
           el: innerEl.querySelector('.swiper-pagination'),
           clickable: true,
