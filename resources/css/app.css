@@ -106,18 +106,10 @@ article h2 {
   height: auto;
 }
 
-.gallery-pagination .swiper-pagination-bullet {
-  @apply w-10 h-10 bg-charcoal/30 opacity-100 rounded-full transition-colors;
+.gallery-pagination-outer .swiper-pagination-bullet {
+  @apply w-10 h-10 bg-charcoal/30 opacity-100 rounded-full transition-colors cursor-pointer;
 }
 
-.gallery-pagination .swiper-pagination-bullet-active {
+.gallery-pagination-outer .swiper-pagination-bullet-active {
   @apply bg-sky;
-}
-
-.gallery-inner .swiper-pagination-bullet {
-  @apply w-8 h-8 bg-white/50 opacity-100 rounded-full transition-colors;
-}
-
-.gallery-inner .swiper-pagination-bullet-active {
-  @apply bg-white;
 }

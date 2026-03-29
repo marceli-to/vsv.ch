@@ -21,20 +21,32 @@ const initGallery = () => {
       innerSwipers.push(inner);
     });
 
+    const wrapper = outerEl.closest('.gallery-wrapper');
+    const paginationOuter = wrapper.querySelector('.gallery-pagination-outer');
+
+    const updatePagination = (activeIndex) => {
+      // Hide all inner paginations, show only the active one
+      outerEl.querySelectorAll('.gallery-inner .swiper-pagination').forEach((el, i) => {
+        el.style.display = i === activeIndex ? '' : 'none';
+      });
+      // Move active pagination into the outer container
+      const activePagination = outerEl.querySelectorAll('.gallery-inner .swiper-pagination')[activeIndex];
+      if (activePagination) {
+        paginationOuter.innerHTML = '';
+        paginationOuter.appendChild(activePagination);
+      }
+    };
+
     // Init outer swiper
     new Swiper(outerEl, {
-      modules: [Navigation, Pagination],
+      modules: [Navigation],
       slidesPerView: 1,
       initialSlide: 1,
       centeredSlides: true,
       spaceBetween: 16,
-      pagination: {
-        el: outerEl.closest('.gallery-wrapper').querySelector('.gallery-pagination'),
-        clickable: true,
-      },
       navigation: {
-        nextEl: outerEl.closest('.gallery-wrapper').querySelector('.gallery-next'),
-        prevEl: outerEl.closest('.gallery-wrapper').querySelector('.gallery-prev'),
+        nextEl: wrapper.querySelector('.gallery-next'),
+        prevEl: wrapper.querySelector('.gallery-prev'),
       },
       breakpoints: {
         768: {
@@ -44,8 +56,11 @@ const initGallery = () => {
       },
       on: {
         slideChange: function () {
-          // Update inner swipers when outer slide changes
           innerSwipers.forEach((s) => s.update());
+          updatePagination(this.activeIndex);
+        },
+        afterInit: function () {
+          updatePagination(this.activeIndex);
         },
       },
     });
