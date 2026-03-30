@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774626370
+updated_at: 1774868729
 elements:
   -
     id: mn78s6cy
@@ -43,49 +43,49 @@ elements:
     partners:
       -
         id: mn78silm
-        logo: dummy/dummy-logo.png
+        logo: logo/21shares.png
         link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj01
-        logo: dummy/dummy-logo.png
+        logo: logo/banca-stato.svg
         link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj02
-        logo: dummy/dummy-logo.png
         link: 'https://example.com'
         type: partner
         enabled: true
+        logo: logo/cic.png
       -
         id: mn78sj03
-        logo: dummy/dummy-logo.png
+        logo: logo/edmon-de-rothschild.png
         link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj04
-        logo: dummy/dummy-logo.png
+        logo: logo/leonteq.png
         link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj05
-        logo: dummy/dummy-logo.png
+        logo: logo/pictet.png
         link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj06
-        logo: dummy/dummy-logo.png
+        logo: logo/reyl-intesa-sanpaolo.svg
         link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj07
-        logo: dummy/dummy-logo.png
+        logo: logo/swissquote.svg
         link: 'https://example.com'
         type: partner
         enabled: true
