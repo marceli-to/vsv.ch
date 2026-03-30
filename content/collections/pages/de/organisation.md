@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774604751
+updated_at: 1774873777
 elements:
   -
     id: mn8p17kp
@@ -168,7 +168,7 @@ elements:
         theme: sand
         title: Mitarbeitende
         type: accordion_item
-        enabled: true
+        enabled: false
         content:
           -
             id: acc_ma_board
@@ -259,6 +259,7 @@ elements:
                     id: brd065
                     name: Lugano
             title: Geschäftsstellen
+        slug: geschaeftsstellen
     type: accordion
     enabled: true
 container_padding_top: true
