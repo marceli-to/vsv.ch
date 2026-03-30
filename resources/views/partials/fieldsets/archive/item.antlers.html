@@ -1,0 +1,29 @@
+<a
+  href="{{ link }}"
+  class="col-span-full md:col-span-6 lg:col-span-4 rounded-lg overflow-hidden group"
+  aria-label="{{ title }}">
+
+  <div class="bg-sky group-hover:bg-sky/60 transition-colors aspect-[16/9] relative p-16 lg:p-20 flex flex-col justify-end">
+
+    {{ if label }}
+      <span class="absolute top-16 lg:top-20 left-16 lg:left-20 text-[0.625rem] lg:text-[0.75rem] font-semibold uppercase">
+        {{ label }}
+      </span>
+    {{ /if }}
+
+    {{ partial:components/logos/logo-icon class="absolute top-12 lg:top-16 right-16 lg:right-20 w-48 lg:w-56" }}
+
+    <h2 class="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] font-bold">
+      {{ title }}
+    </h2>
+
+  </div>
+
+  <div class="bg-white px-16 lg:px-20 py-12 lg:py-16 flex items-center justify-between">
+    <span class="text-[1rem] lg:text-[1.125rem]">
+      {{ link_text }}
+    </span>
+    {{ partial:components/icons/arrow-down class="w-16 lg:w-24" }}
+  </div>
+
+</a>

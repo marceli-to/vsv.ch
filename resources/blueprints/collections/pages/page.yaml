@@ -116,6 +116,34 @@ tabs:
                       fields:
                         -
                           import: gallery
+                    archive:
+                      display: Archive
+                      instructions: 'Archive cards with category label, title and download/website link.'
+                      icon: content-book-open
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                            localizable: false
+                        -
+                          handle: archive_items
+                          field:
+                            type: replicator
+                            display: 'Archive Items'
+                            collapse: true
+                            localizable: true
+                            sets:
+                              archive_item_group:
+                                display: 'Archive Item'
+                                sets:
+                                  archive_item:
+                                    display: 'Archive Item'
+                                    icon: content-book-open
+                                    fields:
+                                      -
+                                        import: archive_item
   settings:
     display: Settings
     sections:

@@ -1,0 +1,10 @@
+{{ partial:layout/section }}
+  <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2] mb-16 md:mb-24 lg:mb-32">
+    {{ title }}
+  </h1>
+  <div class="grid grid-cols-12 gap-16 lg:gap-24 xl:gap-32">
+    {{ archive_items }}
+      {{ partial:fieldsets/archive/item }}
+    {{ /archive_items }}
+  </div>
+{{ /partial:layout/section }}

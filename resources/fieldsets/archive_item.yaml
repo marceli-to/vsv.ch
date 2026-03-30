@@ -1,0 +1,31 @@
+title: 'Archive Item'
+fields:
+  -
+    handle: label
+    field:
+      type: text
+      display: Label
+      instructions: 'Category label displayed on the card (e.g. YEARBOOK, MICROSITE).'
+      localizable: true
+  -
+    handle: title
+    field:
+      type: text
+      display: Title
+      localizable: true
+  -
+    handle: link_text
+    field:
+      type: text
+      display: 'Link Text'
+      instructions: 'Text for the link (e.g. Download PDF, Website).'
+      localizable: true
+  -
+    handle: link
+    field:
+      type: link
+      display: Link
+      localizable: true
+      collections:
+        - pages
+      container: assets
