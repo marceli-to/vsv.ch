@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1775041105
+updated_at: 1775041299
 elements:
   -
     id: mn78s6cy
@@ -43,10 +43,10 @@ elements:
     partners:
       -
         id: mn78silm
-        logo: logo/21shares.png
         link: 'https://example.com'
         type: partner
         enabled: true
+        logo: logo/21-shares.png
       -
         id: mn78sj01
         logo: logo/banca-stato.svg
