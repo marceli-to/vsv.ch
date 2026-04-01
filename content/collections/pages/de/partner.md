@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774873510
+updated_at: 1775041105
 elements:
   -
     id: mn78s6cy
@@ -91,7 +91,7 @@ elements:
         enabled: true
       -
         id: mnd5szbs
-        logo: dummy/dummy-logo.png
+        logo: logo/union-banciare-privee.png
         type: partner
         enabled: true
     headline: Junior-Partner
