@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774616122
+updated_at: 1775549367
 elements:
   -
     id: mn8korhr
@@ -109,6 +109,7 @@ elements:
         enabled: true
         collapsed: false
         open: false
+        slug: legal-support
       -
         id: mn8kzz2q
         theme: white
@@ -117,6 +118,7 @@ elements:
         enabled: true
         collapsed: false
         open: false
+        slug: training
       -
         id: mn8l9v2l
         open: false
@@ -331,8 +333,150 @@ elements:
             id: mn8lq7bk
             type: events
             enabled: true
+        slug: events
     type: accordion
     enabled: true
+  -
+    id: mnoc6kgo
+    title: Aktivitäten
+    statistics:
+      -
+        id: mn77jmpt
+        number: '88'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: Events
+        type: statistic
+        enabled: true
+        percent: false
+      -
+        id: mn77kjix
+        number: '22000'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Teilnahmen an Events'
+        type: statistic
+        enabled: true
+        percent: false
+      -
+        id: mn77kp7l
+        number: '23000'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Views für die Treffen der Berufsgruppe *'
+        type: statistic
+        enabled: true
+        percent: false
+      -
+        id: mn78a1bc
+        number: '350'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Teilnehmer an den Jahreskongressen, '
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Genf und Zürich'
+        type: statistic
+        enabled: true
+        percent: false
+      -
+        id: mn78b2de
+        number: '4000'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Teilnahmen an den regulatorischen '
+              -
+                type: hardBreak
+              -
+                type: text
+                text: Schulungsseminaren
+        type: statistic
+        enabled: true
+        percent: false
+      -
+        id: mn77k9sg
+        number: '8500'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Abonnenten für Mailings'
+        type: statistic
+        enabled: true
+        percent: false
+      -
+        id: mn77ju8t
+        number: '41.7'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Durchschnittliche '
+              -
+                type: hardBreak
+              -
+                type: text
+                text: "Öffnungsrate der Mailings\_"
+        type: statistic
+        enabled: true
+        percent: true
+      -
+        id: mn77k33g
+        number: '14'
+        editor_content:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Engagement-Rate auf LinkedIn'
+        type: statistic
+        enabled: true
+        percent: true
+    type: statistics
+    enabled: true
 container_padding_top: false
-container_padding_bottom: false
+container_padding_bottom: true
 ---

@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1775041299
+updated_at: 1775549939
 elements:
   -
     id: mn78s6cy
@@ -18,28 +18,33 @@ elements:
         link: '#julius-baer'
         type: partner
         enabled: true
+        show_label: true
       -
         id: mn78sd02
         logo: logo/lgt.svg
         link: '#lgt-bank-schweiz-ag'
         type: partner
         enabled: true
+        show_label: true
       -
         id: mn78sd03
         logo: logo/lombard-odier.svg
         link: '#bank-lombard-odier-co-ltd'
         type: partner
         enabled: true
+        show_label: true
       -
         id: mn78sd04
         logo: logo/ubs.svg
         type: partner
         enabled: true
+        show_label: true
       -
         id: mn78scmr
         logo: logo/vanguard.svg
         type: partner
         enabled: true
+        show_label: true
     partners:
       -
         id: mn78silm

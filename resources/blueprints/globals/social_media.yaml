@@ -1,0 +1,18 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: linkedin_url
+            field:
+              type: text
+              display: 'LinkedIn URL'
+              localizable: false
+          -
+            handle: youtube_url
+            field:
+              type: text
+              display: 'YouTube URL'
+              localizable: false

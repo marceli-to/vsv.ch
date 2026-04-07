@@ -1,0 +1,20 @@
+<div class="flex flex-col gap-y-16">
+  {{ partial:components/headings/h3 }}
+    {{ name | nl2br }}
+  {{ /partial:components/headings/h3 }}
+  <address class="not-italic leading-[1.35]">
+    {{ address | nl2br }}
+    <a
+      href="tel:{{ phone }}"
+      aria-label="{{ phone }}"
+      class="group block">
+      T <span class="group-hover:underline decoration-1 underline-offset-4">{{ phone }}</span>
+    </a>
+    <a
+      href="mailto:{{ email }}"
+      aria-label="{{ email }}"
+      class="group block">
+      <span class="group-hover:underline decoration-1 underline-offset-4">{{ email }}</span>
+    </a>
+  </address>
+</div>

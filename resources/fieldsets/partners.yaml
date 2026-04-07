@@ -20,6 +20,7 @@ fields:
             partner:
               display: Partner
               icon: media-image-picture-orientation
+              instructions: 'Enable "Show label" to display "Partnerbeitrag" below the logo.'
               fields:
                 -
                   handle: logo
@@ -36,6 +37,12 @@ fields:
                     type: link
                     display: Link
                     localizable: true
+                -
+                  handle: show_label
+                  field:
+                    type: toggle
+                    display: 'Show label'
+                    localizable: false
   -
     handle: headline
     field:

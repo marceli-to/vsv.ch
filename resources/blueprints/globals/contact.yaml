@@ -3,22 +3,83 @@ tabs:
     display: Main
     sections:
       -
+        display: Zürich
         fields:
           -
-            handle: name
+            handle: zurich_name
             field:
               type: textarea
               display: Name
               localizable: true
           -
-            handle: address
+            handle: zurich_address
             field:
               type: textarea
               display: Address
               localizable: true
           -
-            handle: phone
+            handle: zurich_phone
             field:
               type: text
               display: Phone
+              localizable: true
+          -
+            handle: zurich_email
+            field:
+              type: text
+              display: Email
+              localizable: true
+      -
+        display: Genève
+        fields:
+          -
+            handle: geneva_name
+            field:
+              type: textarea
+              display: Name
+              localizable: true
+          -
+            handle: geneva_address
+            field:
+              type: textarea
+              display: Address
+              localizable: true
+          -
+            handle: geneva_phone
+            field:
+              type: text
+              display: Phone
+              localizable: true
+          -
+            handle: geneva_email
+            field:
+              type: text
+              display: Email
+              localizable: true
+      -
+        display: Lugano
+        fields:
+          -
+            handle: lugano_name
+            field:
+              type: textarea
+              display: Name
+              localizable: true
+          -
+            handle: lugano_address
+            field:
+              type: textarea
+              display: Address
+              localizable: true
+          -
+            handle: lugano_phone
+            field:
+              type: text
+              display: Phone
+              localizable: true
+          -
+            handle: lugano_email
+            field:
+              type: text
+              display: Email
               localizable: true
