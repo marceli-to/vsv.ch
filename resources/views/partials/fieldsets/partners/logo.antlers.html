@@ -5,13 +5,13 @@
       target="_blank" 
       rel="noopener noreferrer"
     {{ /unless }} 
-    aria-label="{{ logo:alt }}" 
+    aria-label="{{ site:short_locale == 'fr' ? logo:alt_fr : logo:alt_de }}" 
     class="group">
     <img 
       src="{{ logo }}" 
       width="{{ logo:width }}" 
       height="{{ logo:height }}" 
-      alt="{{ logo:alt }}" 
+      alt="{{ site:short_locale == 'fr' ? logo:alt_fr : logo:alt_de }}" 
       class="group-hover:scale-105 transition-transform duration-300 {{ class }}">
   </a>
 {{ else }}
@@ -19,6 +19,6 @@
     src="{{ logo }}" 
     width="{{ logo:width }}" 
     height="{{ logo:height }}" 
-    alt="{{ logo:alt }}" 
+    alt="{{ site:short_locale == 'fr' ? logo:alt_fr : logo:alt_de }}" 
     class="{{ class }}">
 {{ /if }}

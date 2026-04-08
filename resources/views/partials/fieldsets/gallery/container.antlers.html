@@ -14,9 +14,9 @@
             <div class="swiper-slide">
               <div class="bg-white rounded-xl overflow-hidden p-12 md:p-16 lg:p-24 pb-24 md:pb-28 lg:pb-32">
                 {{ partial:components/media/image :image="id" sizes="md|lg|xl|2xl" class="w-full rounded-lg" }}
-                {{ if alt }}
+                {{ if alt_fr || alt_de }}
                   <div data-gallery-caption class="pt-12 md:pt-16">
-                    {{ alt }}
+                    {{ site:short_locale == 'fr' ? alt_fr : alt_de }}
                   </div>
                 {{ /if }}
               </div>
