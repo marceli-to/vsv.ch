@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774798063
+updated_at: 1775637753
 elements:
   -
     id: mnbwxajl
@@ -112,6 +112,10 @@ elements:
         enabled: true
     type: gallery
     enabled: true
+    gallery_images:
+      - dummy/dummy-event-1.jpg
+      - dummy/dummy-event-2.jpg
+      - dummy/dummy-event-3.jpg
 container_padding_top: true
 container_padding_bottom: true
 ---

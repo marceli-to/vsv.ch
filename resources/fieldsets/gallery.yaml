@@ -4,49 +4,12 @@ fields:
     handle: gallery_title
     field:
       type: text
-      display: Titel
+      display: Title
       localizable: true
   -
-    handle: galleries
+    handle: gallery_images
     field:
-      type: replicator
-      display: Galerien
-      collapse: true
+      type: assets
+      display: Images
+      container: assets
       localizable: false
-      sets:
-        gallery_items:
-          display: Galerie
-          sets:
-            gallery:
-              display: Galerie
-              icon: media-image-picture-orientation
-              fields:
-                -
-                  handle: gallery_caption
-                  field:
-                    type: textarea
-                    display: Bildunterschrift
-                    localizable: true
-                -
-                  handle: gallery_images
-                  field:
-                    type: replicator
-                    display: Bilder
-                    collapse: true
-                    localizable: false
-                    sets:
-                      image_items:
-                        display: Bild
-                        sets:
-                          image:
-                            display: Bild
-                            icon: media-image-picture-orientation
-                            fields:
-                              -
-                                handle: image
-                                field:
-                                  type: assets
-                                  display: Bild
-                                  container: assets
-                                  max_files: 1
-                                  localizable: false
