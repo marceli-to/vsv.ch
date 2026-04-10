@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1774873777
+updated_at: 1775819369
 elements:
   -
     id: mn8p17kp
@@ -61,7 +61,7 @@ elements:
                   -
                     id: brd005
                     name: 'Fabio Poma'
-                    company: 'Wullschleger Martinenghi Manzini Gestioni Patrimoniali SA'
+                    company: 'Wullschleger Martinenghi, Manzini Gestioni Patrimoni'
               -
                 id: brd006
                 type: role_group
@@ -160,7 +160,7 @@ elements:
                 members:
                   -
                     id: brd029
-                    name: 'Filippo Recalcati'
+                    name: 'Filippo Reclacati'
               -
                 id: brd030
                 type: role_group
@@ -171,6 +171,49 @@ elements:
                     id: brd031
                     name: 'Annick Weizman'
             title: Geschäftsleitung
+          -
+            id: mnssx5ll
+            title: Mitarbeitende
+            groups:
+              -
+                id: mnssxain
+                role: 'French-speaking Switzerland'
+                members:
+                  -
+                    id: mnssxuid
+                    name: 'Suzy Auberson'
+                type: role_group
+                enabled: true
+              -
+                id: mnsszh4e
+                role: 'Italian-speaking Switzerland, Training'
+                members:
+                  -
+                    id: mnsszlo9
+                    name: 'Laura Calabresi-Manghera'
+                type: role_group
+                enabled: true
+              -
+                id: mnsszpi2
+                role: 'German-speaking Switzerland'
+                members:
+                  -
+                    id: mnssztcz
+                    name: 'Andrea Pfortmüller'
+                type: role_group
+                enabled: true
+              -
+                id: mnsszw8z
+                role: IT
+                members:
+                  -
+                    id: mnsszzhn
+                    name: 'Roman Stofer'
+                type: role_group
+                enabled: true
+            type: board
+            enabled: true
+        slug: geschaeftsleitung
       -
         id: mn8p6g3m
         open: false
@@ -221,6 +264,7 @@ elements:
                     id: brd049
                     name: 'Roman Stofer'
             title: Mitarbeitende
+        slug: mitarbeitende
       -
         id: mn8p6opx
         open: false
