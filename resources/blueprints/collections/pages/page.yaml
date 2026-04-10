@@ -109,6 +109,13 @@ tabs:
                       fields:
                         -
                           import: membership
+                    timeline:
+                      display: Timeline
+                      instructions: 'Timeline with title.'
+                      icon: calendar-date
+                      fields:
+                        -
+                          import: timeline
                     gallery:
                       display: Gallery
                       instructions: 'Image gallery with nested photo slideshows.'

@@ -1,0 +1,44 @@
+title: Timeline
+fields:
+  -
+    handle: timeline_title
+    field:
+      type: text
+      display: Title
+      localizable: true
+  -
+    handle: timeline_items
+    field:
+      type: replicator
+      display: 'Timeline Items'
+      instructions: 'Add timeline entries with year, title and optional description.'
+      collapse: true
+      localizable: true
+      sets:
+        timeline_entry_group:
+          display: 'Timeline Entry'
+          sets:
+            timeline_entry:
+              display: 'Timeline Entry'
+              icon: calendar-date
+              fields:
+                -
+                  handle: year
+                  field:
+                    type: text
+                    display: Year
+                    localizable: true
+                    width: 25
+                -
+                  handle: entry_title
+                  field:
+                    type: text
+                    display: Title
+                    localizable: true
+                    width: 75
+                -
+                  handle: description
+                  field:
+                    type: textarea
+                    display: Description
+                    localizable: true
