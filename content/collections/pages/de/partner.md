@@ -34,14 +34,14 @@ elements:
         enabled: true
         show_label: true
       -
-        id: mn78sd04
-        logo: logo/ubs.svg
+        id: mn78scmr
+        logo: logo/vanguard.svg
         type: partner
         enabled: true
         show_label: true
       -
-        id: mn78scmr
-        logo: logo/vanguard.svg
+        id: mn78sd04
+        logo: logo/ubs.svg
         type: partner
         enabled: true
         show_label: true
@@ -538,10 +538,10 @@ elements:
         enabled: true
         open: false
       -
-        id: mnd5tqbk
-        slug: vanguard
-        theme: blush
-        title: Vanguard
+        id: mnd5u9u3
+        slug: ubs
+        theme: sky
+        title: UBS
         content:
           -
             id: mn7c8ku5
@@ -565,7 +565,7 @@ elements:
                   -
                     type: text
                     text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
-            logo: logo/vanguard.svg
+            logo: logo/ubs.svg
             content:
               -
                 id: mn7c9ljh
@@ -682,10 +682,10 @@ elements:
         enabled: true
         open: false
       -
-        id: mnd5u9u3
-        slug: ubs
-        theme: sky
-        title: UBS
+        id: mnd5tqbk
+        slug: vanguard
+        theme: blush
+        title: Vanguard
         content:
           -
             id: mn7c8ku5
@@ -709,7 +709,7 @@ elements:
                   -
                     type: text
                     text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
-            logo: logo/ubs.svg
+            logo: logo/vanguard.svg
             content:
               -
                 id: mn7c9ljh

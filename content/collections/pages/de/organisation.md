@@ -120,16 +120,25 @@ elements:
                 id: brd022
                 type: role_group
                 enabled: true
-                role: Verbandssekretär
+                role: 'Verbandssekretär, Finance'
                 members:
                   -
                     id: brd023
                     name: 'Roman Brenn'
               -
+                id: brd033
+                type: role_group
+                enabled: true
+                role: 'Marketing & Communication'
+                members:
+                  -
+                    id: brd034
+                    name: 'Manon Guiraud'
+              -
                 id: brd024
                 type: role_group
                 enabled: true
-                role: 'Global Activities Deutschschweiz'
+                role: 'German-speaking Switzerland'
                 members:
                   -
                     id: brd025
@@ -138,7 +147,7 @@ elements:
                 id: brd026
                 type: role_group
                 enabled: true
-                role: 'Legal Support'
+                role: 'Deputy CEO, Legal'
                 members:
                   -
                     id: brd027
@@ -147,7 +156,7 @@ elements:
                 id: brd028
                 type: role_group
                 enabled: true
-                role: Solutions
+                role: 'Italian-speaking Switzerland, Solutions'
                 members:
                   -
                     id: brd029
@@ -156,7 +165,7 @@ elements:
                 id: brd030
                 type: role_group
                 enabled: true
-                role: Training
+                role: 'Services, Training'
                 members:
                   -
                     id: brd031
@@ -179,7 +188,7 @@ elements:
                 id: brd040
                 type: role_group
                 enabled: true
-                role: 'Global Activities Romandie'
+                role: 'French-speaking Switzerland'
                 members:
                   -
                     id: brd041
@@ -188,25 +197,16 @@ elements:
                 id: brd042
                 type: role_group
                 enabled: true
-                role: 'Global Activities Ticino / Training'
+                role: 'Italian-speaking Switzerland, Training'
                 members:
                   -
                     id: brd043
                     name: 'Laura Calabresi-Manghera'
               -
-                id: brd044
-                type: role_group
-                enabled: true
-                role: 'Marketing & Kommunikation'
-                members:
-                  -
-                    id: brd045
-                    name: 'Manon Guiraud'
-              -
                 id: brd046
                 type: role_group
                 enabled: true
-                role: 'Global Activities Deutschschweiz'
+                role: 'German-speaking Switzerland'
                 members:
                   -
                     id: brd047
@@ -242,6 +242,7 @@ elements:
                   -
                     id: brd061
                     name: Zürich
+                    company: 'Höschgasse 30, 8008 Zürich'
               -
                 id: brd062
                 type: role_group
@@ -250,6 +251,7 @@ elements:
                   -
                     id: brd063
                     name: Genf
+                    company: 'Rue de Chantepoulet 12, 1201 Genève'
               -
                 id: brd064
                 type: role_group
@@ -258,6 +260,7 @@ elements:
                   -
                     id: brd065
                     name: Lugano
+                    company: 'Via Morosini 1, 6943 Vezia'
             title: Geschäftsstellen
         slug: geschaeftsstellen
     type: accordion
