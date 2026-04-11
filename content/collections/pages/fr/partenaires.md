@@ -2,8 +2,6 @@
 id: 53f7afc8-f8f4-4690-9de7-5ad0b8cc02aa
 origin: e6bf678a-608b-46ef-9205-f72807fa3b40
 title: Partenaires
-updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1773989612
 elements:
   -
     id: mn78s6cy
@@ -31,14 +29,14 @@ elements:
         enabled: true
         show_label: true
       -
-        id: mn78scmr
-        logo: logo/vanguard.svg
+        id: mn78sd04
+        logo: logo/ubs.svg
         type: partner
         enabled: true
         show_label: true
       -
-        id: mn78sd04
-        logo: logo/ubs.svg
+        id: mn78scmr
+        logo: logo/vanguard.svg
         type: partner
         enabled: true
         show_label: true
@@ -96,7 +94,7 @@ elements:
         logo: logo/union-banciare-privee.png
         type: partner
         enabled: true
-    headline: Partenaire junior
+    headline: 'Partenaire junior'
     type: partners
     enabled: true
   -
@@ -824,4 +822,6 @@ elements:
         open: false
     type: accordion
     enabled: true
+updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
+updated_at: 1775889652
 ---

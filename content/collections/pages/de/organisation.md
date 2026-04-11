@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1775819369
+updated_at: 1775889393
 elements:
   -
     id: mn8p17kp
@@ -94,11 +94,12 @@ elements:
                     company: 'Weber Hartmann Vrijhof & Partners AG'
             footnote: '*Mitglieder des Ausschusses'
             title: Vorstand
+        slug: vorstand
       -
         id: mn8p6f2f
         open: false
         theme: mist
-        title: Geschäftsleitung
+        title: Mitarbeitende
         type: accordion_item
         enabled: true
         content:
@@ -213,57 +214,6 @@ elements:
                 enabled: true
             type: board
             enabled: true
-        slug: geschaeftsleitung
-      -
-        id: mn8p6g3m
-        open: false
-        theme: sand
-        title: Mitarbeitende
-        type: accordion_item
-        enabled: false
-        content:
-          -
-            id: acc_ma_board
-            type: board
-            enabled: true
-            groups:
-              -
-                id: brd040
-                type: role_group
-                enabled: true
-                role: 'French-speaking Switzerland'
-                members:
-                  -
-                    id: brd041
-                    name: 'Suzy Auberson'
-              -
-                id: brd042
-                type: role_group
-                enabled: true
-                role: 'Italian-speaking Switzerland, Training'
-                members:
-                  -
-                    id: brd043
-                    name: 'Laura Calabresi-Manghera'
-              -
-                id: brd046
-                type: role_group
-                enabled: true
-                role: 'German-speaking Switzerland'
-                members:
-                  -
-                    id: brd047
-                    name: 'Andrea Pfortmüller'
-              -
-                id: brd048
-                type: role_group
-                enabled: true
-                role: IT
-                members:
-                  -
-                    id: brd049
-                    name: 'Roman Stofer'
-            title: Mitarbeitende
         slug: mitarbeitende
       -
         id: mn8p6opx

@@ -106,7 +106,7 @@ elements:
         enabled: true
     type: teasers
     enabled: true
-menu_title: VSV
+menu_title: ASG
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1775637150
+updated_at: 1775889334
 ---

@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1775549939
+updated_at: 1775889668
 elements:
   -
     id: mn78s6cy
@@ -34,14 +34,14 @@ elements:
         enabled: true
         show_label: true
       -
-        id: mn78scmr
-        logo: logo/vanguard.svg
+        id: mn78sd04
+        logo: logo/ubs.svg
         type: partner
         enabled: true
         show_label: true
       -
-        id: mn78sd04
-        logo: logo/ubs.svg
+        id: mn78scmr
+        logo: logo/vanguard.svg
         type: partner
         enabled: true
         show_label: true

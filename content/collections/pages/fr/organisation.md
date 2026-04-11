@@ -1,8 +1,6 @@
 ---
 id: 91f3a419-bc58-458c-adec-1c2cec2aff4e
 origin: b5fc4364-2b63-44d3-aeb9-023296d836b7
-updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1773989518
 elements:
   -
     id: mn8p17kp
@@ -94,7 +92,7 @@ elements:
         id: mn8p6f2f
         open: false
         theme: mist
-        title: Direction
+        title: Collaborateurs
         type: accordion_item
         enabled: true
         content:
@@ -209,56 +207,7 @@ elements:
                 enabled: true
             type: board
             enabled: true
-      -
-        id: mn8p6g3m
-        open: false
-        theme: sand
-        title: Collaborateurs
-        type: accordion_item
-        enabled: false
-        content:
-          -
-            id: acc_ma_board
-            type: board
-            enabled: true
-            groups:
-              -
-                id: brd040
-                type: role_group
-                enabled: true
-                role: 'French-speaking Switzerland'
-                members:
-                  -
-                    id: brd041
-                    name: 'Suzy Auberson'
-              -
-                id: brd042
-                type: role_group
-                enabled: true
-                role: 'Italian-speaking Switzerland, Training'
-                members:
-                  -
-                    id: brd043
-                    name: 'Laura Calabresi-Manghera'
-              -
-                id: brd046
-                type: role_group
-                enabled: true
-                role: 'German-speaking Switzerland'
-                members:
-                  -
-                    id: brd047
-                    name: 'Andrea Pfortmüller'
-              -
-                id: brd048
-                type: role_group
-                enabled: true
-                role: IT
-                members:
-                  -
-                    id: brd049
-                    name: 'Roman Stofer'
-            title: Collaborateurs
+        slug: collaborateurs
       -
         id: mn8p6opx
         open: false
@@ -303,4 +252,6 @@ elements:
         slug: geschaeftsstellen
     type: accordion
     enabled: true
+updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
+updated_at: 1775889423
 ---
