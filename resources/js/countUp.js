@@ -1,4 +1,4 @@
-const countUp = () => {
+const initCountUp = () => {
   const elements = document.querySelectorAll('[data-count]');
   if (!elements.length) return;
 
@@ -38,4 +38,4 @@ const countUp = () => {
   elements.forEach((el) => observer.observe(el));
 };
 
-export default countUp;
+export default initCountUp;
