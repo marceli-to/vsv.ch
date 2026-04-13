@@ -1,4 +1,4 @@
-{{ partial:layout/section }}
+{{ partial:layout/section class="mb-40" }}
 
   {{ if timeline_title }}
     <h2 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2] mb-24 md:mb-36 lg:mb-48 text-pretty">
@@ -7,7 +7,9 @@
   {{ /if }}
 
   {{ if timeline_items }}
-    <div class="flex flex-col">
+    <div data-timeline class="relative">
+      <div class="absolute top-0 bottom-0 w-[2px] bg-sand left-[7px] md:left-1/2 md:-translate-x-1/2"></div>
+      <div data-timeline-fill class="absolute top-0 w-[2px] h-0 bg-charcoal left-[7px] md:left-1/2 md:-translate-x-1/2 z-1"></div>
       {{ timeline_items }}
         {{ partial:fieldsets/timeline/entry }}
       {{ /timeline_items }}
