@@ -18,6 +18,7 @@
     "dependencies": {
         "@alpinejs/collapse": "^3.15.2",
         "alpinejs": "^3.15.2",
+        "scrollreveal": "^4.0.9",
         "swiper": "^12.1.3"
     }
 }
