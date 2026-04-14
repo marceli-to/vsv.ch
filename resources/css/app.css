@@ -110,14 +110,6 @@ article h2 {
   @apply transition-opacity duration-400;
 }
 
-/* Stat cards: stagger fade-in */
-[data-stat-card] {
-  @apply opacity-0 translate-y-16 transition-all duration-500 ease-out;
-}
-
-[data-stat-card].is-visible {
-  @apply opacity-100 translate-y-0;
-}
 
 /* Gallery: Swiper overrides */
 [data-gallery-outer] .swiper-slide {

@@ -9,12 +9,13 @@ const initCountUp = () => {
       const el = entry.target;
       observer.unobserve(el);
 
-      const target = parseFloat(el.textContent);
+      const target = parseFloat(el.textContent.replace(/'/g, ''));
       if (isNaN(target)) return;
 
       const isDecimal = target % 1 !== 0;
       const duration = 1500;
       const start = performance.now();
+      const formatNum = (n) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "’");
 
       const step = (now) => {
         const progress = Math.min((now - start) / duration, 1);
@@ -22,8 +23,8 @@ const initCountUp = () => {
         const current = eased * target;
 
         el.textContent = isDecimal
-          ? current.toFixed(1)
-          : Math.round(current).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'");
+          ? formatNum(Math.floor(current)) + '.' + current.toFixed(1).split('.')[1]
+          : formatNum(Math.round(current));
 
         if (progress < 1) {
           requestAnimationFrame(step);

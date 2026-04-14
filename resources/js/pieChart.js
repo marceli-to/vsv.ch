@@ -35,26 +35,6 @@ const initPieChart = () => {
     });
   });
 
-  // Stat card stagger reveal
-  const cards = document.querySelectorAll('[data-stat-card]');
-  if (cards.length) {
-    const cardObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          cardObserver.unobserve(entry.target);
-
-          const index = Array.from(cards).indexOf(entry.target);
-          setTimeout(() => {
-            entry.target.classList.add('is-visible');
-          }, index * 120);
-        });
-      },
-      { threshold: 0.2 }
-    );
-
-    cards.forEach((card) => cardObserver.observe(card));
-  }
 };
 
 const colorMap = {
