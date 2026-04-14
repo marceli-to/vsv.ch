@@ -6,7 +6,7 @@
   <div class="md:col-start-2 md:row-start-1 flex justify-center">
     <div 
       data-timeline-dot 
-      class="size-16 rounded-full bg-sand relative z-2 transition-colors duration-300 data-active:bg-charcoal">
+      class="size-16 rounded-full bg-sand relative z-2 opacity-0 transition-all duration-300 data-active:opacity-100 data-active:bg-charcoal">
     </div>
   </div>
 
@@ -14,17 +14,21 @@
   <div 
     data-timeline-content 
     class="max-w-xl md:row-start-1 -mt-2 lg:-mt-4 {{ if count % 2 == 0 }}md:col-start-1 md:justify-self-end md:text-right{{ else }}md:col-start-3{{ /if }} {{ if last }}pb-12 md:pb-16 lg:pb-20{{ else }}pb-40 md:pb-64 lg:pb-80{{ /if }}">
+    
     <span class="inline-flex shrink-0 bg-mist text-blue text-[0.8125rem] md:text-[0.875rem] lg:text-[1rem] font-semibold tabular-nums rounded-full px-10 py-4 lg:py-6 lg:px-16 leading-none whitespace-nowrap mb-8 md:mb-12">
       {{ year }}
     </span>
+
     <h3 class="text-[1.125rem] md:text-[1.375rem] lg:text-[1.625rem] leading-[1.3] font-medium text-pretty">
       {{ entry_title }}
     </h3>
+    
     {{ if description }}
-      <p class="mt-6 md:mt-8 text-[1rem] md:text-[1.0625rem] lg:text-[1.125rem] leading-[1.5] text-pretty">
+      <p class="mt-6 md:mt-8 text-pretty">
         {{ description }}
       </p>
     {{ /if }}
+
   </div>
 
 </div>
