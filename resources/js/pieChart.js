@@ -25,6 +25,14 @@ const initPieChart = () => {
     );
 
     observer.observe(chart);
+
+    window.addEventListener('resize', () => {
+      if (!disc.style.background || disc.style.background === 'conic-gradient(transparent 0% 100%)') return;
+      const newCx = disc.offsetWidth / 2;
+      const newCy = disc.offsetHeight / 2;
+      const newRadius = newCx * 0.65;
+      positionLabels(segments, labels, newCx, newCy, newRadius);
+    });
   });
 
   // Stat card stagger reveal
