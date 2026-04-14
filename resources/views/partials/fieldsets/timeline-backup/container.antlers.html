@@ -1,0 +1,17 @@
+{{ partial:layout/section }}
+
+  {{ if timeline_title }}
+    <h2 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2] mb-24 md:mb-36 lg:mb-48 text-pretty">
+      {{ timeline_title }}
+    </h2>
+  {{ /if }}
+
+  {{ if timeline_items }}
+    <div class="flex flex-col">
+      {{ timeline_items }}
+        {{ partial:fieldsets/timeline/entry }}
+      {{ /timeline_items }}
+    </div>
+  {{ /if }}
+
+{{ /partial:layout/section }}
