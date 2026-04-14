@@ -1,0 +1,14 @@
+<div class="bg-mist rounded-xl px-16 lg:px-20 py-12 lg:py-16" data-stat-card>
+  <div class="text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.5rem] leading-none mb-4 lg:mb-8">
+    {{ if prefix }}
+      <span>{{ prefix }}</span>
+    {{ /if }}
+    <span class="tabular-nums" data-count>{{ number }}</span>
+    {{ if suffix }} 
+      <span>{{ suffix }}</span>
+    {{ /if }}
+  </div>
+  <div class="text-[0.8125rem] md:text-[0.875rem] lg:text-[1rem] leading-snug font-bold">
+    {{ label }}
+  </div>
+</div>

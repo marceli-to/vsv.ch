@@ -1,0 +1,243 @@
+title: 'Statistics Report'
+fields:
+  -
+    handle: title
+    field:
+      type: text
+      display: Title
+      localizable: true
+  -
+    handle: lead
+    field:
+      type: textarea
+      display: Lead
+      localizable: true
+  -
+    handle: text_content
+    field:
+      buttons:
+        - h2
+        - bold
+        - italic
+        - unorderedlist
+        - removeformat
+        - anchor
+      toolbar_mode: floating
+      remove_empty_nodes: true
+      type: bard
+      display: Text
+      localizable: true
+  -
+    handle: statistics_section
+    field:
+      type: section
+      display: Statistics
+      instructions: 'Key figure cards shown alongside the text.'
+      localizable: false
+  -
+    handle: stat_cards
+    field:
+      type: replicator
+      display: 'Statistic cards'
+      instructions: 'Key figures displayed as cards on the left.'
+      collapse: true
+      localizable: true
+      sets:
+        stat_items:
+          display: Statistic
+          sets:
+            stat_card:
+              display: 'Statistic card'
+              instructions: 'Add a key figure card with number, label and optional prefix/suffix.'
+              icon: money-graph-bar-increase
+              fields:
+                -
+                  handle: number
+                  field:
+                    type: text
+                    display: Number
+                    localizable: true
+                    width: 50
+                -
+                  handle: label
+                  field:
+                    type: text
+                    display: Label
+                    localizable: true
+                    width: 50
+                -
+                  handle: suffix
+                  field:
+                    type: text
+                    display: Suffix
+                    instructions: 'Optional suffix after the number (e.g. Mio., Mrd.).'
+                    localizable: true
+                    width: 50
+                -
+                  handle: prefix
+                  field:
+                    type: text
+                    display: Prefix
+                    instructions: 'Optional prefix before the number (e.g. ~).'
+                    localizable: true
+                    width: 50
+  -
+    handle: tables_section
+    field:
+      type: section
+      display: Tables
+      instructions: 'Comparison tables.'
+      localizable: false
+  -
+    handle: tables
+    field:
+      type: replicator
+      display: Tables
+      instructions: 'Add comparison tables.'
+      collapse: true
+      localizable: true
+      sets:
+        table_items:
+          display: Table
+          sets:
+            table_block:
+              display: Table
+              instructions: 'Add a comparison table with year columns.'
+              icon: table
+              fields:
+                -
+                  handle: table_title
+                  field:
+                    type: text
+                    display: Title
+                    localizable: true
+                -
+                  handle: year_1
+                  field:
+                    type: text
+                    display: 'Year 1'
+                    instructions: 'First year column header.'
+                    localizable: false
+                    width: 50
+                -
+                  handle: year_2
+                  field:
+                    type: text
+                    display: 'Year 2'
+                    instructions: 'Second year column header.'
+                    localizable: false
+                    width: 50
+                -
+                  handle: table_rows
+                  field:
+                    type: grid
+                    display: Rows
+                    instructions: 'Table rows with label and entries per year.'
+                    localizable: true
+                    fields:
+                      -
+                        handle: label
+                        field:
+                          type: text
+                          display: Label
+                          width: 34
+                      -
+                        handle: entry_1
+                        field:
+                          type: text
+                          display: 'Entry (Year 1)'
+                          width: 33
+                      -
+                        handle: entry_2
+                        field:
+                          type: text
+                          display: 'Entry (Year 2)'
+                          width: 33
+  -
+    handle: charts_section
+    field:
+      type: section
+      display: Charts
+      instructions: 'Pie charts with colored segments.'
+      localizable: false
+  -
+    handle: charts
+    field:
+      type: replicator
+      display: Charts
+      instructions: 'Add pie charts.'
+      collapse: true
+      localizable: true
+      sets:
+        chart_items:
+          display: Chart
+          sets:
+            chart_block:
+              display: Chart
+              instructions: 'Add a pie chart with colored segments and legend.'
+              icon: money-graph-pie-chart
+              fields:
+                -
+                  handle: chart_title
+                  field:
+                    type: text
+                    display: Title
+                    localizable: true
+                -
+                  handle: chart_entries
+                  field:
+                    type: replicator
+                    display: Entries
+                    instructions: 'Chart segments with color, percentage and label.'
+                    collapse: true
+                    localizable: true
+                    sets:
+                      entry_items:
+                        display: Entry
+                        sets:
+                          chart_entry:
+                            display: Entry
+                            instructions: 'Add a chart segment.'
+                            icon: money-graph-pie-chart
+                            fields:
+                              -
+                                handle: color
+                                field:
+                                  type: select
+                                  display: Color
+                                  options:
+                                    -
+                                      key: sky
+                                      value: Blue
+                                    -
+                                      key: mist
+                                      value: 'Light blue'
+                                    -
+                                      key: sand
+                                      value: Beige
+                                    -
+                                      key: blush
+                                      value: Pink
+                                    -
+                                      key: crimson
+                                      value: Red
+                                    -
+                                      key: gold
+                                      value: Gold
+                                  default: sky
+                                  localizable: false
+                                  width: 33
+                              -
+                                handle: percentage
+                                field:
+                                  type: text
+                                  display: Percentage
+                                  localizable: false
+                                  width: 33
+                              -
+                                handle: label
+                                field:
+                                  type: text
+                                  display: Label
+                                  localizable: true
+                                  width: 33

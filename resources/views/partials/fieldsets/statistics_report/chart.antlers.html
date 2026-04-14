@@ -1,0 +1,49 @@
+<div class="bg-white rounded-xl p-16 lg:p-24 mt-32 lg:mt-48">
+  {{ if chart_title }}
+    <h2 class="font-bold text-[0.875rem] md:text-[1rem] lg:text-[1.125rem] mb-16 lg:mb-24">
+      {{ chart_title }}
+    </h2>
+  {{ /if }}
+
+  {{ if chart_entries }}
+    <div class="flex flex-col md:flex-row items-center gap-24 lg:gap-48">
+
+      {{# Pie chart #}}
+      <div class="relative shrink-0" data-pie-chart>
+        <div class="w-[200px] h-[200px] md:w-[250px] md:h-[250px] lg:w-[280px] lg:h-[280px] rounded-full" data-pie-disc></div>
+        {{# Hidden data for JS #}}
+        {{ chart_entries }}
+          {{ if type == 'chart_entry' }}
+            <span class="hidden" data-pie-segment data-color="{{ color }}" data-percentage="{{ percentage }}"></span>
+          {{ /if }}
+        {{ /chart_entries }}
+
+        {{# Percentage labels #}}
+        {{ chart_entries }}
+          {{ if type == 'chart_entry' }}
+            <span
+              class="absolute text-[0.75rem] md:text-[0.8125rem] font-bold opacity-0 pointer-events-none -translate-x-1/2 -translate-y-1/2"
+              data-pie-label
+              data-percentage="{{ percentage }}"
+            >
+              {{ percentage }}%
+            </span>
+          {{ /if }}
+        {{ /chart_entries }}
+      </div>
+
+      {{# Legend #}}
+      <div class="flex flex-col gap-10 lg:gap-12">
+        {{ chart_entries }}
+          {{ if type == 'chart_entry' }}
+            <div class="flex items-start gap-8 lg:gap-12">
+              <div class="w-16 h-16 lg:w-20 lg:h-20 shrink-0 mt-2 bg-{{ color }}"></div>
+              <span class="text-[0.75rem] md:text-[0.8125rem] lg:text-[0.875rem] leading-snug">{{ label }}</span>
+            </div>
+          {{ /if }}
+        {{ /chart_entries }}
+      </div>
+
+    </div>
+  {{ /if }}
+</div>

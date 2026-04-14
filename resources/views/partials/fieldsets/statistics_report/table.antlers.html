@@ -1,0 +1,48 @@
+<div class="bg-white rounded-xl p-16 lg:p-24 mt-32 lg:mt-48">
+  {{ if table_title }}
+    <h2 class="font-bold text-[1rem] md:text-[1.125rem] lg:text-[1.25rem] mb-12 lg:mb-20">
+      {{ table_title }}
+    </h2>
+  {{ /if }}
+
+  {{ if table_rows }}
+    <div class="overflow-x-auto">
+      <table class="w-full text-[0.8125rem] md:text-[0.875rem] lg:text-[1rem]">
+        <thead>
+          <tr class="border-b border-blue">
+            <th>
+              &nbsp;
+            </th>
+            {{ if year_1 }}
+              <th class="py-8 px-16 text-left font-light">
+                {{ year_1 }}
+              </th>
+            {{ /if }}
+            {{ if year_2 }}
+              <th class="py-8 pl-16 text-left font-light">
+                {{ year_2 }}
+              </th>
+            {{ /if }}
+            <th class="hidden lg:table-cell py-8 pr-16 text-left font-light"></th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ table_rows }}
+            <tr class="border-b border-blue">
+              <td class="py-8 pr-8 lg:pr-16 lg:max-w-[6rem]">
+                {{ label }}
+              </td>
+              <td class="py-8 px-8 lg:px-16 font-bold">
+                {{ entry_1 }}
+              </td>
+              <td class="py-8 pl-8 lg:pl-16 font-bold">
+                {{ entry_2 }}
+              </td>
+              <td class="hidden lg:table-cell py-8 pl-16 font-bold"></td>
+            </tr>
+          {{ /table_rows }}
+        </tbody>
+      </table>
+    </div>
+  {{ /if }}
+</div>

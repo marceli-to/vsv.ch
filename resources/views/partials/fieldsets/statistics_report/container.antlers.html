@@ -1,0 +1,107 @@
+{{ partial:layout/section }}
+
+  {{# Stats + Text + Table grid #}}
+  {{ if stat_cards || text_content }}
+    <div class="grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32">
+
+      {{# Mobile: everything stacked #}}
+      <div class="col-span-full lg:hidden">
+
+        {{# Title #}}
+        {{ if title }}
+          <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2] mb-16 md:mb-24 lg:mb-32">
+            {{ title }}
+          </h1>
+        {{ /if }}
+
+        {{# Lead #}}
+        {{ if lead }}
+          <p class="text-lead mb-20">
+            {{ lead }}
+          </p>
+        {{ /if }}
+
+        {{ if stat_cards }}
+          <div class="flex flex-col sm:grid sm:grid-cols-2 lg:flex lg:flex-col gap-16 mb-24">
+            {{ stat_cards }}
+              {{ if type == 'stat_card' }}
+                {{ partial:fieldsets/statistics_report/stat_card }}
+              {{ /if }}
+            {{ /stat_cards }}
+          </div>
+        {{ /if }}
+
+        {{ if text_content }}
+          {{ partial:layout/article class="text-pretty" }}
+            {{ text_content }}
+          {{ /partial:layout/article }}
+        {{ /if }}
+
+        {{# Tables inside main column #}}
+        {{ tables }}
+          {{ if type == 'table_block' }}
+            {{ partial:fieldsets/statistics_report/table }}
+          {{ /if }}
+        {{ /tables }}
+
+      </div>
+
+      {{# Desktop: left column – stat cards #}}
+      {{ if stat_cards }}
+        <div class="hidden lg:flex lg:flex-col lg:justify-end lg:col-span-4 lg:gap-y-16 xl:pr-24">
+          {{ stat_cards }}
+            {{ if type == 'stat_card' }}
+              {{ partial:fieldsets/statistics_report/stat_card }}
+            {{ /if }}
+          {{ /stat_cards }}
+        </div>
+      {{ /if }}
+
+      {{# Desktop: right column – title, lead, text, tables #}}
+      <div class="hidden lg:flex lg:flex-col lg:col-span-8">
+
+        {{# Title #}}
+        {{ if title }}
+          <h1 class="text-[1.5rem] md:text-[2.25rem] lg:text-[3.125rem] leading-[1.2] mb-16 md:mb-24 lg:mb-32">
+            {{ title }}
+          </h1>
+        {{ /if }}
+
+        {{# Lead #}}
+        {{ if lead }}
+          <p class="text-lead mb-36">
+            {{ lead }}
+          </p>
+        {{ /if }}
+
+        {{ if text_content }}
+          {{ partial:layout/article class="text-pretty" }}
+            {{ text_content }}
+          {{ /partial:layout/article }}
+        {{ /if }}
+
+      </div>
+
+    </div>
+
+    {{# Tables grid #}}
+    <div class="hidden lg:grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32">
+
+      <div class="lg:col-span-8 lg:col-start-5">
+        {{ tables }}
+          {{ if type == 'table_block' }}
+            {{ partial:fieldsets/statistics_report/table }}
+          {{ /if }}
+        {{ /tables }}
+      </div>
+    </div>
+  {{ /if }}
+
+  {{# Charts #}}
+  {{ charts }}
+    {{ if type == 'chart_block' }}
+      {{ partial:fieldsets/statistics_report/chart }}
+    {{ /if }}
+  {{ /charts }}
+
+{{ /partial:layout/section }}

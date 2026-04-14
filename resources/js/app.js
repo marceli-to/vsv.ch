@@ -5,6 +5,7 @@ import initMemberChart from './memberChart';
 import initGallery from './gallery';
 // import initTimeline from './timeline';
 import initScrollTimeline from './scrollTimeline';
+import initPieChart from './pieChart';
 
 Alpine.plugin(collapse);
 window.Alpine = Alpine;
@@ -15,3 +16,4 @@ initMemberChart();
 initGallery();
 // initTimeline();
 initScrollTimeline();
+initPieChart();

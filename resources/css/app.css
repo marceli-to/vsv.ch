@@ -7,7 +7,7 @@
 @source "../../content";
 
 /* Safelist for dynamic grid components (Grid.vue, Span.vue) */
-@source inline("bg-ivory bg-charcoal bg-blue bg-linen bg-cream bg-sand bg-sky bg-mist bg-ice bg-frost bg-blush bg-rose");
+@source inline("bg-ivory bg-charcoal bg-blue bg-linen bg-cream bg-sand bg-sky bg-mist bg-ice bg-frost bg-blush bg-rose bg-crimson bg-gold");
 
 @layer base {
   :root { }
@@ -99,6 +99,24 @@ article h2 {
 
 [data-segment="active"] {
   @apply bg-sky;
+}
+
+/* Pie chart */
+[data-pie-disc] {
+  background: conic-gradient(transparent 0% 100%);
+}
+
+[data-pie-label] {
+  @apply transition-opacity duration-400;
+}
+
+/* Stat cards: stagger fade-in */
+[data-stat-card] {
+  @apply opacity-0 translate-y-16 transition-all duration-500 ease-out;
+}
+
+[data-stat-card].is-visible {
+  @apply opacity-100 translate-y-0;
 }
 
 /* Gallery: Swiper overrides */

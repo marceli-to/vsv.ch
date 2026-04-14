@@ -123,6 +123,13 @@ tabs:
                       fields:
                         -
                           import: gallery
+                    statistics_report:
+                      display: 'Statistics Report'
+                      instructions: 'Full statistics page with key figures, text, comparison tables and pie charts.'
+                      icon: money-graph-bar-increase
+                      fields:
+                        -
+                          import: statistics_report
                     archive:
                       display: Archive
                       instructions: 'Archive cards with category label, title and download/website link.'
