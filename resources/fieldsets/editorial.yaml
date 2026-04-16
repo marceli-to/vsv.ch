@@ -4,7 +4,7 @@ fields:
     handle: image
     field:
       type: assets
-      display: Bild
+      display: Image
       container: assets
       max_files: 1
       localizable: false
@@ -12,13 +12,13 @@ fields:
     handle: subtitle
     field:
       type: textarea
-      display: Untertitel
+      display: Subtitle
       localizable: true
   -
     handle: title
     field:
       type: textarea
-      display: Titel
+      display: Title
       localizable: true
   -
     import: editor

@@ -16,7 +16,7 @@ fields:
       toolbar_mode: floating
       remove_empty_nodes: true
       type: bard
-      display: Inhalt
+      display: Content
       container: assets
       localizable: true
       sets:

@@ -18,7 +18,7 @@ fields:
     handle: subtitle
     field:
       type: text
-      display: Untertitel
+      display: Subtitle
       localizable: true
   -
     handle: link

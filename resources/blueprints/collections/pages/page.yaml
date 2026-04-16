@@ -17,7 +17,7 @@ tabs:
             handle: elements
             field:
               type: replicator
-              display: Inhaltselemente
+              display: Content elements
               collapse: true
               localizable: true
               sets:
