@@ -1,9 +1,9 @@
 <div class="flex items-center justify-between mt-16 md:mt-24 px-12 lg:px-24 xl:px-36">
-  <button data-gallery-prev class="cursor-pointer disabled:opacity-30 disabled:cursor-default">
+  <button data-gallery-prev class="hidden sm:block cursor-pointer disabled:opacity-30 disabled:cursor-default">
     {{ partial:components/icons/gallery-prev class="w-32 h-32 md:w-48 md:h-48" }}
   </button>
-  <div data-gallery-pagination class="flex items-center justify-center gap-8"></div>
-  <button data-gallery-next class="cursor-pointer disabled:opacity-30 disabled:cursor-default">
+  <div data-gallery-pagination class="flex items-center justify-center gap-4 md:gap-8"></div>
+  <button data-gallery-next class="hidden sm:block cursor-pointer disabled:opacity-30 disabled:cursor-default">
     {{ partial:components/icons/gallery-next class="w-32 h-32 md:w-48 md:h-48" }}
   </button>
 </div>

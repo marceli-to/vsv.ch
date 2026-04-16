@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1775803468
+updated_at: 1776323736
 elements:
   -
     id: mnsjj7vg
@@ -15,7 +15,7 @@ elements:
       -
         id: tl001
         year: '1986'
-        entry_title: Création de l'ASG
+        entry_title: "Création de l'ASG"
         description: "Création de l'ASG par un groupe de pionniers ayant voulu instaurer des règles, un cadre de qualité et un label offrant des garanties à leurs clients"
         type: timeline_entry
         enabled: true
@@ -29,15 +29,15 @@ elements:
       -
         id: tl003
         year: '1995'
-        entry_title: Directive sur le blanchiment d'argent
+        entry_title: "Directive sur le blanchiment d'argent"
         description: "Le code d'honneur est complété par des directives pour lutter contre le blanchiment d'argent"
         type: timeline_entry
         enabled: true
       -
         id: tl004
         year: '1998'
-        entry_title: Entrée en vigueur de la LBA
-        description: "Les dispositions du code pénal sont complétées par une loi spécifique"
+        entry_title: 'Entrée en vigueur de la LBA'
+        description: 'Les dispositions du code pénal sont complétées par une loi spécifique'
         type: timeline_entry
         enabled: true
       -
@@ -50,7 +50,7 @@ elements:
       -
         id: tl006
         year: '2008'
-        entry_title: Crise financière
+        entry_title: 'Crise financière'
         description: "La crise financière fragilise la confiance envers les banques et renforce l'attrait du modèle d'affaires des gestionnaires de fortune, fondé sur l'indépendance et l'architecture ouverte"
         type: timeline_entry
         enabled: true
@@ -64,7 +64,7 @@ elements:
       -
         id: tl008
         year: '2009'
-        entry_title: Fin du secret bancaire
+        entry_title: 'Fin du secret bancaire'
         type: timeline_entry
         enabled: true
       -
@@ -83,7 +83,7 @@ elements:
         enabled: true
       -
         id: tl011
-        year: Depuis 2020
+        year: 'Depuis 2020'
         entry_title: "L'ASG développe ses services pour les gestionnaires de fortune"
         type: timeline_entry
         enabled: true
@@ -93,9 +93,15 @@ elements:
     id: gallery001
     gallery_title: 'Der VSV in Bildern'
     gallery_images:
-      - dummy/dummy-event-1.jpg
-      - dummy/dummy-event-2.jpg
-      - dummy/dummy-event-3.jpg
+      - vsv-asg-yearbook-2025-gallery-1.jpg
+      - vsv-asg-yearbook-2025-gallery-2.jpg
+      - vsv-asg-yearbook-2025-gallery-3.jpg
+      - vsv-asg-yearbook-2025-gallery-4.jpg
+      - vsv-asg-yearbook-2025-gallery-5.jpg
+      - vsv-asg-yearbook-2025-gallery-6.jpg
+      - vsv-asg-yearbook-2025-gallery-7.jpg
+      - vsv-asg-yearbook-2025-gallery-8.jpg
+      - vsv-asg-yearbook-2025-gallery-9.jpg
     type: gallery
     enabled: true
 container_padding_top: true
