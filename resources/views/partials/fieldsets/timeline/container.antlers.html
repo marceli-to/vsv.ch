@@ -6,22 +6,30 @@
     </h2>
   {{ /if }}
 
+  {{ if editor_content }}
+    <div class="mb-40 md:mb-64 lg:mb-80">
+      {{ partial:layout/article class="text-pretty max-w-prose" }}
+        {{ partial:components/editor }}
+      {{ /partial:layout/article }}
+    </div>
+  {{ /if }}
+
   {{ if timeline_items }}
-    <div 
-      data-timeline 
+    <div
+      data-timeline
       class="relative">
 
       <div class="absolute top-0 bottom-0 w-[2px] bg-sand left-[7px] md:left-1/2 md:-translate-x-1/2"></div>
 
-      <div 
-        data-timeline-fill 
+      <div
+        data-timeline-fill
         class="absolute top-0 w-[2px] h-0 bg-charcoal left-[7px] md:left-1/2 md:-translate-x-1/2 z-1">
       </div>
 
       {{ timeline_items }}
         {{ partial:fieldsets/timeline/entry }}
       {{ /timeline_items }}
-      
+
     </div>
   {{ /if }}
 
