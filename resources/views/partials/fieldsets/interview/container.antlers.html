@@ -7,8 +7,10 @@
         {{ partial:components/media/image
           :image="image"
           :sizes="['md', 'lg', 'xl', '2xl']"
-          preset="md"
-          class="w-full h-full aspect-[16/9] object-cover rounded-lg"
+          preset="16x9"
+          width="768"
+          height="432"
+          class="w-full h-auto rounded-lg"
         }}
       </div>
     {{ /if }}

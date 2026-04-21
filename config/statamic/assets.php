@@ -108,6 +108,15 @@ return [
           'xl' => ['w' => 1440, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
           '2xl' => ['w' => 1680, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
 
+          'md-16x9-webp' => ['w' => 768, 'h' => 432, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'lg-16x9-webp' => ['w' => 1280, 'h' => 720, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'xl-16x9-webp' => ['w' => 1440, 'h' => 810, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          '2xl-16x9-webp' => ['w' => 1680, 'h' => 945, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'md-16x9' => ['w' => 768, 'h' => 432, 'q' => 90, 'fit' => 'crop_focal'],
+          'lg-16x9' => ['w' => 1280, 'h' => 720, 'q' => 90, 'fit' => 'crop_focal'],
+          'xl-16x9' => ['w' => 1440, 'h' => 810, 'q' => 90, 'fit' => 'crop_focal'],
+          '2xl-16x9' => ['w' => 1680, 'h' => 945, 'q' => 90, 'fit' => 'crop_focal'],
+
           'max_upload_size' => ['w' => 4000, 'h' => 4000, 'fit' => 'max'],
         ],
 
