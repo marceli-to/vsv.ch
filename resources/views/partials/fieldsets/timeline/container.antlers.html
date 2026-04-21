@@ -6,14 +6,6 @@
     </h2>
   {{ /if }}
 
-  {{ if editor_content }}
-    <div class="mb-40 md:mb-64 lg:mb-80">
-      {{ partial:layout/article class="text-pretty max-w-prose" }}
-        {{ partial:components/editor }}
-      {{ /partial:layout/article }}
-    </div>
-  {{ /if }}
-
   {{ if timeline_items }}
     <div
       data-timeline

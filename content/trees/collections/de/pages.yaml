@@ -20,6 +20,11 @@ tree:
     entry: e6bf678a-608b-46ef-9205-f72807fa3b40
   -
     entry: edb5b91d-9703-4acf-8b3c-39eaa1126655
+    children:
+      -
+        entry: 30ddf276-d082-45f8-b850-a6c7a60a2675
+      -
+        entry: 9ab94957-f263-4988-a344-040a76206ad0
   -
     entry: c0b9bbd1-d2b9-4114-a782-8fb20c1f11b7
   -

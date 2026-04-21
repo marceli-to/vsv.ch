@@ -7,8 +7,6 @@ fields:
       display: Title
       localizable: true
   -
-    import: editor
-  -
     handle: timeline_items
     field:
       type: replicator

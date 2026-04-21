@@ -8,19 +8,17 @@ elements:
     image: dummy/dummy-editorial.jpg
     subtitle: |-
       Editorial | 
-      Wort des Präsidenten
-    title: |-
-      Ihren Herausforderungen 
-      gewachsen
+      Mot du Président
+    title: 'L’ASG, 40 ans : des mutations majeures, un remarquable chemin parcouru ensemble'
     editor_content:
       -
         type: paragraph
         attrs:
-          class: text-lead
+          class: null
         content:
           -
             type: text
-            text: 'Liebe Leserinnen und Leser'
+            text: "L’année 2026 marque un jalon essentiel dans l’histoire de l’ASG : son 40ᵉ anniversaire. Ce jubilé est l’occasion de mesurer le chemin parcouru et de mettre en lumière les grandes étapes qui ont façonné notre profession et notre Association. Tout au long de l’année, de nombreux formats et événements reviendront sur les grands moments. L’interview dans ce Yearbook, avec l’ancien président pendant 20 ans, Jean-Pierre Zuber, permet d’ailleurs de faire un bond dans le passé mais aussi d’adresser un message positif pour la profession et son futur. Un grand merci à lui d'avoir partagé ces précieux éléments avec nous."
       -
         type: paragraph
         attrs:
@@ -28,7 +26,7 @@ elements:
         content:
           -
             type: text
-            text: 'Udis magnamenis dolesed mod quas nia sunt la non num aut autent, ut quatemp oriorecto bla sitatiis dolum hil iur?'
+            text: 'À travers ces quelques lignes, je souhaitais moi aussi rappeler quelques moments clés. Fondée en 1986 par des personnes convaincues de l’importance de la profession et avec la volonté de la structurer, l’ASG s’est progressivement imposée comme un acteur incontournable du paysage financier suisse. Au cours de ces quatre décennies, la mission et les activités de l’Association ont connu des transformations majeures, en écho aux changements du secteur.'
       -
         type: paragraph
         attrs:
@@ -36,7 +34,7 @@ elements:
         content:
           -
             type: text
-            text: 'Natiatur, core, uta ipsam, si recti que laborep erovid ellacid quam ad mi, cone perrum volupienis inveliquodis voluptas doluptat eum, toris eiunt eatur atquia di remporp oriorias reperib eressitatur, aut et arciis et oloratiunt lia con con nobitin iasperi nihicipictem inctio erciasped ut adis con et voluptiisci dolorro quunt reius a porersp erovit, simaion ea non providio. Offictisquis am fuga. Eliquidipici dolo blatiuntur, to blat.'
+            text: 'Une première étape déterminante est intervenue en 1998 avec l’entrée en vigueur de la LBA et en quelques années, l’ASG s’est affirmée comme le plus important OAR pour les gestionnaires de fortune en Suisse.'
       -
         type: paragraph
         attrs:
@@ -44,7 +42,7 @@ elements:
         content:
           -
             type: text
-            text: 'Idestiur reiciet omnis endemque cuptatis sectem eatem et maxim sum velenis adi dit asit excesequas sitios alicius, consenem quunti consed quas ilitetu remolup tatasse odis millor sunt alicili tionserum quam, quuntet lam doluptas aut ea volest as atiosam usapelibus, sit re nullautatur audi comnia velis il etur, si ium, sequi bla coreper ovidem asped et abo. Am si dolum is ad eris num quidunt, quam, aborum quias ea alia saeperrore nis es explignimus eiumquo ea cor sam quibus doluptaquo esenis sit ut quameni enienis quaspero moloruntus.'
+            text: 'La seconde transformation majeure survient en 2020, avec l’introduction des LSFin et LEFin. Dans ce nouveau cadre, l’ASG crée un OS et se sépare de ses activités de surveillance. Elle redevient ainsi uniquement une association de branche, pleinement dédiée à la représentation et à la défense des intérêts de la profession auprès des autorités et des acteurs du secteur, tout en proposant à ses membres des prestations de qualité, en lien avec les exigences légales, les activités de gestion et leurs besoins.'
       -
         type: paragraph
         attrs:
@@ -52,7 +50,36 @@ elements:
         content:
           -
             type: text
-            text: 'Im dis est idel in nem seque volorum volecum quodignatent eatias aut ipit aut fugitio nsequaectiam explab inverum fugitiae peribusapic tem isti dit arcillab ide verorem et.'
+            text: 'À chacune de ces étapes, l’ASG a démontré sa capacité à s’adapter à un environnement en constante mutation et à assumer pleinement son rôle au service de la gestion de fortune.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Nous profitons de cette année anniversaire pour vous présenter cette édition du Yearbook, proposée dans un nouveau format plus dynamique, qui, nous l’espérons, vous plaira.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Je vous souhaite une excellente lecture et remercie chaleureusement tous nos membres, partenaires et collaborateurs pour leur engagement au service de la profession.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Serge Pavoncello'
+          -
+            type: hardBreak
+          -
+            type: text
+            text: Président
     type: editorial
     enabled: true
   -
@@ -108,5 +135,5 @@ elements:
     enabled: true
 menu_title: ASG
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1775889334
+updated_at: 1776776944
 ---
