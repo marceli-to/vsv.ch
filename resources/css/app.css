@@ -31,6 +31,14 @@ aside p:not(:last-of-type) {
   @apply mb-12 lg:mb-16;
 }
 
+article ul {
+  @apply list-disc m-0 p-0 mb-12 lg:mb-16;
+}
+
+article li {
+  @apply ml-14 lg:ml-16;
+}
+
 article li p {
   @apply inline;
 }
