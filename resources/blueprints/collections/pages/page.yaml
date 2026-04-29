@@ -140,7 +140,7 @@ tabs:
                           field:
                             type: text
                             display: Title
-                            localizable: false
+                            localizable: true
                         -
                           handle: archive_items
                           field:

@@ -16,21 +16,13 @@ elements:
     enabled: true
     archive_items:
       -
-        id: Q531T8Fx
-        type: archive_item
-        enabled: true
-        label: Microsite
-        title: 'Geschäftsbericht 2025'
-        link_text: Website
-        link: '#'
-      -
         id: 6wDRlAIH
         type: archive_item
         enabled: true
         label: Yearbook
         title: 'Geschäftsbericht 2024'
         link_text: 'Download PDF'
-        link: '#'
+        link: /assets/downloads/vsv-asg-yearbook-2024-de.pdf
       -
         id: pe33MnaN
         type: archive_item
@@ -38,7 +30,7 @@ elements:
         label: Yearbook
         title: 'Geschäftsbericht 2023'
         link_text: 'Download PDF'
-        link: '#'
+        link: /assets/downloads/vsv-asg-yearbook-2023-de.pdf
       -
         id: GELVh0T5
         type: archive_item
@@ -46,7 +38,7 @@ elements:
         label: Yearbook
         title: 'Geschäftsbericht 2022'
         link_text: 'Download PDF'
-        link: '#'
+        link: /assets/downloads/vsv-asg-yearbook-2022-de.pdf
       -
         id: HjmsKlrD
         type: archive_item
@@ -54,7 +46,7 @@ elements:
         label: Yearbook
         title: 'Geschäftsbericht 2021'
         link_text: 'Download PDF'
-        link: '#'
+        link: /assets/downloads/vsv-asg-yearbook-2021-de.pdf
       -
         id: sCIuE6Gu
         type: archive_item
@@ -62,6 +54,6 @@ elements:
         label: Yearbook
         title: 'Geschäftsbericht 2020'
         link_text: 'Download PDF'
-        link: '#'
+        link: /assets/downloads/vsv-asg-yearbook-2020-de.pdf
     title: Archiv
 ---
