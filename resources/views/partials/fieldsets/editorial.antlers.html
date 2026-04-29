@@ -1,6 +1,6 @@
 {{ partial:layout/section }}
 
-  <div class="grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32">
+  <div class="grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32" x-data="{ expanded: false }">
 
     {{ if image }}
       <div class="col-span-full lg:col-span-4">
@@ -22,9 +22,24 @@
         {{ title | nl2br}}
       </h2>
 
-      {{ partial:layout/article class="text-pretty max-w-prose" }}
-        {{ partial:components/editor }}
-      {{ /partial:layout/article }}
+      {{ if lead }}
+        {{ partial:layout/article class="text-pretty max-w-prose mb-12 lg:mb-16" }}
+          {{ lead | nl2br }}
+            <a 
+              href="#" 
+              x-on:click.prevent="expanded = true" 
+              x-show="!expanded" 
+              class="!text-black font-medium">
+              {{ "Weiterlesen" | trans }}
+            </a>
+        {{ /partial:layout/article }}
+      {{ /if }}
+
+      <div data-editorial x-bind:class="{ 'hidden': !expanded }">
+        {{ partial:layout/article class="text-pretty max-w-prose" }}
+          {{ partial:components/editor }}
+        {{ /partial:layout/article }}
+      </div>
 
     </div>
 

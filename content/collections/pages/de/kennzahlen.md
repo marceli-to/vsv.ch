@@ -72,7 +72,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Aktivmitglieder sind Vermögensverwalter, Trustees, Verwalter von Kollektivvermögen, Fondsleitungen oder Wertpapierhäuser sowie Berater, die in einem Register eingetragen sind. Die Vermögensverwalter werden von der FINMA direkt oder von einer der vier zugelassenen AO beaufsichtigt: AOOS, OSFINcontrol, OSIF, SO FIT.'
+                text: 'Aktivmitglieder sind hauptsächlich Vermögensverwalter und Verwalter von Kollektivvermögen. Sie werden von der FINMA direkt oder von einer der vier zugelassenen AO beaufsichtigt: AOOS, OSFINcontrol, OSIF oder SO-FIT.'
           -
             type: paragraph
             attrs:

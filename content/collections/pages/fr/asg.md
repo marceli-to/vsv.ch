@@ -5,20 +5,12 @@ title: ASG
 elements:
   -
     id: mn5sv3l5
-    image: dummy/dummy-editorial.jpg
+    image: vsv-asg-yearbook-editorial-serge-pavoncello.jpg
     subtitle: |-
       Editorial | 
       Mot du Président
     title: 'L’ASG, 40 ans : des mutations majeures, un remarquable chemin parcouru ensemble'
     editor_content:
-      -
-        type: paragraph
-        attrs:
-          class: null
-        content:
-          -
-            type: text
-            text: "L’année 2026 marque un jalon essentiel dans l’histoire de l’ASG : son 40ᵉ anniversaire. Ce jubilé est l’occasion de mesurer le chemin parcouru et de mettre en lumière les grandes étapes qui ont façonné notre profession et notre Association. Tout au long de l’année, de nombreux formats et événements reviendront sur les grands moments. L’interview dans ce Yearbook, avec l’ancien président pendant 20 ans, Jean-Pierre Zuber, permet d’ailleurs de faire un bond dans le passé mais aussi d’adresser un message positif pour la profession et son futur. Un grand merci à lui d'avoir partagé ces précieux éléments avec nous."
       -
         type: paragraph
         attrs:
@@ -66,7 +58,7 @@ elements:
         content:
           -
             type: text
-            text: 'Je vous souhaite une excellente lecture et remercie chaleureusement tous nos membres, partenaires et collaborateurs pour leur engagement au service de la profession.'
+            text: "Vous y trouverez notamment l'interview que Jean-Pierre Zuber nous a accordé dans le cadre de notre jubilé. L'ancien président pendant 20 ans, \_nous fait faire un bond dans le passé mais il en profite également pour adresser un message positif pour la profession et son futur. Un grand merci à lui d'avoir partagé ces précieux éléments avec nous."
       -
         type: paragraph
         attrs:
@@ -74,14 +66,35 @@ elements:
         content:
           -
             type: text
-            text: 'Serge Pavoncello'
-          -
-            type: hardBreak
+            text: 'Un autre élément fort de ce Yearbook est le retour de la partie '
           -
             type: text
-            text: Président
+            marks:
+              -
+                type: italic
+            text: 'Chiffres de la branche'
+          -
+            type: text
+            text: ' qui nous permet de donner un panorama de la gestion de fortune en Suisse.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: "\_Enfin je profite de cet édito pour vous informer de l'engagement de la nouvelle directrice, Vivien Jain. La passation avec Patrick Dorner a eu lieu durant le premier trimestre."
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Je vous souhaite une excellente lecture et remercie chaleureusement tous nos membres, partenaires et collaborateurs pour leur engagement au service de la profession.'
     type: editorial
     enabled: true
+    lead: 'L’année 2026 marque un jalon essentiel dans l’histoire de l’ASG : son 40ᵉ anniversaire. Ce jubilé est l’occasion de mesurer le chemin parcouru et de mettre en lumière les grandes étapes qui ont façonné notre profession et notre Association. Tout au long de l’année, de nombreux formats et événements reviendront sur les grands moments.'
   -
     id: mn5rjsja
     teasers:
@@ -135,5 +148,5 @@ elements:
     enabled: true
 menu_title: ASG
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1776776944
+updated_at: 1777444434
 ---

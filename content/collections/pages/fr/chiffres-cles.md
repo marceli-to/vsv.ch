@@ -69,7 +69,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Sont membres actifs les gestionnaires de fortune, Trustees, gestionnaires de fortune collective, directions de fonds ou maisons de titres, ainsi que les conseillers inscrits dans un registre. Les gestionnaires sont surveillés par la FINMA directement ou par un des quatre OS agréés : AOOS, OSFINcontrol, OSIF, SO-FIT.'
+                text: "Les membres actifs sont principalement des gestionnaires de fortune et des gestionnaires de fortune collective. Ils sont surveillés par la FINMA directement ou par un des quatre OS agréés : AOOS, OSFINcontrol, OSIF ou SO-FIT."
           -
             type: paragraph
             attrs:

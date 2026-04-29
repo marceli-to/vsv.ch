@@ -34,6 +34,7 @@ elements:
         type: partner
         enabled: true
         show_label: true
+        link: '#ubs'
       -
         id: mn78scmr
         logo: logo/vanguard.svg
@@ -235,8 +236,8 @@ elements:
           -
             id: mn7b8ku5
             interview_type: group
-            image: dummy/dummy-interview-1.jpg
-            title: 'Der Julius Bär Vorteil für Finanzintermediäre'
+            image: vsv-asg-yearbook-2025-lgt-michel-yigit.jpg
+            title: "Un partenaire solide pour l'avenir"
             introduction:
               -
                 type: paragraph
@@ -248,17 +249,30 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Ein Interview mit Thomas Frauenlob, '
+                    text: 'Questions adressées à Michel Yigit'
                   -
                     type: hardBreak
                   -
                     type: text
-                    text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
+                    text: 'Head of External Asset Managers Switzerland and member of the Executive Board, LGT Bank Switzerland'
             logo: logo/lgt.svg
             content:
               -
-                id: mn7b9ljh
-                question: 'Anlässlich Ihres ersten Jahrestags bei Julius Bär am 1. April: Was waren Ihrer Ansicht nach die grössten Erfolge und Herausforderungen des vergangenen Jahres?'
+                id: mn7blgt00
+                editor_content:
+                  -
+                    type: paragraph
+                    attrs:
+                      class: text-lead
+                    content:
+                      -
+                        type: text
+                        text: "Entreprise familiale internationale dirigée par ses actionnaires, LGT accompagne les gérants de fortune depuis 30 ans. Michel Yigit, responsable des gestionnaires de fortune en Suisse et membre du comité exécutif de LGT Bank Schweiz AG, souligne que l'activité doit se développer durablement, grâce à des prestations de qualité. Nous avons recueilli ses propos."
+                type: question_answer
+                enabled: true
+              -
+                id: mn7blgt01
+                question: 'Monsieur Yigit, quel bilan tirez-vous de la collaboration entre LGT et les gestionnaires de fortune (EAM) ces derniers mois ?'
                 editor_content:
                   -
                     type: paragraph
@@ -267,7 +281,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Es war ein gutes Jahr, das mehr Erfolge als Herausforderungen brachte. Im Jahr 2024 stiegen unsere verwalteten Vermögen im Intermediaries-Geschäft dank ungewöhnlich hoher Mittelzuflüsse und steigender Aktienmärkte deutlich an. Unsere guten Ergebnisse spiegeln den zielgerichteten Ansatz wider, nachhaltiges Wachstum zu fördern und Mehrwert für unsere Kundinnen und Kunden zu schaffen.'
+                        text: "Dans l'environnement actuel, il est indispensable de rester vigilant. Nous mettons tout en œuvre pour demeurer un partenaire solide auprès des gestionnaires de fortune, en renforçant continuellement notre offre et nos services."
                   -
                     type: paragraph
                     attrs:
@@ -275,12 +289,20 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Das Jahr 2025 hat gut begonnen. Und obwohl wir die Herausforderungen des aktuellen Zoll- und Handelskriegs und der Turbulenzen an den Finanzmärkten nicht ignorieren können, bin ich weiterhin zuversichtlich, dass wir gemeinsam mit unseren Finanzintermediären neue Höhen erreichen können.'
+                        text: "Chez LGT, la valeur ajoutée est principalement générée là où la technologie se combine avec le savoir-faire humain. À cet égard, LGT renforce sa position depuis qu'elle a choisi d'être à la pointe de la numérisation, notamment par la création d'un Pôle Digitale à Barcelone en 2023 et le recrutement de plus de 20 spécialistes en IA."
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: "Outre les considérations techniques, les derniers mois ont indéniablement démontré que l'implication individuelle et les compétences de nos collaborateurs sont déterminantes pour accroître l'attractivité de notre offre. Nous privilégions une proximité et des échanges approfondis afin d'exploiter pleinement nos multiples compétences pour les gérants de fortune."
                 type: question_answer
                 enabled: true
               -
-                id: mn7baaiac
-                question: 'Was zeichnet Julius Bär mit Blick auf die Unterstützung von Finanzintermediären aus?'
+                id: mn7blgt02
+                question: 'Pouvez-vous illustrer votre expertise par des exemples concrets ?'
                 editor_content:
                   -
                     type: paragraph
@@ -289,7 +311,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Wir wollen der bevorzugte Partner für Finanzintermediäre weltweit sein. In den letzten Jahren haben wir unsere Reichweite durch den Aufbau zusätzlicher Standorte in Madrid, Dubai und Lausanne erweitert. Das hilft uns, noch näher an unseren Kundinnen und Kunden zu sein. Was die Anlageprodukte und -dienstleistungen betrifft, so verfügen wir über eine umfassende Palette mit offener Architektur, die wir ständig überprüfen und erweitern. Ausserdem verbessern wir kontinuierlich unsere digitalen Services und Tools.'
+                        text: "Un atout majeur provient de notre propriétaire, la famille princière du Liechtenstein, dotée d'une longue tradition entrepreneuriale qui façonne l'esprit de LGT depuis plus d'un siècle. Cette culture d'entreprise encourage une vision long terme et un partenariat équilibré avec nos clients, favorisant une croissance mutuelle plutôt qu'une simple transaction."
                   -
                     type: paragraph
                     attrs:
@@ -297,17 +319,33 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'So schaffen wir es, unseren Kundinnen und Kunden die bestmögliche Betreuung, geeignete Lösungen und die richtige Technologie zu bieten. Dafür bleiben wir anpassungsfähig und reagieren auf sich verändernde Kundenbedürfnisse und Marktbedingungen. Strategisch gesehen sind Finanzintermediäre weiterhin ein Eckpfeiler für das Wachstum von Julius Bär, und wir wollen den Standard für herausragende Dienstleistungen und Lösungen setzen.'
+                        text: "Outre la dimension culturelle, notre propriétaire a également intégré des éléments essentiels à notre approche. Dès les années 1990, elle a investi une part importante de ses actifs sur les marchés privés. Notre expertise et notre offre dans ce secteur n'ont cessé de progresser depuis."
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: "Aujourd'hui, nos clients ont la possibilité d'investir dans des actifs en suivant la même stratégie que celle adoptée par notre propriétaire, ce qui garantit que les deux parties poursuivent des objectifs d'investissement similaires. Nous proposons régulièrement cette architecture, ainsi que des alternatives sur les marchés privés, au travers d'échanges directs avec les gestionnaires. Cette approche permet de transmettre les spécificités et opportunités de cette catégorie d'actifs tout en recueillant des retours immédiats."
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: "Dans le cadre de notre offre « Private Label Funds » (via notre plateforme au Liechtenstein), nous apportons un soutien similaire en intégrant l'expertise de nos spécialistes. Grâce à un échange étroit avec les gestionnaires de fortune, nous développons ainsi des solutions de fonds sur mesure, mises en œuvre au mieux des intérêts de leurs initiateurs – depuis le nom du fonds jusqu'à la stratégie d'investissement. Ces solutions peuvent déployer tout leur potentiel, en particulier dans le contexte central de la transmission de patrimoine ou de la NextGen."
                 type: question_answer
                 enabled: true
               -
-                id: mn7baatkb
-                quote: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
+                id: mn7blgt03
+                quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                 type: quote
                 enabled: true
               -
-                id: mn7baayun
-                question: 'Unterschätzen Finanzintermediäre bestimmte Risiken und wenn ja, was sollten sie anders machen?'
+                id: mn7blgt04
+                question: 'Quelles avancées avez-vous apportées en matière de numérisation ?'
                 editor_content:
                   -
                     type: paragraph
@@ -316,7 +354,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Wir leben in einer Zeit der «schwarzen Schwäne» – folgenschwerer Ereignisse, die schwer vorherzusagen sind. Finanzintermediäre und Family Offices sind sich dessen bewusst, wobei laut Umfragen unter Family Offices die Geopolitik zu deren grössten Sorgen zählt. Wie kann man sich gegenüber weiteren Turbulenzen absichern? Indem wir dafür sorgen, dass die Portfolios der Kundinnen und Kunden gut diversifiziert sind und ihrer Risikobereitschaft entsprechen.'
+                        text: "L'échange de données occupe une place centrale dans notre modèle de service avec nos gestionnaires de fortune. Beaucoup de nos partenaires utilisent notre solution performante, LGT SmartBanking Pro. Les gestionnaires de fortune disposant de leur propre système informatique de gestion des ordres peuvent également se connecter directement à notre infrastructure de trading grâce à des interfaces sophistiquées. Nous acceptons, par exemple, des ordres sur des actions, obligations, fonds d'investissement, ainsi que sur des options, contrats à terme et devises, le tout de façon entièrement électronique et automatisée, y compris les confirmations et les écritures comptables. Ce système améliore l'efficacité et réduit nettement les risques liés aux processus. En particulier lors de périodes de forte volatilité, la rapidité et la fiabilité apportées sont essentielles."
                   -
                     type: paragraph
                     attrs:
@@ -324,20 +362,17 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
-                      -
-                        type: text
-                        text: 'Natürlich kann Unerwartetes auch in unmittelbarer Nähe geschehen. Was geschieht, wenn ein wichtiger Partner ausscheidet oder plötzlich erkrankt? Jedes Unternehmen sollte sich dagegen absichern, indem es eine Nachfolgeplanung aufstellt, die Führungsebene diversifiziert und die betriebliche Resilienz stärkt. Risikomanagement bedeutet, vorbereitet zu sein.'
+                        text: "De plus, LGT SmartBanking Pro propose désormais des évaluations de portefeuilles quasiment en temps réel, permettant un suivi précis des performances, y compris pour les portefeuilles complexes. Ces évolutions témoignent de l'amélioration constante de nos outils et services à destination des gestionnaires de fortune, fruit de nos efforts d'innovation."
                 type: question_answer
                 enabled: true
               -
-                id: mn7babg15
-                question: 'Auf welche Trends in der Vermögensverwaltung sollten Finanzintermediäre Ihrer Meinung nach in den kommenden fünf Jahren ein besonderes Augenmerk legen?'
+                id: mn7blgt05
+                quote: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                type: quote
+                enabled: true
+              -
+                id: mn7blgt06
+                question: 'Vous avez récemment évoqué la philanthropie dans vos discussions avec les gestionnaires de fortune. Pourquoi aborder ce thème ?'
                 editor_content:
                   -
                     type: paragraph
@@ -346,7 +381,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'boomer-Generation immer älter wird, steigen die vererbten Vermögen. Allein im Jahr 2025 werden Menschen in wohlhabenden Nationen etwa 6 Billionen US-Dollar erben, so eine aktuelle Schätzung von The Economist.'
+                        text: "On estime qu'en 2026, les successions en Suisse atteindront 100 milliards de francs suisses, un niveau sans précédent, et cette croissance devrait se poursuivre. Dans ce contexte, il est essentiel que les banques et les gestionnaires de fortune envisagent de nouvelles approches pour répondre aux attentes des futurs détenteurs de patrimoine. Selon notre expérience, la philanthropie représente une opportunité stratégique. Elle permet d'instaurer un dialogue constructif au sein des familles autour des valeurs, du patrimoine et de la transmission. Les parties prenantes qui participent activement à ces échanges se positionnent également comme des partenaires fiables aux yeux de la prochaine génération en matière de gestion de fortune."
                   -
                     type: paragraph
                     attrs:
@@ -354,7 +389,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Man sagt, die Rebellen von gestern seien die Herrscher von heute, und das gilt auch für die Vermögensverwaltung. Aber nicht alle Erben sind Disruptoren der Generation Z. Einige sind eher konventionelle Millennials, andere sind vielleicht schon etwas älter und bringen eine ganze Reihe von Erfahrungen und Einblicken in die Vermögensverwaltung mit. Und während die älteren Erben vielleicht traditionelle Werte und langfristige Beziehungen bevorzugen, erwarten die jüngeren Generationen eine stärkere Digitalisierung, mehr Personalisierung und eine andere Auswahl an Anlageprodukten.'
+                        text: "La famille princière et actionnaire de la banque LGT a su gérer avec succès la question de la succession sur 26 générations. Cet exemple est une source d'inspiration majeure pour nous, collaborateurs. Par ailleurs, nous approfondissons nos compétences dans ce domaine grâce à des formations spécifiques. Récemment, notre équipe dédiée à la philanthropie s'est focalisée sur la thématique dite NextGen. Nous avons par ailleurs partagé les avancées récentes de ce projet avec les gestionnaires de fortune lors de plusieurs événements."
                   -
                     type: paragraph
                     attrs:
@@ -362,7 +397,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Diese Verschiebung stellt eine bedeutende Wachstumschance dar, wenn ein beträchtlicher Teil des Vermögens demnächst unter neuer Verwaltung stehen wird.'
+                        text: "Nous sommes attachés au partage de connaissances, qu'il s'agisse d'intelligence artificielle ou de philanthropie. Les retours positifs reçus témoignent de la valeur de ces initiatives. Nous souhaitons ainsi entretenir une relation ouverte, allant au-delà des prestations classiques. Ce partenariat renforcé nous permet, ensemble, de gagner en performance."
                 type: question_answer
                 enabled: true
             type: interview
@@ -379,7 +414,7 @@ elements:
           -
             id: mn7c8ku5
             interview_type: group
-            image: dummy/dummy-interview-1.jpg
+            image: vsv-asg-yearbook-2025-lombard-odier-pellet-ganiere.jpg
             title: 'Mission (Cyber) Impossible ? Sécuriser la gestion de fortune en Suisse'
             logo: logo/lombard-odier.svg
             content:
@@ -671,12 +706,12 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Ein Text von XY'
+                    text: 'Un texte de Laurent Pellet'
                   -
                     type: hardBreak
                   -
                     type: text
-                    text: Funktion
+                    text: "Limited Partner, Global Head of EAM, Banque Lombard Odier & Cie SA\_"
         type: accordion_item
         enabled: true
         open: false
@@ -710,7 +745,7 @@ elements:
                     type: hardBreak
                   -
                     type: text
-                    text: 'verantwortet bei UBS Global FIM das Geschäft mit unabhängigen Vermögensverwaltern im deutschsprachigen Raum. Mit über 25 Jahren bei UBS, davon 18 Jahre in der Zusammenarbeit mit unabhängigen Vermögensverwaltern, gilt er als ausgewiesener Kenner der Branche.'
+                    text: 'Head FIM Deutschschweiz, UBS'
             logo: logo/ubs.svg
             content:
               -
@@ -974,5 +1009,5 @@ elements:
     type: accordion
     enabled: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1776791895
+updated_at: 1777446648
 ---

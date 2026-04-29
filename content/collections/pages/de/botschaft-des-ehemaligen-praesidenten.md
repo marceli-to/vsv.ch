@@ -1,18 +1,18 @@
 ---
 id: 30ddf276-d082-45f8-b850-a6c7a60a2675
 blueprint: page
-title: 'Botschaft des ehemaligen Präsidenten'
+title: 'Grusswort des ehemaligen Präsidenten'
 show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1776777026
+updated_at: 1777443454
 container_padding_top: true
 container_padding_bottom: true
 elements:
   -
     id: mo8n52t2
-    title: 'Message officiel de l’ancien Président de l’ASG'
+    title: 'Grusswort des ehemaligen VSV-Präsidenten'
     editor_content:
       -
         type: paragraph
@@ -21,12 +21,12 @@ elements:
         content:
           -
             type: text
-            text: 'Chères consœurs, chers confrères,'
+            text: 'Liebe Kolleginnen und Kollegen,'
           -
             type: hardBreak
           -
             type: text
-            text: 'Chers membres de l’ASG,'
+            text: 'Liebe VSV-Mitglieder,'
       -
         type: paragraph
         attrs:
@@ -34,7 +34,7 @@ elements:
         content:
           -
             type: text
-            text: "À l’occasion de ce jubilé, c’est avec une profonde émotion et une grande reconnaissance que je m’adresse à vous en tant qu’ancien président de notre Association et désormais Membre d’honneur. Ce titre, que vous m’avez fait l’honneur de me décerner, représente pour moi bien plus qu’une distinction\_; il symbolise un parcours partagé, un engagement collectif et une confiance mutuelle construite au fil des années."
+            text: 'als ehemaliger Präsident unseres Verbandes und nunmehr Ehrenmitglied nehme ich das aktuelle Jubiläum zum Anlass, Ihnen tief bewegt meine grosse Dankbarkeit auszusprechen. Sie haben mir die Ehre erwiesen, mich zum Präsidenten zu wählen. Das bedeutet für mich viel mehr als nur eine Auszeichnung, nämlich das Symbol eines gemeinsamen Weges, eines gemeinsamen Engagements und des gegenseitigen Vertrauens über Jahre.'
       -
         type: paragraph
         attrs:
@@ -42,7 +42,7 @@ elements:
         content:
           -
             type: text
-            text: 'Durant près de vingt ans, j’ai eu le privilège de présider l’ASG et d’accompagner une profession en pleine évolution. Ensemble, nous avons traversé des périodes exigeantes, marqué par des changements réglementaires majeurs, mais aussi par une formidable dynamique de professionnalisation. Si l’ASG est aujourd’hui une organisation respectée et un pilier de la place financière suisse, c’est grâce à l’engagement, à la rigueur et à la solidarité de ses membres.'
+            text: 'Nahezu zwanzig Jahre lang hatte ich das Privileg, dem VSV vorzustehen und unseren Berufsstand im Umbruch zu begleiten. Gemeinsam haben wir herausfordernde Zeiten erlebt. Sie waren durch grosse regulatorische Veränderungen geprägt, aber auch durch eine fabelhafte Dynamik bei der Professionalisierung. Dank des Engagements, der Disziplin und der Solidarität seiner Mitglieder ist der VSV heute ein angesehener Verband und eine Säule des Schweizer Finanzplatzes.'
       -
         type: paragraph
         attrs:
@@ -50,7 +50,7 @@ elements:
         content:
           -
             type: text
-            text: 'Je tiens à exprimer ici ma gratitude la plus sincère. Merci pour votre confiance, pour votre esprit de collaboration et pour votre volonté constante d’élever notre métier. Merci également aux équipes, aux comités successifs et à toutes celles et ceux qui, souvent dans l’ombre, ont contribué à renforcer notre Association.'
+            text: 'Es ist mir wichtig, an dieser Stelle meine ehrlich empfundene Dankbarkeit auszudrücken. Ich danke Ihnen für Ihr Vertrauen, Ihren kooperativen Geist und Ihren permanenten Willen, unseren Berufsstand auf ein höheres Niveau zu heben. Mein Dank gilt auch den Teams, den verschiedenen Ausschüssen und allen, die ─ oft im Verborgenen ─ zur Stärkung unseres Verbands beigetragen haben.'
       -
         type: paragraph
         attrs:
@@ -58,7 +58,7 @@ elements:
         content:
           -
             type: text
-            text: 'Ce jubilé n’est pas seulement un anniversaire, c’est la célébration d’une profession qui a su se transformer, se structurer et gagner en maturité. Je suis fier d’avoir pu participer à cette évolution et je suis convaincu que l’avenir reste prometteur pour celles et ceux qui continueront à exercer ce métier avec intégrité, compétence et indépendance.'
+            text: 'Dieses Jubiläum ist mehr als ein Geburtstag: Wir feiern heute einen Berufsstand, der in der Lage war, sich weiterzuentwickeln, zu strukturieren und an Reife zu gewinnen. Ich bin stolz darauf, an dieser Entwicklung beteiligt gewesen zu sein, und ich bin überzeugt, dass unser Beruf für diejenigen, die ihn integer, kompetent und unabhängig ausüben, auch in Zukunft vielversprechend sein wird.'
       -
         type: paragraph
         attrs:
@@ -66,7 +66,7 @@ elements:
         content:
           -
             type: text
-            text: 'Je vous adresse à toutes et à tous mes vœux les plus chaleureux pour la suite. Que l’ASG poursuive son chemin avec la même énergie, la même vision et le même sens des responsabilités.'
+            text: 'Ich wünsche Ihnen allen von ganzem Herzen alles Gute für die kommenden Jahre. Möge der VSV seinen Weg mit derselben Energie, derselben Zukunftsvision und demselben Verantwortungsbewusstsein fortsetzen.'
       -
         type: paragraph
         attrs:
@@ -74,7 +74,7 @@ elements:
         content:
           -
             type: text
-            text: 'Avec ma profonde reconnaissance,'
+            text: 'In tief empfundener Dankbarkeit'
       -
         type: paragraph
         attrs:
@@ -82,7 +82,7 @@ elements:
         content:
           -
             type: text
-            text: 'Votre ancien Président'
+            text: 'Ihr ehemaliger Präsident'
       -
         type: paragraph
         attrs:

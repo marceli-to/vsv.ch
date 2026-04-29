@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1776792132
+updated_at: 1777446611
 elements:
   -
     id: mn78s6cy
@@ -233,8 +233,8 @@ elements:
           -
             id: mn7b8ku5
             interview_type: group
-            image: dummy/dummy-interview-1.jpg
-            title: 'Der Julius Bär Vorteil für Finanzintermediäre'
+            image: vsv-asg-yearbook-2025-lgt-michel-yigit.jpg
+            title: 'Tragfähige Partnerin für die Zukunft'
             introduction:
               -
                 type: paragraph
@@ -246,17 +246,33 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Ein Interview mit Thomas Frauenlob, '
+                    text: 'Ein Interview mit Michel Yigit'
                   -
                     type: hardBreak
+                    marks:
+                      -
+                        type: bold
                   -
                     type: text
-                    text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
+                    text: 'Head of External Asset Managers Switzerland and member of the Executive Board, LGT Bank Switzerland'
             logo: logo/lgt.svg
             content:
               -
-                id: mn7b9ljh
-                question: 'Anlässlich Ihres ersten Jahrestags bei Julius Bär am 1. April: Was waren Ihrer Ansicht nach die grössten Erfolge und Herausforderungen des vergangenen Jahres?'
+                id: mn7blgt00
+                editor_content:
+                  -
+                    type: paragraph
+                    attrs:
+                      class: text-lead
+                    content:
+                      -
+                        type: text
+                        text: 'Die LGT betreut als internationales, eigentümergeführtes Familienunternehmen seit drei Jahrzehnten unabhängige Vermögensverwalter. Der Geschäftsbereich, so Michel Yigit, Market Head External Asset Managers Schweiz und Mitglied der Geschäftsleitung der LGT Bank Schweiz AG, soll mit exzellenten Dienstleistungen und Services nachhaltig ausgebaut werden. Wir haben mit ihm gesprochen.'
+                type: question_answer
+                enabled: true
+              -
+                id: mn7blgt01
+                question: 'Herr Yigit, wie sehen Sie die Zusammenarbeit der LGT mit den unabhängigen Vermögensverwaltern (EAM) in den vergangenen Monaten?'
                 editor_content:
                   -
                     type: paragraph
@@ -265,7 +281,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Es war ein gutes Jahr, das mehr Erfolge als Herausforderungen brachte. Im Jahr 2024 stiegen unsere verwalteten Vermögen im Intermediaries-Geschäft dank ungewöhnlich hoher Mittelzuflüsse und steigender Aktienmärkte deutlich an. Unsere guten Ergebnisse spiegeln den zielgerichteten Ansatz wider, nachhaltiges Wachstum zu fördern und Mehrwert für unsere Kundinnen und Kunden zu schaffen.'
+                        text: 'Im heutigen Umfeld kann sich niemand auf dem Erreichten ausruhen. Wir setzen alles daran, externen Vermögensverwaltern auch weiterhin eine verlässliche Partnerin zu bleiben. Dafür haben wir unsere Angebote und Services weiter ausgebaut.'
                   -
                     type: paragraph
                     attrs:
@@ -273,12 +289,20 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Das Jahr 2025 hat gut begonnen. Und obwohl wir die Herausforderungen des aktuellen Zoll- und Handelskriegs und der Turbulenzen an den Finanzmärkten nicht ignorieren können, bin ich weiterhin zuversichtlich, dass wir gemeinsam mit unseren Finanzintermediären neue Höhen erreichen können.'
+                        text: 'In unserem Geschäft entsteht dort der grösste Mehrwert, wo Technologie und menschliche Expertise ineinandergreifen. An dieser Schnittstelle entfaltet die LGT eine immer grössere Dynamik, nachdem die LGT den unternehmerischen Entscheid getroffen hatte, in der Digitalisierung eine Führungsrolle anzustreben. In der Folge wurden zum Beispiel 2023 zusätzlich eine Digital Factory in Barcelona gegründet und über 20 AI-Expertinnen und -Experten eingestellt.'
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Abseits des Technischen haben die vergangenen Monate deutlich gezeigt, dass das besondere persönliche Engagement und die Qualifikation unserer Mitarbeitenden die Attraktivität unseres Angebots entscheidend mitprägen. So suchen wir bewusst die Nähe und den intensiven Austausch, um die Vielzahl unserer komplementären Kompetenzen für EAMs zu erschliessen.'
                 type: question_answer
                 enabled: true
               -
-                id: mn7baaiac
-                question: 'Was zeichnet Julius Bär mit Blick auf die Unterstützung von Finanzintermediären aus?'
+                id: mn7blgt02
+                question: 'An welchen konkreten Beispielen können Sie Ihre Expertise festmachen?'
                 editor_content:
                   -
                     type: paragraph
@@ -287,7 +311,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Wir wollen der bevorzugte Partner für Finanzintermediäre weltweit sein. In den letzten Jahren haben wir unsere Reichweite durch den Aufbau zusätzlicher Standorte in Madrid, Dubai und Lausanne erweitert. Das hilft uns, noch näher an unseren Kundinnen und Kunden zu sein. Was die Anlageprodukte und -dienstleistungen betrifft, so verfügen wir über eine umfassende Palette mit offener Architektur, die wir ständig überprüfen und erweitern. Ausserdem verbessern wir kontinuierlich unsere digitalen Services und Tools.'
+                        text: 'Eine wichtige Quelle ist unsere Eigentümerin, die Fürstenfamilie von Liechtenstein. Seit Jahrhunderten als Unternehmerin erfolgreich, bestimmt sie seit gut hundert Jahren auch den Kurs der LGT. Das prägt die Unternehmenskultur der LGT. Weil Unternehmertum überall bei der LGT wichtig ist, denken wir langfristig, pflegen mit unseren Kundinnen und Kunden einen partnerschaftlichen Austausch auf Augenhöhe, der beide Seiten wachsen lässt, statt einfach Produkte zu vertreiben.'
                   -
                     type: paragraph
                     attrs:
@@ -295,17 +319,33 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'So schaffen wir es, unseren Kundinnen und Kunden die bestmögliche Betreuung, geeignete Lösungen und die richtige Technologie zu bieten. Dafür bleiben wir anpassungsfähig und reagieren auf sich verändernde Kundenbedürfnisse und Marktbedingungen. Strategisch gesehen sind Finanzintermediäre weiterhin ein Eckpfeiler für das Wachstum von Julius Bär, und wir wollen den Standard für herausragende Dienstleistungen und Lösungen setzen.'
+                        text: 'Über die Kultur hinaus hat unsere Eigentümerin auch wichtige Akzente bei unserem Offering gesetzt. Schon in den 90er-Jahren hatte sie einen damals ungewöhnlich hohen Anteil ihres Vermögens in Private Markets investiert. Seither sind die Kompetenzen der LGT in diesem Bereich stetig gewachsen, wie auch unser Angebot.'
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Tatsächlich können unsere Kundinnen und Kunden heute nach derselben Strategie Vermögen veranlagen wie unsere Eigentümerin – beide Parteien verfolgen damit dieselben Interessen bei der Vermögensanlage. Dieses und alternative Angebote im Bereich Private Markets stellen wir mit unseren Fachexpertinnen und -experten regelmässig im persönlichen Austausch mit Mitarbeitenden bei unabhängigen Vermögensverwaltern vor. So können wir die Chancen und Besonderheiten dieser Anlageklasse vermitteln und erhalten gleichzeitig direktes Feedback.'
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Bei unserem Angebot zu Private Label Funds (in unserer EWR-Buchungsplattform in Liechtenstein) unterstützen wir ähnlich und integrieren das Fachwissen der Spezialistinnen und Spezialisten. Im engen Austausch mit den unabhängigen Vermögensverwaltern sorgen wir so für individuelle Fondslösungen, die im Sinne ihrer Initianten bestmöglich umgesetzt werden – vom Fondsnamen bis zur Anlagestrategie. Diese können ihre Wirkung speziell auch innerhalb des zentralen Themas der Vermögensübertragung oder NextGen entfalten.'
                 type: question_answer
                 enabled: true
               -
-                id: mn7baatkb
-                quote: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
+                id: mn7blgt03
+                quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                 type: quote
                 enabled: true
               -
-                id: mn7baayun
-                question: 'Unterschätzen Finanzintermediäre bestimmte Risiken und wenn ja, was sollten sie anders machen?'
+                id: mn7blgt04
+                question: 'Wie konnten Sie im Bereich Digitalisierung für Mehrwert sorgen?'
                 editor_content:
                   -
                     type: paragraph
@@ -314,7 +354,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Wir leben in einer Zeit der «schwarzen Schwäne» – folgenschwerer Ereignisse, die schwer vorherzusagen sind. Finanzintermediäre und Family Offices sind sich dessen bewusst, wobei laut Umfragen unter Family Offices die Geopolitik zu deren grössten Sorgen zählt. Wie kann man sich gegenüber weiteren Turbulenzen absichern? Indem wir dafür sorgen, dass die Portfolios der Kundinnen und Kunden gut diversifiziert sind und ihrer Risikobereitschaft entsprechen.'
+                        text: 'Zentral für unser Servicemodell mit unseren Partnerinnen und Partnern bei unabhängigen Vermögensverwaltern ist der Austausch von Daten. Viele unserer Partnerinnen und Partner dort nutzen unser leistungsfähiges LGT SmartBanking Pro. Kundinnen und Kunden, die über ein eigenes, IT-gestütztes Order Management System verfügen, können aber auch mittels leistungsfähiger Schnittstellen direkt auf unser Handelssystem zugreifen. So nehmen wir Aufträge rund um Aktien, Obligationen, Investment Funds wie auch Options/Futures und Forex vollständig elektronisch entgegen und führen sie dann aus – inklusive Rückmeldung und Verbuchung alles voll automatisiert. Das ist effizient und reduziert Prozessrisiken signifikant. Gerade in Zeiten hoher Volatilität ist das Plus an Schnelligkeit und Verlässlichkeit entscheidend.'
                   -
                     type: paragraph
                     attrs:
@@ -322,20 +362,17 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
-                      -
-                        type: text
-                        text: 'Natürlich kann Unerwartetes auch in unmittelbarer Nähe geschehen. Was geschieht, wenn ein wichtiger Partner ausscheidet oder plötzlich erkrankt? Jedes Unternehmen sollte sich dagegen absichern, indem es eine Nachfolgeplanung aufstellt, die Führungsebene diversifiziert und die betriebliche Resilienz stärkt. Risikomanagement bedeutet, vorbereitet zu sein.'
+                        text: 'Ausserdem bietet LGT SmartBanking Pro Portfoliobewertungen nun nahezu in Echtzeit. Mit anderen Worten: Unsere Kundinnen und Kunden können die Wertentwicklung selbst komplexer Portfolios noch besser verfolgen. All diese Puzzleteile zeigen, dass wir mit unseren Initiativen unabhängigen Vermögensverwaltern immer bessere Tools und Services bieten.'
                 type: question_answer
                 enabled: true
               -
-                id: mn7babg15
-                question: 'Auf welche Trends in der Vermögensverwaltung sollten Finanzintermediäre Ihrer Meinung nach in den kommenden fünf Jahren ein besonderes Augenmerk legen?'
+                id: mn7blgt05
+                quote: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                type: quote
+                enabled: true
+              -
+                id: mn7blgt06
+                question: 'Bei der Kommunikation mit unabhängigen Vermögensverwaltern haben Sie in jüngster Zeit auch Philanthropie thematisiert. Was waren die Beweggründe dafür?'
                 editor_content:
                   -
                     type: paragraph
@@ -344,7 +381,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'boomer-Generation immer älter wird, steigen die vererbten Vermögen. Allein im Jahr 2025 werden Menschen in wohlhabenden Nationen etwa 6 Billionen US-Dollar erben, so eine aktuelle Schätzung von The Economist.'
+                        text: 'Laut Schätzungen wurden in der Schweiz 2025 100 Milliarden Franken vererbt – so viel wie nie zuvor, und dieser Trend dürfte anhalten. Banken wie auch unabhängige Vermögensverwalter sollten sich vor diesem Hintergrund fragen, wie sie auch die künftigen Vermögensinhaber ansprechen können. Philanthropie bietet, so unsere Erfahrung, besondere Chancen. Sie fördert in Familien einen wertvollen Dialog über Werte, das Vermögen und die Nachfolge – und wer dabei mit am Tisch sitzt, kann sich auch der Nachfolgegeneration als vertrauensvoller Partner in Vermögensfragen empfehlen.'
                   -
                     type: paragraph
                     attrs:
@@ -352,7 +389,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Man sagt, die Rebellen von gestern seien die Herrscher von heute, und das gilt auch für die Vermögensverwaltung. Aber nicht alle Erben sind Disruptoren der Generation Z. Einige sind eher konventionelle Millennials, andere sind vielleicht schon etwas älter und bringen eine ganze Reihe von Erfahrungen und Einblicken in die Vermögensverwaltung mit. Und während die älteren Erben vielleicht traditionelle Werte und langfristige Beziehungen bevorzugen, erwarten die jüngeren Generationen eine stärkere Digitalisierung, mehr Personalisierung und eine andere Auswahl an Anlageprodukten.'
+                        text: 'Unsere Eigentümerfamilie hat das Thema Nachfolge über 26 Generationen hinweg erfolgreich gestaltet. Für uns Mitarbeitende ist dieses Beispiel eine grosse Inspiration. Zusätzlich ergänzen wir unser Wissen in diesem Bereich zum Beispiel mit Studien. Unser Philanthropie-Team hat dabei jüngst die sogenannte NextGen in den Mittelpunkt gerückt. Aktuelle Insights daraus haben wir an diversen Events auch Vermögensverwalterinnen und -verwaltern vorgestellt.'
                   -
                     type: paragraph
                     attrs:
@@ -360,7 +397,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Diese Verschiebung stellt eine bedeutende Wachstumschance dar, wenn ein beträchtlicher Teil des Vermögens demnächst unter neuer Verwaltung stehen wird.'
+                        text: 'Wir teilen Wissen gerne – ob im Bereich AI oder bei der Philanthropie. Das positive Feedback hat gezeigt, dass diese Angebote als wertvoll empfunden werden. Damit wollen wir über unsere Dienstleistungen und unsere Produkte hinaus einen offenen Austausch pflegen. Denn wächst die partnerschaftliche Zusammenarbeit mit Vermögensverwalterinnen und -verwaltern, macht uns das gemeinsam erfolgreicher.'
                 type: question_answer
                 enabled: true
             type: interview
@@ -377,7 +414,7 @@ elements:
           -
             id: mn7c8ku5
             interview_type: group
-            image: dummy/dummy-interview-1.jpg
+            image: vsv-asg-yearbook-2025-lombard-odier-pellet-ganiere.jpg
             title: 'Mission (Cyber) Impossible? Vermögensverwaltung in der Schweiz sichern'
             logo: logo/lombard-odier.svg
             content:
@@ -685,12 +722,12 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Ein Text von XY'
+                    text: 'Ein Text von Simon Ganière'
                   -
                     type: hardBreak
                   -
                     type: text
-                    text: Funktion
+                    text: 'Chief Information Security Officer, Banque Lombard Odier & Cie SA'
         type: accordion_item
         enabled: true
         open: false
@@ -843,7 +880,7 @@ elements:
                     type: hardBreak
                   -
                     type: text
-                    text: 'verantwortet bei UBS Global FIM das Geschäft mit unabhängigen Vermögensverwaltern im deutschsprachigen Raum. Mit über 25 Jahren bei UBS, davon 18 Jahre in der Zusammenarbeit mit unabhängigen Vermögensverwaltern, gilt er als ausgewiesener Kenner der Branche.'
+                    text: 'Head FIM Deutschschweiz, UBS'
         type: accordion_item
         enabled: true
         open: false

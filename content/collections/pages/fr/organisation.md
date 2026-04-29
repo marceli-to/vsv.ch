@@ -55,7 +55,7 @@ elements:
                   -
                     id: brd005
                     name: 'Fabio Poma'
-                    company: 'Wullschleger Martinenghi Manzini Gestioni Patrimoni'
+                    company: 'Wullschleger Martinenghi, Manzini Gestioni Patrimoni'
               -
                 id: brd006
                 type: role_group
@@ -77,7 +77,7 @@ elements:
                   -
                     id: brd010
                     name: 'Marc Nadas'
-                    company: 'HBK Investments Advisory SA'
+                    company: 'HBK Wealth'
                   -
                     id: brd011
                     name: 'Anne Thiébaud'

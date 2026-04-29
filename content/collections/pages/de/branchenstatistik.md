@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1776164606
+updated_at: 1777445428
 container_padding_top: true
 container_padding_bottom: true
 elements:
@@ -14,8 +14,11 @@ elements:
     id: sr001
     type: statistics_report
     enabled: true
-    title: 'Statistiques de la branche : un aperçu actualisé du secteur'
-    lead: "Les dernières statistiques que nous avions publiées sur le marché de la gestion de fortune remontaient à notre Yearbook 2022, et à 2021 pour les données complètes. Elles reposaient sur des chiffres audités provenant des affiliés à notre OAR en 2020. Conformément à notre approche, nous avons toujours privilégié la publication de données vérifiées, représentatives et fondées sur des sources fiables. Il était donc nécessaire d'attendre que le nombre de gestionnaires autorisés et audités sous le nouveau régime soit suffisamment significatif pour garantir une nouvelle analyse robuste du marché. Cette édition marque ainsi le retour de statistiques consolidées et fiables."
+    title: 'Branchenkennzahlen: Ein aktueller Überblick über die Branche'
+    lead: |-
+      Die letzten Statistiken, die wir zum Vermögensverwaltungsmarkt veröffentlicht haben, datieren von unserem Geschäftsbericht 2022 und bei den vollständigen Daten sogar von 2021. Sie basierten auf Zahlen, die sich aus der Mitgliederbefragung unserer SRO im Jahr 2020 ergaben.
+
+      In Übereinstimmung mit unserem Konzept haben wir stets auf die Veröffentlichung überprüfter, repräsentativer und auf verlässlichen Quellen basierender Daten Wert gelegt. Daraus ergab sich die Notwendigkeit abzuwarten, bis die Anzahl der bewilligten und zu den neuen Vorschriften befragten Vermögensverwalter aussagekräftig genug war, um eine neue robuste Marktanalyse zu gewährleisten. Mit dieser Ausgabe liegen daher wieder konsolidierte und verlässliche Statistiken vor.
     text_content:
       -
         type: heading
@@ -24,13 +27,15 @@ elements:
         content:
           -
             type: text
-            text: 'Une structure de marché stable'
+            text: 'Stabile Marktstruktur'
       -
         type: paragraph
+        attrs:
+          class: null
         content:
           -
             type: text
-            text: "Les résultats obtenus confirment les tendances observées ces dernières années. La FINMA avait communiqué de manière transparente, tout au long du processus d'autorisation, sur la taille et la typologie des sociétés. Les données actuelles montrent que la structure du secteur n'a pas connu de transformation notable depuis l'entrée en vigueur du nouveau dispositif de surveillance."
+            text: 'Die Ergebnisse bestätigen die Tendenzen der letzten Jahre. Die FINMA hat über den gesamten Zeitraum des Bewilligungsprozesses hinsichtlich Art und Grösse der Unternehmen eine transparente Kommunikation aufrechterhalten. Die aktuellen Daten zeigen, dass sich die Struktur der Branche seit Inkrafttreten des neuen Aufsichtssystems nicht wesentlich geändert hat.'
       -
         type: heading
         attrs:
@@ -38,19 +43,31 @@ elements:
         content:
           -
             type: text
-            text: 'Évolution du nombre de gestionnaires'
+            text: 'Entwicklung der Anzahl der Vermögensverwalter'
       -
         type: paragraph
+        attrs:
+          class: null
         content:
           -
             type: text
-            text: "À ce jour, 1 427 gestionnaires sont autorisés, dont 1 340 supervisés par l'un des quatre organismes de surveillance (OS) et 87 directement par la FINMA en tant que sociétés de groupe. Le nombre total de sociétés de gestion a suscité de nombreux débats. Nous avons toujours considéré que la diminution observée au cours des cinq dernières années résultait principalement de départs naturels, non compensés durant la période de transition par l'arrivée de nouveaux acteurs. Depuis deux ans, la tendance s'est inversée : les créations de sociétés représentent la hausse et compensent largement les départs à la retraite, avec 230 nouveaux gestionnaires enregistrés. Cette dynamique témoigne d'un regain d'attractivité du secteur."
+            text: "Zum 30. April 2026 verfügen 1'427 Vermögensverwalter über eine Bewilligung, 1'340 davon werden von einer der vier Aufsichtsorganisationen (AO) und 87 in ihrer Eigenschaft als Gruppengesellschaften direkt von der FINMA überwacht."
       -
         type: paragraph
+        attrs:
+          class: null
         content:
           -
             type: text
-            text: "La consolidation du marché a également été un thème récurrent dans plusieurs études, souvent présentée comme imminente mais encore peu tangible. Les chiffres confirment que seules une vingtaine d'opérations de consolidation ont effectivement eu lieu."
+            text: 'Die Gesamtzahl der Vermögensverwaltungsunternehmen hat zu vielen Diskussionen geführt. Wir waren stets der Auffassung, dass der in den letzten 5 Jahren zu beobachtende Rückgang sich in erster Linie aus Abgängen in den Ruhestand erklärte, die in der Übergangsperiode nicht durch das Hinzukommen neuer Akteure kompensiert wurden. Seit dem Ende der Übergangsperiode hat sich die Tendenz umgekehrt. Die Zahlt der Unternehmensgründungen steigt wieder und gleicht die Zahl der Unternehmensschliessungen aufgrund von Ruhestand weitgehend aus. 61 neue Gesuche wurden 2025 bei der FINMA eingereicht.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Die Konsolidierung des Marktes war ebenfalls ein in mehreren Umfragen wiederkehrendes Thema und wurde oft als unmittelbar bevorstehend, aber noch wenig konkret erkennbar präsentiert. Das bestätigen die Zahlen: Nur etwa zwanzig Konsolidierungen waren seit 2022 tatsächlich zu verzeichnen.'
       -
         type: heading
         attrs:
@@ -58,19 +75,33 @@ elements:
         content:
           -
             type: text
-            text: 'Effectifs, clientèle et AUM : des indicateurs stables'
+            text: 'Beschäftigte und Kunden: stabile Indikatoren'
       -
         type: paragraph
+        attrs:
+          class: null
         content:
           -
             type: text
-            text: "Les effectifs demeurent stables, avec une médiane de 3,3 collaborateurs et une moyenne de 5 ETP. Le nombre de clients, dont la médiane s'établit à 68, reste comparable aux données d'il y a cinq ans, confirmant la grande stabilité opérationnelle du secteur."
-      -
-        type: paragraph
-        content:
+            text: 'Die Anzahl der Beschäftigten ist weiterhin etwa gleichbleibend: Der Medianwert der Mitarbeiter beträgt '
           -
             type: text
-            text: "Les avoirs sous gestion (AUM) affichent en revanche une progression notable, passant d'une médiane de 103 millions à 140 millions. Cette évolution s'explique principalement par la performance des portefeuilles sur la période."
+            marks:
+              -
+                type: bold
+            text: '3.3'
+          -
+            type: text
+            text: '; der Durchschnittswert beträgt 5 Vollzeitkräfte. Die Anzahl der Kunden bleibt mit einem Medianwert von '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '68'
+          -
+            type: text
+            text: ' vergleichbar mit den Daten von vor 5 Jahren und bestätigt damit die grosse operative Stabilität unseres Sektors.'
       -
         type: heading
         attrs:
@@ -78,13 +109,41 @@ elements:
         content:
           -
             type: text
-            text: 'Gestion et conseil : une distinction désormais mesurée'
+            text: 'Vermögensverwaltung und Vermögensberatung: Unterscheidung nun messbar'
       -
         type: paragraph
+        attrs:
+          class: null
         content:
           -
             type: text
-            text: "Les nouvelles données permettent pour la première fois de distinguer les avoirs sous gestion faisant l'objet d'une procuration et ceux relevant du conseil sans procuration. La médiane des avoirs conseillés s'élève à 42 millions, apportant un éclairage supplémentaire sur la diversité des modèles d'affaires."
+            text: 'Das verwaltete Vermögen (AuM) weist dagegen einen deutlichen Zuwachs aus, nämlich von CHF 103 Millionen auf CHF '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '140 Millionen'
+          -
+            type: text
+            text: '. Diese Entwicklung erklärt sich in erster Linie aus der Wertentwicklung der Portfolios in diesem Zeitraum.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Bei den neuen Daten kann zum ersten Mal zwischen verwaltetem Vermögen mit Vollmacht und Vermögen unterschieden werden, das nur einer Beratung (ohne Vollmacht) unterliegt. Das beleuchtet die verschiedenen Geschäftsmodelle noch einmal von einer anderen Seite. Das Vermögen unter Beratung beträgt CHF 80 Milliarden bei einem Medianwert von CHF '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '42 Millionen'
+          -
+            type: text
+            text: .
       -
         type: heading
         attrs:
@@ -92,13 +151,29 @@ elements:
         content:
           -
             type: text
-            text: 'Une estimation consolidée du marché'
+            text: 'Eine Gesamteinschätzung des Marktes'
       -
         type: paragraph
+        attrs:
+          class: null
         content:
           -
             type: text
-            text: "Sur la base de l'ensemble des données disponibles, on peut estimer que la branche gère aujourd'hui environ 440 milliards d'avoirs sous gestion, auxquels s'ajoutent quelque 80 milliards en conseil. Ces chiffres s'inscrivent dans la continuité des estimations publiées ces dernières années, qui situent la taille du marché autour de 500 milliards."
+            text: 'Auf Basis aller vorliegenden Daten ergibt sich für unsere Branche ein Schätzwert von etwa CHF 440 Milliarden an verwaltetem Vermögen zuzüglich weiterer CHF 80 Milliarden an Beratungsmandaten. Diese Zahlen stehen in Einklang mit den Schätzungen der letzten Jahre, die den Marktumfang mit etwa CHF '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '500 Milliarden'
+          -
+            type: text
+            text: ' bezifferten.'
+          -
+            type: hardBreak
+          -
+            type: text
+            text: 'Insbesondere die FINMA veröffentlichte diesbezüglich in ihrem Jahresbericht 2025 einen Betrag von CHF 353 Milliarden zu Ende Dezember 2024. Diese Zahl stammt aus einer Datenerhebung.'
     stat_cards:
       -
         id: sc001
@@ -161,7 +236,7 @@ elements:
         id: ch001
         type: chart_block
         enabled: true
-        chart_title: 'Répartition des sociétés de gestion de fortune autorisées par organisme de surveillance (OS)'
+        chart_title: 'Bewilligte Vermögensverwalter nach Aufsichtsorganisation (AO)'
         chart_entries:
           -
             id: ce001

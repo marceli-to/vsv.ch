@@ -16,35 +16,42 @@ elements:
         id: tl001
         year: '1986'
         entry_title: "Création de l'ASG"
-        description: "Création de l'ASG par un groupe de pionniers ayant voulu instaurer des règles, un cadre de qualité et un label offrant des garanties à leurs clients"
+        description: "Création de l'ASG par un groupe de pionniers ayant voulu instaurer des règles, un cadre de qualité et un label offrant des garanties à leurs clients. Afin de garantir la réputation de la profession, l'ASG émet pour la première fois un Code d'honneur fixant les pratiques de la profession"
         type: timeline_entry
         enabled: true
       -
         id: tl002
-        year: '1987'
-        entry_title: "Code d'honneur de l'ASG"
-        description: "Afin de garantir la réputation de la profession, l'ASG émet pour la première fois un code d'honneur fixant les pratiques de la profession"
+        year: '1989'
+        entry_title: 'Code de conduite'
+        description: "Adoption du Code de conduite qui remplace le code d'honneur. Son respect est contrôlé par une autoréglementation mise en place une année plus tard"
         type: timeline_entry
         enabled: true
       -
         id: tl003
         year: '1995'
-        entry_title: "Directive sur le blanchiment d'argent"
-        description: "Le code d'honneur est complété par des directives pour lutter contre le blanchiment d'argent"
+        entry_title: "Directives sur le blanchiment d'argent"
+        description: "Le Code de conduite est complété par des directives pour lutter contre le blanchiment d'argent selon le Code pénal"
         type: timeline_entry
         enabled: true
       -
         id: tl004
         year: '1998'
         entry_title: 'Entrée en vigueur de la LBA'
-        description: 'Les dispositions du code pénal sont complétées par une loi spécifique'
+        description: 'Les dispositions du Code pénal sont complétées par une loi spécifique'
         type: timeline_entry
         enabled: true
       -
         id: tl005
         year: '1999'
         entry_title: "Création de l'OAR et adoption d'un nouveau code de conduite"
-        description: "Assujettissement des gestionnaires à la LBA et création par l'ASG d'un OAR de branche pour les gestionnaires de fortune. Adoption d'un code de conduite contenant à la fois des règles de comportement et les règles découlant de la nouvelle loi sur le blanchiment d'argent"
+        description: "Assujettissement des gestionnaires à la LBA et création par l'ASG d'un OAR de branche pour les gestionnaires de fortune. Adoption d'un Code de conduite contenant à la fois des règles de comportement et les règles découlant de la nouvelle loi sur le blanchiment d'argent"
+        type: timeline_entry
+        enabled: true
+      -
+        id: tl013
+        year: '2006'
+        entry_title: "20 ans de l'ASG"
+        description: "L'ASG publie le livre doré 1986-2006"
         type: timeline_entry
         enabled: true
       -
@@ -58,7 +65,7 @@ elements:
         id: tl007
         year: '2009'
         entry_title: "Création de la FINMA et adoption des règles cadres pour la gestion de fortune – Nouveau code de conduite de l'ASG"
-        description: "Une des premières mesures de la FINMA est de promulguer des règles cadres pour la gestion de fortune. Celles-ci se basent sur le code de conduite de l'ASG qui a été adapté en conséquence."
+        description: "Une des premières mesures de la FINMA est de promulguer des règles cadres pour la gestion de fortune. Celles-ci se basent principalement sur le Code de conduite de l'ASG qui a été adapté en conséquence"
         type: timeline_entry
         enabled: true
       -
@@ -77,15 +84,15 @@ elements:
       -
         id: tl012
         year: '2016'
-        entry_title: 'Rencontre avec le conseiller fédéral Ueli Maurer'
-        description: "Rencontre le 2 mai 2016, avec le conseiller fédéral et ministre des Finances de l'époque, Ueli Maurer. En l'espace d'une heure, l’ASG a réussi à le convaincre que le projet de loi LSFin n'était pas acceptable en l’état."
+        entry_title: 'Rencontre avec le Conseiller fédéral Ueli Maurer'
+        description: "Rencontre le 2 mai 2016, avec le Conseiller fédéral et ministre des Finances de l'époque, Ueli Maurer. En l'espace d'une heure, l'ASG a réussi à le convaincre de revoir le projet de loi LEFin qui n'était pas acceptable en l'état"
         type: timeline_entry
         enabled: true
       -
         id: tl010
         year: '2020'
-        entry_title: "Entrée en vigueur du nouveau cadre réglementaire, LEFin / LSFin – L'ASG crée un organisme de surveillance, finance la mise en place d'un organe de médiation et devient une association sectorielle et professionnelle."
-        description: "L'ASG met en place les différentes structures prévues par la loi. Elle transfère ses activités de surveillance à AOOS et l'ASG redevient uniquement association de branche et professionnelle."
+        entry_title: "Entrée en vigueur du nouveau cadre réglementaire, LEFin / LSFin – L'ASG crée un organisme de surveillance, finance la mise en place d'un organe de médiation et redevient uniquement une association sectorielle et professionnelle."
+        description: "L'ASG met en place les différentes structures prévues par la loi. Elle transfère ses activités de surveillance à AOOS et redevient uniquement association de branche et professionnelle"
         type: timeline_entry
         enabled: true
       -

@@ -21,4 +21,10 @@ fields:
       display: Title
       localizable: true
   -
+    handle: lead
+    field:
+      type: textarea
+      display: Lead
+      localizable: true
+  -
     import: editor

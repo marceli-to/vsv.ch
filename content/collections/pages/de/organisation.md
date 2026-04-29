@@ -83,14 +83,14 @@ elements:
                   -
                     id: brd010
                     name: 'Marc Nadas'
-                    company: 'HBK Investments Advisory SA'
+                    company: 'HBK Wealth'
                   -
                     id: brd011
                     name: 'Anne Thiébaud'
                     company: 'Opal Investment Services SA'
                   -
                     id: brd012
-                    name: 'Jamie Vrijhof-Droese'
+                    name: 'Jamie Vrijhof'
                     company: 'Weber Hartmann Vrijhof & Partners AG'
             footnote: '*Mitglieder des Ausschusses'
             title: Vorstand
