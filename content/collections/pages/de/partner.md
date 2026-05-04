@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777890876
+updated_at: 1777899913
 elements:
   -
     id: mn78s6cy
@@ -741,7 +741,7 @@ elements:
           -
             id: mn7c8ku5
             interview_type: group
-            image: dummy/dummy-interview-1.jpg
+            image: vsv-asg-yearbook-2025-ubs-andreas-moser.jpg
             title: 'Titel fehlt'
             logo: logo/ubs.svg
             content:
@@ -1000,7 +1000,7 @@ elements:
           -
             id: mn7c8ku5
             interview_type: group
-            image: dummy/dummy-interview-1.jpg
+            image: vsv-asg-yearbook-2025-vanguard-abdullah-mohammed-iten.jpg
             title: 'Beständige Anlageprinzipien in wechselhaftem Marktumfeld'
             introduction:
               -
@@ -1013,10 +1013,10 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Abdullah Mohammed, '
+                    text: 'Michael Iten, '
                   -
                     type: text
-                    text: 'Sales executive, Vanguard Investments Switzerland GmbH'
+                    text: 'CFA, Sales executive, Vanguard Investments Switzerland GmbH'
                   -
                     type: hardBreak
                   -
@@ -1024,10 +1024,10 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Michael Iten, '
+                    text: 'Abdullah Mohammed, '
                   -
                     type: text
-                    text: 'CFA, Sales executive, Vanguard Investments Switzerland GmbH'
+                    text: 'Sales executive, Vanguard Investments Switzerland GmbH'
             logo: logo/vanguard.svg
             content:
               -

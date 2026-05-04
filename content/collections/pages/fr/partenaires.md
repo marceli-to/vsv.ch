@@ -725,7 +725,7 @@ elements:
           -
             id: mn7c8ku5
             interview_type: group
-            image: dummy/dummy-interview-1.jpg
+            image: vsv-asg-yearbook-2025-ubs-andreas-moser.jpg
             title: '[Titre manquant]'
             introduction:
               -
@@ -993,7 +993,7 @@ elements:
           -
             id: mn7c8ku5
             interview_type: group
-            image: dummy/dummy-interview-1.jpg
+            image: vsv-asg-yearbook-2025-vanguard-manon_duez.jpg
             title: 'Beständige Anlageprinzipien in wechselhaftem Marktumfeld'
             introduction:
               -
@@ -1131,5 +1131,5 @@ elements:
     type: accordion
     enabled: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777886433
+updated_at: 1777899921
 ---
