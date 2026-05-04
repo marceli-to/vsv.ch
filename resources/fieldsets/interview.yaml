@@ -88,6 +88,34 @@ fields:
                     localizable: true
                 -
                   import: editor
+            text:
+              display: Text
+              instructions: 'Add a text block.'
+              icon: text-formatting-initial-letter
+              fields:
+                -
+                  import: editor
+            text_image:
+              display: 'Text & Image'
+              instructions: 'Add a text and image block.'
+              icon: text-formatting-wrap-image-left
+              fields:
+                -
+                  import: editor
+                -
+                  handle: image
+                  field:
+                    type: assets
+                    display: Image
+                    container: assets
+                    max_files: 1
+                    localizable: false
+                -
+                  handle: caption
+                  field:
+                    type: text
+                    display: Caption
+                    localizable: true
             quote:
               display: Quote
               instructions: 'Add a quote.'

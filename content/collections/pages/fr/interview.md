@@ -53,18 +53,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Pendant ces vingt années, la gestion de fortune a évolué dans un environnement en transformation profonde : mondialisation financière, pressions internationales, nouvelles normes de conformité, professionnalisation du métier. L’un des objectifs centraux de l’ASG était de faire reconnaître les gérants indépendants (GFI) comme un pilier à part entière de la place financière suisse. Cela impliquait : développer des standards professionnels comparables à ceux des banques, instaurer des règles déontologiques, promouvoir la formation continue, améliorer la visibilité institutionnelle du secteur. L’ASG a progressivement imposé une culture de qualité et de responsabilité qui a contribué à la légitimité de la profession.'
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: italic
-                text: 'Le terme de gérant de fortune indépendant (GFI) a été remplacé par le titre protégé de gestionnaire de fortune avec l’entrée en vigueur de la LEFin en 2020.'
+                text: 'Pendant ces vingt années, la gestion de fortune a évolué dans un environnement en transformation profonde : mondialisation financière, pressions internationales, nouvelles normes de conformité, professionnalisation du métier. L’un des objectifs centraux de l’ASG était de faire reconnaître les gérants indépendants (GFI)¹ comme un pilier à part entière de la place financière suisse. Cela impliquait : développer des standards professionnels comparables à ceux des banques, instaurer des règles déontologiques, promouvoir la formation continue, améliorer la visibilité institutionnelle du secteur. L’ASG a progressivement imposé une culture de qualité et de responsabilité qui a contribué à la légitimité de la profession.'
         type: question_answer
         enabled: true
       -
@@ -343,6 +332,17 @@ elements:
               -
                 type: text
                 text: 'Ce jubilé n’est pas seulement un anniversaire, c’est la preuve que notre profession a su évoluer et se structurer. L’avenir reste prometteur pour celles et ceux qui sauront conjuguer expertise, indépendance et sens du service.'
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: '¹ Le terme de gérant de fortune indépendant (GFI) a été remplacé par le titre protégé de gestionnaire de fortune avec l’entrée en vigueur de la LEFin en 2020.'
         type: question_answer
         enabled: true
 container_padding_top: true

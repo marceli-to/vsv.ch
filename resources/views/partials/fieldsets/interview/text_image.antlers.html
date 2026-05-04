@@ -1,0 +1,18 @@
+<div class="{{ class }}">
+  {{ partial:layout/article class="text-pretty [&_h3]:font-bold [&_h3]:mb-8" }}
+    {{ partial:components/editor }}
+  {{ /partial:layout/article }}
+
+  {{ if image }}
+    <figure class="mt-16">
+      {{ partial:components/media/image
+        :image="image"
+        :sizes="['md', 'lg', 'xl', '2xl']"
+        class="w-full h-auto rounded-lg bg-white p-12"
+      }}
+      {{ if caption }}
+        <figcaption class="mt-8 text-sm">{{ caption }}</figcaption>
+      {{ /if }}
+    </figure>
+  {{ /if }}
+</div>

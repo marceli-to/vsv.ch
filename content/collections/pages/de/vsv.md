@@ -17,7 +17,7 @@ elements:
     subtitle: |-
       Editorial | 
       Wort des Präsidenten
-    title: 'L’ASG, 40 ans : des mutations majeures, un remarquable chemin parcouru ensemble'
+    title: 'Der VSV – 40 Jahre: tiefgreifende Veränderungen und ein bemerkenswerter gemeinsamer Weg'
     editor_content:
       -
         type: paragraph
@@ -26,7 +26,7 @@ elements:
         content:
           -
             type: text
-            text: 'À travers ces quelques lignes, je souhaitais moi aussi rappeler quelques moments clés. Fondée en 1986 par des personnes convaincues de l’importance de la profession et avec la volonté de la structurer, l’ASG s’est progressivement imposée comme un acteur incontournable du paysage financier suisse. Au cours de ces quatre décennies, la mission et les activités de l’Association ont connu des transformations majeures, en écho aux changements du secteur.'
+            text: 'Auch ich möchte an dieser Stelle einige zentrale Meilensteine in Erinnerung rufen. Der VSV wurde 1986 von Persönlichkeiten gegründet, die von der Bedeutung unseres Berufs überzeugt waren und den klaren Willen hatten, ihn zu strukturieren. In den folgenden Jahren etablierte sich der Verband schrittweise als unverzichtbarer Akteur in der Schweizer Finanzlandschaft. Über vier Jahrzehnte hinweg haben sich der Auftrag und die Tätigkeiten des VSV tiefgreifend weiterentwickelt – stets im Einklang mit den Veränderungen der Branche.'
       -
         type: paragraph
         attrs:
@@ -34,7 +34,7 @@ elements:
         content:
           -
             type: text
-            text: 'Une première étape déterminante est intervenue en 1998 avec l’entrée en vigueur de la LBA et en quelques années, l’ASG s’est affirmée comme le plus important OAR pour les gestionnaires de fortune en Suisse.'
+            text: 'Ein erster entscheidender Schritt erfolgte 1998 mit dem Inkrafttreten des GwG. Innerhalb weniger Jahre etablierte sich der VSV als wichtigste Selbstregulierungsorganisation (SRO) für unabhängige Vermögensverwalter in der Schweiz.'
       -
         type: paragraph
         attrs:
@@ -42,7 +42,7 @@ elements:
         content:
           -
             type: text
-            text: 'La seconde transformation majeure survient en 2020, avec l’introduction des LSFin et LEFin. Dans ce nouveau cadre, l’ASG crée un OS et se sépare de ses activités de surveillance. Elle redevient ainsi uniquement une association de branche, pleinement dédiée à la représentation et à la défense des intérêts de la profession auprès des autorités et des acteurs du secteur, tout en proposant à ses membres des prestations de qualité, en lien avec les exigences légales, les activités de gestion et leurs besoins.'
+            text: 'Die zweite grosse Transformation trat 2020 mit der Einführung der Finanzdienstleistungs- und Finanzinstitutsgesetze (FIDLEG / FINIG) ein. In diesem neuen regulatorischen Rahmen gründete der VSV eine Aufsichtsorganisation (AO) und trennte sich von seinen Aufsichtstätigkeiten. Damit übernahm er wieder ausschliesslich die Rolle eines Branchenverbands, der sich vollumfänglich der Vertretung und Wahrung der Interessen des Berufs gegenüber Behörden und Akteuren der Branche widmet. Gleichzeitig bietet der Verband seinen Mitgliedern qualitativ hochwertige Dienstleistungen, die sowohl den gesetzlichen Anforderungen als auch den Bedürfnissen der Vermögensverwaltungspraxis Rechnung tragen.'
       -
         type: paragraph
         attrs:
@@ -50,7 +50,7 @@ elements:
         content:
           -
             type: text
-            text: 'À chacune de ces étapes, l’ASG a démontré sa capacité à s’adapter à un environnement en constante mutation et à assumer pleinement son rôle au service de la gestion de fortune.'
+            text: 'In jeder dieser Phasen hat der VSV seine Fähigkeit unter Beweis gestellt, sich an ein sich stetig wandelndes Umfeld anzupassen und seine zentrale Rolle im Dienst der Vermögensverwaltung verantwortungsvoll wahrzunehmen.'
       -
         type: paragraph
         attrs:
@@ -58,7 +58,7 @@ elements:
         content:
           -
             type: text
-            text: 'Nous profitons de cette année anniversaire pour vous présenter cette édition du Yearbook, proposée dans un nouveau format plus dynamique, qui, nous l’espérons, vous plaira.'
+            text: 'Im Jubiläumsjahr freuen wir uns besonders, Ihnen diese Ausgabe des Yearbooks in einem neuen, dynamischeren Format zu präsentieren, das – so hoffen wir – auf Ihr Interesse stösst.'
       -
         type: paragraph
         attrs:
@@ -66,7 +66,7 @@ elements:
         content:
           -
             type: text
-            text: "Vous y trouverez notamment l'interview que Jean-Pierre Zuber nous a accordé dans le cadre de notre jubilé. L'ancien président pendant 20 ans, \_nous fait faire un bond dans le passé mais il en profite également pour adresser un message positif pour la profession et son futur. Un grand merci à lui d'avoir partagé ces précieux éléments avec nous."
+            text: 'Darin finden Sie insbesondere das Interview, das Jean-Pierre Zuber uns anlässlich unseres Jubiläums gewährt hat. Der ehemalige Präsident, der 20 Jahre lang im Amt war, nimmt uns mit auf eine Reise in die Vergangenheit, nutzt diese Gelegenheit aber auch, um eine positive Botschaft für den Berufsstand und dessen Zukunft zu vermitteln. Ein grosses Dankeschön an ihn, dass er diese wertvollen Einblicke mit uns geteilt hat.'
       -
         type: paragraph
         attrs:
@@ -74,16 +74,16 @@ elements:
         content:
           -
             type: text
-            text: 'Un autre élément fort de ce Yearbook est le retour de la partie '
+            text: 'Ein weiterer Höhepunkt dieses Yearbooks ist die Rückkehr des Abschnitts mit den '
           -
             type: text
             marks:
               -
                 type: italic
-            text: 'Chiffres de la branche'
+            text: Branchenkennzahlen
           -
             type: text
-            text: ' qui nous permet de donner un panorama de la gestion de fortune en Suisse.'
+            text: ', der uns einen Überblick über die Vermögensverwaltung in der Schweiz vermittelt.'
       -
         type: paragraph
         attrs:
@@ -91,7 +91,7 @@ elements:
         content:
           -
             type: text
-            text: "\_Enfin je profite de cet édito pour vous informer de l'engagement de la nouvelle directrice, Vivien Jain. La passation avec Patrick Dorner a eu lieu durant le premier trimestre."
+            text: 'Schliesslich nutze ich dieses Editorial, um Sie über den Eintritt des neuen CEO, Vivien Jain, zu informieren. Die Amtsübergabe von Patrick Dorner fand im ersten Quartal statt.'
       -
         type: paragraph
         attrs:
@@ -99,10 +99,10 @@ elements:
         content:
           -
             type: text
-            text: 'Je vous souhaite une excellente lecture et remercie chaleureusement tous nos membres, partenaires et collaborateurs pour leur engagement au service de la profession.'
+            text: 'Ich wünsche Ihnen eine anregende Lektüre und danke allen unseren Mitgliedern, Partnern und Mitarbeitenden herzlich für ihr Engagement im Dienst unseres Berufsstands.'
     type: editorial
     enabled: true
-    lead: 'L’année 2026 marque un jalon essentiel dans l’histoire de l’ASG : son 40ᵉ anniversaire. Ce jubilé est l’occasion de mesurer le chemin parcouru et de mettre en lumière les grandes étapes qui ont façonné notre profession et notre Association. Tout au long de l’année, de nombreux formats et événements reviendront sur les grands moments.'
+    lead: 'Das Jahr 2026 markiert einen bedeutenden Meilenstein in der Geschichte des VSV: sein 40-jähriges Bestehen. Dieses Jubiläum bietet die Gelegenheit, den zurückgelegten Weg zu würdigen und die wichtigsten Etappen hervorzuheben, die unseren Berufstand und unseren Verband geprägt haben. Im Laufe des Jahres werden zahlreiche Formate und Veranstaltungen an die prägenden Momente dieser Entwicklung erinnern.'
   -
     id: mn5rjsja
     teasers:

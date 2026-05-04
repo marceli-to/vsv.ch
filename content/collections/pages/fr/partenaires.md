@@ -41,6 +41,7 @@ elements:
         type: partner
         enabled: true
         show_label: true
+        link: '#vanguard'
     partners:
       -
         id: mn78silm
@@ -340,7 +341,7 @@ elements:
                 enabled: true
               -
                 id: mn7blgt03
-                quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                quote: "Nous recherchons activement à instaurer une proximité et un dialogue approfondi afin de mettre à disposition des gestionnaires de fortune l'ensemble de nos compétences."
                 type: quote
                 enabled: true
               -
@@ -367,7 +368,7 @@ elements:
                 enabled: true
               -
                 id: mn7blgt05
-                quote: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                quote: 'Notre famille propriétaire a géré la question de la succession avec succès sur 26 générations.'
                 type: quote
                 enabled: true
               -
@@ -725,7 +726,7 @@ elements:
             id: mn7c8ku5
             interview_type: group
             image: dummy/dummy-interview-1.jpg
-            title: '[Titel fehlt noch]'
+            title: '[Titre manquant]'
             introduction:
               -
                 type: paragraph
@@ -737,7 +738,7 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Ein Interview mit Andy Moser'
+                    text: 'Un entretien avec Andy Moser'
                   -
                     type: text
                     text: ' '
@@ -745,12 +746,12 @@ elements:
                     type: hardBreak
                   -
                     type: text
-                    text: 'Head FIM Deutschschweiz, UBS'
+                    text: 'Andy Moser est responsable chez UBS Global FIM des activités avec les gestionnaires de fortune pour la Suisse alémanique. Avec 27 années passées chez UBS, dont 18 à collaborer avec des gestionnaires de fortune, il est considéré comme un connaisseur avéré du marché suisse des GF.'
             logo: logo/ubs.svg
             content:
               -
-                id: mn7c9ljh
-                question: 'Anlässlich Ihres ersten Jahrestags bei Julius Bär am 1. April: Was waren Ihrer Ansicht nach die grössten Erfolge und Herausforderungen des vergangenen Jahres?'
+                id: mo8ubs01
+                question: "Monsieur Moser, qu'est-ce qui caractérise le marché suisse des gestionnaires de fortune ?"
                 editor_content:
                   -
                     type: paragraph
@@ -759,7 +760,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Es war ein gutes Jahr, das mehr Erfolge als Herausforderungen brachte. Im Jahr 2024 stiegen unsere verwalteten Vermögen im Intermediaries-Geschäft dank ungewöhnlich hoher Mittelzuflüsse und steigender Aktienmärkte deutlich an. Unsere guten Ergebnisse spiegeln den zielgerichteten Ansatz wider, nachhaltiges Wachstum zu fördern und Mehrwert für unsere Kundinnen und Kunden zu schaffen.'
+                        text: "Le marché suisse des gestionnaires de fortune est à la fois dynamique, en pleine croissance et très fragmenté. Les exigences réglementaires, la pression constante sur les coûts et les marges ainsi que l'évolution technologique comptent parmi les principaux défis. L'étude « Les gestionnaires de fortune indépendants en Suisse en 2026 »* confirme cette appréciation et montre clairement que la consolidation en particulier gagne en importance. 71 % des personnes interrogées la considèrent comme le thème le plus urgent."
                   -
                     type: paragraph
                     attrs:
@@ -767,12 +768,20 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Das Jahr 2025 hat gut begonnen. Und obwohl wir die Herausforderungen des aktuellen Zoll- und Handelskriegs und der Turbulenzen an den Finanzmärkten nicht ignorieren können, bin ich weiterhin zuversichtlich, dass wir gemeinsam mit unseren Finanzintermediären neue Höhen erreichen können.'
+                        text: "De plus, la situation est aggravée par le fait que la succession n'est souvent pas suffisamment réglée : 58 % des entreprises ne l'ont que partiellement ou pas du tout définie. Dans le contexte du « Great Wealth Transfer » à venir, qui verra des actifs considérables passer de la génération des baby-boomers à celle des millennials et de la génération Z, cette question gagnera encore en importance."
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: "Indépendamment des changements structurels et générationnels, la recette du succès des gestionnaires de fortune réside toujours dans le suivi personnel, à long terme et indépendant, porté par une philosophie d'investissement claire, axée sur la constitution d'un patrimoine à long terme."
                 type: question_answer
                 enabled: true
               -
-                id: mn7caaiac
-                question: 'Was zeichnet Julius Bär mit Blick auf die Unterstützung von Finanzintermediären aus?'
+                id: mo8ubs02
+                question: 'Vous avez rédigé une thèse en 2025 sur la viabilité des gestionnaires de fortune. Quelle est votre principale conclusion ?'
                 editor_content:
                   -
                     type: paragraph
@@ -781,7 +790,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Wir wollen der bevorzugte Partner für Finanzintermediäre weltweit sein. In den letzten Jahren haben wir unsere Reichweite durch den Aufbau zusätzlicher Standorte in Madrid, Dubai und Lausanne erweitert. Das hilft uns, noch näher an unseren Kundinnen und Kunden zu sein. Was die Anlageprodukte und -dienstleistungen betrifft, so verfügen wir über eine umfassende Palette mit offener Architektur, die wir ständig überprüfen und erweitern. Ausserdem verbessern wir kontinuierlich unsere digitalen Services und Tools.'
+                        text: "La conclusion centrale de ma thèse est claire : les gestionnaires de fortune doivent affiner leur profil stratégique. Il est essentiel de définir consciemment les segments de clientèle, les marchés et les thèmes que l'on dessert et également ce qui ne fait pas partie de l'offre. C'est la seule façon d'attirer et de fidéliser durablement les clients, les collaborateurs et les partenaires."
                   -
                     type: paragraph
                     attrs:
@@ -789,17 +798,96 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'So schaffen wir es, unseren Kundinnen und Kunden die bestmögliche Betreuung, geeignete Lösungen und die richtige Technologie zu bieten. Dafür bleiben wir anpassungsfähig und reagieren auf sich verändernde Kundenbedürfnisse und Marktbedingungen. Strategisch gesehen sind Finanzintermediäre weiterhin ein Eckpfeiler für das Wachstum von Julius Bär, und wir wollen den Standard für herausragende Dienstleistungen und Lösungen setzen.'
+                        text: "Dans un environnement marqué par la numérisation, la réglementation et le changement de génération, il est en outre indispensable de faire régulièrement le point sur la stratégie. La confiance et les recommandations sont générées à partir de la qualité, de la constance, de l'indépendance et de la communication transparente, le fondement du succès à long terme."
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'En principe, on peut distinguer trois types de gestionnaires :'
+                  -
+                    type: bulletList
+                    content:
+                      -
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              class: null
+                            content:
+                              -
+                                type: text
+                                text: 'les '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Independent Wealth Managers'
+                              -
+                                type: text
+                                text: ', qui proposent des services de private banking classiques à une clientèle fortunée ;'
+                      -
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              class: null
+                            content:
+                              -
+                                type: text
+                                text: 'les '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Multi Family Offices'
+                              -
+                                type: text
+                                text: ', qui accompagnent les familles fortunées de manière globale, par exemple dans les domaines de la succession, de la fiscalité, des placements alternatifs et de la philanthropie ;'
+                      -
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              class: null
+                            content:
+                              -
+                                type: text
+                                text: 'les '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Asset Managers'
+                              -
+                                type: text
+                                text: " qui s'occupent de clients institutionnels avec des processus structurés et une gestion professionnelle des risques, souvent par le biais de solutions de fonds."
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'De plus en plus, des modèles hybrides combinant plusieurs de ces approches voient également le jour.'
                 type: question_answer
                 enabled: true
               -
-                id: mn7caatkb
-                quote: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
+                id: mo8ubs03
+                quote: "Le succès à long terme naît là où le partenariat, la qualité et l'esprit d'entreprise sont systématiquement associés."
                 type: quote
                 enabled: true
               -
-                id: mn7caayun
-                question: 'Unterschätzen Finanzintermediäre bestimmte Risiken und wenn ja, was sollten sie anders machen?'
+                id: mo8ubs04
+                question: 'Comment UBS Global FIM veut-elle être perçue sur le marché ?'
                 editor_content:
                   -
                     type: paragraph
@@ -808,28 +896,12 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Wir leben in einer Zeit der «schwarzen Schwäne» – folgenschwerer Ereignisse, die schwer vorherzusagen sind. Finanzintermediäre und Family Offices sind sich dessen bewusst, wobei laut Umfragen unter Family Offices die Geopolitik zu deren grössten Sorgen zählt. Wie kann man sich gegenüber weiteren Turbulenzen absichern? Indem wir dafür sorgen, dass die Portfolios der Kundinnen und Kunden gut diversifiziert sind und ihrer Risikobereitschaft entsprechen.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
-                      -
-                        type: text
-                        text: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
-                      -
-                        type: text
-                        text: 'Natürlich kann Unerwartetes auch in unmittelbarer Nähe geschehen. Was geschieht, wenn ein wichtiger Partner ausscheidet oder plötzlich erkrankt? Jedes Unternehmen sollte sich dagegen absichern, indem es eine Nachfolgeplanung aufstellt, die Führungsebene diversifiziert und die betriebliche Resilienz stärkt. Risikomanagement bedeutet, vorbereitet zu sein.'
+                        text: "UBS Global FIM se veut un partenaire stratégique des gestionnaires de fortune, avec une collaboration d'égal à égal, une plateforme technologique performante et une offre de services globalement intégrée qui permet une mise à l'échelle à long terme. Nos équipes d'encadrement et nos experts accompagnent la clientèle de manière personnelle, compétente et efficace, aujourd'hui comme demain."
                 type: question_answer
                 enabled: true
               -
-                id: mn7cabg15
-                question: 'Auf welche Trends in der Vermögensverwaltung sollten Finanzintermediäre Ihrer Meinung nach in den kommenden fünf Jahren ein besonderes Augenmerk legen?'
+                id: mo8ubs05
+                question: 'Comment UBS Global FIM soutient-elle les gestionnaires de fortune sur le plan technologique ?'
                 editor_content:
                   -
                     type: paragraph
@@ -838,7 +910,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'boomer-Generation immer älter wird, steigen die vererbten Vermögen. Allein im Jahr 2025 werden Menschen in wohlhabenden Nationen etwa 6 Billionen US-Dollar erben, so eine aktuelle Schätzung von The Economist.'
+                        text: "Grâce à des interfaces modernes API et des outils UBS innovants, nous aidons les gestionnaires de fortune à optimiser leurs processus internes, à répondre efficacement aux exigences réglementaires et à créer de la valeur ajoutée pour les clients finaux, par exemple grâce à l'onboarding numérique des clients ou aux solutions Open Banking."
                   -
                     type: paragraph
                     attrs:
@@ -846,7 +918,13 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Man sagt, die Rebellen von gestern seien die Herrscher von heute, und das gilt auch für die Vermögensverwaltung. Aber nicht alle Erben sind Disruptoren der Generation Z. Einige sind eher konventionelle Millennials, andere sind vielleicht schon etwas älter und bringen eine ganze Reihe von Erfahrungen und Einblicken in die Vermögensverwaltung mit. Und während die älteren Erben vielleicht traditionelle Werte und langfristige Beziehungen bevorzugen, erwarten die jüngeren Generationen eine stärkere Digitalisierung, mehr Personalisierung und eine andere Auswahl an Anlageprodukten.'
+                        text: "Des études montrent que les gestionnaires de fortune attendent de plus en plus de leurs banques dépositaires des solutions numériques, intégrées et évolutives. Dans ce contexte, UBS se différencie par une offre de services globale et innovante, par l'excellence technologique et par un accompagnement en partenariat."
+                type: question_answer
+                enabled: true
+              -
+                id: mo8ubs06
+                question: "Qu'est-ce qui fait pour vous le succès d'une collaboration ?"
+                editor_content:
                   -
                     type: paragraph
                     attrs:
@@ -854,7 +932,51 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Diese Verschiebung stellt eine bedeutende Wachstumschance dar, wenn ein beträchtlicher Teil des Vermögens demnächst unter neuer Verwaltung stehen wird.'
+                        text: 'De mon point de vue, trois facteurs sont décisifs : une collaboration partenariale avec une valeur ajoutée clairement démontrée, une qualité de service maximale et des solutions pragmatiques et orientées vers la mise en œuvre. Notre ambition se résume en une phrase : « We form winning partnerships ».'
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: "Pour en savoir plus sur le rôle de la technologie et les offres d'UBS Global Financial Intermediaries, regardez cette "
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'https://www.ubs.com/microsites/player/en/videoplay.html?id=6386389582112'
+                              target: _blank
+                              rel: null
+                              title: null
+                        text: vidéo
+                      -
+                        type: text
+                        text: ' ou visitez la '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'https://www.ubs.com/global/en/wealthmanagement/financial-intermediaries.html'
+                              target: _blank
+                              rel: null
+                              title: null
+                        text: "page d'accueil"
+                      -
+                        type: text
+                        text: .
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: "* L'étude « Independent Asset Managers in Switzerland 2026 » par FIN21/Chris Künzle"
                 type: question_answer
                 enabled: true
             type: interview
@@ -872,7 +994,7 @@ elements:
             id: mn7c8ku5
             interview_type: group
             image: dummy/dummy-interview-1.jpg
-            title: 'Der Julius Bär Vorteil für Finanzintermediäre'
+            title: 'Beständige Anlageprinzipien in wechselhaftem Marktumfeld'
             introduction:
               -
                 type: paragraph
@@ -1009,5 +1131,5 @@ elements:
     type: accordion
     enabled: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777446648
+updated_at: 1777886433
 ---

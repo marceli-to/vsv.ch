@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777446611
+updated_at: 1777890876
 elements:
   -
     id: mn78s6cy
@@ -46,6 +46,7 @@ elements:
         type: partner
         enabled: true
         show_label: true
+        link: '#vanguard'
     partners:
       -
         id: mn78silm
@@ -340,7 +341,7 @@ elements:
                 enabled: true
               -
                 id: mn7blgt03
-                quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                quote: 'Wir suchen bewusst die Nähe und den intensiven Austausch, um die Vielzahl unserer komplementären Kompetenzen für EAMs zu erschliessen.'
                 type: quote
                 enabled: true
               -
@@ -367,7 +368,7 @@ elements:
                 enabled: true
               -
                 id: mn7blgt05
-                quote: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                quote: 'Unsere Eigentümerfamilie hat das Thema Nachfolge über 26 Generationen hinweg erfolgreich gestaltet.'
                 type: quote
                 enabled: true
               -
@@ -755,7 +756,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Der Markt bleibt ausgesprochen dynamisch, wächst kontinuierlich und ist zugleich stark fragmentiert. Das hat auch die Umfrage zur Studie „Unabhängige Vermögensverwalter in der Schweiz 2026“ gezeigt: Die grössten Herausforderungen für UVV sind laut Studie die gestiegenen regulatorischen Anforderungen, der anhaltende Kosten- und Margendruck sowie der technologische Wandel.'
+                        text: 'Der Schweizer Markt für unabhängige Vermögensverwalter ist dynamisch, wachsend und zugleich stark fragmentiert. Regulatorische Anforderungen, anhaltender Kosten- und Margendruck sowie der technologische Wandel zählen zu den zentralen Herausforderungen. Die Studie „Unabhängige Vermögensverwalter in der Schweiz 2026“* bestätigt diese Einschätzung und zeigt deutlich, dass insbesondere die Konsolidierung an Bedeutung gewinnt – 71 % der Befragten sehen sie als dringendstes Thema.'
                   -
                     type: paragraph
                     attrs:
@@ -763,7 +764,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Besonders die Konsolidierung steht im Fokus – 71% der Befragten sehen sie als dringendstes Thema. Hinzu kommt, dass die Nachfolgeplanung oft unzureichend geregelt ist: 58% der Unternehmen haben die Nachfolge nur teilweise oder gar nicht definiert. Die Relevanz dieser Thematik gewinnt zusätzlich an Bedeutung vor dem Hintergrund des bevorstehenden „Great Wealth Transfer“, bei dem in den kommenden Jahren substanzielle Vermögenswerte von der Babyboomer-Generation auf die Generationen der Millennials und Generation Z übergehen werden.'
+                        text: 'Zusätzlich verschärft sich die Situation durch die oftmals unzureichend geregelte Nachfolge: 58 % der Unternehmen haben diese nur teilweise oder gar nicht definiert. Vor dem Hintergrund des bevorstehenden „Great Wealth Transfer“, bei dem erhebliche Vermögenswerte von der Babyboomer-Generation auf Millennials und Generation Z übergehen, wird dieses Thema weiter an Bedeutung gewinnen.'
                   -
                     type: paragraph
                     attrs:
@@ -771,7 +772,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Ungeachtet struktureller und generationeller Veränderungen liegt das Erfolgsrezept unabhängiger Vermögensverwalter weiterhin in der persönlichen, langfristigen und unabhängigen Betreuung – getragen von einer klaren Anlagestrategie und einer strategisch ausgerichteten Vermögensallokation.'
+                        text: 'Ungeachtet struktureller und generationeller Veränderungen liegt das Erfolgsrezept unabhängiger Vermögensverwalter weiterhin in der persönlichen, langfristigen und unabhängigen Betreuung – getragen von einer klaren Anlagephilosophie, die auf langfristigen Vermögensaufbau ausgerichtet ist.'
                 type: question_answer
                 enabled: true
               -
@@ -785,7 +786,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Unabhängige Vermögensverwalter brauchen ein klares, strategisch geschärftes Profil. Entscheidend ist, eindeutig zu definieren, welche Kundensegmente man anspricht, welche Märkte und Themen man abdeckt – und ebenso, was bewusst nicht Teil des Angebots ist. Nur so lassen sich Kunden, Mitarbeitende und Partner im Ökosystem gezielt ansprechen und binden. In einem Umfeld, das von Digitalisierung, Regulierung und Generationenwechsel geprägt ist, sind zudem regelmässige strategische Standortbestimmungen unerlässlich. Vertrauen und Empfehlungen entstehen durch Qualität, Beständigkeit, Unabhängigkeit und transparente Kommunikation – das Fundament langfristigen Erfolgs.'
+                        text: 'Die zentrale Erkenntnis meiner Dissertation ist klar: Unabhängige Vermögensverwalter müssen ihr strategisches Profil schärfen. Entscheidend ist, bewusst zu definieren, welche Kundensegmente, Märkte und Themen man bedient – und ebenso, was nicht Teil des Angebots ist. Nur so lassen sich Kunden, Mitarbeitende und Partner nachhaltig gewinnen und binden.'
                   -
                     type: paragraph
                     attrs:
@@ -793,7 +794,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Der Markt lässt sich in drei Typen von Vermögensverwaltern unterteilen.'
+                        text: 'In einem Umfeld, das von Digitalisierung, Regulierung und Generationenwechsel geprägt ist, sind zudem regelmässige strategische Standortbestimmungen unerlässlich. Vertrauen und Empfehlungen entstehen durch Qualität, Beständigkeit, Unabhängigkeit und transparente Kommunikation – das Fundament langfristigen Erfolgs.'
                   -
                     type: paragraph
                     attrs:
@@ -801,17 +802,79 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Erstens die Independent Wealth Manager, die mit einem klaren Fokus klassisches Private Banking für vermögende Kundinnen und Kunden anbieten. Zweitens Multi Family Offices, die vermögende Familien ganzheitlich und umfassend begleiten – mit Schwerpunkten etwa auf Nachfolgeplanung, Steuern, alternativen Anlagen oder Philanthropie. Und drittens Asset Manager, die institutionelle Kundschaft mit strukturierten Prozessen und professionellem Risikomanagement betreuen, ergänzend oft in Form von Fondslösungen. In der Praxis entstehen zudem vermehrt hybride Modelle, die mehrere Bedürfnisse gleichzeitig abdecken.'
+                        text: 'Grundsätzlich lassen sich drei Typen unterscheiden:'
+                  -
+                    type: bulletList
+                    content:
+                      -
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              class: null
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Independent Wealth Manager'
+                              -
+                                type: text
+                                text: ', die klassisches Private Banking für vermögende Kundinnen und Kunden anbieten.'
+                      -
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              class: null
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Multi Family Offices'
+                              -
+                                type: text
+                                text: ', die vermögende Familien ganzheitlich begleiten – etwa in den Bereichen Nachfolge, Steuern, alternative Anlagen und Philanthropie.'
+                      -
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              class: null
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Asset Manager'
+                              -
+                                type: text
+                                text: ', die institutionelle Kunden mit strukturierten Prozessen und professionellem Risikomanagement betreuen, häufig über Fondslösungen.'
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Zunehmend entstehen zudem hybride Modelle, die mehrere dieser Ansätze kombinieren.'
                 type: question_answer
                 enabled: true
               -
                 id: mo8ubs03
-                quote: 'Partnerschaft ist das Herzstück unseres Handelns und Service Excellence der Schlüssel zum Erfolg.'
+                quote: 'Langfristiger Erfolg entsteht dort, wo Partnerschaft, Qualität und unternehmerisches Denken konsequent zusammenspielen.'
                 type: quote
                 enabled: true
               -
                 id: mo8ubs04
-                question: 'Was unterscheidet UBS Global FIM im Markt?'
+                question: 'Für was will UBS Global FIM im Markt wahrgenommen werden?'
                 editor_content:
                   -
                     type: paragraph
@@ -820,7 +883,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'UBS Global FIM bietet unabhängigen Vermögensverwaltern eine partnerschaftliche Zusammenarbeit auf Augenhöhe, unterstützt durch eine leistungsstarke technische Plattform und ein umfassendes Serviceangebot. Unsere Experten begleiten die Kundinnen und Kunden persönlich und effizient – heute und in Zukunft.'
+                        text: 'UBS Global FIM versteht sich als strategischer Partner unabhängiger Vermögensverwalter – mit einer Zusammenarbeit auf Augenhöhe, einer leistungsstarken technologischen Plattform und einem global integrierten Serviceangebot, das langfristige Skalierung ermöglicht. Unsere Betreuungsteams und Experten begleiten die Kundinnen und Kunden persönlich, kompetent und effizient – heute und in Zukunft.'
                 type: question_answer
                 enabled: true
               -
@@ -834,7 +897,15 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Mit modernen API‑Schnittstellen und Innovativen UBS-Tools unterstützen wir Vermögensverwalter bei der effizienten Optimierung interner Prozesse, der sicheren Erfüllung regulatorischer Anforderungen und der Schaffung von Mehrwert für Endkunden – etwa durch digitales Kunden‑Onboarding oder Open Banking Lösungen. Studien zeigen, dass unabhängige Vermögensverwalter von ihren Depotbanken zunehmend digitale, integrierte und skalierbare Lösungen erwarten. UBS differenziert sich dabei durch technologische Exzellenz, partnerschaftliche Betreuung und ein innovatives globales Leistungsangebot.'
+                        text: 'Mit modernen API-Schnittstellen und innovativen UBS-Tools unterstützen wir Vermögensverwalter bei der Optimierung interner Prozesse, der effizienten Erfüllung regulatorischer Anforderungen sowie bei der Schaffung von Mehrwert für Endkunden – etwa durch digitales Kunden-Onboarding oder Open-Banking-Lösungen.'
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Studien zeigen, dass unabhängige Vermögensverwalter von ihren Depotbanken zunehmend digitale, integrierte und skalierbare Lösungen erwarten. UBS differenziert sich dabei durch ein innovatives und globales Leistungsangebot, technologische Exzellenz und partnerschaftliche Betreuung.'
                 type: question_answer
                 enabled: true
               -
@@ -848,7 +919,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Entscheidend sind aus meiner Sicht drei Faktoren: eine partnerschaftliche Zusammenarbeit mit klarem Value for Money, höchste Servicequalität sowie pragmatische, umsetzungsorientierte Lösungen. Unser Anspruch lässt sich in einem Satz zusammenfassen: We form winning partnerships.'
+                        text: 'Entscheidend sind aus meiner Sicht drei Faktoren: eine partnerschaftliche Zusammenarbeit mit klar ausgewiesenem Value for Money, höchster Servicequalität sowie pragmatischen, umsetzungsorientierten Lösungen. Unser Anspruch lässt sich in einem Satz zusammenfassen: We form winning partnerships.'
                   -
                     type: paragraph
                     attrs:
@@ -856,7 +927,43 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Mehr zur Rolle der Technologie und den Angeboten von UBS Global Financial Intermediaries finden Sie in diesem Video oder auf der Homepage.'
+                        text: 'Mehr zur Rolle der Technologie und den Angeboten von UBS Global Financial Intermediaries finden Sie in diesem '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'https://www.ubs.com/microsites/player/en/videoplay.html?id=6386389582112'
+                              rel: null
+                              target: _blank
+                              title: null
+                        text: Video
+                      -
+                        type: text
+                        text: ' oder auf der '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'https://www.ubs.com/global/en/wealthmanagement/financial-intermediaries.html'
+                              rel: null
+                              target: _blank
+                              title: null
+                        text: Homepage
+                      -
+                        type: text
+                        text: .
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: '* Die «Unabhängige Vermögensverwalter in der Schweiz 2026»-Studie von FIN21/Chris Künzle'
                 type: question_answer
                 enabled: true
             type: interview
@@ -880,7 +987,7 @@ elements:
                     type: hardBreak
                   -
                     type: text
-                    text: 'Head FIM Deutschschweiz, UBS'
+                    text: 'Andy Moser verantwortet bei UBS Global FIM das Geschäft mit unabhängigen Vermögensverwaltern im deutschsprachigen Raum. Mit 27 Jahren bei UBS, davon 18 Jahre in der Zusammenarbeit mit unabhängigen Vermögensverwaltern, gilt er als ausgewiesener Kenner des Schweizer UVV-Marktes.'
         type: accordion_item
         enabled: true
         open: false
@@ -894,7 +1001,7 @@ elements:
             id: mn7c8ku5
             interview_type: group
             image: dummy/dummy-interview-1.jpg
-            title: 'Der Julius Bär Vorteil für Finanzintermediäre'
+            title: 'Beständige Anlageprinzipien in wechselhaftem Marktumfeld'
             introduction:
               -
                 type: paragraph
@@ -906,17 +1013,38 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Ein Interview mit Thomas Frauenlob, '
+                    text: 'Abdullah Mohammed, '
+                  -
+                    type: text
+                    text: 'Sales executive, Vanguard Investments Switzerland GmbH'
                   -
                     type: hardBreak
                   -
                     type: text
-                    text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Michael Iten, '
+                  -
+                    type: text
+                    text: 'CFA, Sales executive, Vanguard Investments Switzerland GmbH'
             logo: logo/vanguard.svg
             content:
               -
-                id: mn7c9ljh
-                question: 'Anlässlich Ihres ersten Jahrestags bei Julius Bär am 1. April: Was waren Ihrer Ansicht nach die grössten Erfolge und Herausforderungen des vergangenen Jahres?'
+                id: moqzuvly
+                editor_content:
+                  -
+                    type: paragraph
+                    attrs:
+                      class: text-lead
+                    content:
+                      -
+                        type: text
+                        text: "Eine Anlagestrategie, abgestimmt auf die Bedürfnisse der Kunden, ist die Voraussetzung für eine erfolgreiche Arbeit von Vermögensverwaltern. Ist die Strategie im Grundsatz definiert, funktioniert diese auch in unterschiedlichen Marktsituationen, ohne dass grössere Korrekturen nötig sind. Dies zeigt die neuste von der Hochschule Luzern (HSLU) und von Vanguard durchgeführte Umfrage unter unabhängigen Schweizer Vermögensverwaltern. An der vom Verband VSV-ASG unterstützten Umfrage zwischen Ende Februar und Ende März 2026 nahmen 100 Vermögensverwalter teil. Die Ergebnisse liefern wertvolle Erkenntnisse zu den Marktmeinungen und Positionierungen der Vermögensverwalter.\_ \_\_"
+                type: text
+                enabled: true
+              -
+                id: moqzv8h9
                 editor_content:
                   -
                     type: paragraph
@@ -925,56 +1053,25 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Es war ein gutes Jahr, das mehr Erfolge als Herausforderungen brachte. Im Jahr 2024 stiegen unsere verwalteten Vermögen im Intermediaries-Geschäft dank ungewöhnlich hoher Mittelzuflüsse und steigender Aktienmärkte deutlich an. Unsere guten Ergebnisse spiegeln den zielgerichteten Ansatz wider, nachhaltiges Wachstum zu fördern und Mehrwert für unsere Kundinnen und Kunden zu schaffen.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
-                      -
-                        type: text
-                        text: 'Das Jahr 2025 hat gut begonnen. Und obwohl wir die Herausforderungen des aktuellen Zoll- und Handelskriegs und der Turbulenzen an den Finanzmärkten nicht ignorieren können, bin ich weiterhin zuversichtlich, dass wir gemeinsam mit unseren Finanzintermediären neue Höhen erreichen können.'
-                type: question_answer
+                        text: 'An den weltweiten Finanzmärkten nahm die Unsicherheit im Verlauf des ersten Quartals zu, und die Anlegerstimmung kühlte sich entsprechend ab. Die Schweizer Vermögensverwalter liessen sich jedoch nicht beirren und hielten grundsätzlich an ihren mit den Kunden vereinbarten Strategien fest. Einige Angaben zur Positionierung: Schweizer und europäische Aktien sind weiterhin übergewichtet, ein klares Abbild des Home Bias von Kunden, die ihr Domizil entweder in der Schweiz oder in einem anderen europäischen Land haben. Der Anteil der US-Aktien wurde reduziert, während der Bestand an Emerging-Markets-Aktien etwas zunahm. Alles in allem wurden Obligationen im ersten Quartal untergewichtet, wobei die Reduktion in den meisten Segmenten mit Ausnahme der Emerging-Markets Bonds erfolgte.'
+                type: text
                 enabled: true
               -
-                id: mn7caaiac
-                question: 'Was zeichnet Julius Bär mit Blick auf die Unterstützung von Finanzintermediären aus?'
-                editor_content:
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
-                      -
-                        type: text
-                        text: 'Wir wollen der bevorzugte Partner für Finanzintermediäre weltweit sein. In den letzten Jahren haben wir unsere Reichweite durch den Aufbau zusätzlicher Standorte in Madrid, Dubai und Lausanne erweitert. Das hilft uns, noch näher an unseren Kundinnen und Kunden zu sein. Was die Anlageprodukte und -dienstleistungen betrifft, so verfügen wir über eine umfassende Palette mit offener Architektur, die wir ständig überprüfen und erweitern. Ausserdem verbessern wir kontinuierlich unsere digitalen Services und Tools.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
-                      -
-                        type: text
-                        text: 'So schaffen wir es, unseren Kundinnen und Kunden die bestmögliche Betreuung, geeignete Lösungen und die richtige Technologie zu bieten. Dafür bleiben wir anpassungsfähig und reagieren auf sich verändernde Kundenbedürfnisse und Marktbedingungen. Strategisch gesehen sind Finanzintermediäre weiterhin ein Eckpfeiler für das Wachstum von Julius Bär, und wir wollen den Standard für herausragende Dienstleistungen und Lösungen setzen.'
-                type: question_answer
-                enabled: true
-              -
-                id: mn7caatkb
-                quote: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
+                id: mor2970a
+                quote: 'Unabhängig vom Marktumfeld ist die strategische Asset Allokation für die Schweizer Vermögensverwalter mit Abstand die wichtigste Quelle für Alpha.'
                 type: quote
                 enabled: true
               -
-                id: mn7caayun
-                question: 'Unterschätzen Finanzintermediäre bestimmte Risiken und wenn ja, was sollten sie anders machen?'
+                id: mor039gt
                 editor_content:
                   -
-                    type: paragraph
+                    type: heading
                     attrs:
-                      class: null
+                      level: 3
                     content:
                       -
                         type: text
-                        text: 'Wir leben in einer Zeit der «schwarzen Schwäne» – folgenschwerer Ereignisse, die schwer vorherzusagen sind. Finanzintermediäre und Family Offices sind sich dessen bewusst, wobei laut Umfragen unter Family Offices die Geopolitik zu deren grössten Sorgen zählt. Wie kann man sich gegenüber weiteren Turbulenzen absichern? Indem wir dafür sorgen, dass die Portfolios der Kundinnen und Kunden gut diversifiziert sind und ihrer Risikobereitschaft entsprechen.'
+                        text: 'Strategische Asset Allokation: Wichtigster Renditebringer'
                   -
                     type: paragraph
                     attrs:
@@ -982,20 +1079,139 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
+                        text: 'Wie in den Vorjahren wurden die Vermögensverwalter gefragt, welches die wichtigsten drei Strategien zur Erzielung eines Mehrwerts in den Portfolios seien. Einmal mehr wurde dabei die Bedeutung der '
                       -
                         type: text
-                        text: 'Natürlich kann Unerwartetes auch in unmittelbarer Nähe geschehen. Was geschieht, wenn ein wichtiger Partner ausscheidet oder plötzlich erkrankt? Jedes Unternehmen sollte sich dagegen absichern, indem es eine Nachfolgeplanung aufstellt, die Führungsebene diversifiziert und die betriebliche Resilienz stärkt. Risikomanagement bedeutet, vorbereitet zu sein.'
-                type: question_answer
+                        marks:
+                          -
+                            type: bold
+                        text: 'Strategischen Asset Allokation'
+                      -
+                        type: text
+                        text: ' SAA als zentrale Alpha-Quelle hervorgehoben. Für 76 Prozent der Befragten gehört die SAA zu den wichtigsten drei Renditebringern. Auf Rang 2 in dieser Rangliste folgt die '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Selektion von Einzeltiteln'
+                      -
+                        type: text
+                        text: ' bei Aktien oder Obligationen. Dies unterstreicht die Bedeutung von Kenntnissen und Kompetenzen auf der Stufe der Wertschriften. 52 Prozent der Befragten bezeichneten dies als eine der Top 3-Strategien. Deutlich dahinter in ihrer Bedeutung als wichtigste Alpha-Quellen platziert sind die '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Ausrichtung von Portfolios auf bestimmte Regionen oder Sektoren'
+                      -
+                        type: text
+                        text: ', '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'thematische Anlagen, Rebalancing'
+                      -
+                        type: text
+                        text: ' sowie der '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Austausch mit Kunden während turbulenter Marktphasen'
+                      -
+                        type: text
+                        text: '. Die geringste Bedeutung in Bezug auf die Mehrrendite messen Vermögensverwalter den '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: Absicherungsstrategien
+                      -
+                        type: text
+                        text: ' sowie dem '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Market Timing'
+                      -
+                        type: text
+                        text: ' zu (Abbildung 1).'
+                type: text
                 enabled: true
               -
-                id: mn7cabg15
-                question: 'Auf welche Trends in der Vermögensverwaltung sollten Finanzintermediäre Ihrer Meinung nach in den kommenden fünf Jahren ein besonderes Augenmerk legen?'
+                id: mor052k1
+                editor_content:
+                  -
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: 'Abbildung 1: Welche Strategien nutzen Sie, um Alpha in Ihren Portfolios zu erzielen?'
+                image: anlagestrategien-alpha-vanguard.png
+                caption: 'Lesebeispiel: Für 76% der Vermögensverwalter ist die Strategische Asset Allokation eine der Top-3-Strategien zur Generierung von Alpha.'
+                type: text_image
+                enabled: true
+              -
+                id: mor278fi
+                editor_content:
+                  -
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: "Direktanlagen bei Schweizer Aktien erste Wahl\_"
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: "Bei der Umsetzung der Strategien haben sich die Präferenzen der Schweizer Vermögensverwalter gegenüber dem Vorjahr kaum verändert. Die Mehrheit investiert im Bereich der Schweizer Aktien sowie in den meisten Obligationen-Segmenten in Einzeltitel. Anders präsentiert sich die Situation bei Emerging-Markets-Aktien sowie Aktien aus der Region Asien/Pazifik inkl. Japan. Hier werden Fonds und ETFs klar bevorzugt. Ein ähnliches Muster zeigt sich bei den festverzinslichen Werten, wo Fonds und ETFs weiterhin die beliebtesten Instrumente für Emerging Markets- und High-Yield-Bonds sowie US-Unternehmensanleihen sind. Anzumerken ist hier, dass Vermögensverwalter im letztgenannten Segment sowie bei US-Aktien gegenüber dem Vorjahr vermehrt Fonds und ETFs einsetzen.\_"
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Erfolgt die Umsetzung in den Portfolios mit Fonds, so erhalten passive Produkte gegenüber aktiven Produkten den Vorzug. Mit wenigen Ausnahmen ist dies bei den meisten Anlageklassen der Fall. Unter den Vermögensverwaltern, die passive Strategien umsetzen, sind ETFs das wichtigste Anlageinstrument, und das bei Aktien und Anleihen. Im Bereich der festverzinslichen Anlagen jedoch hat der Anteil der Vermögensverwalter, die ETFs und Indexfonds kombinieren, gegenüber den beiden Vorjahren zugenommen.'
+                  -
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: 'Viel Kompetenz bei Aktien und Obligationen'
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: 'Die Vermögensverwalter wurden zudem nach ihren Kompetenzen in den verschiedenen Anlageklassen gefragt. Eine überwältigende Mehrheit, nämlich 92%, attestieren sich bei Aktien viel oder sehr viel Kompetenz. Bei Obligationen kommen 82% der Befragten nach eigener Einschätzung auf ein hohes oder sehr hohes Kompetenzniveau, und bei den Multi-Asset-Strategien, einer Kernkompetenz vieler Schweizer Vermögensverwalter, sind 81% dieser Meinung. Bei den Alternativen Anlagen ordnen sich etwas mehr als die Hälfte (54%) ein hohes Kompetenzniveau zu, während noch 30% der Umfrageteilnehmer über viel oder sehr viel Kompetenz bei nachhaltigen Anlagen/ESG verfügen. Nicht überraschen können weitere Untersuchungen, die zeigen, dass je höher das Wissen über nachhaltige Anlagen/ESG, desto mehr solche Kriterien auch in den Portfolios berücksichtigt werden (Abbildung 2).'
+                type: text
+                enabled: true
+              -
+                id: mor29ggx
+                quote: 'Bei den traditionellen Anlageklassen Aktien und Obligationen fühlen sich Schweizer Vermögensverwalter im Element und sind dort nach eigener Einschätzung sehr kompetent.'
+                type: quote
+                enabled: true
+              -
+                id: mor27vhl
                 editor_content:
                   -
                     type: paragraph
@@ -1004,7 +1220,17 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'boomer-Generation immer älter wird, steigen die vererbten Vermögen. Allein im Jahr 2025 werden Menschen in wohlhabenden Nationen etwa 6 Billionen US-Dollar erben, so eine aktuelle Schätzung von The Economist.'
+                        marks:
+                          -
+                            type: bold
+                        text: 'Abbildung 2: Bewerten Sie Ihre Kompetenzen in den folgenden Anlagebereichen'
+                image: kompetenzen-anlagestrategien-vanguard.png
+                caption: 'Lesebeispiel: 92% der Vermögensverwalter bezeichnen ihre Kompetenz bei Aktienanlagen als hoch oder sehr hoch.'
+                type: text_image
+                enabled: true
+              -
+                id: mor28qg6
+                editor_content:
                   -
                     type: paragraph
                     attrs:
@@ -1012,16 +1238,14 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Man sagt, die Rebellen von gestern seien die Herrscher von heute, und das gilt auch für die Vermögensverwaltung. Aber nicht alle Erben sind Disruptoren der Generation Z. Einige sind eher konventionelle Millennials, andere sind vielleicht schon etwas älter und bringen eine ganze Reihe von Erfahrungen und Einblicken in die Vermögensverwaltung mit. Und während die älteren Erben vielleicht traditionelle Werte und langfristige Beziehungen bevorzugen, erwarten die jüngeren Generationen eine stärkere Digitalisierung, mehr Personalisierung und eine andere Auswahl an Anlageprodukten.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
+                        marks:
+                          -
+                            type: bold
+                        text: 'Fazit:'
                       -
                         type: text
-                        text: 'Diese Verschiebung stellt eine bedeutende Wachstumschance dar, wenn ein beträchtlicher Teil des Vermögens demnächst unter neuer Verwaltung stehen wird.'
-                type: question_answer
+                        text: ' Schweizer Vermögensverwalter halten unabhängig vom Marktumfeld ihren Kurs. Ihr Fokus bleibt auf der Strategischen Asset Allokation und dem langfristigen Anlagehorizont.'
+                type: text
                 enabled: true
             type: interview
             enabled: true

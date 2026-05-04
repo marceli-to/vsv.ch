@@ -15,90 +15,91 @@ elements:
       -
         id: tl001
         year: '1986'
-        entry_title: "Création de l'ASG"
-        description: "Création de l'ASG par un groupe de pionniers ayant voulu instaurer des règles, un cadre de qualité et un label offrant des garanties à leurs clients. Afin de garantir la réputation de la profession, l'ASG émet pour la première fois un Code d'honneur fixant les pratiques de la profession"
+        entry_title: 'Gründung des VSV'
+        description: 'Gründung des VSV durch eine Gruppe von Pionieren mit dem Ziel, Regeln, einen Rahmen für Qualität sowie ein Gütesiegel zu schaffen, das den Kundinnen und Kunden verlässliche Garantien bietet. Zur Wahrung des guten Rufs des Berufsstands erlässt der VSV erstmals einen Ehrenkodex, der die beruflichen Praktiken definiert.'
         type: timeline_entry
         enabled: true
       -
         id: tl002
         year: '1989'
-        entry_title: 'Code de conduite'
-        description: "Adoption du Code de conduite qui remplace le code d'honneur. Son respect est contrôlé par une autoréglementation mise en place une année plus tard"
+        entry_title: Standesregeln
+        description: 'Verabschiedung der Standesregeln, die den Ehrenkodex ersetzen. Ihre Einhaltung wird durch eine Selbstregulierung überwacht, die ein Jahr später eingeführt wurde.'
         type: timeline_entry
         enabled: true
       -
         id: tl003
         year: '1995'
-        entry_title: "Directives sur le blanchiment d'argent"
-        description: "Le Code de conduite est complété par des directives pour lutter contre le blanchiment d'argent selon le Code pénal"
+        entry_title: 'Richtlinie zur Bekämpfung der Geldwäscherei'
+        description: 'Die Standesregeln werden durch spezifische Richtlinien zur Bekämpfung der Geldwäscherei ergänzt.'
         type: timeline_entry
         enabled: true
       -
         id: tl004
         year: '1998'
-        entry_title: 'Entrée en vigueur de la LBA'
-        description: 'Les dispositions du Code pénal sont complétées par une loi spécifique'
+        entry_title: 'Inkrafttreten des GwG'
+        description: 'Die Bestimmungen des Strafgesetzbuches werden durch ein spezifisches Gesetz zur Bekämpfung der Geldwäscherei ergänzt.'
         type: timeline_entry
         enabled: true
       -
         id: tl005
         year: '1999'
-        entry_title: "Création de l'OAR et adoption d'un nouveau code de conduite"
-        description: "Assujettissement des gestionnaires à la LBA et création par l'ASG d'un OAR de branche pour les gestionnaires de fortune. Adoption d'un Code de conduite contenant à la fois des règles de comportement et les règles découlant de la nouvelle loi sur le blanchiment d'argent"
+        entry_title: 'Gründung der SRO und Verabschiedung eines neuen Verhaltenskodex'
+        description: 'Unterstellung der Vermögensverwalter unter das GwG sowie Gründung einer branchenspezifischen Selbstregulierungsorganisation (SRO) durch den VSV. Verabschiedung von Standesregeln, die sowohl Verhaltensregeln als auch die Vorgaben des Geldwäschereigesetzes umfassen.'
         type: timeline_entry
         enabled: true
       -
         id: tl013
         year: '2006'
-        entry_title: "20 ans de l'ASG"
-        description: "L'ASG publie le livre doré 1986-2006"
+        entry_title: '20 Jahre VSV'
+        description: 'Der VSV veröffentlicht das Goldene Buch 1986–2006.'
         type: timeline_entry
         enabled: true
       -
         id: tl006
         year: '2008'
-        entry_title: 'Crise financière'
-        description: "La crise financière fragilise la confiance envers les banques et renforce l'attrait du modèle d'affaires des gestionnaires de fortune, fondé sur l'indépendance et l'architecture ouverte"
+        entry_title: Finanzkrise
+        description: 'Die Finanzkrise erschüttert das Vertrauen in die Banken und stärkt die Attraktivität des Geschäftsmodells unabhängiger Vermögensverwalter, das auf Unabhängigkeit und offener Architektur basiert.'
         type: timeline_entry
         enabled: true
       -
         id: tl007
         year: '2009'
-        entry_title: "Création de la FINMA et adoption des règles cadres pour la gestion de fortune – Nouveau code de conduite de l'ASG"
-        description: "Une des premières mesures de la FINMA est de promulguer des règles cadres pour la gestion de fortune. Celles-ci se basent principalement sur le Code de conduite de l'ASG qui a été adapté en conséquence"
+        entry_title: 'Gründung der FINMA und Erlass der Eckwerte für die Vermögensverwaltung – Neue Standesregeln des VSV'
+        description: 'Eine der ersten Massnahmen der FINMA ist der Erlass von Eckwerten für die Vermögensverwaltung. Diese basieren primär auf den Standesregeln des VSV, die entsprechend angepasst werden.'
         type: timeline_entry
         enabled: true
       -
         id: tl008
         year: '2009'
-        entry_title: 'Fin du secret bancaire'
+        entry_title: 'Ende des Bankgeheimnisses'
+        description: 'Das traditionelle Bankgeheimnis verliert im Zuge internationaler Entwicklungen schrittweise an Bedeutung.'
         type: timeline_entry
         enabled: true
       -
         id: tl009
         year: '2011'
-        entry_title: "25 ans de l'ASG"
-        description: "L'ASG publie la brochure du jubilé"
+        entry_title: '25-jähriges Bestehen des VSV'
+        description: 'Der VSV veröffentlicht eine Jubiläumsbroschüre zum 25-jährigen Bestehen.'
         type: timeline_entry
         enabled: true
       -
         id: tl012
         year: '2016'
-        entry_title: 'Rencontre avec le Conseiller fédéral Ueli Maurer'
-        description: "Rencontre le 2 mai 2016, avec le Conseiller fédéral et ministre des Finances de l'époque, Ueli Maurer. En l'espace d'une heure, l'ASG a réussi à le convaincre de revoir le projet de loi LEFin qui n'était pas acceptable en l'état"
+        entry_title: 'Treffen mit Bundesrat Ueli Maurer'
+        description: 'Treffen vom 2. Mai 2016 mit dem damaligen Bundesrat und Finanzminister Ueli Maurer. Innerhalb einer Stunde gelingt es dem VSV, ihn davon zu überzeugen, den Gesetzesentwurf zum FIDLEG zu überarbeiten, da dieser in der vorliegenden Form nicht akzeptabel war.'
         type: timeline_entry
         enabled: true
       -
         id: tl010
         year: '2020'
-        entry_title: "Entrée en vigueur du nouveau cadre réglementaire, LEFin / LSFin – L'ASG crée un organisme de surveillance, finance la mise en place d'un organe de médiation et redevient uniquement une association sectorielle et professionnelle."
-        description: "L'ASG met en place les différentes structures prévues par la loi. Elle transfère ses activités de surveillance à AOOS et redevient uniquement association de branche et professionnelle"
+        entry_title: 'Inkrafttreten des neuen regulatorischen Rahmens FINIG / FIDLEG – Der VSV gründet eine Aufsichtsorganisation, finanziert den Aufbau einer Ombudsstelle und wird wieder ausschliesslich zu einem Branchen- und Berufsverband.'
+        description: 'Der VSV setzt die gesetzlich vorgesehenen Strukturen um, überträgt seine Aufsichtstätigkeiten an AOOS und wird wieder ausschliesslich zum Branchen- und Berufsverband.'
         type: timeline_entry
         enabled: true
       -
         id: tl011
-        year: 'Depuis 2020'
-        entry_title: "L'ASG développe ses services pour les gestionnaires de fortune"
+        year: 'Seit 2020'
+        entry_title: 'Ausbau der Dienstleistungen für Vermögensverwalter'
         type: timeline_entry
         enabled: true
     type: timeline
