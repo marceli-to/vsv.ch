@@ -47,6 +47,10 @@ article h2 {
   @apply font-bold mb-8;
 }
 
+article h2:not(article h2:first-child) {
+  @apply mt-16 lg:mt-32;
+}
+
 /* Accordion themes: button / content backgrounds */
 [data-theme="sky"] .accordion-button { 
   @apply bg-sky;

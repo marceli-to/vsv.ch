@@ -41,15 +41,15 @@
       {{ content }}
 
         {{ if type == 'question_answer' }}
-          {{ partial:fieldsets/interview/question class="mt-16" }}
+          {{ partial:fieldsets/interview/question }}
         {{ /if }}
 
         {{ if type == 'text' }}
-          {{ partial:fieldsets/interview/text class="mt-16" }}
+          {{ partial:fieldsets/interview/text }}
         {{ /if }}
 
         {{ if type == 'text_image' }}
-          {{ partial:fieldsets/interview/text_image class="mt-16" }}
+          {{ partial:fieldsets/interview/text_image }}
         {{ /if }}
 
         {{ if type == 'quote' }}
@@ -116,11 +116,11 @@
           {{ /if }}
 
         {{ if type == 'text' }}
-          {{ partial:fieldsets/interview/text class="mt-16" }}
+          {{ partial:fieldsets/interview/text }}
         {{ /if }}
 
         {{ if type == 'text_image' }}
-          {{ partial:fieldsets/interview/text_image class="mt-16" }}
+          {{ partial:fieldsets/interview/text_image }}
         {{ /if }}
 
         {{ /content }}

@@ -10,7 +10,7 @@ elements:
       -
         type: paragraph
         attrs:
-          class: null
+          class: text-lead
         content:
           -
             type: text
@@ -18,7 +18,7 @@ elements:
       -
         type: paragraph
         attrs:
-          class: null
+          class: text-lead
         content:
           -
             type: text
@@ -460,5 +460,5 @@ elements:
     enabled: true
 container_padding_top: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777899623
+updated_at: 1777995196
 ---
