@@ -1023,7 +1023,7 @@ elements:
             id: mn7c8ku5
             interview_type: group
             image: vsv-asg-yearbook-2025-vanguard-manon_duez.jpg
-            title: 'Beständige Anlageprinzipien in wechselhaftem Marktumfeld'
+            title: 'Des principes de gestion solides dans un environnement de marché volatile'
             introduction:
               -
                 type: paragraph
@@ -1035,17 +1035,36 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Ein Interview mit Thomas Frauenlob, '
-                  -
-                    type: hardBreak
+                    text: "Un texte de Manon\_Duez,"
                   -
                     type: text
-                    text: 'Co-Head Western Markets & Switzerland und Head Intermediaries & Family Offices, Julius Bär'
+                    text: ' Senior Sales Executive, Vanguard Investments Switzerland GmbH'
             logo: logo/vanguard.svg
             content:
               -
-                id: mn7c9ljh
-                question: 'Anlässlich Ihres ersten Jahrestags bei Julius Bär am 1. April: Was waren Ihrer Ansicht nach die grössten Erfolge und Herausforderungen des vergangenen Jahres?'
+                id: mowl8ynj
+                editor_content:
+                  -
+                    type: paragraph
+                    attrs:
+                      class: text-lead
+                    content:
+                      -
+                        type: text
+                        text: 'Une stratégie adaptée aux besoins du client est la condition '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: italic
+                        text: 'sine qua non'
+                      -
+                        type: text
+                        text: " du succès des gestionnaires de fortune. Une fois celle-ci définie dans ses grandes lignes, elle fonctionne également dans différentes configurations de marché, sans qu'il soit nécessaire de procéder à des ajustements majeurs. C'est ce que montre la dernière enquête menée par la Haute école de Lucerne (HSLU) et Vanguard auprès des gestionnaires de fortune. Une centaine de gestionnaires ont participé à cette enquête, soutenue par l'ASG, qui s'est déroulée entre fin février et fin mars 2026. Les résultats fournissent un éclairage précieux sur les opinions et les positionnements des gestionnaires de fortune."
+                type: text
+                enabled: true
+              -
+                id: mowl9sf6
                 editor_content:
                   -
                     type: paragraph
@@ -1054,7 +1073,15 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Es war ein gutes Jahr, das mehr Erfolge als Herausforderungen brachte. Im Jahr 2024 stiegen unsere verwalteten Vermögen im Intermediaries-Geschäft dank ungewöhnlich hoher Mittelzuflüsse und steigender Aktienmärkte deutlich an. Unsere guten Ergebnisse spiegeln den zielgerichteten Ansatz wider, nachhaltiges Wachstum zu fördern und Mehrwert für unsere Kundinnen und Kunden zu schaffen.'
+                        text: "Au cours du premier trimestre, l'incertitude s'est accrue sur les marchés financiers mondiaux et a engendré une baisse de confiance des investisseurs. Les gestionnaires de fortune suisse ne se sont toutefois pas laissé impressionner et ont globalement maintenu les stratégies convenues avec leurs clients. Quelques indications sur le positionnement : ils conservent une surpondération des actions suisses et européennes, ce qui reflète clairement le « biais domestique » des clients domiciliés soit en Suisse, soit dans un autre pays européen. La part des actions américaines a été réduite, tandis que celle des actions des marchés émergents a légèrement augmenté. Dans l'ensemble, ils ont sous-pondéré les obligations au premier trimestre. La réduction a concerné la plupart des segments, à l'exception des obligations des marchés émergents."
+                  -
+                    type: heading
+                    attrs:
+                      level: 2
+                    content:
+                      -
+                        type: text
+                        text: 'Allocation d’actifs stratégique : principal moteur de performance'
                   -
                     type: paragraph
                     attrs:
@@ -1062,48 +1089,123 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Das Jahr 2025 hat gut begonnen. Und obwohl wir die Herausforderungen des aktuellen Zoll- und Handelskriegs und der Turbulenzen an den Finanzmärkten nicht ignorieren können, bin ich weiterhin zuversichtlich, dass wir gemeinsam mit unseren Finanzintermediären neue Höhen erreichen können.'
-                type: question_answer
+                        text: "Comme les années précédentes, les gestionnaires de fortune ont été interrogés sur les trois stratégies les plus importantes pour générer de la valeur ajoutée dans les portefeuilles. Une fois de plus, ils ont souligné l'importance de "
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: "l'allocation d’actifs stratégique "
+                      -
+                        type: text
+                        text: "(SAA) en tant que source centrale d'"
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: italic
+                        text: alpha
+                      -
+                        type: text
+                        text: '. Pour 77 % d’entre eux, la SAA figure parmi les trois principaux moteurs de performance. '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'La sélection de titres'
+                      -
+                        type: text
+                        text: ", qu’il s’agisse d’actions ou d’obligations, arrive en deuxième position de ce classement. Cela souligne l’importance des connaissances et des compétences au niveau des titres. \_\_51 % des personnes interrogées ont désigné cette stratégie comme l’une des trois principales. Viennent ensuite, loin derrière en termes d’importance en tant que sources d’"
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: italic
+                        text: alpha
+                      -
+                        type: text
+                        text: ', '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'l’orientation des portefeuilles vers certaines régions ou certains secteurs, les investissements thématiques, le rééquilibrage'
+                      -
+                        type: text
+                        text: ' ainsi que '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'le dialogue avec les clients pendant les phases de turbulence des marchés'
+                      -
+                        type: text
+                        text: '. Les gérants de fortune accordent en revanche moins d’importance aux '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'stratégies de couverture'
+                      -
+                        type: text
+                        text: ' et au '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: italic
+                        text: 'market timing'
+                      -
+                        type: text
+                        text: ' en termes de surperformance (figure 1).'
+                type: text
                 enabled: true
               -
-                id: mn7caaiac
-                question: 'Was zeichnet Julius Bär mit Blick auf die Unterstützung von Finanzintermediären aus?'
+                id: mowlaf3m
                 editor_content:
                   -
-                    type: paragraph
+                    type: heading
                     attrs:
-                      class: null
+                      level: 2
                     content:
                       -
                         type: text
-                        text: 'Wir wollen der bevorzugte Partner für Finanzintermediäre weltweit sein. In den letzten Jahren haben wir unsere Reichweite durch den Aufbau zusätzlicher Standorte in Madrid, Dubai und Lausanne erweitert. Das hilft uns, noch näher an unseren Kundinnen und Kunden zu sein. Was die Anlageprodukte und -dienstleistungen betrifft, so verfügen wir über eine umfassende Palette mit offener Architektur, die wir ständig überprüfen und erweitern. Ausserdem verbessern wir kontinuierlich unsere digitalen Services und Tools.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
+                        text: "Quelles stratégies utilisez-vous pour générer de l'"
                       -
                         type: text
-                        text: 'So schaffen wir es, unseren Kundinnen und Kunden die bestmögliche Betreuung, geeignete Lösungen und die richtige Technologie zu bieten. Dafür bleiben wir anpassungsfähig und reagieren auf sich verändernde Kundenbedürfnisse und Marktbedingungen. Strategisch gesehen sind Finanzintermediäre weiterhin ein Eckpfeiler für das Wachstum von Julius Bär, und wir wollen den Standard für herausragende Dienstleistungen und Lösungen setzen.'
-                type: question_answer
+                        marks:
+                          -
+                            type: italic
+                        text: alpha
+                      -
+                        type: text
+                        text: ' dans vos portefeuilles ?'
+                image: anlagestrategien-alpha-vanguard.png
+                caption: "Exemple : pour 77 % des gestionnaires de fortune, l'allocation d'actifs stratégique figure parmi les trois principales stratégies permettant de générer de l'alpha."
+                type: text_image
                 enabled: true
               -
-                id: mn7caatkb
-                quote: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
+                id: mowlfj3d
+                quote: "Quelle que soit la conjoncture de marché, l'allocation d'actifs stratégique est de loin la principale source d'alpha pour les gestionnaires de fortune suisse."
                 type: quote
                 enabled: true
               -
-                id: mn7caayun
-                question: 'Unterschätzen Finanzintermediäre bestimmte Risiken und wenn ja, was sollten sie anders machen?'
+                id: mowlbkq2
                 editor_content:
                   -
-                    type: paragraph
+                    type: heading
                     attrs:
-                      class: null
+                      level: 2
                     content:
                       -
                         type: text
-                        text: 'Wir leben in einer Zeit der «schwarzen Schwäne» – folgenschwerer Ereignisse, die schwer vorherzusagen sind. Finanzintermediäre und Family Offices sind sich dessen bewusst, wobei laut Umfragen unter Family Offices die Geopolitik zu deren grössten Sorgen zählt. Wie kann man sich gegenüber weiteren Turbulenzen absichern? Indem wir dafür sorgen, dass die Portfolios der Kundinnen und Kunden gut diversifiziert sind und ihrer Risikobereitschaft entsprechen.'
+                        text: 'Les investissements directs en actions suisses sont le choix N°1'
                   -
                     type: paragraph
                     attrs:
@@ -1111,7 +1213,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Unsere Kundenberaterinnen und -berater stehen in engem Kontakt mit unseren Finanzintermediären, um sie bei der Bewältigung der aktuell erhöhten Risiken zu unterstützen. Meiner Ansicht nach sollten die Finanzintermediäre dasselbe tun, nahe bei ihren Kundinnen und Kunden bleiben, ihre Bedürfnisse verstehen und entsprechend reagieren.'
+                        text: 'En ce qui concerne la mise en œuvre des stratégies, les préférences des gestionnaires de fortune suisse n’ont guère évolué par rapport à l’année précédente. La majorité d’entre eux investit dans des titres individuels parmi les actions suisses ainsi que dans la plupart des segments obligataires. La situation est différente pour les actions des marchés émergents ainsi que pour les actions de la région Asie-Pacifique, y compris le Japon. Dans ce cas, ils privilégient clairement les fonds et les ETF. Une tendance similaire s’observe pour les obligations, où les fonds et les ETF restent les instruments les plus prisés pour les obligations des marchés émergents, les obligations à haut rendement et les obligations d’entreprises américaines.'
                   -
                     type: paragraph
                     attrs:
@@ -1119,12 +1221,42 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Natürlich kann Unerwartetes auch in unmittelbarer Nähe geschehen. Was geschieht, wenn ein wichtiger Partner ausscheidet oder plötzlich erkrankt? Jedes Unternehmen sollte sich dagegen absichern, indem es eine Nachfolgeplanung aufstellt, die Führungsebene diversifiziert und die betriebliche Resilienz stärkt. Risikomanagement bedeutet, vorbereitet zu sein.'
-                type: question_answer
+                        text: "Lorsque les portefeuilles sont constitués de fonds, les produits passifs sont privilégiés par rapport aux produits actifs. À quelques exceptions près, c'est le cas pour la plupart des classes d'actifs. Parmi les gestionnaires de fortune qui mettent en œuvre des stratégies passives, les ETF constituent l'instrument le plus important pour les actions. Dans le domaine des investissement obligataires, la proportion de gestionnaires de fortune combinant ETF et fonds indiciels a augmenté par rapport à l’année précédente."
+                  -
+                    type: heading
+                    attrs:
+                      level: 2
+                    content:
+                      -
+                        type: text
+                        text: 'Une grande expertise en actions et obligations'
+                  -
+                    type: paragraph
+                    attrs:
+                      class: null
+                    content:
+                      -
+                        type: text
+                        text: "Les gestionnaires de fortune ont également été interrogés sur leurs compétences dans les différentes classes d'actifs. Une majorité écrasante, à savoir 92 %, s'attribue un niveau de compétence élevé ou très élevé en matière d'actions. En ce qui concerne les obligations, 82 % des sondés estiment avoir un niveau de compétence élevé ou très élevé, et pour les stratégies multi-actifs, une compétence essentielle de nombreux gestionnaires de fortune suisses, 81 % partagent cet avis. En ce qui concerne les investissements alternatifs, un peu plus de la moitié (54 %) s’attribuent un niveau de compétence élevé, tandis que 30 % des participants à l’enquête disposent d’une grande ou très grande compétence en matière d’investissements durables/ESG (Graphique 2)."
+                type: text
                 enabled: true
               -
-                id: mn7cabg15
-                question: 'Auf welche Trends in der Vermögensverwaltung sollten Finanzintermediäre Ihrer Meinung nach in den kommenden fünf Jahren ein besonderes Augenmerk legen?'
+                id: mowleanp
+                editor_content:
+                  -
+                    type: heading
+                    attrs:
+                      level: 2
+                    content:
+                      -
+                        type: text
+                        text: "Évaluez vos compétences dans les domaines d'investissement suivants"
+                image: kompetenzen-anlagestrategien-vanguard.png
+                caption: "Exemple : 92 % des gestionnaires de fortune jugent leur niveau de compétence en matière d'investissements en actions élevé ou très élevé."
+                type: text_image
+                enabled: true
+              -
+                id: mowlf0f7
                 editor_content:
                   -
                     type: paragraph
@@ -1133,24 +1265,14 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'boomer-Generation immer älter wird, steigen die vererbten Vermögen. Allein im Jahr 2025 werden Menschen in wohlhabenden Nationen etwa 6 Billionen US-Dollar erben, so eine aktuelle Schätzung von The Economist.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
+                        marks:
+                          -
+                            type: bold
+                        text: 'Conclusion '
                       -
                         type: text
-                        text: 'Man sagt, die Rebellen von gestern seien die Herrscher von heute, und das gilt auch für die Vermögensverwaltung. Aber nicht alle Erben sind Disruptoren der Generation Z. Einige sind eher konventionelle Millennials, andere sind vielleicht schon etwas älter und bringen eine ganze Reihe von Erfahrungen und Einblicken in die Vermögensverwaltung mit. Und während die älteren Erben vielleicht traditionelle Werte und langfristige Beziehungen bevorzugen, erwarten die jüngeren Generationen eine stärkere Digitalisierung, mehr Personalisierung und eine andere Auswahl an Anlageprodukten.'
-                  -
-                    type: paragraph
-                    attrs:
-                      class: null
-                    content:
-                      -
-                        type: text
-                        text: 'Diese Verschiebung stellt eine bedeutende Wachstumschance dar, wenn ein beträchtlicher Teil des Vermögens demnächst unter neuer Verwaltung stehen wird.'
-                type: question_answer
+                        text: ": les gestionnaires de fortune suisse gardent le cap, quelle que soit la conjoncture du marché. Ils continuent de se concentrer sur l'allocation d'actifs stratégique et l'horizon d'investissement à long-terme."
+                type: text
                 enabled: true
             type: interview
             enabled: true
@@ -1160,5 +1282,5 @@ elements:
     type: accordion
     enabled: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778222364
+updated_at: 1778225310
 ---

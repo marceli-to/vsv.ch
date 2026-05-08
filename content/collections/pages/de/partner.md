@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778222411
+updated_at: 1778225403
 elements:
   -
     id: mn78s6cy
@@ -1067,7 +1067,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: "Eine Anlagestrategie, abgestimmt auf die Bedürfnisse der Kunden, ist die Voraussetzung für eine erfolgreiche Arbeit von Vermögensverwaltern. Ist die Strategie im Grundsatz definiert, funktioniert diese auch in unterschiedlichen Marktsituationen, ohne dass grössere Korrekturen nötig sind. Dies zeigt die neuste von der Hochschule Luzern (HSLU) und von Vanguard durchgeführte Umfrage unter unabhängigen Schweizer Vermögensverwaltern. An der vom Verband VSV-ASG unterstützten Umfrage zwischen Ende Februar und Ende März 2026 nahmen 100 Vermögensverwalter teil. Die Ergebnisse liefern wertvolle Erkenntnisse zu den Marktmeinungen und Positionierungen der Vermögensverwalter.\_ \_\_"
+                        text: 'Eine Anlagestrategie, abgestimmt auf die Bedürfnisse der Kunden, ist die Voraussetzung für eine erfolgreiche Arbeit von Vermögensverwaltern. Ist die Strategie im Grundsatz definiert, funktioniert diese auch in unterschiedlichen Marktsituationen, ohne dass grössere Korrekturen nötig sind. Dies zeigt die neuste von der Hochschule Luzern (HSLU) und von Vanguard durchgeführte Umfrage unter unabhängigen Schweizer Vermögensverwaltern. An der vom Verband VSV-ASG unterstützten Umfrage zwischen Ende Februar und Ende März 2026 nahmen 100 Vermögensverwalter teil. Die Ergebnisse liefern wertvolle Erkenntnisse zu den Marktmeinungen und Positionierungen der Vermögensverwalter.'
                 type: text
                 enabled: true
               -
@@ -1094,7 +1094,7 @@ elements:
                   -
                     type: heading
                     attrs:
-                      level: 3
+                      level: 2
                     content:
                       -
                         type: text
@@ -1115,7 +1115,7 @@ elements:
                         text: 'Strategischen Asset Allokation'
                       -
                         type: text
-                        text: ' SAA als zentrale Alpha-Quelle hervorgehoben. Für 76 Prozent der Befragten gehört die SAA zu den wichtigsten drei Renditebringern. Auf Rang 2 in dieser Rangliste folgt die '
+                        text: ' SAA als zentrale Alpha-Quelle hervorgehoben. Für 77 Prozent der Befragten gehört die SAA zu den wichtigsten drei Renditebringern. Auf Rang 2 in dieser Rangliste folgt die '
                       -
                         type: text
                         marks:
@@ -1124,7 +1124,7 @@ elements:
                         text: 'Selektion von Einzeltiteln'
                       -
                         type: text
-                        text: ' bei Aktien oder Obligationen. Dies unterstreicht die Bedeutung von Kenntnissen und Kompetenzen auf der Stufe der Wertschriften. 52 Prozent der Befragten bezeichneten dies als eine der Top 3-Strategien. Deutlich dahinter in ihrer Bedeutung als wichtigste Alpha-Quellen platziert sind die '
+                        text: ' bei Aktien oder Obligationen. Dies unterstreicht die Bedeutung von Kenntnissen und Kompetenzen auf der Stufe der Wertschriften. 51 Prozent der Befragten bezeichneten dies als eine der Top 3-Strategien. Deutlich dahinter in ihrer Bedeutung als wichtigste Alpha-Quellen platziert sind die '
                       -
                         type: text
                         marks:
@@ -1178,13 +1178,13 @@ elements:
                   -
                     type: heading
                     attrs:
-                      level: 3
+                      level: 2
                     content:
                       -
                         type: text
                         text: 'Abbildung 1: Welche Strategien nutzen Sie, um Alpha in Ihren Portfolios zu erzielen?'
                 image: anlagestrategien-alpha-vanguard.png
-                caption: 'Lesebeispiel: Für 76% der Vermögensverwalter ist die Strategische Asset Allokation eine der Top-3-Strategien zur Generierung von Alpha.'
+                caption: 'Lesebeispiel: Für 77% der Vermögensverwalter ist die Strategische Asset Allokation eine der Top-3-Strategien zur Generierung von Alpha.'
                 type: text_image
                 enabled: true
               -
@@ -1193,7 +1193,7 @@ elements:
                   -
                     type: heading
                     attrs:
-                      level: 3
+                      level: 2
                     content:
                       -
                         type: text
@@ -1205,7 +1205,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: "Bei der Umsetzung der Strategien haben sich die Präferenzen der Schweizer Vermögensverwalter gegenüber dem Vorjahr kaum verändert. Die Mehrheit investiert im Bereich der Schweizer Aktien sowie in den meisten Obligationen-Segmenten in Einzeltitel. Anders präsentiert sich die Situation bei Emerging-Markets-Aktien sowie Aktien aus der Region Asien/Pazifik inkl. Japan. Hier werden Fonds und ETFs klar bevorzugt. Ein ähnliches Muster zeigt sich bei den festverzinslichen Werten, wo Fonds und ETFs weiterhin die beliebtesten Instrumente für Emerging Markets- und High-Yield-Bonds sowie US-Unternehmensanleihen sind. Anzumerken ist hier, dass Vermögensverwalter im letztgenannten Segment sowie bei US-Aktien gegenüber dem Vorjahr vermehrt Fonds und ETFs einsetzen.\_"
+                        text: "Bei der Umsetzung der Strategien haben sich die Präferenzen der Schweizer Vermögensverwalter gegenüber dem Vorjahr kaum verändert. Die Mehrheit investiert im Bereich der Schweizer Aktien sowie in den meisten Obligationen-Segmenten in Einzeltitel. Anders präsentiert sich die Situation bei Emerging-Markets-Aktien sowie Aktien aus der Region Asien/Pazifik inkl. Japan. Hier werden Fonds und ETFs klar bevorzugt. Ein ähnliches Muster zeigt sich bei den festverzinslichen Werten, wo Fonds und ETFs weiterhin die beliebtesten Instrumente für Emerging Markets- und High-Yield-Bonds sowie US-Unternehmensanleihen sind.\_"
                   -
                     type: paragraph
                     attrs:
@@ -1213,11 +1213,11 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Erfolgt die Umsetzung in den Portfolios mit Fonds, so erhalten passive Produkte gegenüber aktiven Produkten den Vorzug. Mit wenigen Ausnahmen ist dies bei den meisten Anlageklassen der Fall. Unter den Vermögensverwaltern, die passive Strategien umsetzen, sind ETFs das wichtigste Anlageinstrument, und das bei Aktien und Anleihen. Im Bereich der festverzinslichen Anlagen jedoch hat der Anteil der Vermögensverwalter, die ETFs und Indexfonds kombinieren, gegenüber den beiden Vorjahren zugenommen.'
+                        text: 'Erfolgt die Umsetzung in den Portfolios mit Fonds, so erhalten passive Produkte gegenüber aktiven Produkten den Vorzug. Mit wenigen Ausnahmen ist dies bei den meisten Anlageklassen der Fall. Unter den Vermögensverwaltern, die passive Strategien umsetzen, sind ETFs das wichtigste Anlageinstrument bei Aktien. Im Bereich der festverzinslichen Anlagen hat der Anteil der Vermögensverwalter, die ETFs und Indexfonds kombinieren, gegenüber dem Vorjahr zugenommen.'
                   -
                     type: heading
                     attrs:
-                      level: 3
+                      level: 2
                     content:
                       -
                         type: text
@@ -1229,7 +1229,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: 'Die Vermögensverwalter wurden zudem nach ihren Kompetenzen in den verschiedenen Anlageklassen gefragt. Eine überwältigende Mehrheit, nämlich 92%, attestieren sich bei Aktien viel oder sehr viel Kompetenz. Bei Obligationen kommen 82% der Befragten nach eigener Einschätzung auf ein hohes oder sehr hohes Kompetenzniveau, und bei den Multi-Asset-Strategien, einer Kernkompetenz vieler Schweizer Vermögensverwalter, sind 81% dieser Meinung. Bei den Alternativen Anlagen ordnen sich etwas mehr als die Hälfte (54%) ein hohes Kompetenzniveau zu, während noch 30% der Umfrageteilnehmer über viel oder sehr viel Kompetenz bei nachhaltigen Anlagen/ESG verfügen. Nicht überraschen können weitere Untersuchungen, die zeigen, dass je höher das Wissen über nachhaltige Anlagen/ESG, desto mehr solche Kriterien auch in den Portfolios berücksichtigt werden (Abbildung 2).'
+                        text: 'Die Vermögensverwalter wurden zudem nach ihren Kompetenzen in den verschiedenen Anlageklassen gefragt. Eine überwältigende Mehrheit, nämlich 92%, attestieren sich bei Aktien viel oder sehr viel Kompetenz. Bei Obligationen kommen 82% der Befragten nach eigener Einschätzung auf ein hohes oder sehr hohes Kompetenzniveau, und bei den Multi-Asset-Strategien, einer Kernkompetenz vieler Schweizer Vermögensverwalter, sind 81% dieser Meinung. Bei den Alternativen Anlagen ordnen sich etwas mehr als die Hälfte (54%) ein hohes Kompetenzniveau zu, während noch 30% der Umfrageteilnehmer über viel oder sehr viel Kompetenz bei nachhaltigen Anlagen/ESG verfügen (Abbildung 2).'
                 type: text
                 enabled: true
               -
@@ -1241,9 +1241,9 @@ elements:
                 id: mor27vhl
                 editor_content:
                   -
-                    type: paragraph
+                    type: heading
                     attrs:
-                      class: null
+                      level: 2
                     content:
                       -
                         type: text
