@@ -2,11 +2,11 @@
 
   {{ partial:layout/container class="relative" }}
 
-    {{ partial:components/headings/h2 class="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] mb-16 md:mb-24" }}
+    {{ partial:components/headings/h2 class="text-lg md:text-2xl lg:text-4xl mb-16 md:mb-24" }}
       {{ "Kontakt" | trans }}
     {{ /partial:components/headings/h2  }}
 
-    <div class="lg:flex lg:justify-between lg:items-end text-[1rem] xl:text-[1.125rem]">
+    <div class="lg:flex lg:justify-between lg:items-end text-base xl:text-md">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-24 lg:gap-x-32 xl:gap-x-48">
         {{ if site:handle == 'fr' }}
           {{# FR: GE, ZH, TI #}}

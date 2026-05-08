@@ -1,6 +1,6 @@
 <div class="bg-white rounded-xl p-16 lg:p-24 mt-32 lg:mt-48">
   {{ if chart_title }}
-    <h2 class="font-bold text-[0.875rem] md:text-[1rem] lg:text-[1.125rem] mb-16 lg:mb-24 text-pretty">
+    <h2 class="font-bold text-sm md:text-base lg:text-md mb-16 lg:mb-24 text-pretty">
       {{ chart_title }}
     </h2>
   {{ /if }}
@@ -22,7 +22,7 @@
         {{ chart_entries }}
           {{ if type == 'chart_entry' }}
             <span
-              class="absolute text-[0.75rem] md:text-[0.8125rem] font-bold opacity-0 pointer-events-none -translate-x-1/2 -translate-y-1/2"
+              class="absolute text-2xs md:text-xs font-bold opacity-0 pointer-events-none -translate-x-1/2 -translate-y-1/2"
               data-pie-label
               data-percentage="{{ percentage }}"
             >
@@ -38,7 +38,7 @@
           {{ if type == 'chart_entry' }}
             <div class="flex items-start gap-8 lg:gap-12">
               <div class="w-16 h-16 lg:w-20 lg:h-20 shrink-0 mt-2 bg-{{ color }}"></div>
-              <span class="text-[0.75rem] md:text-[0.8125rem] lg:text-[0.875rem] leading-snug">{{ label }}</span>
+              <span class="text-2xs md:text-xs lg:text-sm leading-snug">{{ label }}</span>
             </div>
           {{ /if }}
         {{ /chart_entries }}

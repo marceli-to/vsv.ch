@@ -2,7 +2,7 @@
 
   <a 
     href="{{ url }}" 
-    class="block w-full py-20 font-medium xl:text-[1.25rem] leading-none tracking-wide transition-colors hover:text-blue {{ is_current || is_parent ? 'text-blue' : '' }}"
+    class="block w-full py-20 font-medium xl:text-lg leading-none tracking-wide transition-colors hover:text-blue {{ is_current || is_parent ? 'text-blue' : '' }}"
     target="{{ is_external ? '_blank' : '_self' }}"
     aria-label="{{ title }}">
     {{ menu_title ?? title }}

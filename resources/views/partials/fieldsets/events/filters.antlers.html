@@ -7,7 +7,7 @@
       type="text"
       x-model="search"
       placeholder="{{ 'Suche' | trans }}"
-      class="w-full border border-charcoal rounded-full px-16 py-8 text-[0.875rem] lg:text-[1rem] focus:outline-none"
+      class="w-full border border-charcoal rounded-full px-16 py-8 text-sm lg:text-base focus:outline-none"
     />
   </div>
 
@@ -16,7 +16,7 @@
     {{# Filter toggle #}}
     <button 
       @click="showFilters = !showFilters" 
-      class="bg-mist flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-[0.875rem] lg:text-[1rem]">
+      class="bg-mist flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-sm lg:text-base">
       
       <span>Filter</span>
 
@@ -39,7 +39,7 @@
       <div>
         <button
           @click="showTypeFilter = !showTypeFilter"
-          class="flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-[0.875rem] lg:text-[1rem]">
+          class="flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-sm lg:text-base">
           <span>{{ "Art" | trans }}</span>
           <span :class="showTypeFilter ? 'rotate-180' : ''" class="transition-transform duration-200">
             {{ partial:components/icons/chevron class="w-16 h-16" }}
@@ -59,7 +59,7 @@
       <div>
         <button
           @click="showLanguageFilter = !showLanguageFilter"
-          class="flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-[0.875rem] lg:text-[1rem]">
+          class="flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-sm lg:text-base">
           <span>{{ "Sprache" | trans }}</span>
           <span :class="showLanguageFilter ? 'rotate-180' : ''" class="transition-transform duration-200">
             {{ partial:components/icons/chevron class="w-16 h-16" }}
