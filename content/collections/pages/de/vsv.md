@@ -5,11 +5,10 @@ title: Verband
 template: templates/default
 layout: templates/layout
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778248339
+updated_at: 1778251712
 open_graph_type: website
 robots: index_follow
 show_job_teaser: true
-menu_title: VSV
 elements:
   -
     id: mn5sv3l5

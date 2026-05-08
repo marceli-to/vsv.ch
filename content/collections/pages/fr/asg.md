@@ -146,7 +146,7 @@ elements:
         enabled: true
     type: teasers
     enabled: true
-menu_title: ASG
+menu_title: null
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778248347
+updated_at: 1778251722
 ---
