@@ -230,7 +230,7 @@ elements:
         content:
           -
             type: text
-            text: 'Le sociétariat a connu une évolution positive durant l’année avec le nombre de nouveaux membres actifs qui a plus que compensé les sorties. De même nous avons enregistrés de nombreux nouveaux membres partenaires et individuels ((lien)).'
+            text: 'Le sociétariat a connu une évolution positive durant l’année avec le nombre de nouveaux membres actifs qui a plus que compensé les sorties. De même nous avons enregistrés de nombreux nouveaux membres partenaires et individuels.'
       -
         type: paragraph
         attrs:
@@ -238,21 +238,7 @@ elements:
         content:
           -
             type: text
-            text: "L’assemblée générale 2025 a eu lieu le 20 juin, en ligne. Elle a été précédée d'une table ronde animée par nos principaux partenaires sur le thème des marchés. Vous trouverez les décisions principales dans le procès-verbal ("
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://www.vsv-asg.ch/fr/association/a-propos-de-nous'
-                  rel: null
-                  target: null
-                  title: null
-            text: lien
-          -
-            type: text
-            text: ).
+            text: "L’assemblée générale 2025 a eu lieu le 20 juin, en ligne. Elle a été précédée d'une table ronde animée par nos principaux partenaires sur le thème des marchés. Vous trouverez les décisions principales dans le procès-verbal."
       -
         type: paragraph
         attrs:
@@ -319,11 +305,11 @@ elements:
     enabled: true
   -
     id: mnoc6kgo
-    title: Activités
+    title: 'Chiffres clés 2025'
     statistics:
       -
         id: mn77jmpt
-        number: '88'
+        number: '100'
         editor_content:
           -
             type: paragraph
@@ -458,7 +444,22 @@ elements:
         percent: true
     type: statistics
     enabled: true
+  -
+    id: gallery001
+    gallery_title: '2025 en images'
+    gallery_images:
+      - vsv-asg-yearbook-2025-gallery-1.jpg
+      - vsv-asg-yearbook-2025-gallery-2.jpg
+      - vsv-asg-yearbook-2025-gallery-3.jpg
+      - vsv-asg-yearbook-2025-gallery-4.jpg
+      - vsv-asg-yearbook-2025-gallery-5.jpg
+      - vsv-asg-yearbook-2025-gallery-6.jpg
+      - vsv-asg-yearbook-2025-gallery-7.jpg
+      - vsv-asg-yearbook-2025-gallery-8.jpg
+      - vsv-asg-yearbook-2025-gallery-9.jpg
+    type: gallery
+    enabled: true
 container_padding_top: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777995196
+updated_at: 1778251400
 ---

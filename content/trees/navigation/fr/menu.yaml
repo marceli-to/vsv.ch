@@ -25,9 +25,13 @@ tree:
     id: 58510370-fe33-4e32-bd01-b6449c731fd7
     entry: 53f7afc8-f8f4-4690-9de7-5ad0b8cc02aa
   -
-    id: 44b6d62c-0e07-46c8-b1a3-121592383c5e
-    entry: fd0a72ac-c3f4-4ed1-a596-655f1adcb97a
+    id: d0ca634c-0b12-49ff-854a-a60cf533b7b5
+    title: 'Spécial 40 ans !'
+    url: /fr/special-40-ans/timeline
     children:
+      -
+        id: b3c357d6-8c17-409f-9341-e488aa7adb7b
+        entry: 9f604e83-82a1-41ee-9e6f-c613dce63590
       -
         id: b2fbee64-b6cc-4105-a719-3f19a3498d0e
         entry: fd2ceeda-214a-4945-ba2c-7eb633b9f276

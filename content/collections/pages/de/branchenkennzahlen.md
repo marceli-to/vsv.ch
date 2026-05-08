@@ -1,12 +1,12 @@
 ---
 id: cf88daca-23f7-458b-953f-f9cad2f54cf3
 blueprint: page
-title: Branchenstatistik
+title: Branchenkennzahlen
 show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777445428
+updated_at: 1778248409
 container_padding_top: true
 container_padding_bottom: true
 elements:

@@ -1,23 +1,18 @@
 ---
-id: e830ce91-1030-406d-88e1-b9c5c6abe52e
-blueprint: page
-title: Kennzahlen
-show_job_teaser: false
-open_graph_type: website
-robots: index_follow
-updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1775549391
+id: 63e2d8d4-dcdc-4e75-a444-98f86fc1c235
+origin: e830ce91-1030-406d-88e1-b9c5c6abe52e
+title: Sociétariat
 elements:
   -
     id: mn8mnmbn
-    title: Mitgliedschaft
+    title: Sociétariat
     type: membership
     enabled: true
     categories:
       -
         id: mn8ca1aa
         color: red
-        category_title: Einzelmitglieder
+        category_title: 'Membres individuels'
         editor_content:
           -
             type: paragraph
@@ -26,7 +21,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Alle Mitarbeitenden von Aktivmitgliedern können Einzelmitglieder sein. Sie stärken den Beruf und profitieren von den Leistungen, die den Mitgliedern gewährt werden. Ausserdem können sie sich auf der Weiterbildungsplattform registrieren.'
+                text: "Tous les collaborateurs de membres actifs peuvent être membres individuels. Ils renforcent la profession et bénéficient des prestations accordées aux membres. Ils peuvent également s'inscrire sur la plateforme de formation."
           -
             type: paragraph
             attrs:
@@ -34,13 +29,13 @@ elements:
             content:
               -
                 type: text
-                text: 'Im Jahr 2025 traten 258 neue Einzelmitglieder dem VSV bei.'
+                text: "En 2025, 258 nouveaux membres individuels ont rejoint l'ASG."
         type: category
         enabled: true
       -
         id: mn8ca2bb
         color: gold
-        category_title: Partnermitglieder
+        category_title: 'Membres partenaires'
         editor_content:
           -
             type: paragraph
@@ -49,7 +44,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Partnermitglieder unterstützen die Branche und ihr Engagement ermöglicht es, die Leistungen des VSV weiterzuentwickeln. Es handelt sich dabei hauptsächlich um Banken, Anwaltskanzleien und Revisionsunternehmen.'
+                text: "Les membres partenaires soutiennent la branche et leur engagement permet de développer les prestations de l'ASG. Ce sont principalement des banques, des études d'avocats et des réviseurs."
           -
             type: paragraph
             attrs:
@@ -57,13 +52,13 @@ elements:
             content:
               -
                 type: text
-                text: 'Im Jahr 2025 traten 8 neue Partner dem VSV bei.'
+                text: "En 2025, 8 nouveaux partenaires ont rejoint l'ASG."
         type: category
         enabled: true
       -
         id: mn8ca3cc
         color: blue
-        category_title: Aktivmitglieder
+        category_title: 'Membres actifs'
         editor_content:
           -
             type: paragraph
@@ -72,7 +67,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Aktivmitglieder sind hauptsächlich Vermögensverwalter und Verwalter von Kollektivvermögen. Sie werden von der FINMA direkt oder von einer der vier zugelassenen AO beaufsichtigt: AOOS, OSFINcontrol, OSIF oder SO-FIT.'
+                text: 'Les membres actifs sont principalement des gestionnaires de fortune et des gestionnaires de fortune collective. Ils sont surveillés par la FINMA directement ou par un des quatre OS agréés : AOOS, OSFINcontrol, OSIF ou SO-FIT.'
           -
             type: paragraph
             attrs:
@@ -80,7 +75,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Im Jahr 2025 traten 47 neue Aktivmitglieder dem VSV bei.'
+                text: "En 2025, 47 nouveaux membres actifs ont rejoint l'ASG."
         type: category
         enabled: true
     chart_data:
@@ -132,6 +127,6 @@ elements:
         individual_members: '2120'
         type: year_entry
         enabled: true
-container_padding_top: false
-container_padding_bottom: false
+updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
+updated_at: 1778248497
 ---
