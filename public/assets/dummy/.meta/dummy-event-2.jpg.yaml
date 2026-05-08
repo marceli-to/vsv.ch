@@ -1,7 +1,9 @@
 data:
   alt: 'Lorem ipsum dolor samet tesa.'
   alt_de: 'Lorem ipsum dolor samet (de)'
+  caption_de: 'Lorem ipsum dolor samet (de)'
   alt_fr: 'Lorem ipsum dolor samet (fr)'
+  caption_fr: 'Lorem ipsum dolor samet (fr)'
 size: 667833
 last_modified: 1774426181
 width: 2048

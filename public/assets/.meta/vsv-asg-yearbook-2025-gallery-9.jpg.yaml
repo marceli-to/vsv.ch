@@ -1,6 +1,8 @@
 data:
-  alt_de: 'Photo prise lors de la Master class avec Cecilia Peregrine, le 25 juin 2025, à Genève'
+  alt_de: 'Foto aufgenommen während der Masterclass mit Cecilia Peregrina am 25. Juni 2025 in Genf'
   alt_fr: 'Photo prise lors de la Master class avec Cecilia Peregrine, le 25 juin 2025, à Genève'
+  caption_de: 'Foto aufgenommen während der <strong>Masterclass mit Cecilia Peregrina</strong> am <strong>25. Juni 2025 in Genf</strong>'
+  caption_fr: 'Photo prise lors de la <strong>Master class avec Cecilia Peregrine</strong>, le <strong>25 juin 2025, à Genève</strong>'
 size: 145219
 last_modified: 1776323635
 width: 768

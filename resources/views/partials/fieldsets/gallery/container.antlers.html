@@ -11,12 +11,12 @@
       <div data-gallery-outer class="swiper">
         <div class="swiper-wrapper">
           {{ gallery_images }}
-            <div class="swiper-slide">
-              <div class="bg-white rounded-xl overflow-hidden p-12 md:p-16 lg:p-24 pb-24 md:pb-28 lg:pb-32">
+            <div class="swiper-slide h-auto">
+              <div class="bg-white rounded-xl overflow-hidden p-12 md:p-16 lg:p-24 pb-24 md:pb-28 lg:pb-32 h-full flex flex-col">
                 {{ partial:components/media/image :image="id" sizes="md|lg|xl|2xl" class="w-full rounded-lg" }}
-                {{ if alt_fr || alt_de }}
+                {{ if caption_fr || caption_de }}
                   <div data-gallery-caption class="pt-12 md:pt-16">
-                    {{ site:short_locale == 'fr' ? alt_fr : alt_de }}
+                    {{ site:short_locale == 'fr' ? caption_fr : caption_de }}
                   </div>
                 {{ /if }}
               </div>

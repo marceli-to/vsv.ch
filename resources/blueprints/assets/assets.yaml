@@ -12,3 +12,29 @@ fields:
       display: 'Alt Text (FR)'
       type: text
       instructions: 'Description of the image (French)'
+  -
+    handle: caption_de
+    field:
+      display: 'Caption (DE)'
+      type: bard
+      instructions: 'Caption shown under the image (German). Bold only.'
+      buttons:
+        - bold
+      save_html: true
+      inline: true
+      toolbar_mode: fixed
+      allow_source: false
+      antlers: false
+  -
+    handle: caption_fr
+    field:
+      display: 'Caption (FR)'
+      type: bard
+      instructions: 'Caption shown under the image (French). Bold only.'
+      buttons:
+        - bold
+      save_html: true
+      inline: true
+      toolbar_mode: fixed
+      allow_source: false
+      antlers: false
