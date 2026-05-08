@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777899913
+updated_at: 1778222411
 elements:
   -
     id: mn78s6cy
@@ -502,6 +502,12 @@ elements:
                 type: question_answer
                 enabled: true
               -
+                id: mowjp58v
+                quote: 'In einer Umgebung, in der Vertrauen das wichtigste Kapital ist, wird Cybersicherheit zu einer unverzichtbaren Voraussetzung für die Beständigkeit von Vermögensverwaltern.'
+                author: 'Laurent Pellet'
+                type: quote
+                enabled: true
+              -
                 id: mn7caaiac
                 question: 'Wenn Angriffe schneller sind als Entscheidungen'
                 editor_content:
@@ -608,6 +614,12 @@ elements:
                         type: text
                         text: 'Diese Grundlagen wirken, weil sie direkt bei den zentralen Mechanismen der Angreifer ansetzen: Geschwindigkeit, Vertrauen und Vernetzung.'
                 type: question_answer
+                enabled: true
+              -
+                id: mowjpct0
+                quote: 'Wenn Angriffe innerhalb von Minuten erfolgen, reicht Technologie allein nicht mehr aus. Resilienz entsteht durch Vorbereitung, klare Rollenverteilung und die Fähigkeit, auf einen Vorfall zu reagieren.'
+                author: 'Simon Ganière'
+                type: quote
                 enabled: true
               -
                 id: mn7cabg15
@@ -723,12 +735,27 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Ein Text von Simon Ganière'
+                    text: 'Ein Text von'
                   -
                     type: hardBreak
                   -
                     type: text
-                    text: 'Chief Information Security Officer, Banque Lombard Odier & Cie SA'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Laurent Pellet'
+                  -
+                    type: text
+                    text: ", Limited Partner, Global Head of EAM,\_Banque Lombard Odier & Cie SA\_ und "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Simon Ganière,'
+                  -
+                    type: text
+                    text: "\_Chief Information Security Officer, Banque Lombard Odier & Cie"
         type: accordion_item
         enabled: true
         open: false

@@ -127,6 +127,12 @@ fields:
                     type: textarea
                     display: Quote
                     localizable: true
+                -
+                  handle: author
+                  field:
+                    type: text
+                    display: Author
+                    localizable: true
             statistic:
               display: Statistic
               instructions: 'Add a statistic.'

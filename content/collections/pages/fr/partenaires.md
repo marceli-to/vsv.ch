@@ -502,6 +502,12 @@ elements:
                 type: question_answer
                 enabled: true
               -
+                id: mowjgggr
+                quote: 'Dans un environnement où la confiance est l’actif principal, la cybersécurité devient une condition indispensable à la pérennité des gestionnaires de fortune.'
+                type: quote
+                enabled: true
+                author: 'Laurent Pellet'
+              -
                 id: mn7caaiac
                 question: 'Quand les attaques dépassent la vitesse des décisions'
                 editor_content:
@@ -593,6 +599,12 @@ elements:
                         text: 'Ces fondations fonctionnent car elles répondent aux leviers des attaquants : vitesse, confiance et interconnexion.'
                 type: question_answer
                 enabled: true
+              -
+                id: mowjgqvn
+                quote: 'Quand les attaques se jouent en minutes, la technologie seule ne suffit plus. La résilience vient de la préparation, de la clarté des rôles et de la capacité à répondre à un incident.'
+                type: quote
+                enabled: true
+                author: 'Simon Ganière'
               -
                 id: mn7cabg15
                 question: 'Conséquences pour les gestionnaires de fortune suisses'
@@ -707,12 +719,29 @@ elements:
                     marks:
                       -
                         type: bold
-                    text: 'Un texte de Laurent Pellet'
+                    text: 'Un texte de'
                   -
                     type: hardBreak
                   -
                     type: text
-                    text: "Limited Partner, Global Head of EAM, Banque Lombard Odier & Cie SA\_"
+                    marks:
+                      -
+                        type: bold
+                    text: 'Laurent Pellet'
+                  -
+                    type: text
+                    text: ", Limited Partner, Global Head of EAM,\_Banque Lombard Odier & Cie SA\_ et"
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Simon Ganière,'
+                  -
+                    type: text
+                    text: "\_Chief Information Security Officer, Banque Lombard Odier & Cie SA\_"
         type: accordion_item
         enabled: true
         open: false
@@ -1131,5 +1160,5 @@ elements:
     type: accordion
     enabled: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777899921
+updated_at: 1778222364
 ---
