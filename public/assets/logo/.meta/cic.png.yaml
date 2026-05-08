@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt_de: CIC
+  alt_fr: CIC
 size: 40444
 last_modified: 1774868715
 width: 800

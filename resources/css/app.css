@@ -36,7 +36,7 @@ article ul {
 }
 
 article li {
-  @apply ml-14 lg:ml-16;
+  @apply ml-14 lg:ml-16 mb-6 lg:mb-12;
 }
 
 article li p {

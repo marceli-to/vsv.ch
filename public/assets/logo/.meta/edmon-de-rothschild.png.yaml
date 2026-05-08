@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt_de: 'Edmond de Rothschild'
+  alt_fr: 'Edmond de Rothschild'
 size: 80192
 last_modified: 1774868515
 width: 800

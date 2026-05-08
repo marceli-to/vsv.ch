@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1775889393
+updated_at: 1778265513
 elements:
   -
     id: mn8p17kp
@@ -112,7 +112,7 @@ elements:
                 id: brd020
                 type: role_group
                 enabled: true
-                role: Geschäftsführer
+                role: CEO
                 members:
                   -
                     id: brd021

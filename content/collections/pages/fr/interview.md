@@ -8,7 +8,6 @@ elements:
     interview_type: single
     type: interview
     enabled: true
-    image: dummy/dummy-interview-1.jpg
     title: 'La qualité, la compétence et la transparence sont les fondations de notre crédibilité'
     lead: 'À l’occasion des 40 ans de l’ASG, entretien avec Jean-Pierre Zuber, qui a présidé l’Association pendant vingt ans, avant de passer le relais en 2017 à Serge Pavoncello. Cet entretien revient sur les temps forts de ces deux décennies.'
     content:
@@ -107,29 +106,6 @@ elements:
                 text: 'Le volet associatif restait important, mais n’était plus la priorité numéro un. Les aspects réglementaires ont progressivement occupé une place centrale, et cela s’est fait en partie au détriment des activités associatives traditionnelles. Ce que les membres attendaient avant tout, c’était de la sécurité, de la clarté et de la stabilité. Mais ce déplacement n’est ni un accident ni un échec : c’est la conséquence logique de l’évolution du secteur et de la mission que l’ASG s’était vue confier.'
         type: question_answer
         enabled: true
-      -
-        id: mn5vfra5
-        number: '871000'
-        editor_content:
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Lorem Ipsum dolor.'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'au 31.12.2025'
-        type: statistic
-        enabled: true
-        percent: false
       -
         id: mn5vfra6
         question: 'Quels ont été les développements durant les années suivantes ?'
@@ -348,5 +324,5 @@ elements:
 container_padding_top: true
 container_padding_bottom: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1773989583
+updated_at: 1778268109
 ---

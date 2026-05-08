@@ -60,6 +60,13 @@ tabs:
                       fields:
                         -
                           import: title_text
+                    image_title_text:
+                      display: 'Image, Title, Text'
+                      instructions: 'Image on the left with title and rich text content on the right.'
+                      icon: text-formatting-image-left
+                      fields:
+                        -
+                          import: image_title_text
                     title_text_sidebar:
                       display: 'Title, Text, Sidebar'
                       instructions: 'Title with rich text content, optional table elements and an optional sidebar.'

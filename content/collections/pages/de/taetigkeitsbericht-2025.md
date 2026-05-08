@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778251230
+updated_at: 1778269483
 elements:
   -
     id: mowzq945
@@ -402,6 +402,10 @@ elements:
         enabled: true
         percent: true
     type: statistics
+    enabled: true
+  -
+    id: moxbq9w6
+    type: events
     enabled: true
   -
     id: gallery001

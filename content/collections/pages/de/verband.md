@@ -5,7 +5,7 @@ title: Verband
 template: templates/default
 layout: templates/layout
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778251883
+updated_at: 1778268421
 open_graph_type: website
 robots: index_follow
 show_job_teaser: true
@@ -14,8 +14,8 @@ elements:
     id: mn5sv3l5
     image: vsv-asg-yearbook-editorial-serge-pavoncello.jpg
     subtitle: |-
-      Editorial | 
-      Wort des Präsidenten
+      Edito | 
+      Wort des Präsidenten, Serge Pavoncello
     title: 'Der VSV – 40 Jahre: tiefgreifende Veränderungen und ein bemerkenswerter gemeinsamer Weg'
     editor_content:
       -

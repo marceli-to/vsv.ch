@@ -15,7 +15,7 @@ elements:
         type: archive_item
         enabled: true
         label: Yearbook
-        title: 'Rapport annuel 2024'
+        title: 'Yearbook 2024'
         link_text: 'Télécharger PDF'
         link: /assets/downloads/vsv-asg-yearbook-2024-fr.pdf
       -
@@ -23,7 +23,7 @@ elements:
         type: archive_item
         enabled: true
         label: Yearbook
-        title: 'Rapport annuel 2023'
+        title: 'Yearbook 2023'
         link_text: 'Télécharger PDF'
         link: /assets/downloads/vsv-asg-yearbook-2023-fr.pdf
       -
@@ -31,7 +31,7 @@ elements:
         type: archive_item
         enabled: true
         label: Yearbook
-        title: 'Rapport annuel 2022'
+        title: 'Yearbook 2022'
         link_text: 'Télécharger PDF'
         link: /assets/downloads/vsv-asg-yearbook-2022-fr.pdf
       -
@@ -39,7 +39,7 @@ elements:
         type: archive_item
         enabled: true
         label: Yearbook
-        title: 'Rapport annuel 2021'
+        title: 'Yearbook 2021'
         link_text: 'Télécharger PDF'
         link: /assets/downloads/vsv-asg-yearbook-2021-fr.pdf
       -
@@ -47,7 +47,7 @@ elements:
         type: archive_item
         enabled: true
         label: Yearbook
-        title: 'Rapport annuel 2020'
+        title: 'Yearbook 2020'
         link_text: 'Télécharger PDF'
         link: /assets/downloads/vsv-asg-yearbook-2020-fr.pdf
     title: Archives

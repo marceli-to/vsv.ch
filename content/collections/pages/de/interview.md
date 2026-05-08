@@ -6,14 +6,13 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777885557
+updated_at: 1778265901
 elements:
   -
     id: mn5utx5t
     interview_type: single
     type: interview
     enabled: true
-    image: dummy/dummy-interview-1.jpg
     title: 'Qualität, Kompetenz und Transparenz sind die Grundpfeiler unserer Glaubwürdigkeit'
     lead: 'Anlässlich des 40jährigen Bestehens des VSV ein Interview mit Jean-Pierre Zuber, der dem Verband zwanzig Jahre lang als Präsident vorstand, bevor er 2017 die Leitung an Serge Pavoncello übergab. Im folgenden Interview erinnert er sich an die Highlights aus zwei Jahrzehnten.'
     content:

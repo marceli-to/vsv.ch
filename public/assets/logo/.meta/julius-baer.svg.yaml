@@ -1,6 +1,8 @@
-data: {  }
+data:
+  alt_de: 'Julius Bär'
+  alt_fr: 'Julius Bär'
 size: 6052
-last_modified: 1774625320
+last_modified: 1774863173
 width: 400.0
 height: 160.0
 mime_type: image/svg+xml

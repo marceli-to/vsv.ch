@@ -23,3 +23,5 @@ preferences:
         - title
         - language
         - type
+    pages:
+      after_save: continue_editing

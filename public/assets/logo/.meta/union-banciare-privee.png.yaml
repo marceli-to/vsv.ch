@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt_de: 'Union Bancaire Privée'
+  alt_fr: 'Union Bancaire Privée'
 size: 26609
 last_modified: 1775041095
 width: 800

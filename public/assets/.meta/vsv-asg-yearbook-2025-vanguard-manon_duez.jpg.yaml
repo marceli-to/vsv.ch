@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt_de: 'Manon Duez'
+  alt_fr: 'Manon Duez'
 size: 196861
 last_modified: 1777899804
 width: 1680

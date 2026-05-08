@@ -1,6 +1,8 @@
-data: {  }
+data:
+  alt_de: 'Lombard Odier'
+  alt_fr: 'Lombard Odier'
 size: 20654
-last_modified: 1774625356
+last_modified: 1774863173
 width: 400.0
 height: 160.0
 mime_type: image/svg+xml

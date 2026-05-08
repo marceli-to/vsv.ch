@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778225403
+updated_at: 1778268879
 elements:
   -
     id: mn78s6cy
@@ -15,7 +15,7 @@ elements:
       -
         id: mn78sd01
         logo: logo/julius-baer.svg
-        link: '#julius-baer'
+        link: '#bank-julius-bar-co-ag'
         type: partner
         enabled: true
         show_label: true
@@ -50,50 +50,42 @@ elements:
     partners:
       -
         id: mn78silm
-        link: 'https://example.com'
         type: partner
         enabled: true
         logo: logo/21-shares.png
       -
         id: mn78sj01
         logo: logo/banca-stato.svg
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj02
-        link: 'https://example.com'
         type: partner
         enabled: true
         logo: logo/cic.png
       -
         id: mn78sj03
         logo: logo/edmon-de-rothschild.png
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj04
         logo: logo/leonteq.png
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj05
         logo: logo/pictet.png
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj06
         logo: logo/reyl-intesa-sanpaolo.svg
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj07
         logo: logo/swissquote.svg
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
@@ -101,7 +93,11 @@ elements:
         logo: logo/union-banciare-privee.png
         type: partner
         enabled: true
-    headline: Junior-Partner
+      -
+        id: mox9xkat
+        logo: logo/efg.png
+        type: partner
+        enabled: true
     type: partners
     enabled: true
   -
@@ -109,9 +105,9 @@ elements:
     items:
       -
         id: mn7a8cv1
-        slug: julius-baer
+        slug: bank-julius-bar-co-ag
         theme: sky
-        title: 'Julius Bär'
+        title: 'Bank Julius Bär & Co. AG'
         content:
           -
             id: mn7a8ku5
@@ -1174,15 +1170,6 @@ elements:
                 enabled: true
               -
                 id: mor052k1
-                editor_content:
-                  -
-                    type: heading
-                    attrs:
-                      level: 2
-                    content:
-                      -
-                        type: text
-                        text: 'Abbildung 1: Welche Strategien nutzen Sie, um Alpha in Ihren Portfolios zu erzielen?'
                 image: anlagestrategien-alpha-vanguard.png
                 caption: 'Lesebeispiel: Für 77% der Vermögensverwalter ist die Strategische Asset Allokation eine der Top-3-Strategien zur Generierung von Alpha.'
                 type: text_image
@@ -1239,18 +1226,6 @@ elements:
                 enabled: true
               -
                 id: mor27vhl
-                editor_content:
-                  -
-                    type: heading
-                    attrs:
-                      level: 2
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: 'Abbildung 2: Bewerten Sie Ihre Kompetenzen in den folgenden Anlagebereichen'
                 image: kompetenzen-anlagestrategien-vanguard.png
                 caption: 'Lesebeispiel: 92% der Vermögensverwalter bezeichnen ihre Kompetenz bei Aktienanlagen als hoch oder sehr hoch.'
                 type: text_image

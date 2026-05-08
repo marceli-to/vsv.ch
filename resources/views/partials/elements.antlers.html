@@ -14,6 +14,10 @@
   {{ partial:fieldsets/title_text }}
 {{ /if }}
 
+{{ if type == 'image_title_text' }}
+  {{ partial:fieldsets/image_title_text }}
+{{ /if }}
+
 {{ if type == 'title_text_sidebar' }}
   {{ partial:fieldsets/title_text_sidebar }}
 {{ /if }}

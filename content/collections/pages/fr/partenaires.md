@@ -5,12 +5,12 @@ title: Partenaires
 elements:
   -
     id: mn78s6cy
-    text: "L'ASG tient à remercier ses principaux membres partenaires, engagés en faveur de l'Association et de la gestion de fortune."
+    text: "L'ASG tient à remercier ses principaux partenaires, engagés en faveur de l'Association et de la gestion de fortune."
     mainpartners:
       -
         id: mn78sd01
         logo: logo/julius-baer.svg
-        link: '#julius-baer'
+        link: '#banque-julius-baer-cie-sa'
         type: partner
         enabled: true
         show_label: true
@@ -24,7 +24,7 @@ elements:
       -
         id: mn78sd03
         logo: logo/lombard-odier.svg
-        link: '#bank-lombard-odier-co-ltd'
+        link: '#banque-lombard-odier-cie-sa'
         type: partner
         enabled: true
         show_label: true
@@ -45,50 +45,42 @@ elements:
     partners:
       -
         id: mn78silm
-        link: 'https://example.com'
         type: partner
         enabled: true
         logo: logo/21-shares.png
       -
         id: mn78sj01
         logo: logo/banca-stato.svg
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj02
-        link: 'https://example.com'
         type: partner
         enabled: true
         logo: logo/cic.png
       -
         id: mn78sj03
         logo: logo/edmon-de-rothschild.png
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj04
         logo: logo/leonteq.png
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj05
         logo: logo/pictet.png
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj06
         logo: logo/reyl-intesa-sanpaolo.svg
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
         id: mn78sj07
         logo: logo/swissquote.svg
-        link: 'https://example.com'
         type: partner
         enabled: true
       -
@@ -96,7 +88,11 @@ elements:
         logo: logo/union-banciare-privee.png
         type: partner
         enabled: true
-    headline: 'Partenaire junior'
+      -
+        id: mox9unkh
+        logo: logo/efg.png
+        type: partner
+        enabled: true
     type: partners
     enabled: true
   -
@@ -104,9 +100,9 @@ elements:
     items:
       -
         id: mn7a8cv1
-        slug: julius-baer
+        slug: banque-julius-baer-cie-sa
         theme: sky
-        title: 'Julius Bär'
+        title: 'Banque Julius Baer & Cie SA'
         content:
           -
             id: mn7a8ku5
@@ -408,9 +404,9 @@ elements:
         open: false
       -
         id: mn7amjh7
-        slug: bank-lombard-odier-co-ltd
+        slug: banque-lombard-odier-cie-sa
         theme: sand
-        title: 'Bank Lombard Odier & Co Ltd.'
+        title: 'Banque Lombard Odier & Cie SA'
         content:
           -
             id: mn7c8ku5
@@ -977,8 +973,8 @@ elements:
                             type: link
                             attrs:
                               href: 'https://www.ubs.com/microsites/player/en/videoplay.html?id=6386389582112'
-                              target: _blank
                               rel: null
+                              target: _blank
                               title: null
                         text: vidéo
                       -
@@ -991,8 +987,8 @@ elements:
                             type: link
                             attrs:
                               href: 'https://www.ubs.com/global/en/wealthmanagement/financial-intermediaries.html'
-                              target: _blank
                               rel: null
+                              target: _blank
                               title: null
                         text: "page d'accueil"
                       -
@@ -1186,7 +1182,7 @@ elements:
                       -
                         type: text
                         text: ' dans vos portefeuilles ?'
-                image: anlagestrategien-alpha-vanguard.png
+                image: strategies-d-investissement-alpha-vanguard.png
                 caption: "Exemple : pour 77 % des gestionnaires de fortune, l'allocation d'actifs stratégique figure parmi les trois principales stratégies permettant de générer de l'alpha."
                 type: text_image
                 enabled: true
@@ -1251,7 +1247,7 @@ elements:
                       -
                         type: text
                         text: "Évaluez vos compétences dans les domaines d'investissement suivants"
-                image: kompetenzen-anlagestrategien-vanguard.png
+                image: competences-strategies-dinvestissement-vanguard.png
                 caption: "Exemple : 92 % des gestionnaires de fortune jugent leur niveau de compétence en matière d'investissements en actions élevé ou très élevé."
                 type: text_image
                 enabled: true
@@ -1282,5 +1278,5 @@ elements:
     type: accordion
     enabled: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778225310
+updated_at: 1778269349
 ---

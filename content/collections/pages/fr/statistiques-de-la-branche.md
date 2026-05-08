@@ -204,29 +204,6 @@ elements:
         label: 'marché total'
         suffix: Mrd.
         prefix: '~'
-    tables:
-      -
-        id: tb001
-        type: table_block
-        enabled: true
-        table_title: 'Tableau de comparaison'
-        year_1: '2025'
-        year_2: '2020'
-        table_rows:
-          -
-            id: aDj3TkvN
-            label: 'AUM Médiane'
-            entry_1: '140 mio'
-            entry_2: '103 mio'
-          -
-            id: gtnH1G3y
-            label: 'AUA Médiane'
-            entry_1: '42 mio'
-          -
-            id: 1HxFsIT1
-            label: 'Collaborateurs Médiane'
-            entry_1: '3.3'
-            entry_2: '3.2'
     charts:
       -
         id: ch001
@@ -263,5 +240,5 @@ elements:
             percentage: '7'
             label: 'ORGANISME DE SURVEILLANCE DES INSTITUTS FINANCIERS OSIF'
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1777445938
+updated_at: 1778265813
 ---

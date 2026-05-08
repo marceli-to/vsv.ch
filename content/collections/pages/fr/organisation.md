@@ -105,7 +105,7 @@ elements:
                 id: brd020
                 type: role_group
                 enabled: true
-                role: Directeur
+                role: CEO
                 members:
                   -
                     id: brd021
@@ -253,5 +253,5 @@ elements:
     type: accordion
     enabled: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1775889423
+updated_at: 1778265505
 ---

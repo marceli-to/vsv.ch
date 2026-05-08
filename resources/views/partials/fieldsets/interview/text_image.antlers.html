@@ -1,8 +1,9 @@
 <div class="{{ class }}">
-  {{ partial:layout/article class="text-pretty [&_h3]:font-bold [&_h3]:mb-8" }}
-    {{ partial:components/editor }}
-  {{ /partial:layout/article }}
-
+  {{ if editor }}
+    {{ partial:layout/article class="text-pretty [&_h3]:font-bold [&_h3]:mb-8" }}
+      {{ partial:components/editor }}
+    {{ /partial:layout/article }}
+  {{ /if }}
   {{ if image }}
     <figure class="mt-16">
       {{ partial:components/media/image

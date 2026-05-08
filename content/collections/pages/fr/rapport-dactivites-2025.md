@@ -348,7 +348,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Vues pour les Rendez-vous de la profession *'
+                text: 'Vues sur les Rendez-vous de la profession *'
         type: statistic
         enabled: true
         percent: false
@@ -445,6 +445,10 @@ elements:
     type: statistics
     enabled: true
   -
+    id: moxbqn8y
+    type: events
+    enabled: true
+  -
     id: gallery001
     gallery_title: '2025 en images'
     gallery_images:
@@ -461,5 +465,5 @@ elements:
     enabled: true
 container_padding_top: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778251400
+updated_at: 1778269490
 ---

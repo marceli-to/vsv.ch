@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt_de: 'Andreas Moser'
+  alt_fr: 'Andreas Moser'
 size: 203931
 last_modified: 1777899802
 width: 1680

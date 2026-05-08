@@ -40,7 +40,7 @@
         <button
           @click="showTypeFilter = !showTypeFilter"
           class="flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-[0.875rem] lg:text-[1rem]">
-          <span>Art</span>
+          <span>{{ "Art" | trans }}</span>
           <span :class="showTypeFilter ? 'rotate-180' : ''" class="transition-transform duration-200">
             {{ partial:components/icons/chevron class="w-16 h-16" }}
           </span>
@@ -60,7 +60,7 @@
         <button
           @click="showLanguageFilter = !showLanguageFilter"
           class="flex items-center justify-between w-full border border-charcoal rounded-full px-16 py-8 text-[0.875rem] lg:text-[1rem]">
-          <span>Sprache</span>
+          <span>{{ "Sprache" | trans }}</span>
           <span :class="showLanguageFilter ? 'rotate-180' : ''" class="transition-transform duration-200">
             {{ partial:components/icons/chevron class="w-16 h-16" }}
           </span>

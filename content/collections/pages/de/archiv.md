@@ -20,7 +20,7 @@ elements:
         type: archive_item
         enabled: true
         label: Yearbook
-        title: 'Geschäftsbericht 2024'
+        title: 'Yearbook 2024'
         link_text: 'Download PDF'
         link: /assets/downloads/vsv-asg-yearbook-2024-de.pdf
       -
@@ -28,7 +28,7 @@ elements:
         type: archive_item
         enabled: true
         label: Yearbook
-        title: 'Geschäftsbericht 2023'
+        title: 'Yearbook 2023'
         link_text: 'Download PDF'
         link: /assets/downloads/vsv-asg-yearbook-2023-de.pdf
       -
@@ -36,7 +36,7 @@ elements:
         type: archive_item
         enabled: true
         label: Yearbook
-        title: 'Geschäftsbericht 2022'
+        title: 'Yearbook 2022'
         link_text: 'Download PDF'
         link: /assets/downloads/vsv-asg-yearbook-2022-de.pdf
       -
@@ -44,7 +44,7 @@ elements:
         type: archive_item
         enabled: true
         label: Yearbook
-        title: 'Geschäftsbericht 2021'
+        title: 'Yearbook 2021'
         link_text: 'Download PDF'
         link: /assets/downloads/vsv-asg-yearbook-2021-de.pdf
       -
@@ -52,7 +52,7 @@ elements:
         type: archive_item
         enabled: true
         label: Yearbook
-        title: 'Geschäftsbericht 2020'
+        title: 'Yearbook 2020'
         link_text: 'Download PDF'
         link: /assets/downloads/vsv-asg-yearbook-2020-de.pdf
     title: Archiv

@@ -7,8 +7,8 @@ elements:
     id: mn5sv3l5
     image: vsv-asg-yearbook-editorial-serge-pavoncello.jpg
     subtitle: |-
-      Editorial | 
-      Mot du Président
+      Edito | 
+      Mot du Président, Serge Pavoncello
     title: 'L’ASG, 40 ans : des mutations majeures, un remarquable chemin parcouru ensemble'
     editor_content:
       -
@@ -148,5 +148,5 @@ elements:
     enabled: true
 menu_title: null
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778251888
+updated_at: 1778268418
 ---
