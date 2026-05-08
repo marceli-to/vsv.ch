@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778269483
+updated_at: 1778270081
 elements:
   -
     id: mowzq945
@@ -407,6 +407,7 @@ elements:
     id: moxbq9w6
     type: events
     enabled: true
+    title: 'Events 2025'
   -
     id: gallery001
     gallery_title: '2025 in Bildern'

@@ -448,6 +448,7 @@ elements:
     id: moxbqn8y
     type: events
     enabled: true
+    title: 'Événements 2025'
   -
     id: gallery001
     gallery_title: '2025 en images'
@@ -465,5 +466,5 @@ elements:
     enabled: true
 container_padding_top: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778269490
+updated_at: 1778270089
 ---
