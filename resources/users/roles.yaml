@@ -1,4 +1,37 @@
-# admin:
-#   title: Administrator
-#   permissions:
-#     - super
+editors:
+  title: Editors
+  permissions:
+    - 'access cp'
+    - 'access de site'
+    - 'access fr site'
+    - 'view pages entries'
+    - 'edit pages entries'
+    - 'create pages entries'
+    - 'delete pages entries'
+    - 'publish pages entries'
+    - 'reorder pages entries'
+    - 'edit other authors pages entries'
+    - 'publish other authors pages entries'
+    - 'delete other authors pages entries'
+    - 'view events entries'
+    - 'edit events entries'
+    - 'create events entries'
+    - 'delete events entries'
+    - 'publish events entries'
+    - 'reorder events entries'
+    - 'edit other authors events entries'
+    - 'publish other authors events entries'
+    - 'delete other authors events entries'
+    - 'view menu nav'
+    - 'edit menu nav'
+    - 'view privacy nav'
+    - 'edit privacy nav'
+    - 'edit contact globals'
+    - 'edit social_media globals'
+    - 'view assets assets'
+    - 'upload assets assets'
+    - 'edit assets assets'
+    - 'move assets assets'
+    - 'rename assets assets'
+    - 'delete assets assets'
+    - 'access cache utility'

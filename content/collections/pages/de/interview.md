@@ -6,7 +6,7 @@ show_job_teaser: false
 open_graph_type: website
 robots: index_follow
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778265901
+updated_at: 1778426067
 elements:
   -
     id: mn5utx5t
@@ -288,7 +288,7 @@ elements:
             content:
               -
                 type: text
-                text: 'In einem immer stärker reglementierten und technologisch geprägten Umfeld ist es von wesentlicher Bedeutung, den Trumpf unseres Berufsstandes nie aus den Augen zu verlieren: Die Beziehung von Mensch zu Mensch, das präzise Verständnis der Kundenbedürfnisse, die Fähigkeit zur langfristigen Begleitung von Familien und Unternehmern.'
+                text: 'In einem immer stärker reglementierten und technologisch geprägten Umfeld ist es von wesentlicher Bedeutung, den Fotzef unseres Berufsstandes nie aus den Augen zu verlieren: Die Beziehung von Mensch zu Mensch, das präzise Verständnis der Kundenbedürfnisse, die Fähigkeit zur langfristigen Begleitung von Familien und Unternehmern.'
           -
             type: paragraph
             attrs:
@@ -326,6 +326,7 @@ elements:
                 text: '¹ Die Bezeichnung unabhängiger Vermögensverwalter (UVV) wurde mit Inkrafttreten des FINIG im Jahr 2020 durch die geschützte Bezeichnung Vermögensverwalter ersetzt.'
         type: question_answer
         enabled: true
+    image: vsv-asg-yearbook-2025-jean-pierre-zuber-interview.jpg
 container_padding_top: true
 container_padding_bottom: true
 ---

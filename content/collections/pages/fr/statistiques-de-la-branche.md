@@ -52,7 +52,7 @@ elements:
         content:
           -
             type: text
-            text: 'Le nombre total de sociétés de gestion a suscité de nombreux débats. Nous avons toujours considéré que la diminution observée au cours des cinq dernières années résultait principalement de départs naturels, non compensés durant la période de transition par l’arrivée de nouveaux acteurs. Depuis la fin de la période de transition, la tendance s’est inversée.Les créations de sociétés repartent à la hausse et compensent largement les départs à la retraite. 61 nouvelles demandes ont ainsi été déposées à la FINMA en 2025.'
+            text: 'Le nombre total de sociétés de gestion a suscité de nombreux débats. Nous avons toujours considéré que la diminution observée au cours des cinq dernières années résultait principalement de départs naturels, non compensés durant la période de transition par l’arrivée de nouveaux acteurs. Depuis la fin de la période de transition, la tendance s’est inversée. Les créations de sociétés repartent à la hausse et compensent largement les départs à la retraite. 61 nouvelles demandes ont ainsi été déposées à la FINMA en 2025.'
       -
         type: paragraph
         attrs:
@@ -127,7 +127,7 @@ elements:
         content:
           -
             type: text
-            text: "Les nouvelles données permettent pour la première fois de distinguer les avoirs sous gestion faisant l’objet d’une procuration et ceux relevant du conseil sans procuration, apportant un éclairage supplémentaire sur la diversité des modèles d’affaires. Les \_avoirs conseillés s’élèvent à 80 milliards avec une médiane à "
+            text: "Les nouvelles données permettent pour la première fois de distinguer les avoirs sous gestion faisant l’objet d’une procuration et ceux relevant du conseil sans procuration, apportant un éclairage supplémentaire sur la diversité des modèles d’affaires. Les avoirs conseillés s’élèvent à 80 milliards avec une médiane à "
           -
             type: text
             marks:

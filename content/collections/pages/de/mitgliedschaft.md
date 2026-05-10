@@ -15,9 +15,9 @@ elements:
     enabled: true
     categories:
       -
-        id: mn8ca1aa
-        color: red
-        category_title: Einzelmitglieder
+        id: mn8ca3cc
+        color: blue
+        category_title: Aktivmitglieder
         editor_content:
           -
             type: paragraph
@@ -26,7 +26,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Alle Mitarbeitenden von Aktivmitgliedern können Einzelmitglieder sein. Sie stärken den Beruf und profitieren von den Leistungen, die den Mitgliedern gewährt werden. Ausserdem können sie sich auf der Weiterbildungsplattform registrieren.'
+                text: 'Aktivmitglieder sind hauptsächlich Vermögensverwalter und Verwalter von Kollektivvermögen. Sie werden von der FINMA direkt oder von einer der vier zugelassenen AO beaufsichtigt: AOOS, OSFINcontrol, OSIF oder SO-FIT.'
           -
             type: paragraph
             attrs:
@@ -34,7 +34,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Im Jahr 2025 traten 258 neue Einzelmitglieder dem VSV bei.'
+                text: 'Im Jahr 2025 traten 47 neue Aktivmitglieder dem VSV bei.'
         type: category
         enabled: true
       -
@@ -61,9 +61,9 @@ elements:
         type: category
         enabled: true
       -
-        id: mn8ca3cc
-        color: blue
-        category_title: Aktivmitglieder
+        id: mn8ca1aa
+        color: red
+        category_title: Einzelmitglieder
         editor_content:
           -
             type: paragraph
@@ -72,7 +72,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Aktivmitglieder sind hauptsächlich Vermögensverwalter und Verwalter von Kollektivvermögen. Sie werden von der FINMA direkt oder von einer der vier zugelassenen AO beaufsichtigt: AOOS, OSFINcontrol, OSIF oder SO-FIT.'
+                text: 'Alle Mitarbeitenden von Aktivmitgliedern können Einzelmitglieder sein. Sie stärken den Beruf und profitieren von den Leistungen, die den Mitgliedern gewährt werden. Ausserdem können sie sich auf der Weiterbildungsplattform registrieren.'
           -
             type: paragraph
             attrs:
@@ -80,7 +80,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Im Jahr 2025 traten 47 neue Aktivmitglieder dem VSV bei.'
+                text: 'Im Jahr 2025 traten 258 neue Einzelmitglieder dem VSV bei.'
         type: category
         enabled: true
     chart_data:

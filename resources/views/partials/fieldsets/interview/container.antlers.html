@@ -2,7 +2,7 @@
 
   <div class="grid grid-cols-12 gap-16 lg:gap-x-24 xl:gap-x-32">
 
-    {{ if image }}
+    {{ if image && interview_type != 'single' }}
       <div class="col-span-full">
         {{ partial:components/media/image
           :image="image"
@@ -133,7 +133,7 @@
     {{# ====================== #}}
     {{ if interview_type != 'group' }}
 
-      <div class="hidden lg:block col-span-full my-8 md:my-12 lg:my-36">
+      <div class="hidden lg:block col-span-full my-8 md:mb-12 lg:mb-36">
         {{ partial:fieldsets/interview/heading }}
       </div>
 
@@ -145,6 +145,16 @@
 
       {{# Sidebar: quotes/statistics #}}
       <div class="hidden lg:block lg:col-span-4 xl:pr-24">
+
+        {{ if image }}
+          {{ partial:components/media/image
+            :image="image"
+            :sizes="['md', 'lg', 'xl', '2xl']"
+            preset="md"
+            class="w-full h-auto rounded-lg"
+          }}
+        {{ /if }}
+
         {{ content }}
           {{ if type == 'quote' }}
             <div class="mt-120">

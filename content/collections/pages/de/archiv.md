@@ -19,41 +19,36 @@ elements:
         id: 6wDRlAIH
         type: archive_item
         enabled: true
-        label: Yearbook
         title: 'Yearbook 2024'
         link_text: 'Download PDF'
-        link: /assets/downloads/vsv-asg-yearbook-2024-de.pdf
+        link: 'https://www.vsv-asg.ch/fileadmin/user_upload/Dokumente/Aktuelles/Yearbook/de/VSV_ASG_Yearbook_2024_DE.pdf'
       -
         id: pe33MnaN
         type: archive_item
         enabled: true
-        label: Yearbook
         title: 'Yearbook 2023'
         link_text: 'Download PDF'
-        link: /assets/downloads/vsv-asg-yearbook-2023-de.pdf
+        link: 'https://www.vsv-asg.ch/fileadmin/user_upload/Dokumente/Aktuelles/Yearbook/de/VSV_ASG_Yearbook_2023_DE.pdf'
       -
         id: GELVh0T5
         type: archive_item
         enabled: true
-        label: Yearbook
         title: 'Yearbook 2022'
         link_text: 'Download PDF'
-        link: /assets/downloads/vsv-asg-yearbook-2022-de.pdf
+        link: 'https://www.vsv-asg.ch/fileadmin/user_upload/Dokumente/Uber_Uns/de/MV23_Yearbook22_de.pdf'
       -
         id: HjmsKlrD
         type: archive_item
         enabled: true
-        label: Yearbook
         title: 'Yearbook 2021'
         link_text: 'Download PDF'
-        link: /assets/downloads/vsv-asg-yearbook-2021-de.pdf
+        link: 'https://www.vsv-asg.ch/fileadmin/user_upload/Dokumente/Aktuelles/Yearbook/de/VSV_ASG_Yearbook_2021_DE.pdf'
       -
         id: sCIuE6Gu
         type: archive_item
         enabled: true
-        label: Yearbook
         title: 'Yearbook 2020'
         link_text: 'Download PDF'
-        link: /assets/downloads/vsv-asg-yearbook-2020-de.pdf
+        link: 'https://www.vsv-asg.ch/fileadmin/user_upload/Dokumente/vsv_asg_jahrbuch_2020_de.pdf'
     title: Archiv
 ---

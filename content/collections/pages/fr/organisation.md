@@ -86,7 +86,7 @@ elements:
                     id: brd012
                     name: 'Jamie Vrijhof'
                     company: 'Weber Hartmann Vrijhof & Partners AG'
-            footnote: '*Membres du comité'
+            footnote: '*Membres du Comité du Conseil'
             title: Conseil
       -
         id: mn8p6f2f

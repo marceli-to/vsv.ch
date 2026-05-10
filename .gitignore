@@ -30,7 +30,8 @@ Homestead.yaml
 Thumbs.db
 INSTALL.txt
 
-# /public/assets
-# /content
-# /users
-# /resources/users
+.claude
+/public/assets
+/content
+/users
+/resources/users

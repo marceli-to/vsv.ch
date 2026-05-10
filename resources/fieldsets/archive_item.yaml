@@ -1,13 +1,6 @@
 title: 'Archive Item'
 fields:
   -
-    handle: label
-    field:
-      type: text
-      display: Label
-      instructions: 'Category label displayed on the card (e.g. YEARBOOK, MICROSITE).'
-      localizable: true
-  -
     handle: title
     field:
       type: text

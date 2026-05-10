@@ -10,9 +10,9 @@ elements:
     enabled: true
     categories:
       -
-        id: mn8ca1aa
-        color: red
-        category_title: 'Membres individuels'
+        id: mn8ca3cc
+        color: blue
+        category_title: 'Membres actifs'
         editor_content:
           -
             type: paragraph
@@ -21,7 +21,7 @@ elements:
             content:
               -
                 type: text
-                text: "Tous les collaborateurs de membres actifs peuvent être membres individuels. Ils renforcent la profession et bénéficient des prestations accordées aux membres. Ils peuvent également s'inscrire sur la plateforme de formation."
+                text: 'Les membres actifs sont principalement des gestionnaires de fortune et des gestionnaires de fortune collective. Ils sont surveillés par la FINMA directement ou par un des quatre OS agréés : AOOS, OSFINcontrol, OSIF ou SO-FIT.'
           -
             type: paragraph
             attrs:
@@ -29,7 +29,7 @@ elements:
             content:
               -
                 type: text
-                text: "En 2025, 258 nouveaux membres individuels ont rejoint l'ASG."
+                text: "En 2025, 47 nouveaux membres actifs ont rejoint l'ASG."
         type: category
         enabled: true
       -
@@ -56,9 +56,9 @@ elements:
         type: category
         enabled: true
       -
-        id: mn8ca3cc
-        color: blue
-        category_title: 'Membres actifs'
+        id: mn8ca1aa
+        color: red
+        category_title: 'Membres individuels'
         editor_content:
           -
             type: paragraph
@@ -67,7 +67,7 @@ elements:
             content:
               -
                 type: text
-                text: 'Les membres actifs sont principalement des gestionnaires de fortune et des gestionnaires de fortune collective. Ils sont surveillés par la FINMA directement ou par un des quatre OS agréés : AOOS, OSFINcontrol, OSIF ou SO-FIT.'
+                text: "Tous les collaborateurs de membres actifs peuvent être membres individuels. Ils renforcent la profession et bénéficient des prestations accordées aux membres. Ils peuvent également s'inscrire sur la plateforme de formation."
           -
             type: paragraph
             attrs:
@@ -75,7 +75,7 @@ elements:
             content:
               -
                 type: text
-                text: "En 2025, 47 nouveaux membres actifs ont rejoint l'ASG."
+                text: "En 2025, 258 nouveaux membres individuels ont rejoint l'ASG."
         type: category
         enabled: true
     chart_data:
