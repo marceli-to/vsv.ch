@@ -321,8 +321,9 @@ elements:
                 text: '¹ Le terme de gérant de fortune indépendant (GFI) a été remplacé par le titre protégé de gestionnaire de fortune avec l’entrée en vigueur de la LEFin en 2020.'
         type: question_answer
         enabled: true
+    image: vsv-asg-yearbook-2025-jean-pierre-zuber-interview.jpg
 container_padding_top: true
 container_padding_bottom: true
 updated_by: ad7fe3d0-f296-4490-a384-26cbf688e223
-updated_at: 1778268109
+updated_at: 1778429369
 ---
