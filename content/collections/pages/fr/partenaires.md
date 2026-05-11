@@ -294,7 +294,7 @@ elements:
                     content:
                       -
                         type: text
-                        text: "Outre les considérations techniques, les derniers mois ont indéniablement démontré que l'implication individuelle et les compétences de nos collaborateurs sont déterminantes pour accroître l'attractivité de notre offre. Nous privilégions une proximité et des échanges approfondis afin d'exploiter pleinement nos multiples compétences pour les gérants de fortune."
+                        text: "Outre les considérations techniques, les derniers mois ont indéniablement démontré que l'implication individuelle et les compétences de nos collaborateurs sont déterminantes pour accroître l'attractivité de notre offre. Nous privilégions une proximité et des échanges approfondis afin d'exploiter pleinement nos multiples compétences pour les gestionnaires de fortune."
                 type: question_answer
                 enabled: true
               -
