@@ -67,12 +67,6 @@
         {{ /collection:events }}
       {{ /partial:fieldsets/events/group }}
 
-      {{ partial:fieldsets/events/group group_type="regulatory_training" group_title="Regulatorische Schulungen" }}
-        {{ collection:events sort="date:asc" type:contains="regulatory_training" }}
-          {{ partial:fieldsets/events/row show_location="false" }}
-        {{ /collection:events }}
-      {{ /partial:fieldsets/events/group }}
-
     </div>
     
   </div>

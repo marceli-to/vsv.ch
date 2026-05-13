@@ -55,7 +55,6 @@ tabs:
               multiple: true
               options:
                 webinar: Webinar
-                regulatory_training: 'Regulatorische Schulung'
                 in_person: 'Präsenzveranstaltung'
               localizable: false
           -
