@@ -38,6 +38,12 @@
       <div data-editorial x-bind:class="{ 'hidden': !expanded }">
         {{ partial:layout/article class="text-pretty max-w-prose" }}
           {{ partial:components/editor }}
+          <a
+            href="#"
+            x-on:click.prevent="expanded = false"
+            class="!text-black font-medium">
+            {{ "Weniger lesen" | trans }}
+          </a>
         {{ /partial:layout/article }}
       </div>
 
